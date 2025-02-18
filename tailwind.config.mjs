@@ -12,7 +12,9 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        heroImage: "url('/HeroImage.png')"
+        heroImage: "url('/HeroImage.png')",
+        excellenceCover: "url('/cover.webp')",
+        bgmap: "url('/map.svg')",
       },
       colors: {
         TextandIcons: "#454C54",
