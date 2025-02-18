@@ -4,6 +4,7 @@ import HomeHeroSeaction from "./components/HomeComponents/HomeHeroSeaction";
 import HomeAboutSeaction from "./components/HomeComponents/HomeAboutSeaction";
 import HomeTopFeatures from "./components/HomeComponents/HomeTopFeatures";
 import HomeMap from "./components/HomeComponents/HomeMap";
+import DistanceDetails from "./components/HomeComponents/DistanceDetails";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <HomeTopFeatures />
 
       <HomeMap />
+
+      <DistanceDetails />
     </main>
   );
 }
