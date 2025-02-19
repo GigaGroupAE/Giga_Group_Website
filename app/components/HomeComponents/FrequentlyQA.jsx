@@ -5,7 +5,7 @@ import GeneralQA from "../GeneralQA";
 const FrequentlyQA = () => {
   const [activeItem, setActiveItem] = useState(1);
   return (
-    <section className=" my-40">
+    <section className=" py-20 bg-gradient-to-b from-white to-secondary/10">
       <div className="w-4/6 mx-auto">
         <h1 className="font-poppins text-TextandIcons text-5xl font-thin sm:text-center text-center">
           Frequently Asked <b>Questions </b>

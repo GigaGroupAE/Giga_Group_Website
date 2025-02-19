@@ -8,6 +8,7 @@ import DistanceDetails from "./components/HomeComponents/DistanceDetails";
 import ExcellenceVision from "./components/HomeComponents/ExcellenceVision";
 import ClientSays from "./components/HomeComponents/ClientSays";
 import FrequentlyQA from "./components/HomeComponents/FrequentlyQA";
+import NewsLetter from "./components/NewsLetter";
 
 export default function Home() {
   return (
@@ -29,6 +30,8 @@ export default function Home() {
       <ClientSays />
 
       <FrequentlyQA />
+
+      <NewsLetter />
     </main>
   );
 }

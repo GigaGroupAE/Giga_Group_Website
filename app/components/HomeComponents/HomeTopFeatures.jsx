@@ -66,7 +66,7 @@ const HomeTopFeatures = () => {
       <div className="w-2/3 my-12 mx-auto flex-col  items-center flex justify-center">
         <div className="">
           <h2 className="headingSeaction">
-            Redefining Real Estate with <b>Excellence</b>{" "}
+            Redefining Real Estate with <b>Excellence</b>
           </h2>
 
           <p className="descriptionText">
