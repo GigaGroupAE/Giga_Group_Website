@@ -21,6 +21,8 @@ const DistanceDetails = () => {
           ))}
         </div>
       </div>
+
+      
     </section>
   );
 };

@@ -5,6 +5,9 @@ import HomeAboutSeaction from "./components/HomeComponents/HomeAboutSeaction";
 import HomeTopFeatures from "./components/HomeComponents/HomeTopFeatures";
 import HomeMap from "./components/HomeComponents/HomeMap";
 import DistanceDetails from "./components/HomeComponents/DistanceDetails";
+import ExcellenceVision from "./components/HomeComponents/ExcellenceVision";
+import ClientSays from "./components/HomeComponents/ClientSays";
+import FrequentlyQA from "./components/HomeComponents/FrequentlyQA";
 
 export default function Home() {
   return (
@@ -20,6 +23,12 @@ export default function Home() {
       <HomeMap />
 
       <DistanceDetails />
+
+      <ExcellenceVision />
+
+      <ClientSays />
+
+      <FrequentlyQA />
     </main>
   );
 }

@@ -1,0 +1,186 @@
+export const FeedBackData = [
+  {
+    username: "@john_doe",
+    avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "John Doe",
+    comment: "Amazing service! Highly recommend for real estate investments.",
+  },
+  {
+    username: "@sarah_j",
+    avatar: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Sarah Johnson",
+    comment:
+      "Giga Group turned my dream home into reality. Quality is unmatched!",
+  },
+  {
+    username: "@mike_r",
+    avatar: "https://randomuser.me/api/portraits/men/3.jpg",
+    name: "Mike Ross",
+    comment: "Best real estate experience ever. Hassle-free and professional.",
+  },
+  {
+    username: "@lisa_w",
+    avatar: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Lisa Wong",
+    comment:
+      "The luxury and design of Giga Group properties are world-class. A great investment!",
+  },
+  {
+    username: "@ahmed_k",
+    avatar: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Ahmed Khan",
+    comment: "Exceptional service and attention to detail. Highly recommended!",
+  },
+  {
+    username: "@emily_t",
+    avatar: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Emily Taylor",
+    comment:
+      "Giga Group delivered my property on time and exceeded my expectations in every way!",
+  },
+  {
+    username: "@raj_mehta",
+    avatar: "https://randomuser.me/api/portraits/men/7.jpg",
+    name: "Rajesh Mehta",
+    comment: "Smooth transaction and great customer support. Would buy again!",
+  },
+  {
+    username: "@nina_s",
+    avatar: "https://randomuser.me/api/portraits/women/8.jpg",
+    name: "Nina Sharma",
+    comment: "Investing in Giga Group was the best decision I made!",
+  },
+  {
+    username: "@david_w",
+    avatar: "https://randomuser.me/api/portraits/men/9.jpg",
+    name: "David Wilson",
+    comment: "Great pricing, fast process, and excellent customer service!",
+  },
+  {
+    username: "@hannah_b",
+    avatar: "https://randomuser.me/api/portraits/women/10.jpg",
+    name: "Hannah Brown",
+    comment: "I love my new home! It’s everything I dreamed of and more.",
+  },
+  {
+    username: "@tom_h",
+    avatar: "https://randomuser.me/api/portraits/men/11.jpg",
+    name: "Tom Hiddleston",
+    comment: "Very professional and efficient service.",
+  },
+  {
+    username: "@linda_g",
+    avatar: "https://randomuser.me/api/portraits/women/12.jpg",
+    name: "Linda Green",
+    comment: "A wonderful investment opportunity. Highly recommended!",
+  },
+  {
+    username: "@oliver_b",
+    avatar: "https://randomuser.me/api/portraits/men/13.jpg",
+    name: "Oliver Brown",
+    comment: "The team at Giga Group was fantastic throughout the process.",
+  },
+  {
+    username: "@chloe_s",
+    avatar: "https://randomuser.me/api/portraits/women/14.jpg",
+    name: "Chloe Scott",
+    comment: "I couldn’t have asked for a better home-buying experience!",
+  },
+  {
+    username: "@alex_m",
+    avatar: "https://randomuser.me/api/portraits/men/15.jpg",
+    name: "Alex Mason",
+    comment: "Best investment decision I ever made!",
+  },
+  {
+    username: "@zoe_w",
+    avatar: "https://randomuser.me/api/portraits/women/16.jpg",
+    name: "Zoe Williams",
+    comment: "They really care about their clients’ satisfaction!",
+  },
+  {
+    username: "@henry_c",
+    avatar: "https://randomuser.me/api/portraits/men/17.jpg",
+    name: "Henry Carter",
+    comment: "Great communication and transparency throughout the process.",
+  },
+  {
+    username: "@grace_k",
+    avatar: "https://randomuser.me/api/portraits/women/18.jpg",
+    name: "Grace Kelly",
+    comment: "Very professional and courteous team.",
+  },
+  {
+    username: "@noah_j",
+    avatar: "https://randomuser.me/api/portraits/men/19.jpg",
+    name: "Noah Jenkins",
+    comment: "I am beyond happy with my purchase!",
+  },
+  {
+    username: "@olivia_f",
+    avatar: "https://randomuser.me/api/portraits/women/20.jpg",
+    name: "Olivia Fisher",
+    comment:
+      "My property was delivered on time, and the quality was top-notch!",
+  },
+  {
+    username: "@ryan_m",
+    avatar: "https://randomuser.me/api/portraits/men/21.jpg",
+    name: "Ryan Murphy",
+    comment: "Highly recommended for anyone looking for premium real estate!",
+  },
+  {
+    username: "@sophia_h",
+    avatar: "https://randomuser.me/api/portraits/women/22.jpg",
+    name: "Sophia Hayes",
+    comment: "Fast, easy, and totally worth it!",
+  },
+  {
+    username: "@jacob_l",
+    avatar: "https://randomuser.me/api/portraits/men/23.jpg",
+    name: "Jacob Lewis",
+    comment: "The best home-buying experience I’ve had so far!",
+  },
+  {
+    username: "@mia_r",
+    avatar: "https://randomuser.me/api/portraits/women/24.jpg",
+    name: "Mia Roberts",
+    comment: "Highly impressed with the quality and service!",
+  },
+  {
+    username: "@liam_t",
+    avatar: "https://randomuser.me/api/portraits/men/25.jpg",
+    name: "Liam Turner",
+    comment: "A smooth and stress-free experience.",
+  },
+  {
+    username: "@ava_k",
+    avatar: "https://randomuser.me/api/portraits/women/26.jpg",
+    name: "Ava King",
+    comment: "I am so happy with my investment!",
+  },
+  {
+    username: "@ben_p",
+    avatar: "https://randomuser.me/api/portraits/men/27.jpg",
+    name: "Ben Parker",
+    comment: "Superb quality and outstanding service!",
+  },
+  {
+    username: "@isabella_c",
+    avatar: "https://randomuser.me/api/portraits/women/28.jpg",
+    name: "Isabella Clarke",
+    comment: "Worth every penny! Highly recommended.",
+  },
+  {
+    username: "@ethan_w",
+    avatar: "https://randomuser.me/api/portraits/men/29.jpg",
+    name: "Ethan White",
+    comment: "The process was seamless, and I love my new home!",
+  },
+  {
+    username: "@amelia_d",
+    avatar: "https://randomuser.me/api/portraits/women/30.jpg",
+    name: "Amelia Davis",
+    comment: "A wonderful experience from start to finish!",
+  },
+];
