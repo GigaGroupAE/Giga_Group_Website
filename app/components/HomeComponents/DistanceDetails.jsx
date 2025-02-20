@@ -3,11 +3,14 @@ import React from "react";
 
 const DistanceDetails = () => {
   return (
-    <section className="my-32 bg-gray ">
+    <section className="py-[120px] pl-[100px] bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
       <div className="w-4/6 mx-auto">
-        <div className="mx-auto grid  grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3  bg-white">
-          {distanceMap.map((item, index) => (
-            <div key={index} className=" bg-white px-6 py-2  rounded-md border border-white ">
+        <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3 ">
+          {distanceMap?.map((item, index) => (
+            <div
+              key={index}
+              className=" px-6 py-2  rounded-md border border-white bg-transparent "
+            >
               <h2 className="text-2xl font-bold text-TextandIcons font-poppins">
                 {item.heading}
               </h2>
@@ -21,8 +24,6 @@ const DistanceDetails = () => {
           ))}
         </div>
       </div>
-
-      
     </section>
   );
 };

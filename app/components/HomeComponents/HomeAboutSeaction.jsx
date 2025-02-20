@@ -7,10 +7,10 @@ import ButtonPrimary from "../ButtonPrimary";
 
 const HomeAboutSeaction = () => {
   return (
-    <section className="h-screen">
+    <section className="">
       {/* About Count  */}
 
-      <div className=" w-4/5 h-32 mx-auto my-4 flex items-center justify-around">
+      <div className=" px-[150]   h-[249] mx-auto flex items-center  space-x-[150px]">
         <div className="">
           <h2 className="font-poppins text-5xl font-bold text-TextandIcons">
             60+
@@ -50,7 +50,7 @@ const HomeAboutSeaction = () => {
 
       {/* About Images  */}
 
-      <div className=" w-4/5 h-3/5 mx-auto flex items-center ">
+      <div className=" w-4/5 h-[600]  mx-auto flex items-center ">
         {/* left  container  */}
 
         <div className=" flex-1 flex-row flex items-center  ">
@@ -64,7 +64,7 @@ const HomeAboutSeaction = () => {
         </div>
 
         {/* right   container  */}
-        <div className=" flex-1">
+        <div className=" flex-1  ">
           <div className=" w-3/4 mx-auto">
             <div className="flex items-center gap-2  ">
               <h1 className="text-placeholderText text-sm font-poppins">
@@ -73,10 +73,10 @@ const HomeAboutSeaction = () => {
 
               <div className="bg-secondary  w-[110px] h-0.5"></div>
             </div>
-            <h1 className="font-poppins text-3xl text-TextandIcons my-3">
+            <h1 className="font-poppins text-3xl text-TextandIcons my-3 ">
               About <b>Giga Group</b>
             </h1>
-            <p className="descriptionText">
+            <p className="descriptionText  relative ">
               Great institutions are built over time, nurturing dreams and
               fostering visions that promote peaceful and inclusive societies
               for sustainable development. Giga Group is one such institution.
@@ -85,7 +85,7 @@ const HomeAboutSeaction = () => {
               estate development, and construction sectors in Dubai, United Arab
               Emirates.
             </p>
-            <div className="w-[120px] mt-6">
+            <div className="flex mt-6">
               <ButtonPrimary title="Learn More" />
             </div>
           </div>
