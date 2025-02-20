@@ -1,21 +1,18 @@
 import { topFeatures } from "@/src/Data/TopFeaturesData";
 import React from "react";
 import ButtonPrimary from "../ButtonPrimary";
-import architecture from "../../../public/architecture.svg";
-import my_location from "../../../public/my_location.svg";
-import psychiatry from "../../../public/psychiatry.svg";
-import Image from "next/image";
 
 const HomeTopFeatures = () => {
   return (
-    <section className="">
+    <section className="py-[120px] pl-[100px] bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
       {/* Top section and heading */}
-      <div className="w-2/3 mx-auto my-4">
+
+      <div className=" mx-auto my-4 w-[890px]  ">
         <h2 className="headingSeaction">
           Explore Our <b> Top Features Projects</b>
         </h2>
 
-        <p className="descriptionText ">
+        <p className="descriptionText text-center  ">
           These projects exemplify Giga Group's commitment to delivering
           high-quality, architecturally distinctive developments that contribute
           to Dubai's reputation as a hub for luxury living and modern business
@@ -24,7 +21,7 @@ const HomeTopFeatures = () => {
       </div>
 
       {/* Horizontal scrollable container */}
-      <div className="h-96 w-4/5 mx-auto">
+      <div className="  w-full  ">
         {/* Parent container with horizontal scrolling enabled */}
         <div className="flex overflow-x-auto gap-5">
           {/* Map through the features and display them */}
@@ -33,7 +30,7 @@ const HomeTopFeatures = () => {
             return (
               <div
                 key={index}
-                className="group flex-shrink-0 relative z-50 w-[230px] h-96 bg-cover bg-no-repeat cursor-pointer"
+                className="group flex-shrink-0 relative z-50 w-[300px] h-[500px] bg-cover bg-no-repeat cursor-pointer"
                 style={{
                   backgroundImage: imageUrl ? `url(${imageUrl})` : "none",
                   borderRadius: "14px",
@@ -59,76 +56,9 @@ const HomeTopFeatures = () => {
             );
           })}
         </div>
-      </div>
-
-      {/* Reddeing the real estate with  */}
-
-      <div className="w-2/3 my-12 mx-auto flex-col  items-center flex justify-center">
-        <div className="">
-          <h2 className="headingSeaction">
-            Redefining Real Estate with <b>Excellence</b>
-          </h2>
-
-          <p className="descriptionText">
-            At Giga Group Real Estate Developers, we pride ourselves on
-            delivering exceptional properties that combine innovation, prime
-            locations, and sustainability. Each development is thoughtfully
-            designed to enhance lifestyles, create long-term value, and set new
-            benchmarks in the real estate industry.
-          </p>
-        </div>
-
-        {/* cards  */}
-
-        <div className=" w-full   flex items-center justify-between gap-4">
-          <div className="cartContainer">
-            <Image src={architecture} alt="architecture" />
-            <h1 className="font-poppins text-TextandIcons text-2xl">
-              <b>Architectural</b> Excellence
-            </h1>
-            <p className="font-poppins text-sm text-TextandIcons">
-              Our developments redefine modern living with cutting-edge designs,
-              blending functionality with elegance.
-            </p>
-          </div>
-          <div className="cartContainer">
-            <Image src={my_location} alt="architecture" />
-            <h1 className="font-poppins text-TextandIcons text-2xl">
-              <b>Strategic </b> Locations
-            </h1>
-            <p className="font-poppins text-sm text-TextandIcons">
-              We build in the most sought-after areas, ensuring convenience,
-              connectivity, and future growth potential.
-            </p>
-          </div>
-          <div className="cartContainer">
-            <Image src={psychiatry} alt="architecture" />
-            <h1 className="font-poppins text-TextandIcons text-2xl">
-              <b>Eco-Friendly</b> Solutions
-            </h1>
-            <p className="font-poppins text-sm text-TextandIcons">
-              Our projects integrate sustainable practices, promoting energy
-              efficiency and a healthier environment for residents.
-            </p>
-          </div>
-
-          <div className="h-[120px] bg-red-600"></div>
-        </div>
-      </div>
-      <div className="bg-excellenceCover flex items-center justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] h-[401px] w-full bg-repeat-round object-center bg-contain">
-        {/* This is the frosted glass container */}
-        <div className="w-[70%] gap-4 backdrop-blur-lg  items-center flex flex-col justify-center bg-white bg-opacity-30 p-8  rounded-lg">
-          <h1 className="text-white text-5xl ">
-            Redefining Real Estate with <b>Excellence</b>
-          </h1>
-          <p className="descriptionText text-white">
-            At Giga Group Real Estate Developers, we pride ourselves on
-            delivering exceptional properties that combine innovation, prime
-            locations, and sustainability. Each development is thoughtfully
-            designed to enhance lifestyles, create long-term value, and set new
-            benchmarks in the real estate industry.
-          </p>
-        </div>
+        {/* <div className="bg-red-600 w-full ">
+          <div className="bg-red-700 absolute  opacity-70   h-96 rounded-full  w-96 right-52  bg-gradient-to-b -z-0 from-[#F8F7E0] to-white   "></div>
+        </div> */}
       </div>
     </section>
   );

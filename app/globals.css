@@ -4,7 +4,7 @@
 
 
 .descriptionText {
-    @apply font-poppins text-sm font-thin text-center w-3/4 mx-auto my-2
+    @apply font-poppins text-sm font-thin  my-2
 }
 .headingSeaction{
     @apply font-poppins text-[50px] text-center font-normal text-TextandIcons
