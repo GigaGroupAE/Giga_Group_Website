@@ -3,6 +3,7 @@ import HeroAbout from "../components/AboutComponents/HeroAbout";
 import GroupAbout from "../components/AboutComponents/GroupAbout";
 import WhoWeAre from "../components/AboutComponents/WhoWeAre";
 import AboutBlog from "../components/AboutComponents/AboutBlog";
+import AboutGiga from "../components/AboutComponents/AboutGiga";
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <GroupAbout />
       <WhoWeAre />
       <AboutBlog />
+      <AboutGiga />
     </section>
   );
 };
