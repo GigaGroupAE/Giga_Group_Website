@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link"; // Importing Link component from next/link
 import { NavbarData } from "../../src/Data/NavbarData";
 import logo from "../../public/giga-group-logo.svg";
 import logoMobile from "../../public/LogoMobile.svg";
@@ -15,6 +16,7 @@ const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
   const [subDropdownVisible, setSubDropdownVisible] = useState(null);
   const [isMobileNav, setisMobileNav] = useState(false);
+  const [activeMenu, setActiveMenu] = useState(null); // Track active menu item
 
   return (
     <nav className="py-4 container mx-auto">
@@ -46,15 +48,19 @@ const Navbar = () => {
               key={item.id}
               className="relative flex flex-row items-center gap-2"
             >
-              <button
-                onClick={() =>
-                  item.title === "PROJECTS" &&
-                  setDropdownVisible(!dropdownVisible)
+              <Link
+                href={
+                  item.title === "HOME" ? "/" : `/${item.title.toLowerCase()}`
                 }
-                className="text-TextandIcons text-sm font-poppins hover:text-secondary"
+                onClick={() => setActiveMenu(item.title)} 
+                className={`text-sm font-poppins hover:text-secondary ${
+                  activeMenu === item.title
+                    ? "text-secondary"
+                    : "text-TextandIcons"
+                }`}
               >
                 {item.title}
-              </button>
+              </Link>
               {item.title === "PROJECTS" && <IoIosArrowDown size={14} />}
 
               {/* Dropdown for PROJECTS */}

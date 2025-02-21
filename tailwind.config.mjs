@@ -16,7 +16,7 @@ export default {
         excellenceCover: "url('/cover.webp')",
         bgmap: "url('/map.svg')",
         aboutCover: "url('/coverAbout.svg')",
-        grpupCover: "url('/group.svg')",
+        grpupCover: "url('/group.webp')",
       },
       colors: {
         TextandIcons: "#454C54",
