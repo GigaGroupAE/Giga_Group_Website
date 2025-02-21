@@ -38,7 +38,7 @@ const AboutGiga = () => {
               src={giga1}
               alt="Giga Group Image 1"
               layout="fill"
-              objectFit="cover" // Ensure it covers the area
+              objectFit="cover" 
             />
           </div>
           <div className="w-[354px] h-[200px] relative rounded-2xl overflow-hidden">
@@ -57,7 +57,7 @@ const AboutGiga = () => {
               src={giga3}
               alt="Giga Group Image 1"
               layout="fill"
-              objectFit="cover" // Ensure it covers the area
+              objectFit="cover" 
             />
           </div>
           <div className="w-[270px] h-[139px] relative rounded-2xl overflow-hidden">
