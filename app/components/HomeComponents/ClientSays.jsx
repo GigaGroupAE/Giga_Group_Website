@@ -55,11 +55,11 @@ const ClientSays = () => {
 
       <div className=" h-[200px] flex items-center">
         <div className="w-4/6  mx-auto flex  justify-between">
-          <Image src={diamond} className="" />
-          <Image src={diamond} className="" />
-          <Image src={diamond} className="" />
-          <Image src={diamond} className="" />
-          <Image src={diamond} className="" />
+          <Image src={diamond} className="" alt="images" />
+          <Image src={diamond} className="" alt="images" />
+          <Image src={diamond} className="" alt="images" />
+          <Image src={diamond} className="" alt="images" />
+          <Image src={diamond} className="" alt="images" />
         </div>
       </div>
     </section>

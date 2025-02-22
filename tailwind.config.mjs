@@ -15,6 +15,8 @@ export default {
         heroImage: "url('/HeroImage.png')",
         excellenceCover: "url('/cover.webp')",
         bgmap: "url('/map.svg')",
+        aboutCover: "url('/coverAbout.svg')",
+        grpupCover: "url('/group.webp')",
       },
       colors: {
         TextandIcons: "#454C54",
