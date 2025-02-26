@@ -73,7 +73,7 @@ const HomeAboutSeaction = () => {
               estate development, and construction sectors in Dubai, United Arab
               Emirates.
             </p>
-            <div className="flex mt-6">
+            <div className=" md:flex mt-6">
               <ButtonPrimary title="Learn More" />
             </div>
           </div>

@@ -22,11 +22,11 @@ export default function Home() {
 
       <HomeAboutSeaction />
 
-      {/* <HomeTopFeatures /> */}
+      <HomeTopFeatures />
 
-      {/* <div className="z-50 relative   ">
+      <div className="z-50 relative   ">
 
-        <div className="  mx-auto px-[120px] py-[120px] flex-col  items-center flex justify-center  bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
+        <div className=" bg-indigo-500  mx-auto px-[120px] py-[120px] flex-col  items-center flex justify-center  bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
           <div className=" w-[950] mb-[40]">
             <h2 className="headingSeaction">
               Redefining Real Estate with <b>Excellence</b>
@@ -90,7 +90,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* <HomeMap />
 

@@ -4,15 +4,15 @@ import ButtonPrimary from "../ButtonPrimary";
 
 const HomeTopFeatures = () => {
   return (
-    <section className="py-[120px] pl-[100px] bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
+    <section className="py-[120px] pl-12  my-[70px] md:my-0  md:pl-[100px] bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
       {/* Top section and heading */}
 
-      <div className=" mx-auto my-4 w-[890px]  ">
+      <div className=" md:mx-auto my-4 md:w-[890px] w-full   ">
         <h2 className="headingSeaction">
           Explore Our <b> Top Features Projects</b>
         </h2>
 
-        <p className="descriptionText text-center  ">
+        <p className="descriptionText md:text-center  ">
           These projects exemplify Giga Group's commitment to delivering
           high-quality, architecturally distinctive developments that contribute
           to Dubai's reputation as a hub for luxury living and modern business
