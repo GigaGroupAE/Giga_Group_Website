@@ -10,52 +10,40 @@ const HomeAboutSeaction = () => {
     <section className="">
       {/* About Count  */}
 
-      <div className=" px-[150]   h-[249] mx-auto flex items-center  space-x-[150px]">
-        <div className="">
-          <h2 className="font-poppins text-5xl font-bold text-TextandIcons">
-            60+
-          </h2>
-          <p className="font-poppins font-thin text-[16px] py-2">
-            Years of Excellence
-          </p>
+      <div className=" md:px-[150] px-4    h-[249] mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] ">
+        <div className="flex flex-1   gap-16 md:justify-between bg-indigo-400nn items-center  px-4">
+          <div className="">
+            <h2 className="headingCount ">60+</h2>
+            <p className="countSubHeading">Years of Excellence</p>
+          </div>
+
+          <div className="">
+            <h2 className="headingCount ">5000+</h2>
+            <p className="countSubHeading">Employees around the Globe</p>
+          </div>
         </div>
 
-        <div className="">
-          <h2 className="font-poppins text-5xl font-bold text-TextandIcons">
-            5000+
-          </h2>
-          <p className="font-poppins font-thin text-[16px] py-2">
-            Employees around the Globe
-          </p>
-        </div>
+        <div className="flex flex-1  gap-16  md:justify-between items-center   px-4">
+          <div className="">
+            <h2 className="headingCount ">99.99%</h2>
+            <p className="countSubHeading">Customer Satisfaction</p>
+          </div>
 
-        <div className="">
-          <h2 className="font-poppins text-5xl font-bold text-TextandIcons">
-            99.99%
-          </h2>
-          <p className="font-poppins font-thin text-[16px] py-2">
-            Customer Satisfaction
-          </p>
-        </div>
-
-        <div className="">
-          <h2 className="font-poppins text-5xl font-bold text-TextandIcons">
-            10000+
-          </h2>
-          <p className="font-poppins font-thin text-[16px] py-2">
-            Years of Excellence
-          </p>
+          <div className="">
+            <h2 className="headingCount ">10000+</h2>
+            <p className="countSubHeading">Years of Excellence</p>
+          </div>
         </div>
       </div>
 
       {/* About Images  */}
 
-      <div className=" w-4/5 h-[600]  mx-auto flex items-center ">
+      <div className=" w-4/5 h-[600]  mx-auto flex md:flex-row flex-col items-center ">
         {/* left  container  */}
 
         <div className=" flex-1 flex-row flex items-center  ">
-          <div className="flex-1  h-[350px] relative left-10 top-12">
-            <Image src={about1} alt="gigagrpup" />
+          <div className="flex-1  h-[350px] relative md:left-10 right-4 md:right-0 md:top-12">
+            <Image src={about1} alt="gigagrpup" className=" h-[350px]" />
           </div>
           <div className="flex-1  ">
             <Image src={about2} alt="gigagrpup" />
@@ -65,10 +53,10 @@ const HomeAboutSeaction = () => {
 
         {/* right   container  */}
         <div className=" flex-1  ">
-          <div className=" w-3/4 mx-auto">
+          <div className=" md:w-3/4 w-[95%] md:mx-auto  mt-14 md:mt-0">
             <div className="flex items-center gap-2  ">
               <h1 className="text-placeholderText text-sm font-poppins">
-                Giga{" "}
+                Giga
               </h1>
 
               <div className="bg-secondary  w-[110px] h-0.5"></div>

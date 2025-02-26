@@ -22,10 +22,9 @@ export default function Home() {
 
       <HomeAboutSeaction />
 
-      <HomeTopFeatures />
+      {/* <HomeTopFeatures /> */}
 
-      <div className="z-50 relative   ">
-        {/* Reddeing the real estate with  */}
+      {/* <div className="z-50 relative   ">
 
         <div className="  mx-auto px-[120px] py-[120px] flex-col  items-center flex justify-center  bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
           <div className=" w-[950] mb-[40]">
@@ -42,7 +41,6 @@ export default function Home() {
             </p>
           </div>
 
-          {/* cards  */}
 
           <div className=" w-full   flex items-center justify-between gap-4">
             <div className="cartContainer">
@@ -79,7 +77,6 @@ export default function Home() {
         </div>
 
         <div className="bg-excellenceCover flex items-center justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] h-[401px] w-full bg-repeat-round object-center bg-contain">
-          {/* This is the frosted glass container */}
           <div className="w-[70%] gap-4 backdrop-blur-lg  items-center flex flex-col justify-center bg-white bg-opacity-30 p-8  rounded-lg">
             <h1 className="text-white text-5xl ">
               Redefining Real Estate with <b>Excellence</b>
@@ -93,9 +90,9 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <HomeMap />
+      {/* <HomeMap />
 
       <DistanceDetails />
 
@@ -105,7 +102,7 @@ export default function Home() {
 
       <FrequentlyQA />
 
-      <NewsLetter />
+      <NewsLetter /> */}
     </main>
   );
 }
