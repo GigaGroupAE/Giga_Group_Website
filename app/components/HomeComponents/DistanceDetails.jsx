@@ -3,8 +3,8 @@ import React from "react";
 
 const DistanceDetails = () => {
   return (
-    <section className="py-[120px] pl-[100px] bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
-      <div className="w-4/6 mx-auto">
+    <section className="md:py-[120px] py-[70] md:pl-[100px]  bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
+      <div className="md:w-4/6 w-11/12 mx-auto">
         <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3 ">
           {distanceMap?.map((item, index) => (
             <div

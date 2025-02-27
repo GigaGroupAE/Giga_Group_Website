@@ -7,8 +7,15 @@
     @apply font-poppins text-sm font-thin  my-2
 }
 .headingSeaction{
-    @apply font-poppins text-[50px] text-center font-normal text-TextandIcons
+    @apply font-poppins md:text-[50px] text-[38px] md:text-center font-normal text-TextandIcons
 }
 .cartContainer{
    @apply bg-greyBG  w-[340px] gap-4 px-4 rounded-md h-[233px] justify-center flex flex-col
+}
+.headingCount {
+    @apply  font-poppins md:text-5xl text-4xl font-bold text-TextandIcons
+} 
+
+.countSubHeading {
+    @apply font-poppins font-thin md:text-[16px] text-[14px] py-2
 }
