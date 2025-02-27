@@ -6,8 +6,8 @@ import diamond from "../../../public/diamond.svg";
 const ClientSays = () => {
   return (
     <section className=" mt-10">
-      <div className="w-4/6 mx-auto">
-        <h1 className="font-poppins text-TextandIcons text-5xl font-thin sm:text-center text-center">
+      <div className="md:w-4/6 w-11/12 mx-auto">
+        <h1 className="font-poppins text-TextandIcons text-5xl font-thin  md:text-center">
           What Our <b>Clients Say </b>
         </h1>
         <p className="descriptionText">

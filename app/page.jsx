@@ -91,13 +91,13 @@ export default function Home() {
 
       <HomeMap />
 
-      {/* <DistanceDetails />
+      <DistanceDetails />
 
       <ExcellenceVision />
 
       <ClientSays />
 
-      <FrequentlyQA />
+      {/* <FrequentlyQA />
 
       <NewsLetter /> */}
     </main>

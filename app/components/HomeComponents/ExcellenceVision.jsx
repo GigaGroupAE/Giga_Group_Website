@@ -7,8 +7,8 @@ import shoopingMall from "../../../public/ShoppingMall.png";
 const ExcellenceVision = () => {
   return (
     <section className="bg-[rgba(255,254,253)]  my-20 ">
-      <div className="w-4/6 mx-auto ">
-        <h1 className="font-poppins text-TextandIcons text-5xl font-thin sm:text-center  text-center">
+      <div className="md:w-4/6 w-11/12 mx-auto ">
+        <h1 className="font-poppins text-TextandIcons text-5xl font-thin   md:text-center">
           Experience the <b>Vision of Excellence</b>
         </h1>
         <p className="descriptionText">
@@ -20,8 +20,8 @@ const ExcellenceVision = () => {
 
       {/* seaction images  */}
 
-      <div className=" gap-6 flex flex-row container mx-auto  ">
-        <div className="w-[35%] ">
+      <div className=" gap-6 flex md:flex-row flex-col container mx-auto  ">
+        <div className="md:w-[35%] w-[100%] ">
           <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
             <b className="bold">Recreational </b> Areas
           </h1>
@@ -32,12 +32,12 @@ const ExcellenceVision = () => {
             className=" h-[500px] bg-contain   bg-repeat-round"
           />
         </div>
-        <div className=" w-[30%] ">
+        <div className="md:w-[35%] w-[100%] ">
           <div className="">
             <Image
               src={beach}
               alt="beaches"
-              className="h-[250px] bg-contain w-[300px]   bg-repeat-round"
+              className="h-[250px] bg-contain md:w-[300px]  mx-auto w-[350px]  bg-repeat-round"
             />
 
             <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
@@ -49,7 +49,7 @@ const ExcellenceVision = () => {
             <Image
               src={beach}
               alt="beaches"
-              className=" h-[250px] bg-contain w-[300px]   bg-repeat-round"
+              className="h-[250px] bg-contain md:w-[300px]  mx-auto w-[350px]  bg-repeat-round"
             />
 
             <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
@@ -66,7 +66,7 @@ const ExcellenceVision = () => {
             <Image
               src={shoopingMall}
               alt="Recreational Areas"
-              className=" h-[500px] bg-contain   bg-repeat-round"
+              className="h-[250px] bg-contain md:w-[300px]  mx-auto w-[350px]  bg-repeat-round"
             />
           </div>
         </div>
