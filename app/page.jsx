@@ -97,9 +97,9 @@ export default function Home() {
 
       <ClientSays />
 
-      {/* <FrequentlyQA />
+      <FrequentlyQA />
 
-      <NewsLetter /> */}
+      <NewsLetter />
     </main>
   );
 }

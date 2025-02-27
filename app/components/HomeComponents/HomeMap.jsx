@@ -10,10 +10,10 @@ const HomeMap = () => {
         {/* Left Container */} 
         <div className="  flex-2 flex w-[110%]    justify-end mr-10 ">
           <div className=" md:w-4/6   px-[60px] ">
-            <h1 className="font-poppins text-[40px] md:w-2/4 w-4/5  font-normal text-TextandIcons">
+            <h1 className="font-poppins text-[40px]  w-4/5  font-normal text-TextandIcons">
               Welcome to <b> Ocean</b> Crest Residence
             </h1>
-            <p className="font-poppins text-TextandIcons w-[90%] ">
+            <p className="font-poppins text-TextandIcons bg-indigo-400 ">
               Pearl Bliss Residence by Giga Group offers a harmonious blend of
               luxury, convenience, and vibrant surroundings. Strategically
               located in the heart of Dubai, this residential project ensures

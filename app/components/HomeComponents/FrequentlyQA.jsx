@@ -15,7 +15,7 @@ const FrequentlyQA = () => {
 
       {/* Projects Name  */}
 
-      <div className=" flex w-[80%] mx-auto justify-around mt-12">
+      <div className=" flex md:flex-row flex-col w-[80%] mx-auto justify-around mt-12">
         {projectsName.map((item) => {
           return (
             <div
