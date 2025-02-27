@@ -41,10 +41,7 @@ export default function Home() {
 
           <div className="w-full max-w-6xl flex flex-col sm:flex-row items-center justify-between gap-8">
             <div className="cartContainer w-full sm:w-1/3 ">
-              <Image
-                src={architecture}
-                alt="architecture"
-              />
+              <Image src={architecture} alt="architecture" />
               <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
                 <b>Architectural</b> Excellence
               </h1>
@@ -54,10 +51,7 @@ export default function Home() {
               </p>
             </div>
             <div className="cartContainer w-full sm:w-1/3 ">
-              <Image
-                src={my_location}
-                alt="architecture"
-              />
+              <Image src={my_location} alt="architecture" />
               <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
                 <b>Strategic </b> Locations
               </h1>
@@ -67,10 +61,7 @@ export default function Home() {
               </p>
             </div>
             <div className="cartContainer w-full sm:w-1/3 ">
-              <Image
-                src={psychiatry}
-                alt="architecture"
-              />
+              <Image src={psychiatry} alt="architecture" />
               <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
                 <b>Eco-Friendly</b> Solutions
               </h1>
@@ -98,9 +89,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <HomeMap />
+      <HomeMap />
 
-      <DistanceDetails />
+      {/* <DistanceDetails />
 
       <ExcellenceVision />
 

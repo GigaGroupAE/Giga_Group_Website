@@ -5,12 +5,12 @@ import Image from "next/image";
 
 const HomeMap = () => {
   return (
-    <section className="h-[700px]  flex  ">
-      <div className="flex items-center   justify-center w-full mx-auto  ">
-        {/* Left Container */}
-        <div className="  flex-2 flex w-[110%]   justify-end mr-10 ">
-          <div className=" w-4/6  ">
-            <h1 className="font-poppins text-[40px] w-2/4  font-normal text-TextandIcons">
+    <section className="  flex my-[70] md:my-0   ">
+      <div className="flex items-center  md:flex-row flex-col  justify-center w-full mx-auto   ">
+        {/* Left Container */} 
+        <div className="  flex-2 flex w-[110%]    justify-end mr-10 ">
+          <div className=" md:w-4/6   px-[60px] ">
+            <h1 className="font-poppins text-[40px] md:w-2/4 w-4/5  font-normal text-TextandIcons">
               Welcome to <b> Ocean</b> Crest Residence
             </h1>
             <p className="font-poppins text-TextandIcons w-[90%] ">
@@ -21,7 +21,7 @@ const HomeMap = () => {
               iconic landmarks, promising a lifestyle of elegance and ease.
             </p>
 
-            <div className="flex my-4">
+            <div className="md:flex block my-4">
               <ButtonPrimary title="Learn More" />
             </div>
           </div>
@@ -29,12 +29,12 @@ const HomeMap = () => {
         {/* Right Container  */}
         <div className="   flex-2 flex bg-contain   bg-bgmap h-[700px] object-contain  w-full">
           {/* container left  */}
-          <div className=" flex items-center justify-center flex-col gap-72">
+          <div className=" flex items-end md:items-center md:justify-center md:flex-col flex-row md:gap-72">
             <div className="bg-[rgba(250,248,229)] rounded-full w-28 h-28 flex items-center justify-center">
               <h1 className="text-TextandIcons font-bold text-2xl">2.5</h1>
               <p className="">KM</p>
             </div>
-            <div className="bg-[rgba(250,248,229)] left-12  relative bottom-10  rounded-full w-28 h-28 flex items-center justify-center">
+            <div className="bg-[rgba(250,248,229)] md:left-12 left-8  relative md:bottom-10  rounded-full w-28 h-28 flex items-center justify-center">
               <h1 className="text-TextandIcons font-bold text-2xl">0.5</h1>
               <p className="">KM</p>
             </div>
@@ -42,7 +42,7 @@ const HomeMap = () => {
 
           {/* container bottom  */}
 
-          <div className=" relative  self-end  -right-96   ">
+          <div className=" relative  md:self-end self-baseline  -bottom-[620px] md:-bottom-0   md:-right-96   -right-14  ">
             <div className="bg-[rgba(250,248,229)] rounded-full w-28 h-28 flex items-center justify-center relative bottom-10">
               <h1 className="text-TextandIcons font-bold text-2xl">10</h1>
               <p className="">KM</p>
@@ -51,7 +51,7 @@ const HomeMap = () => {
 
           {/* pin  */}
 
-          <div className=" mx-auto my-auto ml-10 mt-64  ">
+          <div className=" mx-auto md:my-auto md:ml-10 md:mt-64 mt-32   -ml-44  ">
             <Image src={pin} alt="Location " />
             <div className="bg-white rounded-full my-2">
               <p className="text-TextandIcons font-poppins px-4 py-1 font-semibold text-sm">25°17'48"N 55°19'02"E</p>
