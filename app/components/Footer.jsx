@@ -14,8 +14,8 @@ import CopyRights from "./CopyRights";
 
 const Footer = () => {
   return (
-    <section className="bg-[#425F7D] h-[524px]">
-      <div className="px-[130px] py-[50px] flex space-x-[60px]">
+    <section className="bg-[#425F7D] pt-[50] ">
+      <div className="md:px-[130px] px-4 py-[50px] flex md:flex-row flex-col md:space-x-[60px]">
         {/* Details  */}
         <div className=" w-[340px] space-y-[25px] flex flex-col">
           <Image
@@ -58,8 +58,8 @@ const Footer = () => {
           </div>
         </div>
         {/* Quick Links */}
-        <div className="spaec-y-[50px]  space-y-[50px]">
-          <div className="space-y-[15px]">
+        <div className="   md:space-y-[50px] space-y-6 mt-4 md:mt-0">
+          <div className="space-y-[15px] ">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
               Quick Links
             </h2>
@@ -97,8 +97,8 @@ const Footer = () => {
           </div>
         </div>
         {/* About Us */}
-        <div className="spaec-y-[50px]   space-y-[50px]">
-          <div className="space-y-[15px]">
+        <div className="   md:space-y-[50px] space-y-6">
+          <div className="space-y-[15px] mt-8 md:mt-0">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
               About Us
             </h2>
@@ -116,7 +116,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="space-y-[15px] w-[130px]   relative top-8">
+          <div className="space-y-[15px] w-[130px]   relative md:top-8">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
               Legal
             </h2>
@@ -135,8 +135,8 @@ const Footer = () => {
           </div>
         </div>
         {/* Projects */}
-        <div className="spaec-y-[50px]  space-y-[50px]">
-          <div className="space-y-[15px]">
+        <div className="space-y-8  md:space-y-[50px]">
+          <div className="space-y-[15px] mt-4 md:mt-0">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
               Projects
             </h2>
@@ -154,7 +154,7 @@ const Footer = () => {
             })}
           </div>
           {/* Certifications & Partnerships */}
-          <div className="space-y-[15px] relative top-8">
+          <div className="space-y-[15px] relative md:top-8">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
               Certifications & Partnerships
             </h2>
@@ -173,7 +173,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Services */}
-        <div className="spaec-y-[50px]  space-y-[50px] w-[190px] ">
+        <div className="spaec-y-[50px]  space-y-[50px] w-[190px]  mt-8 md:mt-0">
           <div className="space-y-[15px]">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
               Services
