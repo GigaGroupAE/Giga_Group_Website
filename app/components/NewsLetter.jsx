@@ -3,8 +3,8 @@ import ButtonPrimary from "./ButtonPrimary";
 
 const NewsLetter = () => {
   return (
-    <section className="h-[400px]  bg-gradient-to-tr from-[#F8F7EB] to-white flex flex-row  items-center ">
-      <div className="md:w-[70%] w-11/12 mx-auto flex  md:flex-row flex-col items-center">
+    <section className=" bg-gradient-to-tr from-[#F8F7EB] to-white flex flex-row  items-center py-[70px] bg-indigo-500 ">
+      <div className="md:w-[70%] w-11/12 mx-auto flex  md:flex-row flex-col items-center  ">
         <div className=" md:w-[40%] w-11/12">
           <h2 className="font-poppins text-TextandIcons font-medium text-[30px]">
             Stay Updated with
@@ -20,7 +20,7 @@ const NewsLetter = () => {
             gateway to premium real estate opportunities awaits!
           </p>
         </div>
-        <div className="md:w-[75%] w-11/12 ml-10 h-[265px]   shadow-md bg-opacity-40 backdrop-blur-md      rounded-2xl flex flex-col justify-center px-6">
+        <div className="md:w-[75%]  w-[95%] md:ml-10 h-[265px]   shadow-md bg-opacity-40 backdrop-blur-md      rounded-2xl flex flex-col justify-center px-6">
           <h2 className="font-poppins text-TextandIcons text-[25px] font-medium">
             <b className="font-semibold">Newsletter</b> Form
           </h2>
@@ -28,19 +28,21 @@ const NewsLetter = () => {
 
           {/* input forms  */}
 
-          <div className=" gap-2 flex md:flex-row flex-col items-center  ">
+          <div className=" gap-2 flex md:flex-row flex-col items-center space-y-4 md:space-y-0  ">
             <input
               type="text"
               placeholder="Name"
-              className="    rounded-md py-2 px-4  w-[233px] "
+              className="    rounded-md py-2 px-4  md:w-[233px] w-full "
             />
             <input
               type="text"
               placeholder="Email Address"
-              className="    rounded-md py-2 px-4  mx-2 w-[233px]  "
+              className="    rounded-md py-2 px-4  mx-2 md:w-[233px] w-full  "
             />
 
-            <ButtonPrimary title="Subscribe" />
+            <div className=" w-full md:flex">
+              <ButtonPrimary title="Subscribe" />
+            </div>
           </div>
         </div>
       </div>

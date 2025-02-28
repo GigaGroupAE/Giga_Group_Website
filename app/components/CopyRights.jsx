@@ -10,9 +10,10 @@ import Image from "next/image";
 
 const CopyRights = () => {
   return (
-    <section className="bg-white px-[50px] h-[70px] flex items-center justify-between ">
+    <section className="bg-white px-[50px] h-[70px] flex md:flex-row flex-col
+     items-center md:justify-between   justify-around ">
       <div className="">
-        <h2 className="font-poppins text-xs text-TextandIcons font-medium">
+        <h2 className="font-poppins text-xs text-TextandIcons relative font-medium z-50">
           All © Reserved by <b>Giga</b> Group ® | United Arab Emirates
         </h2>
       </div>
@@ -26,7 +27,7 @@ const CopyRights = () => {
         <Image src={whatsapp} alt="Facebook" />
       </div>
 
-      <div className=" absolute h-[70px] w-2/6 right-0  rounded-ss-full  bg-gradient-to-r from-white to-secondary/30"></div>
+      <div className=" absolute h-[70px] w-2/6 right-0  rounded-ss-full  bg-gradient-to-r from-white to-secondary/30 z-0"></div>
     </section>
   );
 };
