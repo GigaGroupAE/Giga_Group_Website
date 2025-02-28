@@ -4,7 +4,7 @@ import ButtonPrimary from "../ButtonPrimary";
 
 const WhoWeAre = () => {
   return (
-    <div className="bg-gradient-to-tr from-[#F8F7EB] to-white px-8 py-16 md:px-28 md:py-28">
+    <div className="bg-gradient-to-tr from-[#F8F7EB] to-white  py-16 md:px-28 md:py-28">
       <h1 className="text-center text-3xl md:text-5xl font-semibold text-gray-800 mb-12">
         Who We <b className="text-black">Are?</b>
       </h1>
@@ -13,7 +13,7 @@ const WhoWeAre = () => {
         {whoWeAre.map((item) => (
           <div
             key={item.id}
-            className="text-[#ffffff]  rounded-2xl    px-7 py-7 space-y-7"
+            className="text-[#ffffff]  rounded-2xl    px-8 py-7 space-y-7"
           >
             <h2 className="text-2xl font-bold text-TextandIcons">
               {item.title}{" "}
@@ -32,8 +32,8 @@ const WhoWeAre = () => {
           </div>
         ))}
       </div>
-
-      <p className="descriptionText text-center w-[854]   mx-auto">
+ 
+      <p className="descriptionText md:text-center md:w-[854] px-8  w-[90%]  md:mx-auto">
         At Giga Group Real Estate Developers, we pride ourselves on delivering
         exceptional properties that combine innovation, prime locations, and
         sustainability. Each development is thoughtfully designed to enhance

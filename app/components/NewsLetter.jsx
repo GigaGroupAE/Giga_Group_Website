@@ -3,7 +3,7 @@ import ButtonPrimary from "./ButtonPrimary";
 
 const NewsLetter = () => {
   return (
-    <section className=" bg-gradient-to-tr from-[#F8F7EB] to-white flex flex-row  items-center py-[70px] bg-indigo-500 ">
+    <section className=" bg-gradient-to-tr from-[#F8F7EB] to-white flex flex-row  items-center py-[70px]  ">
       <div className="md:w-[70%] w-11/12 mx-auto flex  md:flex-row flex-col items-center  ">
         <div className=" md:w-[40%] w-11/12">
           <h2 className="font-poppins text-TextandIcons font-medium text-[30px]">

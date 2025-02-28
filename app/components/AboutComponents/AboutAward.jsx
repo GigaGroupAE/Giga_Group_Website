@@ -3,12 +3,12 @@ import React from "react";
 
 const AboutAward = () => {
   return (
-    <div className=" py-[120px] px-[80px]">
+    <div className=" md:py-[120px] md:px-[80px] ">
       <h1 className="text-center text-3xl md:text-5xl font-semibold text-gray-800 mb-5">
         Featured <b className="text-black">Awards</b>
       </h1>
 
-      <p className="descriptionText text-center w-[854px] mx-auto">
+      <p className="descriptionText md:text-center md:w-[854px]  px-8 md:px-0 mx-auto">
         These projects exemplify Giga Group's commitment to delivering
         high-quality, architecturally distinctive developments that contribute
         to Dubai's reputation as a hub for luxury living and modern business
@@ -16,7 +16,7 @@ const AboutAward = () => {
       </p>
 
       {/* Grid layout for awards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 my-14 md:my-0 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-7 md:px-0">
         {awards.map((item, index) => (
           <div
             key={index}

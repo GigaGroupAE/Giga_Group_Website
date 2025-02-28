@@ -11,7 +11,7 @@ const HomeAboutSeaction = () => {
       {/* About Count  */}
 
       <div className=" md:px-[150] px-4    h-[249] mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] ">
-        <div className="flex flex-1   gap-16 md:justify-between bg-indigo-400nn items-center  px-4">
+        <div className="flex flex-1   gap-16 md:justify-between  items-center  px-4">
           <div className="">
             <h2 className="headingCount ">60+</h2>
             <p className="countSubHeading">Years of Excellence</p>

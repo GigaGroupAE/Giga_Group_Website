@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const AboutGiga = () => {
   return (
-    <div className="py-[120px] px-[80px] flex items-center space-x-28">
+    <div className="md:py-[120px] md:px-[80px] px-[8] flex md:flex-row flex-col items-center md:space-x-28">
       <div className="space-y-4">
         <GigaComponent />
 
@@ -26,12 +26,12 @@ const AboutGiga = () => {
           sectors in Dubai, United Arab Emirates.
         </p>
 
-        <div className="flex">
+        <div className="md:flex ">
           <ButtonPrimary title="Learn More" />
         </div>
       </div>
 
-      <div className="flex items-center gap-6">
+      <div className="flex md:flex-row flex-col md:items-center md:gap-6 ">
         <div className="flex flex-col items-center space-y-4">
           <div className="w-[354px] h-[350px] relative rounded-2xl overflow-hidden">
             <Image
@@ -51,8 +51,8 @@ const AboutGiga = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center space-y-4">
-          <div className="w-[270px] h-[200px] relative rounded-2xl overflow-hidden">
+        <div className="flex flex-col my-8 md:my-0 items-center space-y-4">
+          <div className="md:w-[270px] bg-indigo-700 w-full h-[200px] relative rounded-2xl overflow-hidden">
             <Image
               src={giga3}
               alt="Giga Group Image 1"
@@ -60,7 +60,7 @@ const AboutGiga = () => {
               objectFit="cover" 
             />
           </div>
-          <div className="w-[270px] h-[139px] relative rounded-2xl overflow-hidden">
+          <div className="md:w-[270px] w-full h-[139px] relative rounded-2xl overflow-hidden">
             <Image
               src={giga4}
               alt="Giga Group Image 2"
@@ -68,7 +68,7 @@ const AboutGiga = () => {
               objectFit="cover"
             />
           </div>
-          <div className="w-[270px] h-[200px] relative rounded-2xl overflow-hidden">
+          <div className="md:w-[270px] w-full h-[200px] relative rounded-2xl overflow-hidden">
             <Image
               src={giga5}
               alt="Giga Group Image 2"
