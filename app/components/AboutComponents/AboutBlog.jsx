@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutBlog = () => {
   return (
-    <div className="px-[75px] py-[120px]">
+    <div className="md:px-[75px]  md:py-[120px] py-16">
       <div className="grid grid-cols-1 md:grid-cols-3  my-14 ">
         {aboutBlog.map((item) => (
           <div

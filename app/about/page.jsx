@@ -5,7 +5,7 @@ import WhoWeAre from "../components/AboutComponents/WhoWeAre";
 import AboutBlog from "../components/AboutComponents/AboutBlog";
 import AboutGiga from "../components/AboutComponents/AboutGiga";
 import AboutAward from "../components/AboutComponents/AboutAward";
-import map from "../../public/aboutMap.svg"
+import map from "../../public/aboutMap.svg";
 import Image from "next/image";
 
 const page = () => {

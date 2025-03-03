@@ -21,6 +21,6 @@ export const NavbarData = [
   },
   {
     id: 6,
-    title: "CONTACT US",
+    title: "CONTACT",
   },
 ];
