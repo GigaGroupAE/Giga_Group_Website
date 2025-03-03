@@ -17,6 +17,7 @@ export default {
         bgmap: "url('/map.svg')",
         aboutCover: "url('/coverAbout.svg')",
         grpupCover: "url('/group.webp')",
+        contactCover: "url('/contact-bg.webp')",
       },
       colors: {
         TextandIcons: "#454C54",

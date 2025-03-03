@@ -1,3 +1,4 @@
+"use client"
 import { projectsName } from "@/src/Data/ProjectsName";
 import React, { useState } from "react";
 import GeneralQA from "../GeneralQA";
@@ -10,7 +11,7 @@ const FrequentlyQA = () => {
         <h1 className="font-poppins text-TextandIcons text-5xl font-thin sm:text-center text-center">
           Frequently Asked <b>Questions </b>
         </h1>
-        <p className="descriptionText">Check for instant answer</p>
+        <p className="descriptionText text-center">Check for instant answer</p>
       </div>
 
       {/* Projects Name  */}

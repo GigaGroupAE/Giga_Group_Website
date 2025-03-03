@@ -16,7 +16,7 @@ const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
   const [subDropdownVisible, setSubDropdownVisible] = useState(null);
   const [isMobileNav, setisMobileNav] = useState(false);
-  const [activeMenu, setActiveMenu] = useState(null); // Track active menu item
+  const [activeMenu, setActiveMenu] = useState(null); 
 
   return (
     <nav className="py-4 container mx-auto">
