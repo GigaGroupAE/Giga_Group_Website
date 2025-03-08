@@ -83,12 +83,12 @@ const Navbar = () => {
                         {/* Nested Sub-dropdown */}
                         {subDropdownVisible === subItem && (
                           <div className=" ml-2 absolute left-full top-0 w-52 bg-white rounded shadow-lg">
-                            <a
-                              href="#"
+                            <Link
+                              href="/ocean-crest"
                               className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
                             >
                               Ocean Crest Residence
-                            </a>
+                            </Link>
                             <a
                               href="#"
                               className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"

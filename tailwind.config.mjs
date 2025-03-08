@@ -18,6 +18,7 @@ export default {
         aboutCover: "url('/coverAbout.svg')",
         grpupCover: "url('/group.webp')",
         contactCover: "url('/contact-bg.webp')",
+        oceanCrest: "url('/ocean-crestCover.webp')",
       },
       colors: {
         TextandIcons: "#454C54",
