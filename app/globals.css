@@ -19,3 +19,6 @@
 .countSubHeading {
     @apply font-poppins font-thin md:text-[16px] text-[14px] py-2
 }
+.subHeading {
+@apply font-poppins text-4xl text-TextandIcons
+}

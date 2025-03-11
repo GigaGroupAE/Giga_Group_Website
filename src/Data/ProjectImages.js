@@ -1,7 +1,7 @@
 export const projectImages = [
   {
     id: 1,
-    image: "/project1.webp",
+    image: "/project2.webp",
   },
   {
     id: 2,
@@ -9,18 +9,18 @@ export const projectImages = [
   },
   {
     id: 3,
-    image: "/project3.webp",
+    image: "/project2.webp",
   },
   {
     id: 4,
-    image: "/project4.webp",
+    image: "/project2.webp",
   },
   {
     id: 5,
-    image: "/project5.webp",
+    image: "/project2.webp",
   },
   {
     id: 6,
-    image: "/project6.webp",
+    image: "/project2.webp",
   },
 ];
