@@ -12,7 +12,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        heroImage: "url('/HeroImage.png')",
+        heroImage: "url('/HeroImage.webp')",
         excellenceCover: "url('/cover.webp')",
         bgmap: "url('/map.svg')",
         aboutCover: "url('/coverAbout.svg')",
@@ -32,5 +32,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };

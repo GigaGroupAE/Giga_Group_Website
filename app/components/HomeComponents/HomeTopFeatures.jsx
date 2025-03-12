@@ -1,6 +1,7 @@
 import { topFeatures } from "@/src/Data/TopFeaturesData";
 import React from "react";
 import ButtonPrimary from "../ButtonPrimary";
+import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 
 const HomeTopFeatures = () => {
   return (
@@ -19,18 +20,21 @@ const HomeTopFeatures = () => {
           infrastructure.
         </p>
       </div>
-
+      <div className="mt-12 mb-5">
+        <div className="flex gap-4">
+          <IoIosArrowRoundBack size={30} />
+          <IoIosArrowRoundForward size={30} />
+        </div>
+      </div>
       {/* Horizontal scrollable container */}
       <div className="  w-full  ">
-        {/* Parent container with horizontal scrolling enabled */}
-        <div className="flex overflow-x-auto gap-5">
-          {/* Map through the features and display them */}
+        <div className="flex overflow-x-auto  gap-6 scrollbar-hide px-4">
           {topFeatures.map((item, index) => {
             const imageUrl = item?.image ? `/${item.image}` : null;
             return (
               <div
                 key={index}
-                className="group flex-shrink-0 relative z-50 w-[300px] h-[500px] bg-cover bg-no-repeat cursor-pointer"
+                className="  group flex-shrink-0 relative w-72 h-[28rem] bg-cover bg-no-repeat cursor-pointer rounded-xl overflow-hidden shadow-lg transition-transform duration-300 "
                 style={{
                   backgroundImage: imageUrl ? `url(${imageUrl})` : "none",
                   borderRadius: "14px",
@@ -41,7 +45,9 @@ const HomeTopFeatures = () => {
                 </h2>
 
                 <div className="px-4 absolute bottom-4">
-                  <h1 className="text-white text-xl">{item?.projectName}</h1>
+                  <h1 className="text-white text-2xl font-semibold font-poppins">
+                    {item?.projectName}
+                  </h1>
                   <p className="font-poppins text-xs text-white">
                     {item?.description}
                   </p>

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import about1 from "../../../public/about2.png";
-import about3 from "../../../public/about1.png";
-import about2 from "../../../public/about3.png";
+import about1 from "../../../public/about2.webp";
+import about3 from "../../../public/about1.webp";
+import about2 from "../../../public/about3.webp";
 import ButtonPrimary from "../ButtonPrimary";
 
 const HomeAboutSeaction = () => {
@@ -10,7 +10,7 @@ const HomeAboutSeaction = () => {
     <section className=" container mx-auto">
       {/* About Count  */}
 
-      <div className=" md:my-[100] px-4 my-24     mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] ">
+      <div className=" md:py-24  px-4   py-12    mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] space-y-5 ">
         <div className="flex flex-1   gap-16 md:justify-between  items-center  px-4">
           <div className="">
             <h2 className="headingCount ">60+</h2>
@@ -42,7 +42,7 @@ const HomeAboutSeaction = () => {
         {/* left  container  */}
 
         <div className=" flex-1 flex-row flex items-center  ">
-          <div className="flex-1  h-[350px] relative md:left-10 right-4 md:right-0 md:top-12">
+          <div className="flex-1  h-[350px] relative md:left-2 right-4 md:right-0 md:top-12">
             <Image src={about1} alt="gigagrpup" className=" h-[350px]" />
           </div>
           <div className="flex-1  ">

@@ -8,7 +8,7 @@ const GeneralQA = () => {
   const [openQuestionId, setOpenQuestionId] = useState(null);
 
   return (
-    <section className="flex w-[80%] mx-auto mt-8 px-10">
+    <section className="flex md:w-[95%] w-full mx-auto mt-8 md:px-10">
       <div className="">
         {QAData.map((item) => {
           return (
