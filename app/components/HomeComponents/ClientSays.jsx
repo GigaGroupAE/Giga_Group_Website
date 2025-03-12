@@ -6,9 +6,9 @@ import diamond from "../../../public/diamond.svg";
 const ClientSays = () => {
   return (
     <section>
-      <div className=" h-32 96 bg-gradient-to-b from-[#f5f4e9]via-[##f5f4e9] to-white   "></div>
+      <div className=" md:h-32 bg-gradient-to-b from-[#f5f4e9]via-[##f5f4e9] to-white   "></div>
       <div className="md:w-4/6 w-11/12 mx-auto">
-        <h1 className="font-poppins text-TextandIcons text-5xl font-thin  md:text-center">
+        <h1 className="font-poppins  text-TextandIcons text-5xl font-thin  md:text-center">
           What Our <b>Clients Say </b>
         </h1>
         <p className="descriptionText">
