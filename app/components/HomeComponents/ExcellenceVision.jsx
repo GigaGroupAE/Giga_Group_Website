@@ -7,8 +7,8 @@ import shoopingMall from "../../../public/ShoppingMall.svg";
 const ExcellenceVision = () => {
   return (
     <section className="bg-[rgba(255,254,253)]  my-20 relative z-50 ">
-      <div className="md:w-4/6 w-4/6 mx-auto  mb-8 ">
-        <h1 className="font-poppins text-TextandIcons text-5xl font-thin   md:text-center">
+      <div className="md:w-4/6 w-4/5 mx-auto  mb-8 ">
+        <h1 className="font-poppins text-TextandIcons text-5xl font-thin mt-5  md:text-center">
           Experience the <b>Vision of Excellence</b>
         </h1>
         <p className="descriptionText text-center">
@@ -20,7 +20,7 @@ const ExcellenceVision = () => {
 
       {/* seaction images  */}
 
-      <div className="  gap-4 flex md:flex-row flex-col container mx-auto  ">
+      <div className="  gap-4 flex md:flex-row flex-col container mx-auto items-center  ">
         <div className=" w-11/12 md:w-[37rem] ">
           <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
             <b className="bold">Recreational </b> Areas
@@ -32,24 +32,23 @@ const ExcellenceVision = () => {
             className="   bg-repeat-round h-[40rem] "
           />
         </div>
-        <div className="  ">
+        <div className=" space-y-5  w-[24rem] my-auto flex flex-col items-center justify-center  ">
           <div className="">
-            <Image
-              src={beach}
-              alt="beaches"
-              className="h-[20rem] bg-contain md:w-[300px]     bg-repeat-round"
-            />
-
             <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
               Beaches
             </h1>
-          </div>
-
-          <div className="">
             <Image
               src={beach}
               alt="beaches"
-              className="h-[20rem] bg-contain md:w-[300px]    bg-repeat-round"
+              className="h-[18rem] bg-contain     bg-repeat-round"
+            />
+          </div>
+
+          <div className="my-3">
+            <Image
+              src={beach}
+              alt="beaches"
+              className="h-[19rem] bg-contain   bg-repeat-round"
             />
 
             <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
@@ -66,7 +65,7 @@ const ExcellenceVision = () => {
             <Image
               src={shoopingMall}
               alt="Recreational Areas"
-              className=" bg-contain  h-[40rem]  w-[350px]  bg-repeat-round"
+              className=" bg-contain  h-[40rem]   w-[24rem]  bg-repeat-round"
             />
           </div>
         </div>

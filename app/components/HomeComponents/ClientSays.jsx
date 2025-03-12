@@ -19,13 +19,13 @@ const ClientSays = () => {
       </div>
 
       {/* Top Container */}
-      <div className=" flex gap-4  my-10  overflow-x-auto flex-nowrap">
+      <div className=" flex gap-4 overflow-x-auto   my-10 scrollbar-hide  flex-nowrap">
         {FeedBackData.map((item, index) => {
           console.log(item?.avatar);
           return (
             <div
               key={index}
-              className="bg-[rgb(250,250,244)] w-[300px] px-6 py-6 rounded-lg border border-white flex-shrink-0"
+              className="bg-[rgb(250,250,244)] scrollbar-hide overflow-hidden w-[300px] px-6 py-6 rounded-lg border border-white flex-shrink-0"
             >
               <div className="flex gap-2">
                 <Image

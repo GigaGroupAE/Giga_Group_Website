@@ -10,7 +10,7 @@ const HomeAboutSeaction = () => {
     <section className=" container mx-auto">
       {/* About Count  */}
 
-      <div className=" md:py-24  px-4   py-12    mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] ">
+      <div className=" md:py-24  px-4   py-12    mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] space-y-5 ">
         <div className="flex flex-1   gap-16 md:justify-between  items-center  px-4">
           <div className="">
             <h2 className="headingCount ">60+</h2>

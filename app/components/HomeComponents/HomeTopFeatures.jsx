@@ -20,17 +20,15 @@ const HomeTopFeatures = () => {
           infrastructure.
         </p>
       </div>
-         <div className="mt-12 mb-5">
-              <div className="flex gap-4">
-                <IoIosArrowRoundBack size={30} />
-                <IoIosArrowRoundForward size={30} />
-              </div>
-            </div>
+      <div className="mt-12 mb-5">
+        <div className="flex gap-4">
+          <IoIosArrowRoundBack size={30} />
+          <IoIosArrowRoundForward size={30} />
+        </div>
+      </div>
       {/* Horizontal scrollable container */}
       <div className="  w-full  ">
-        {/* Parent container with horizontal scrolling enabled */}
         <div className="flex overflow-x-auto  gap-6 scrollbar-hide px-4">
-          {/* Map through the features and display them */}
           {topFeatures.map((item, index) => {
             const imageUrl = item?.image ? `/${item.image}` : null;
             return (
@@ -47,7 +45,9 @@ const HomeTopFeatures = () => {
                 </h2>
 
                 <div className="px-4 absolute bottom-4">
-                  <h1 className="text-white text-2xl font-semibold font-poppins">{item?.projectName}</h1>
+                  <h1 className="text-white text-2xl font-semibold font-poppins">
+                    {item?.projectName}
+                  </h1>
                   <p className="font-poppins text-xs text-white">
                     {item?.description}
                   </p>

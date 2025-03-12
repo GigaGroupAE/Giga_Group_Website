@@ -32,12 +32,12 @@ const NewsLetter = () => {
             <input
               type="text"
               placeholder="Name"
-              className="    rounded-md py-2 px-4  md:w-[233px] w-full "
+              className="    rounded-md py-2 px-4  md:w-[233px] w-full outline-none "
             />
             <input
               type="text"
               placeholder="Email Address"
-              className="    rounded-md py-2 px-4  mx-2 md:w-[233px] w-full  "
+              className="    rounded-md py-2 px-4  mx-2 md:w-[233px] w-full  outline-none "
             />
 
             <div className=" w-full md:flex">
