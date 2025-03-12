@@ -5,7 +5,8 @@ import diamond from "../../../public/diamond.svg";
 
 const ClientSays = () => {
   return (
-    <section className=" mt-10">
+    <section>
+      <div className=" h-32 96 bg-gradient-to-b from-[#f5f4e9]via-[##f5f4e9] to-white   "></div>
       <div className="md:w-4/6 w-11/12 mx-auto">
         <h1 className="font-poppins text-TextandIcons text-5xl font-thin  md:text-center">
           What Our <b>Clients Say </b>
@@ -53,7 +54,7 @@ const ClientSays = () => {
         })}
       </div>
 
-      <div className=" h-[200px] flex items-center">
+      {/* <div className=" h-[200px] flex items-center">
         <div className="w-4/6  mx-auto flex  justify-between">
           <Image src={diamond} className="" alt="images" />
           <Image src={diamond} className="" alt="images" />
@@ -61,7 +62,7 @@ const ClientSays = () => {
           <Image src={diamond} className="" alt="images" />
           <Image src={diamond} className="" alt="images" />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

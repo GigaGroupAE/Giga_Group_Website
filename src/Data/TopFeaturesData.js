@@ -5,7 +5,7 @@ export const topFeatures = [
     description:
       "An ultra-modern 40-story residential tower located in the Jumeirah Lake Towers (JLT) community. This project received the 'Best High-rise Development Award' in 2008, reflecting its architectural excellence and superior construction.",
     status: "Coming Soon",
-    image: "gce.jpeg", // Updated path
+    image: "gce.webp",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const topFeatures = [
     description:
       "An ultra-modern 40-story residential tower located in the Jumeirah Lake Towers (JLT) community. This project received the 'Best High-rise Development Award' in 2008, reflecting its architectural excellence and superior construction.",
     status: "Delivered",
-    image: "gce.jpeg", // Updated path
+    image: "gce.webp",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const topFeatures = [
     description:
       "An ultra-modern 40-story residential tower located in the Jumeirah Lake Towers (JLT) community. This project received the 'Best High-rise Development Award' in 2008, reflecting its architectural excellence and superior construction.",
     status: "Delivered",
-    image: "gce.jpeg", // Updated path
+    image: "gce.webp",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const topFeatures = [
     description:
       "An ultra-modern 40-story residential tower located in the Jumeirah Lake Towers (JLT) community. This project received the 'Best High-rise Development Award' in 2008, reflecting its architectural excellence and superior construction.",
     status: "Delivered",
-    image: "gce.jpeg", // Updated path
+    image: "gce.webp",
   },
   {
     id: 5,
@@ -37,6 +37,6 @@ export const topFeatures = [
     description:
       "An ultra-modern 40-story residential tower located in the Jumeirah Lake Towers (JLT) community. This project received the 'Best High-rise Development Award' in 2008, reflecting its architectural excellence and superior construction.",
     status: "Delivered",
-    image: "gce.jpeg", // Updated path
+    image: "gce.webp",
   },
 ];

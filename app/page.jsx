@@ -73,7 +73,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-excellenceCover flex items-center justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-[60]  w-full bg-repeat-round  object-center  bg-cover">
+        <div className="bg-excellenceCover flex items-center justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-16  w-full bg-repeat-round  object-center  bg-cover">
           <div className="md:w-[70%] w-[90%] gap-4 backdrop-blur-lg  items-center flex flex-col justify-center bg-white bg-opacity-30 md:p-8  p-1 px-[16] py-[50]  rounded-lg">
             <h1 className="text-white md:text-5xl  text-4xl ">
               Redefining Real Estate with <b>Excellence</b>
