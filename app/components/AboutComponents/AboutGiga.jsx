@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const AboutGiga = () => {
   return (
-    <div className="md:py-[120px] md:px-[80px] px-[8] flex md:flex-row flex-col items-center md:space-x-28">
+    <div className="md:py-[120px] py-5 md:px-[80px] px-[8] flex md:flex-row flex-col items-center md:space-x-28">
       <div className="space-y-4">
         <GigaComponent />
 

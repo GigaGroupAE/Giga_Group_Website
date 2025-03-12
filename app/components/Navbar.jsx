@@ -16,13 +16,17 @@ const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
   const [subDropdownVisible, setSubDropdownVisible] = useState(null);
   const [isMobileNav, setisMobileNav] = useState(false);
-  const [activeMenu, setActiveMenu] = useState(null); 
+  const [activeMenu, setActiveMenu] = useState(null);
+
+  const handleClose = () => {
+    setisMobileNav(!isMobileNav);
+  };
 
   return (
     <nav className="py-4 container mx-auto">
       {isMobileNav && (
         <div>
-          <MobileNav />
+          <MobileNav onClose={handleClose} />
         </div>
       )}
       <div className="flex flex-row items-center justify-between px-4">
@@ -52,7 +56,7 @@ const Navbar = () => {
                 href={
                   item.title === "HOME" ? "/" : `/${item.title.toLowerCase()}`
                 }
-                onClick={() => setActiveMenu(item.title)} 
+                onClick={() => setActiveMenu(item.title)}
                 className={`text-sm font-poppins hover:text-secondary ${
                   activeMenu === item.title
                     ? "text-secondary"

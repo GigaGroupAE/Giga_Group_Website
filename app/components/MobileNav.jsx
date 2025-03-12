@@ -2,78 +2,88 @@
 import { NavbarData } from "@/src/Data/NavbarData";
 import React, { useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { AiOutlineGlobal } from "react-icons/ai";
-import { CiMenuBurger } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
+import Link from "next/link";
+import { IoClose } from "react-icons/io5";
 
-const MobileNav = () => {
+const MobileNav = ({ onClose }) => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
   const [subDropdownVisible, setSubDropdownVisible] = useState(null);
-  const [isMobileNav, setisMobileNav] = useState(false);
+
+  const handleNavigation = () => {
+    onClose();
+    console.log("clicl");
+  };
+
   return (
-    <div className=" bg-[rgb(185,182,182,0.5)]  h-screen w-full  absolute">
-      <div className="bg-white w-4/5 h-full px-4 py-4">
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex">
+      <div className="bg-white w-4/5 h-full px-4 py-4 relative shadow-lg">
+        <div
+          onClick={() => console.log("handler")}
+          className="absolute top-4  right-4 text-gray-600 hover:text-black"
+        >
+          <IoClose size={24} />
+        </div>
+
         {NavbarData.map((item) => (
-          <div key={item.id} className="relative  py-3 items-center gap-2">
-            <div className=" flex justify-between">
-              <h2
-                onClick={() =>
-                  item.title === "PROJECTS" &&
-                  setDropdownVisible(!dropdownVisible)
+          <div key={item.id} className="relative py-3">
+            <div className="flex justify-between items-center">
+              <Link
+                href={
+                  item.title === "HOME" ? "/" : `/${item.title.toLowerCase()}`
                 }
-                className="text-TextandIcons text-sm font-poppins hover:text-secondary"
+                onClick={handleNavigation}
+                className="text-gray-800 text-sm font-medium hover:text-secondary"
               >
                 {item.title}
-              </h2>
-              {item.title === "PROJECTS" && <IoIosArrowDown size={14} />}
+              </Link>
+
+              {item.title === "PROJECTS" && (
+                <button onClick={() => setDropdownVisible(!dropdownVisible)}>
+                  <IoIosArrowDown
+                    size={14}
+                    className={`${
+                      dropdownVisible ? "rotate-180" : ""
+                    } transition-transform`}
+                  />
+                </button>
+              )}
             </div>
 
-            {/* Dropdown for PROJECTS */}
             {item.title === "PROJECTS" && dropdownVisible && (
-              <div className=" bg-white  ">
+              <div className="bg-white border rounded-md mt-2 shadow-md">
                 {["Residential Projects", "Commercial Projects"].map(
-                  (subItem, index) => (
-                    <div key={index}>
-                      <div className=" flex justify-between items-center  text-TextandIcons hover:text-#61646A hover:bg-[rgba(250,247,229)]">
-                        <button
-                          onClick={() =>
-                            setSubDropdownVisible(
-                              subDropdownVisible === subItem ? null : subItem
-                            )
-                          }
-                          className="font-poppins  py-3 text-sm text-TextandIcons hover:text-#61646A "
-                        >
-                          {subItem}
-                        </button>
+                  (subItem) => (
+                    <div key={subItem} className="group">
+                      <button
+                        onClick={() =>
+                          setSubDropdownVisible(
+                            subDropdownVisible === subItem ? null : subItem
+                          )
+                        }
+                        className="w-full text-left py-2 px-4 text-gray-700 hover:bg-gray-100 flex justify-between items-center"
+                      >
+                        {subItem}
                         <MdKeyboardArrowRight size={14} />
-                      </div>
-                      {/* Nested Sub-dropdown */}
+                      </button>
+
                       {subDropdownVisible === subItem && (
-                        <div className="  w-52 bg-white">
-                          <a
-                            href="#"
-                            className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
-                          >
-                            Ocean Crest Residence
-                          </a>
-                          <a
-                            href="#"
-                            className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
-                          >
-                            Goldcrest Views 1
-                          </a>
-                          <a
-                            href="#"
-                            className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
-                          >
-                            Goldcrest Views 2
-                          </a>
-                          <a
-                            href="#"
-                            className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
-                          >
-                            Goldcrest Executive
-                          </a>
+                        <div className="pl-6 border-l">
+                          {[
+                            "Ocean Crest Residence",
+                            "Goldcrest Views 1",
+                            "Goldcrest Views 2",
+                            "Goldcrest Executive",
+                          ].map((project) => (
+                            <Link
+                              key={project}
+                              href="#"
+                              onClick={handleNavigation}
+                              className="block py-2 px-4 text-gray-600 hover:bg-gray-100"
+                            >
+                              {project}
+                            </Link>
+                          ))}
                         </div>
                       )}
                     </div>

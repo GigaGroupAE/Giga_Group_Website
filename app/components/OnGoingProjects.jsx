@@ -1,12 +1,16 @@
+"use client"
 import { onGoinProjects } from "@/src/Data/OnGoingProjectsData";
 import React from "react";
 import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import ButtonPrimary from "./ButtonPrimary";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const OnGoingProjects = () => {
+  const router = useRouter();
   return (
     <div className="container mx-auto py-20">
-      <div className=" flex justify-between items-center ">
+      <div className=" flex justify-between items-center px-6 md:px-0 ">
         <h2 className="subHeading font-semibold">On Going Projects</h2>
         <p className="bg-greyBG  px-5 rounded-full text-xs font-poppins py-1">
           View all
@@ -23,6 +27,16 @@ const OnGoingProjects = () => {
         <div className="flex overflow-x-auto gap-6 scrollbar-hide px-4">
           {onGoinProjects.map((item, index) => {
             const imageUrl = item?.image ? `/${item.image}` : null;
+
+            const handleNavigation = () => {
+              const href =
+                item.title === "Ocean Crest Residence"
+                  ? "/ocean-crest"
+                  : `/`;
+
+              router.push(href);
+            };
+
             return (
               <div
                 key={index}
@@ -53,7 +67,10 @@ const OnGoingProjects = () => {
                       className="opacity-0 group-hover:opacity-100 mt-4"
                       layout
                     >
-                      <ButtonPrimary title="Learn More" />
+                      <ButtonPrimary
+                        title="Learn More"
+                        handleOnClick={handleNavigation}
+                      />
                     </div>
                   </div>
                 </div>
