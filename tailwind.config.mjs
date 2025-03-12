@@ -19,6 +19,7 @@ export default {
         grpupCover: "url('/group.webp')",
         contactCover: "url('/contact-bg.webp')",
         oceanCrest: "url('/ocean-crestCover.webp')",
+        projectsHero: "url('/projectHero.webp')",
       },
       colors: {
         TextandIcons: "#454C54",
