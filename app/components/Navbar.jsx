@@ -53,9 +53,7 @@ const Navbar = () => {
               className="relative flex flex-row items-center gap-2"
             >
               <Link
-                href={
-                  item.title === "HOME" ? "/" : `/${item.title.toLowerCase()}`
-                }
+                href={item?.link}
                 onClick={() => setActiveMenu(item.title)}
                 className={`text-sm font-poppins hover:text-secondary ${
                   activeMenu === item.title
