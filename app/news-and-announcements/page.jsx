@@ -7,13 +7,13 @@ import ButtonPrimary from "../components/ButtonPrimary";
 
 const index = () => {
   return (
-    <div className=" w-[90rem] bg-[#FDFDFD]  mx-auto px-32   pb-24 ">
-      <div className="flex ">
-        1{/* Left Container  */}
-        <div className=" w-[75rem]">
+    <div className=" md:w-[90rem]  w-full bg-[#FDFDFD]  mx-auto md:px-32   pb-24 ">
+      <div className="flex  md:flex-row flex-col px-3 md:px-0">
+        {/* Left Container  */}
+        <div className=" md:w-[75rem]  w-full ">
           {announcementsData.map((item) => {
             return (
-              <div className=" w-[95%] px-1 py-7 space-y-3">
+              <div className=" w-[95%]  py-7 space-y-3">
                 <Image
                   src={newsImage}
                   alt="AnnouncementImage"
@@ -38,7 +38,7 @@ const index = () => {
           })}
         </div>
         {/* Right Container  */}
-        <div className=" bg-[#FDFDFD] w-[25rem]  space-y-7 py-7 ">
+        <div className=" bg-[#FDFDFD] md:w-[25rem] w-[95%]  space-y-7 py-7 ">
           <div className="  space-y-5 ">
             <h2 className="font-poppins text-lg text-TextandIcons font-semibold">
               Find & Search
