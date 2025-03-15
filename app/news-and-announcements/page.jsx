@@ -1,9 +1,16 @@
-import { announcementsData, recentBlogs } from "@/src/Data/AnnouncementData";
+import {
+  announcementsData,
+  posts,
+  recentBlogs,
+} from "@/src/Data/AnnouncementData";
 import React from "react";
 import newsImage from "../../public/blog1.webp";
 import searchImage from "../../public/search.webp";
 import Image from "next/image";
 import ButtonPrimary from "../components/ButtonPrimary";
+import ContactUs from "../components/Contact/ContactUs";
+import ContactUsForm from "../components/ContactUsForm";
+import ContactForm from "../components/Contact/ContactForm";
 
 const index = () => {
   return (
@@ -11,9 +18,9 @@ const index = () => {
       <div className="flex  md:flex-row flex-col px-3 md:px-0">
         {/* Left Container  */}
         <div className=" md:w-[75rem]  w-full ">
-          {announcementsData.map((item) => {
+          {announcementsData.map((item, index) => {
             return (
-              <div className=" w-[95%]  py-7 space-y-3">
+              <div className=" w-[95%]  py-7 space-y-3" key={index}>
                 <Image
                   src={newsImage}
                   alt="AnnouncementImage"
@@ -85,9 +92,9 @@ const index = () => {
               </h2>
 
               <div className="space-y-5">
-                {recentBlogs.map((item) => {
+                {recentBlogs.map((item, index) => {
                   return (
-                    <div className="flex items-center space-x-4 ">
+                    <div className="flex items-center space-x-4 " key={index}>
                       <Image
                         src={newsImage}
                         alt="AnnouncementImage"
@@ -128,6 +135,56 @@ const index = () => {
           </div>
         </div>
       </div>
+
+      <div className="   py-12 px-3 md:px-0">
+        <div className="flex justify-between  items-center ">
+          <h2 className="subHeading">Posts</h2>
+
+          <div className=" px-5 py-1 text-center rounded-full bg-greyBG">
+            <p className="font-poppins text-center text-xs text-TextandIcons ">
+              View all
+            </p>
+          </div>
+        </div>
+
+        <div className=" py-12 flex md:flex-row flex-col">
+          {posts.map((item, index) => {
+            return (
+              <div className=" w-[95%]  py-7 space-y-3 " key={index}>
+                <Image
+                  src={newsImage}
+                  alt="AnnouncementImage"
+                  className=" rounded-2xl h-80 w-96    object-cover"
+                />
+
+                <div className="flex space-x-2 items-center  ">
+                  <p className="font-poppins text-placeholderText font-medium text-sm">
+                    {item?.date}{" "}
+                  </p>
+                </div>
+
+                <h2 className="font-poppins text-lg font-semibold text-TextandIcons">
+                  {item?.title}
+                </h2>
+                <p className="font-poppins text-xs text-TextandIcons">
+                  {item?.content}
+                </p>
+                <div className="flex items-center space-x-3">
+                  <Image
+                    src={newsImage}
+                    alt="AnnouncementImage"
+                    className=" h-6 w-6 rounded-full    object-cover"
+                  />
+                  <h2 className="font-poppins text-xs text-TextandIcons font-semibold">
+                    John Mathew
+                  </h2>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <ContactForm/>
     </div>
   );
 };
