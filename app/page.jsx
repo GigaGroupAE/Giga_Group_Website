@@ -23,9 +23,10 @@ export default function Home() {
 
       <HomeTopFeatures />
 
-      <div className="z-50 relative">
-        <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 flex-col items-center flex justify-center bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
-          <div className="w-full max-w-4xl mb-8 sm:mb-12">
+      <div className="z-50 relative bg-white py-28 ">
+        {/* <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 flex-col items-center flex justify-center bg-white"> */}
+        <div className=" container mx-auto ">
+          <div className="w-full  mb-8 sm:mb-12">
             <h2 className="headingSeaction text-4xl lg:text-5xl text-center">
               Redefining Real Estate with <b>Excellence</b>
             </h2>
@@ -39,7 +40,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="w-full max-w-6xl flex flex-col sm:flex-row items-center justify-between gap-8">
+          <div className="w-full  flex flex-col sm:flex-row items-center justify-between gap-8">
             <div className="cartContainer w-full sm:w-1/3 ">
               <Image src={architecture} alt="architecture" />
               <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
@@ -71,29 +72,38 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
 
-        <div className="bg-excellenceCover flex items-center justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-16  w-full bg-repeat-round  object-center  bg-cover">
-          <div className="md:w-[70%] w-[90%] gap-4 backdrop-blur-lg  items-center flex flex-col justify-center bg-white bg-opacity-30 md:p-8  p-1 px-[16] py-[50]  rounded-lg">
-            <h1 className="text-white md:text-5xl  text-4xl ">
-              Redefining Real Estate with <b>Excellence</b>
-            </h1>
-            <p className="descriptionText text-white">
-              At Giga Group Real Estate Developers, we pride ourselves on
-              delivering exceptional properties that combine innovation, prime
-              locations, and sustainability. Each development is thoughtfully
-              designed to enhance lifestyles, create long-term value, and set
-              new benchmarks in the real estate industry.
-            </p>
-          </div>
+          <div className="bg-secondary w-60 h-60 -z-40 blur-[250px] top-[25rem] left-0      absolute rounded-full"></div>
+
+          <div className="bg-secondary w-60 h-20 blur-[200px]  -z-40 right-96 2xl:right-96  absolute rounded-full"></div>
+        </div>
+      </div>
+
+      <div className="bg-excellenceCover flex items-center z-50 justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-24  w-full bg-repeat-round  object-center  bg-cover">
+        <div className=" w-[95%] sm:[50rem] md:w-[68rem] px-4 sm:px-28  py-12 gap-4 backdrop-blur-lg  items-center flex flex-col justify-center bg-white bg-opacity-30  rounded-lg">
+          <h1 className="text-white md:text-5xl  text-4xl ">
+            Redefining Real Estate with <b>Excellence</b>
+          </h1>
+          <p className="descriptionText text-white text-center">
+            At Giga Group Real Estate Developers, we pride ourselves on
+            delivering exceptional properties that combine innovation, prime
+            locations, and sustainability. Each development is thoughtfully
+            designed to enhance lifestyles, create long-term value, and set new
+            benchmarks in the real estate industry.
+          </p>
         </div>
       </div>
 
       <HomeMap />
 
       <DistanceDetails />
+      <div className="bg-secondary blur-[200px]   w-96 h-20 rounded-full absolute right-0"></div>
+      <div className="bg-secondary blur-[200px]   w-96 h-20 rounded-full absolute "></div>
 
       <ExcellenceVision />
+      <div className="bg-white/70 flex items-center  -z-10 justify-center   w-11/12 h-96 absolute rounded-full   mx-auto ">
+        <div className="bg-secondary w-96 h-96  blur-[240px]   absolute rounded-full  z-50 mx-auto "></div>
+      </div>
 
       <ClientSays />
 

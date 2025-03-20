@@ -6,9 +6,9 @@ import GeneralQA from "../GeneralQA";
 const FrequentlyQA = () => {
   const [activeItem, setActiveItem] = useState(1);
   return (
-    <section className=" py-20 bg-gradient-to-b from-white to-secondary/10">
+    <section className=" py-20 bg-white/70">
       <div className="md:w-4/6  mx-auto">
-        <h1 className="font-poppins  leading-snug text-TextandIcons md:text-5xl text-4xl font-thin sm:text-center text-center">
+        <h1 className="font-poppins  leading-snug text-TextandIcons md:text-5xl text-4xl font-normal sm:text-center text-center">
           Frequently Asked <b>Questions </b>
         </h1>
         <p className="descriptionText text-center">Check for instant answer</p>
@@ -39,6 +39,7 @@ const FrequentlyQA = () => {
           );
         })}
       </div>
+      <div className="bg-secondary w-80 h-80  mt-96 blur-[200px]  -z-40 right-96 2xl:right-96  absolute rounded-full"></div>
 
       {activeItem && (
         <div className="md:w-[80%] mx-auto mt-6 md:mt-12 hidden md:block">

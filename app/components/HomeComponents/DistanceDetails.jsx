@@ -3,13 +3,13 @@ import React from "react";
 
 const DistanceDetails = () => {
   return (
-    <section className="md:py-[120px] py-[70] md:pl-[100px]  bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
-      <div className="md:w-4/5 w-[96%] mx-auto">
-        <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3 ">
+    <section className=" bg-white/50 py-24  ">
+      <div className="container  mx-auto  ">
+        <div className="mx-auto  grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3 ">
           {distanceMap?.map((item, index) => (
             <div
               key={index}
-              className=" px-6 py-2  rounded-md border border-white bg-transparent "
+              className=" px-7 py-3  w-96  rounded-md border border-white bg-transparent "
             >
               <h2 className="text-2xl font-bold text-TextandIcons font-poppins">
                 {item.heading}
@@ -23,7 +23,6 @@ const DistanceDetails = () => {
             </div>
           ))}
         </div>
-
      
       </div>
     </section>

@@ -5,11 +5,11 @@ import Image from "next/image";
 
 const HomeMap = () => {
   return (
-    <section className="  flex my-[70] md:my-0   ">
+    <section className="  flex my-[70] md:my-0 max-w-[90rem] mx-auto   ">
       <div className="flex items-center  md:flex-row flex-col  justify-center w-full mx-auto   ">
         {/* Left Container */} 
-        <div className="  flex-2 flex w-[110%]    justify-end mr-10 ">
-          <div className=" md:w-4/5   px-[60px] ">
+        <div className=" px-4 flex-2 flex w-[110%]     mr-10 ">
+          <div className=" md:w-4/5 px-4  mx-auto   ">
             <h1 className="font-poppins text-4xl  w-4/5  font-normal text-TextandIcons">
               Welcome to <b> Ocean</b> Crest Residence
             </h1>
