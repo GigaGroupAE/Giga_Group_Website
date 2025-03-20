@@ -5,10 +5,12 @@ import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 
 const HomeTopFeatures = () => {
   return (
-    <section className="py-[120px] pl-12  my-[70px] md:my-0  md:pl-[100px] bg-gradient-to-br from-white to-[#F8F7E0] via-transparent">
+    <section className="container bg-white mx-auto py-28 px-4 md:px-0">
       {/* Top section and heading */}
 
-      <div className=" md:mx-auto my-4 md:w-[890px] w-full   ">
+      <div className=""></div>
+
+      <div className=" md:mx-auto  md:w-4/5  w-full   ">
         <h2 className="headingSeaction">
           Explore Our <b> Top Features Projects</b>
         </h2>
@@ -26,7 +28,6 @@ const HomeTopFeatures = () => {
           <IoIosArrowRoundForward size={30} />
         </div>
       </div>
-      {/* Horizontal scrollable container */}
       <div className="  w-full  ">
         <div className="flex overflow-x-auto  gap-6 scrollbar-hide px-4">
           {topFeatures.map((item, index) => {
@@ -62,9 +63,7 @@ const HomeTopFeatures = () => {
             );
           })}
         </div>
-        {/* <div className="bg-red-600 w-full ">
-          <div className="bg-red-700 absolute  opacity-70   h-96 rounded-full  w-96 right-52  bg-gradient-to-b -z-0 from-[#F8F7E0] to-white   "></div>
-        </div> */}
+        <div className="bg-secondary w-72 h-36 blur-[200px]  right-48 2xl:right-96  absolute rounded-full"></div>
       </div>
     </section>
   );
