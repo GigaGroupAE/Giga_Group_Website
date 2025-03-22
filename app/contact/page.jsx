@@ -19,8 +19,9 @@ const page = () => {
       </div>
 
       <ContactUs />
+      <div className="bg-secondary  blur-[200px]  h-[22rem] w-[30rem] md:ml-96  2xl:ml-[70rem] mt-96 -z-40  xl:ml-[30rem]      -left-20  rounded-full absolute"></div>
 
-      <div className="bg-gradient-to-br from-white to-[#F8F7E0] via-transparent ">
+      <div className="bg-white/70">
         <ContactForm />
       </div>
 

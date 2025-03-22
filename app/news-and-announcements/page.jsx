@@ -14,7 +14,7 @@ import ContactForm from "../components/Contact/ContactForm";
 
 const index = () => {
   return (
-    <div className=" md:w-[90rem]  w-full bg-[#FDFDFD]  mx-auto md:px-32   pb-24 ">
+    <div className=" md:w-[90rem] backdrop-blur-[50px]  w-full bg-white/50 mx-auto md:px-32   pb-24 ">
       <div className="flex  md:flex-row flex-col px-3 md:px-0">
         {/* Left Container  */}
         <div className=" md:w-[75rem]  w-full ">
@@ -43,6 +43,8 @@ const index = () => {
               </div>
             );
           })}
+
+          <div className="bg-secondary blur-[200px] w-60 absolute md:-ml-60 -mt-28  h-60 rounded-full"></div>
         </div>
         {/* Right Container  */}
         <div className=" bg-[#FDFDFD] md:w-[25rem] w-[95%]  space-y-7 py-7 ">
@@ -183,8 +185,9 @@ const index = () => {
             );
           })}
         </div>
+        <div className="bg-secondary  w-60 absolute  md:-right-24 blur-[200px]  -mt-96    h-60 rounded-full"></div>
       </div>
-      <ContactForm/>
+      <ContactForm />
     </div>
   );
 };

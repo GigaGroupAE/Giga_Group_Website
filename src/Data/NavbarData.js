@@ -22,7 +22,7 @@ export const NavbarData = [
   {
     id: 5,
     title: "BLOGS",
-    link: "/",
+    link: "/blogs",
   },
   {
     id: 6,

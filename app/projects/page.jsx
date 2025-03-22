@@ -10,7 +10,7 @@ import NewsLetter from "../components/NewsLetter";
 const page = () => {
   return (
     <main>
-      <div className="bg-projectsHero  flex items-end   h-[38rem] bg-cover">
+      <div className="bg-projectsHero   flex items-end   h-[38rem] bg-cover">
         <div className="  mb-6  flex-col  md:w-3/4 w-11/12 mx-auto space-y-5 bg-[rgba(241,242,245,0.89)] px-8 py-5 backdrop-blur-md flex rounded-3xl">
           <div className="flex">
             <Label title="Coming Soon" />
@@ -62,7 +62,8 @@ const page = () => {
 
       <OnGoingProjects />
       <DeliveredProjects />
-      <ClientSays />
+
+        <ClientSays />
 
       <FrequentlyQA />
 
