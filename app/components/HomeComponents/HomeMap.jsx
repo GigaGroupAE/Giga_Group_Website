@@ -7,7 +7,7 @@ const HomeMap = () => {
   return (
     <section className="  flex my-[70] md:my-0 max-w-[90rem] mx-auto   ">
       <div className="flex items-center  md:flex-row flex-col  justify-center w-full mx-auto   ">
-        {/* Left Container */} 
+        {/* Left Container */}
         <div className=" px-4 flex-2 flex w-[110%]     mr-10 ">
           <div className=" md:w-4/5 px-4  mx-auto   ">
             <h1 className="font-poppins text-4xl  w-4/5  font-normal text-TextandIcons">
@@ -54,7 +54,9 @@ const HomeMap = () => {
           <div className=" mx-auto md:my-auto md:ml-10 md:mt-64 mt-32   -ml-44  ">
             <Image src={pin} alt="Location " />
             <div className="bg-white rounded-full my-2">
-              <p className="text-TextandIcons font-poppins px-4 py-1 font-semibold text-sm">25°17'48"N 55°19'02"E</p>
+              <p className="text-TextandIcons font-poppins px-4 py-1 font-semibold text-sm">
+                25°17'48"N 55°19'02"E
+              </p>
             </div>
           </div>
         </div>

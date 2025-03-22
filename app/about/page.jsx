@@ -18,8 +18,8 @@ const page = () => {
       <AboutGiga />
       <AboutAward />
 
-      <div className="">
-        <Image src={map} alt="map"/ >
+      <div className="w-full">
+        <Image src={map} alt="map" className="w-full"/ >
       </div>
     </section>
   );

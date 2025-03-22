@@ -20,7 +20,6 @@ const ClientSays = () => {
       {/* Top Container */}
       <div className=" flex gap-4 overflow-x-auto   my-10 scrollbar-hide  flex-nowrap">
         {FeedBackData.map((item, index) => {
-          console.log(item?.avatar);
           return (
             <div
               key={index}
@@ -54,7 +53,6 @@ const ClientSays = () => {
       </div>
       <div className=" flex gap-4 ml-10 overflow-x-auto   my-10 scrollbar-hide  flex-nowrap">
         {FeedBackData.map((item, index) => {
-          console.log(item?.avatar);
           return (
             <div
               key={index}
@@ -87,7 +85,7 @@ const ClientSays = () => {
         })}
       </div>
 
-      <div className="bg-secondary w-60 h-60 blur-[200px] top-[720rem] md:top-[450rem] -z-40    absolute rounded-full  z-50 mx-auto "></div>
+      <div className="bg-secondary w-60 h-60 blur-[200px]  -z-40    absolute rounded-full  z-50 mx-auto "></div>
 
       {/* <div className=" h-[200px] flex items-center">
         <div className="w-4/6  mx-auto flex  justify-between">

@@ -4,6 +4,7 @@ import ButtonPrimary from '../ButtonPrimary';
 const ContactForm = () => {
   return (
     <div className=" container mx-auto py-[100] ">
+
       <div className="md:w-4/6  w-4/5  mx-auto">
         <h2 className="text-center headingSeaction">
           Contact <b>Us</b>
