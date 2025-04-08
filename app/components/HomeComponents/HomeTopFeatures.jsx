@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 
 const HomeTopFeatures = () => {
   return (
-    <section className="container bg-white mx-auto py-28 px-4 md:px-0">
+    <section className="container max-w-[1440px] xl:px-20  bg-white mx-auto py-28 px-4 md:px-0">
       {/* Top section and heading */}
 
       <div className=""></div>

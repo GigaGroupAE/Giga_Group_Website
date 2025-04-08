@@ -4,14 +4,13 @@ import about1 from "../../../public/about2.webp";
 import about3 from "../../../public/ocean.webp";
 import about2 from "../../../public/about3.webp";
 import ButtonPrimary from "../ButtonPrimary";
-import beach from "../../../public/beach.webp"
-
+import beach from "../../../public/beach.webp";
 
 const HomeAboutSeaction = () => {
   return (
-    <section className="   mx-auto">
+    <section className="bg-red-500 max-w-[1440px]   mx-auto">
       {/* About Count  */}
-      <div className="bg-[#FEFEFE]"> 
+      <div className="bg-[#FEFEFE] max-w-[1440px] xl:px-20  ">
         <div className="container mx-auto">
           <div className="   px-4  md:px-0 py-20    mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] space-y-5   ">
             <div className="flex flex-1   gap-16 md:justify-between  items-center  px-4">
@@ -43,7 +42,7 @@ const HomeAboutSeaction = () => {
 
       {/* About Images  */}
 
-      <div className=" bg-white">
+      <div className=" bg-white max-w-[1440px] xl:px-20 ">
         <div className=" container px-4 py-28   md:px-0     mx-auto flex md:flex-row flex-col items-center ">
           {/* left  container  */}
 
@@ -53,7 +52,7 @@ const HomeAboutSeaction = () => {
             </div>
             <div className="flex-1  ">
               <Image src={about2} alt="gigagrpup" />
-              <Image src={about3} alt="gigagrpup" className="mt-2 md:w-80 "    />
+              <Image src={about3} alt="gigagrpup" className="mt-2 md:w-80 " />
             </div>
           </div>
 

@@ -185,9 +185,9 @@ const index = () => {
             );
           })}
         </div>
-        <div className="bg-secondary  w-60 absolute  md:-right-24 blur-[200px]  -mt-96    h-60 rounded-full"></div>
+        {/* <div className="bg-secondary  w-60 absolute  md:-right-24 blur-[200px]  -mt-96    h-60 rounded-full"></div> */}
       </div>
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
   );
 };

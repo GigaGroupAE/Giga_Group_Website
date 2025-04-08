@@ -6,7 +6,7 @@ import GeneralQA from "../GeneralQA";
 const FrequentlyQA = () => {
   const [activeItem, setActiveItem] = useState(1);
   return (
-    <section className=" py-20 bg-white/70">
+    <section className="max-w-[1440px] mx-auto py-20 bg-white/70">
       <div className="md:w-4/6  mx-auto">
         <h1 className="font-poppins  leading-snug text-TextandIcons md:text-5xl text-4xl font-normal sm:text-center text-center">
           Frequently Asked <b>Questions </b>

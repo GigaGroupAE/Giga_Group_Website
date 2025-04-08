@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <section className="bg-[#425F7D] pt-[50]   ">
       {/* <div className="md:px-[130px] px-4 py-[50px] flex md:flex-row flex-col md:space-x-[60px]"> */}
-      <div className="flex md:flex-row px-4 md:px-0 flex-col md:space-x-[60px]  container mx-auto  py-12 ">
+      <div className="flex max-w-[1440px] xl:px-20  md:flex-row px-4 md:px-0 flex-col md:space-x-[60px]  container mx-auto  py-12 ">
         {/* Details  */}
         <div className=" w-[340px] space-y-[25px] flex flex-col">
           <Image

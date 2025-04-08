@@ -3,7 +3,7 @@ import ButtonPrimary from "../ButtonPrimary";
 
 const HomeHeroSeaction = () => {
   return (
-    <section className="bg-heroImage bg-[#F7F4F4]   h-[91vh] object-contain bg-cover md:items-center md:justify-center flex ">
+    <section className="bg-heroImage bg-[#F7F4F4]   h-[100vh] object-contain bg-cover md:items-center md:justify-center flex ">
       {/* center container  */}
 
       <div className=" w-[90%] md:w-3/4 h-2/3  mt-6 md:mt-0 mx-auto flex flex-col  items-center ">
@@ -18,9 +18,8 @@ const HomeHeroSeaction = () => {
 
         {/* form submit  */}
 
-        
         <div className="backdrop-blur-sm w-full h-[100%] bg-[#FFF9F8]  md:h-2/3 shadow-lg bg-opacity-5  rounded-3xl  bg-white/40  ">
-        {/* <div className=" bg-secondary  absolute z-0 w-full  h-full"></div> */}
+          {/* <div className=" bg-secondary  absolute z-0 w-full  h-full"></div> */}
           <form action="" className="relative z-50">
             <div className=" flex md:flex-row flex-col   md:items-center  w-[90%]  mx-auto mt-10 gap-4 ">
               <select className="md:w-[225px] w-[100%] p-3 rounded-lg  text-TextandIcons  bg-white  border border-white/40 outline-none ">

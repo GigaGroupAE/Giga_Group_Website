@@ -6,7 +6,7 @@ import shoopingMall from "../../../public/ShoppingMall.svg";
 
 const ExcellenceVision = () => {
   return (
-    <section className=" py-28  my-20 relative  ">
+    <section className=" py-28 mx-auto px-6 my-20 relative max-w-[1440px] xl:px-20   ">
       <div className="md:w-4/6 w-4/5 mx-auto  mb-8 ">
         <h1 className="font-poppins text-TextandIcons text-5xl font-normal mt-5  md:text-center">
           Experience the <b>Vision of Excellence</b>
