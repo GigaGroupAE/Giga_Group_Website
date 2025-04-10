@@ -13,7 +13,7 @@ const AboutGiga = () => {
   return (
     <div className="bg-white/70  backdrop-blur-[200px] ">
       <div className="bg-secondary h-60 -mt-60 mx-auto md:ml-96 blur-[200px] w-60   rounded-full absolute"></div>
-      <div className="flex space-y-12 md:space-y-0 md:flex-row flex-col container  mx-auto items-center justify-between ">
+      <div className="flex space-y-12 md:space-y-0 md:flex-row flex-col container xl:px-8  mx-auto items-center justify-between ">
         <div className="space-y-4">
           <GigaComponent />
 
@@ -34,9 +34,9 @@ const AboutGiga = () => {
           </div>
         </div>
 
-        <div className="flex md:flex-row flex-col md:items-center md:gap-6 ">
+        <div className="flex md:flex-row px-6 flex-col md:items-center md:gap-6 ">
           <div className="flex flex-col items-center space-y-4">
-            <div className="w-[26rem] h-[350px] relative rounded-2xl overflow-hidden">
+            <div className="md:w-[26rem] w-[23rem] h-[350px] relative rounded-2xl overflow-hidden">
               <Image
                 src={giga1}
                 alt="Giga Group Image 1"
@@ -44,7 +44,7 @@ const AboutGiga = () => {
                 objectFit="cover"
               />
             </div>
-            <div className="w-[26rem] h-[200px] relative rounded-2xl overflow-hidden">
+            <div className="md:w-[26rem] w-[23rem] h-[200px] relative rounded-2xl overflow-hidden">
               <Image
                 src={giga2}
                 alt="Giga Group Image 2"

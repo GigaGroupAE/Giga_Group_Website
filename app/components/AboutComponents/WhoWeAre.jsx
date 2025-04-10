@@ -5,7 +5,7 @@ import ButtonPrimary from "../ButtonPrimary";
 const WhoWeAre = () => {
   return (
     <div className="bg-white/50 py-28  backdrop-blur-[200px]">
-      <div className="bg-secondary   blur-[200px] h-60 w-60 absolute mt-[20rem] md:-right-12  -z-50  rounded-full"></div>
+      <div className="bg-secondary blur-[200px]   h-60 w-60 absolute mt-[20rem]  right-0  -z-50  rounded-full"></div>
 
       <div className="container mx-auto ">
         <h1 className="text-center text-3xl md:text-5xl font-semibold text-gray-800 ">

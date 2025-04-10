@@ -6,7 +6,7 @@ const HeroAbout = () => {
   return (
     <div className="bg-aboutCover h-[615px]  flex items-end justify-center bg-no-repeat bg-cover">
       <div
-        className="md:w-[1040px] w-[90%] bg-[rgb(237,237,237,0.9)] flex flex-col my-8 px-[30px] py-[20px] rounded-[10px] 
+        className="md:w-[1040px] w-[90%] bg-[rgb(237,237,237,0.9)]  flex flex-col my-8 px-[30px] py-[20px] rounded-[10px] 
                     backdrop-blur-md border border-white/20 shadow-lg"
       >
         <div className="mb-4">

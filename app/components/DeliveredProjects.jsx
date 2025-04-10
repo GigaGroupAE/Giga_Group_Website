@@ -5,7 +5,7 @@ import { deliveredData } from "@/src/Data/DeliveredProjectsData";
 
 const DeliveredProjects = () => {
   return (
-    <div className="container mx-auto py-20">
+    <div className="container xl:px-8 mx-auto py-20">
       <div className=" flex justify-between items-center  px-6 md:px-0  ">
         <h2 className="subHeading font-semibold ">Delivered Projects</h2>
         <p className="bg-greyBG  px-5 rounded-full text-xs font-poppins py-1">

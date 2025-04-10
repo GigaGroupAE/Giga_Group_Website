@@ -10,7 +10,7 @@ import FrequentlyQA from "../components/HomeComponents/FrequentlyQA";
 
 const page = () => {
   return (
-    <div>
+    <div className="">
       <div className="">
         <div className="container flex items-center justify-between flex-col md:flex-row mx-auto  ">
           <div className="">

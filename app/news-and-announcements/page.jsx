@@ -14,8 +14,8 @@ import ContactForm from "../components/Contact/ContactForm";
 
 const index = () => {
   return (
-    <div className=" md:w-[90rem] backdrop-blur-[50px]  w-full bg-white/50 mx-auto md:px-32   pb-24 ">
-      <div className="flex  md:flex-row flex-col px-3 md:px-0">
+    <div className="  backdrop-blur-[50px]  w-full bg-white/50 mx-auto xl:px-8   pb-24 ">
+      <div className="flex  container mx-auto  md:flex-row flex-col px-3 md:px-0">
         {/* Left Container  */}
         <div className=" md:w-[75rem]  w-full ">
           {announcementsData.map((item, index) => {
@@ -138,7 +138,7 @@ const index = () => {
         </div>
       </div>
 
-      <div className="   py-12 px-3 md:px-0">
+      <div className="  container mx-auto   py-12 px-3 md:px-0">
         <div className="flex justify-between  items-center ">
           <h2 className="subHeading">Posts</h2>
 

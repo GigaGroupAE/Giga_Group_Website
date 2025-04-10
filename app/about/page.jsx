@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <section>
+    <section className="">
       <HeroAbout />
       <GroupAbout />
       <WhoWeAre />

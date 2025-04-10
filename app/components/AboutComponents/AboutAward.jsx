@@ -5,7 +5,7 @@ const AboutAward = () => {
   return (
     <div className=" bg-white/50 py-28 backdrop-blur-[200px]">
       <div className="bg-yellow-400 blur-[200px] h-60 w-60 -mt-60 rounded-full absolute"></div>
-      <div className=" container mx-auto">
+      <div className=" container mx-auto xl:px-8">
         <div className="  mb-16">
           <h1 className="text-center text-3xl md:text-5xl font-semibold text-gray-800 mb-5">
             Featured <b className="text-black">Awards</b>
