@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 .descriptionText {
   @apply font-poppins text-sm font-normal  my-2;
@@ -12,7 +11,7 @@
   @apply font-poppins md:text-[50px] text-[38px] md:text-center font-normal text-TextandIcons;
 }
 .cartContainer {
-  @apply bg-greyBG  w-[340px] gap-4 px-4 rounded-md h-[233px] justify-center flex flex-col;
+  @apply bg-greyBG  w-[400px] gap-4 px-4 rounded-md h-[233px] justify-center flex flex-col;
 }
 .headingCount {
   @apply font-poppins md:text-4xl text-3xl font-bold text-TextandIcons;
@@ -26,5 +25,16 @@
 }
 
 .sectionContainer {
-  @apply px-6 md:px-28 py-28 
+  @apply px-6 md:px-28 py-28;
+}
+
+.sectionHeading {
+  @apply font-poppins font-medium text-TextandIcons text-5xl  sm:text-center  text-center;
+}
+
+.sectionDesciption {
+  @apply font-poppins font-normal text-sm text-TextandIcons  text-center my-7;
+}
+.sectionSubHeading {
+  @apply font-poppins text-4xl text-TextandIcons my-3;
 }

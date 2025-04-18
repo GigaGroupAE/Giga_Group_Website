@@ -10,7 +10,7 @@ const HomeTopFeatures = () => {
 
       <div className=""></div>
 
-      <div className=" md:mx-auto  md:w-4/5  w-full   ">
+      <div className=" md:mx-auto  md:w-4/5  w-full     ">
         <h2 className="headingSeaction">
           Explore Our <b> Top Features Projects</b>
         </h2>
@@ -63,7 +63,7 @@ const HomeTopFeatures = () => {
             );
           })}
         </div>
-        <div className="bg-secondary w-72 h-36 blur-[200px]  right-48 2xl:right-96  absolute rounded-full"></div>
+        <div className="bg-[#f1eebf] w-72 h-36  blur-3xl right-48 2xl:right-96  absolute rounded-full"></div>
       </div>
     </section>
   );

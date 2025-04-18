@@ -5,11 +5,11 @@ import Image from "next/image";
 
 const HomeMap = () => {
   return (
-    <section className="  flex my-[70] md:my-0 max-w-[90rem] mx-auto   ">
-      <div className="flex items-center  md:flex-row flex-col  justify-center w-full mx-auto   ">
+    <section className="flex my-[70] md:my-0 container  mx-auto   ">
+      <div className="flex items-center  md:flex-row flex-col  justify-center w-full mx-auto    ">
         {/* Left Container */}
-        <div className=" px-4 flex-2 flex w-[110%]     mr-10 ">
-          <div className=" md:w-4/5 px-4  mx-auto   ">
+        <div className=" px-4 flex-2 flex md:w-[110%]     mr-10 ">
+          <div className=" px-4  mx-auto   ">
             <h1 className="font-poppins text-4xl  w-4/5  font-normal text-TextandIcons">
               Welcome to <b> Ocean</b> Crest Residence
             </h1>
@@ -27,7 +27,7 @@ const HomeMap = () => {
           </div>
         </div>
         {/* Right Container  */}
-        <div className="   flex-2 flex bg-contain   bg-bgmap h-[700px] object-contain  w-full">
+        <div className="flex-2 flex bg-contain   bg-bgmap h-[700px] object-contain  w-full">
           {/* container left  */}
           <div className=" flex items-end md:items-center md:justify-center md:flex-col flex-row md:gap-72">
             <div className="bg-[rgba(250,248,229)] rounded-full w-28 h-28 flex items-center justify-center">
@@ -42,7 +42,7 @@ const HomeMap = () => {
 
           {/* container bottom  */}
 
-          <div className=" relative  md:self-end self-baseline  -bottom-[620px] md:-bottom-0   md:-right-96   -right-14  ">
+          <div className=" relative  md:self-end self-baseline  -bottom-[620px] md:-bottom-0   md:-right-80   -right-14  ">
             <div className="bg-[rgba(250,248,229)] rounded-full w-28 h-28 flex items-center justify-center relative bottom-10">
               <h1 className="text-TextandIcons font-bold text-2xl">10</h1>
               <p className="">KM</p>

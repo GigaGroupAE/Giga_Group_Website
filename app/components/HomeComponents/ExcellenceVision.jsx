@@ -6,8 +6,8 @@ import shoopingMall from "../../../public/ShoppingMall.svg";
 
 const ExcellenceVision = () => {
   return (
-    <section className=" py-28 mx-auto px-6 my-20 relative max-w-[1440px] xl:px-20   ">
-      <div className="md:w-4/6 w-4/5 mx-auto  mb-8 ">
+    <section className=" py-28 mx-auto px-6  relative max-w-[1440px] xl:px-20   ">
+      <div className="md:w-4/6  mx-auto  mb-8 ">
         <h1 className="font-poppins text-TextandIcons text-5xl font-normal mt-5  md:text-center">
           Experience the <b>Vision of Excellence</b>
         </h1>
@@ -21,7 +21,7 @@ const ExcellenceVision = () => {
       {/* seaction images  */}
 
       <div className="  gap-4 flex md:flex-row flex-col container mx-auto items-center  ">
-        <div className=" w-11/12 md:w-[37rem] ">
+        <div className="  md:w-[37rem] ">
           <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
             <b className="bold">Recreational </b> Areas
           </h1>

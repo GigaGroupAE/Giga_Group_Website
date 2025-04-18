@@ -8,12 +8,12 @@ import beach from "../../../public/beach.webp";
 
 const HomeAboutSeaction = () => {
   return (
-    <section className="bg-red-500 max-w-[1440px]   mx-auto">
+    <section className=" max-w-[1440px] px-2 md:px-0   mx-auto">
       {/* About Count  */}
-      <div className="bg-[#FEFEFE] max-w-[1440px] xl:px-20  ">
+      <div className="bg-[#FEFEFE]  max-w-[1440px] xl:px-20  ">
         <div className="container mx-auto">
-          <div className="   px-4  md:px-0 py-20    mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] space-y-5   ">
-            <div className="flex flex-1   gap-16 md:justify-between  items-center  px-4">
+          <div className="px-4  md:px-0 py-20    mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] space-y-5   ">
+            <div className="flex flex-1   gap-16 md:justify-between  items-center  ">
               <div className="">
                 <h2 className="headingCount ">60+</h2>
                 <p className="countSubHeading">Years of Excellence</p>
@@ -25,7 +25,7 @@ const HomeAboutSeaction = () => {
               </div>
             </div>
 
-            <div className="flex flex-1  gap-16  md:justify-between items-center   px-4">
+            <div className="flex flex-1  gap-16  md:justify-between items-center   ">
               <div className="">
                 <h2 className="headingCount ">99.99%</h2>
                 <p className="countSubHeading">Customer Satisfaction</p>
@@ -58,7 +58,7 @@ const HomeAboutSeaction = () => {
 
           {/* right   container  */}
           <div className=" flex-1  ">
-            <div className=" md:w-3/4 w-[95%] md:mx-auto  mt-14 md:mt-0">
+            <div className=" md:w-3/4 w-full md:mx-auto  mt-14 md:mt-0">
               <div className="flex items-center gap-2  ">
                 <h1 className="text-placeholderText text-sm font-poppins">
                   Giga
@@ -78,7 +78,7 @@ const HomeAboutSeaction = () => {
                 estate development, and construction sectors in Dubai, United
                 Arab Emirates.
               </p>
-              <div className=" md:flex mt-6">
+              <div className=" md:flex mx-auto  mt-6">
                 <ButtonPrimary title="Learn More" />
               </div>
             </div>

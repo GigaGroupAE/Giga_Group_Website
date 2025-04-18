@@ -3,14 +3,14 @@ import ButtonPrimary from "../ButtonPrimary";
 
 const HomeHeroSeaction = () => {
   return (
-    <section className="bg-heroImage bg-[#F7F4F4]   h-[100vh] object-contain bg-cover md:items-center md:justify-center flex ">
+    <section className="bg-heroImage  backdrop-brightness-200  h-[100vh] object-contain bg-cover md:items-center md:justify-center flex ">
       {/* center container  */}
 
       <div className=" w-[90%] md:w-3/4 h-2/3  mt-6 md:mt-0 mx-auto flex flex-col  items-center ">
-        <h1 className="font-poppins font-normal text-TextandIcons text-5xl  sm:text-center  text-center">
+        <h1 className="sectionHeading">
           <b className="font-bold  font-poppins">Start </b>your search today
         </h1>
-        <p className="font-poppins font-normal text-sm text-TextandIcons w-[95%] md:w-[55%] text-center my-7">
+        <p className="w-[95%] md:w-[60%] sectionDesciption">
           In just two decades, Dubai has envisioned, built, and delivered
           extraordinary state-of-the-art real estate projects that set
           benchmarks not only in the region but also globally.
@@ -18,7 +18,7 @@ const HomeHeroSeaction = () => {
 
         {/* form submit  */}
 
-        <div className="backdrop-blur-sm w-full h-[100%] bg-[#FFF9F8]  md:h-2/3 shadow-lg bg-opacity-5  rounded-3xl  bg-white/40  ">
+        <div className="backdrop-blur-md w-full h-[100%]  md:h-auto  py-4  shadow-lg bg-opacity-5  rounded-3xl   ">
           {/* <div className=" bg-secondary  absolute z-0 w-full  h-full"></div> */}
           <form action="" className="relative z-50">
             <div className=" flex md:flex-row flex-col   md:items-center  w-[90%]  mx-auto mt-10 gap-4 ">

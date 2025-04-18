@@ -23,15 +23,15 @@ export default function Home() {
 
       <HomeTopFeatures />
 
-      <div className="z-50 bg-white mx-auto relative max-w-[1440px] xl:px-20   py-28 ">
+      <div className="z-50 px-2 bg-white mx-auto relative max-w-[1440px] xl:px-20   py-28 ">
         {/* <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 flex-col items-center flex justify-center bg-white"> */}
-        <div className=" container mx-auto px-6 md:px-0 ">
+        <div className=" container mx-auto px-3 md:px-0 ">
           <div className="w-full  mb-8 sm:mb-12">
-            <h2 className="headingSeaction  text-4xl lg:text-5xl text-center">
+            <h2 className="headingSeaction">
               Redefining Real Estate with <b>Excellence</b>
             </h2>
 
-            <p className="descriptionText  md:text-center text-base sm:text-lg mt-4">
+            <p className="descriptionText  md:text-center   md:w-4/5 mx-auto mt-4">
               At Giga Group Real Estate Developers, we pride ourselves on
               delivering exceptional properties that combine innovation, prime
               locations, and sustainability. Each development is thoughtfully
@@ -40,8 +40,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="w-full  flex flex-col sm:flex-row items-center justify-between gap-8">
-            <div className="cartContainer w-full sm:w-1/3 ">
+          <div className="w-full   flex flex-col sm:flex-row items-center justify-between gap-8">
+            <div className="cartContainer  sm:w-1/3  ">
               <Image src={architecture} alt="architecture" />
               <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
                 <b>Architectural</b> Excellence
@@ -94,7 +94,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <HomeMap /> */}
+      <HomeMap />
 
       <DistanceDetails />
       <div className="bg-secondary blur-[200px]   w-96 h-20 rounded-full absolute right-0"></div>

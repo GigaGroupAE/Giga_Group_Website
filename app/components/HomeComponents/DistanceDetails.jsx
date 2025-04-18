@@ -3,7 +3,7 @@ import React from "react";
 
 const DistanceDetails = () => {
   return (
-    <section className=" bg-white/ mx-auto py-24 max-w-[1440px] xl:px-20   ">
+    <section className=" bg-white/ mx-auto py-28 max-w-[1440px] xl:px-20   ">
       <div className="container  mx-auto  ">
         <div className="mx-auto  grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3 ">
           {distanceMap?.map((item, index) => {

@@ -3,9 +3,9 @@ import ButtonPrimary from "./ButtonPrimary";
 
 const NewsLetter = () => {
   return (
-    <section className=" bg-gradient-to-tr from-[#F8F7EB] to-white flex flex-row  items-center py-[70px]  ">
-      <div className="md:w-[70%] w-11/12 mx-auto flex  md:flex-row flex-col items-center  ">
-        <div className=" md:w-[40%] w-11/12">
+    <section className="  bg-gradient-to-tr from-[#F8F7EB] to-white flex flex-row  items-center py-[80px]  ">
+      <div className="md:max-w-[1440px] xl:px-20  w-11/12 mx-auto flex  md:flex-row flex-col items-center  ">
+        <div className=" w-11/12">
           <h2 className="font-poppins text-TextandIcons font-medium text-[30px]">
             Stay Updated with
           </h2>
@@ -20,7 +20,7 @@ const NewsLetter = () => {
             gateway to premium real estate opportunities awaits!
           </p>
         </div>
-        <div className="md:w-[75%]  w-[95%] md:ml-10 h-[265px]   shadow-md bg-opacity-40 backdrop-blur-md      rounded-2xl flex flex-col justify-center px-6">
+        <div className="md:w-[75%]  w-[95%] md:ml-10  py-16   shadow-md bg-opacity-40 backdrop-blur-md      rounded-2xl flex flex-col justify-center px-6">
           <h2 className="font-poppins text-TextandIcons text-[25px] font-medium">
             <b className="font-semibold">Newsletter</b> Form
           </h2>
