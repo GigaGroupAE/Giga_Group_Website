@@ -1,75 +1,105 @@
 import Image from "next/image";
 import React from "react";
-import about1 from "../../../public/about2.webp";
+import { motion } from "framer-motion";
 import about3 from "../../../public/ocean.webp";
 import about2 from "../../../public/about3.webp";
-import ButtonPrimary from "../ButtonPrimary";
 import beach from "../../../public/beach.webp";
+import ButtonPrimary from "../ButtonPrimary";
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 60 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: i * 0.2,
+      duration: 0.6,
+      ease: "easeOut",
+    },
+  }),
+};
 
 const HomeAboutSeaction = () => {
   return (
-    <section className=" max-w-[1440px] px-2 md:px-0   mx-auto">
-      {/* About Count  */}
-      <div className="bg-[#FEFEFE]  max-w-[1440px] xl:px-20  ">
-        <div className="container mx-auto">
-          <div className="px-4  md:px-0 py-20    mx-auto     flex md:flex-row flex-col md:items-center justify-center  md:space-x-[150px] space-y-5   ">
-            <div className="flex flex-1   gap-16 md:justify-between  items-center  ">
-              <div className="">
-                <h2 className="headingCount ">60+</h2>
-                <p className="countSubHeading">Years of Excellence</p>
-              </div>
-
-              <div className="">
-                <h2 className="headingCount ">5000+</h2>
-                <p className="countSubHeading">Employees around the Globe</p>
-              </div>
-            </div>
-
-            <div className="flex flex-1  gap-16  md:justify-between items-center   ">
-              <div className="">
-                <h2 className="headingCount ">99.99%</h2>
-                <p className="countSubHeading">Customer Satisfaction</p>
-              </div>
-
-              <div className="">
-                <h2 className="headingCount ">10000+</h2>
-                <p className="countSubHeading">Years of Excellence</p>
-              </div>
-            </div>
+    <section className="max-w-[1440px] px-2 md:px-0 mx-auto overflow-hidden">
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="bg-[#FEFEFE] xl:px-20"
+      >
+        <div className="container mx-auto px-4 md:px-0 py-20">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 md:gap-y-0 gap-x-6 md:gap-x-10 text-center">
+            {[
+              ["60+", "Years of Excellence"],
+              ["5000+", "Employees around the Globe"],
+              ["99.99%", "Customer Satisfaction"],
+              ["10000+", "Projects Delivered"],
+            ].map(([value, label], i) => (
+              <motion.div
+                key={i}
+                custom={i}
+                variants={fadeUp}
+                className="flex flex-col items-center"
+              >
+                <h2 className="headingCount">{value}</h2>
+                <p className="countSubHeading">{label}</p>
+              </motion.div>
+            ))}
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      {/* About Images  */}
-
-      <div className=" bg-white max-w-[1440px] xl:px-20 ">
-        <div className=" container px-4 py-28   md:px-0     mx-auto flex md:flex-row flex-col items-center ">
-          {/* left  container  */}
-
-          <div className=" flex-1 flex-row flex items-center gap-3  ">
-            <div className="flex-1  h-[350px] relative  top-6 md:top-14">
-              <Image src={beach} alt="gigagrpup" className=" h-[350px]" />
+      <div className="bg-white xl:px-20">
+        <div className="container px-4 py-28 mx-auto flex flex-col md:flex-row items-center gap-10">
+          <motion.div
+            initial={{ opacity: 0, x: -80 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="flex-1 flex gap-3"
+          >
+            <div className="flex-1 h-[350px] relative top-6 md:top-14">
+              <Image
+                src={beach}
+                alt="gigagroup"
+                className="h-[350px] w-full object-cover rounded-xl shadow-md"
+              />
             </div>
-            <div className="flex-1  ">
-              <Image src={about2} alt="gigagrpup" />
-              <Image src={about3} alt="gigagrpup" className="mt-2 md:w-80 " />
+            <div className="flex-1 flex flex-col gap-2">
+              <Image
+                src={about2}
+                alt="gigagroup"
+                className="rounded-xl shadow-md"
+              />
+              <Image
+                src={about3}
+                alt="gigagroup"
+                className="rounded-xl shadow-md md:w-80"
+              />
             </div>
-          </div>
+          </motion.div>
 
-          {/* right   container  */}
-          <div className=" flex-1  ">
-            <div className=" md:w-3/4 w-full md:mx-auto  mt-14 md:mt-0">
-              <div className="flex items-center gap-2  ">
+          <motion.div
+            initial={{ opacity: 0, x: 80 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="flex-1"
+          >
+            <div className="md:w-3/4 w-full mx-auto">
+              <div className="flex items-center gap-2">
                 <h1 className="text-placeholderText text-sm font-poppins">
                   Giga
                 </h1>
-
-                <div className="bg-secondary  w-[110px] h-0.5"></div>
+                <div className="bg-secondary w-[110px] h-0.5"></div>
               </div>
-              <h1 className="font-poppins text-3xl text-TextandIcons my-3 ">
+
+              <h1 className="font-poppins text-3xl text-TextandIcons my-3">
                 About <b>Giga Group</b>
               </h1>
-              <p className="descriptionText  relative ">
+
+              <p className="descriptionText">
                 Since 1956, Giga Group has grown into a global institution,
                 committed to fostering inclusive growth and sustainable
                 development. With strong roots in the textile industry, the
@@ -78,11 +108,12 @@ const HomeAboutSeaction = () => {
                 skylines across Dubai and the UAE with a legacy of innovation
                 and integrity.
               </p>
-              <div className=" md:flex mx-auto  mt-6">
+
+              <div className="mt-6">
                 <ButtonPrimary title="Learn More" />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

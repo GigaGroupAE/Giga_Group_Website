@@ -1,24 +1,55 @@
 import React from "react";
+import { motion } from "framer-motion";
 import ButtonPrimary from "../ButtonPrimary";
 
 const HomeHeroSeaction = () => {
+  const fadeInUp = {
+    initial: { opacity: 0, y: 30 },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: "easeOut" },
+    },
+  };
+
+  const stagger = {
+    animate: {
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
   return (
     <section className="bg-heroImage  backdrop-brightness-200  h-[100vh] object-contain bg-cover md:items-center md:justify-center flex ">
       {/* center container  */}
 
-      <div className=" w-[90%] md:w-3/4 h-2/3  mt-6 md:mt-0 mx-auto flex flex-col  items-center ">
-        <h1 className="sectionHeading">
+      <motion.div
+        variants={stagger}
+        initial="initial"
+        animate="animate"
+        className=" w-[90%] md:w-3/4 h-2/3  mt-6 md:mt-0 mx-auto flex flex-col  items-center "
+      >
+        <motion.h1
+          variants={fadeInUp}
+          className="sectionHeading text-center text-white"
+        >
           <b className="font-bold  font-poppins">Start </b>your search today
-        </h1>
-        <p className="w-[95%] md:w-[60%] sectionDesciption">
+        </motion.h1>
+        <motion.p
+          variants={fadeInUp}
+          className="w-[95%] md:w-[60%] sectionDesciption"
+        >
           In just two decades, Dubai has envisioned, built, and delivered
           extraordinary state-of-the-art real estate projects that set
           benchmarks not only in the region but also globally.
-        </p>
+        </motion.p>
 
         {/* form submit  */}
 
-        <div className="backdrop-blur-md w-full h-[100%]  md:h-auto  py-4  shadow-lg bg-opacity-5  rounded-3xl   ">
+        <motion.div
+          variants={fadeInUp}
+          className="backdrop-blur-md w-full h-[100%]  md:h-auto  py-4  shadow-lg bg-opacity-5  rounded-3xl   "
+        >
           {/* <div className=" bg-secondary  absolute z-0 w-full  h-full"></div> */}
           <form action="" className="relative z-50">
             <div className=" flex md:flex-row flex-col   md:items-center  w-[90%]  mx-auto mt-10 gap-4 ">
@@ -60,8 +91,8 @@ const HomeHeroSeaction = () => {
               </div>
             </div>
           </form>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };

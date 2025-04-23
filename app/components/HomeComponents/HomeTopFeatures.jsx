@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const HomeTopFeatures = () => {
   return (
-    <section className="container max-w-[1440px] xl:px-20 bg-white mx-auto py-28 px-4 md:px-0">
+    <section className="container max-w-[1440px] xl:px-20 bg-white mx-auto pt-40 px-4 md:px-0">
       <div className="md:mx-auto md:w-4/5 w-full">
         <h2 className="headingSeaction">
           Explore Our <b>Top Features Projects</b>
