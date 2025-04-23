@@ -70,13 +70,13 @@ const HomeAboutSeaction = () => {
                 About <b>Giga Group</b>
               </h1>
               <p className="descriptionText  relative ">
-                Great institutions are built over time, nurturing dreams and
-                fostering visions that promote peaceful and inclusive societies
-                for sustainable development. Giga Group is one such institution.
-                Since its inception in 1956, the company has expanded its
-                footprint across the textile industry, bullion trading, real
-                estate development, and construction sectors in Dubai, United
-                Arab Emirates.
+                Since 1956, Giga Group has grown into a global institution,
+                committed to fostering inclusive growth and sustainable
+                development. With strong roots in the textile industry, the
+                company has expanded into bullion trading, real estate, and
+                construction. Today, Giga Group continues to shape modern
+                skylines across Dubai and the UAE with a legacy of innovation
+                and integrity.
               </p>
               <div className=" md:flex mx-auto  mt-6">
                 <ButtonPrimary title="Learn More" />

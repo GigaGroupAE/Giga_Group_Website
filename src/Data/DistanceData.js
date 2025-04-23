@@ -1,68 +1,68 @@
 export const distanceMap = [
   {
-    subheading: "Under 5KM",
-    heading: "Healthcare Facilities",
+    subheading: "Within 5KM",
+    heading: "Premier Healthcare",
     description:
-      "Your well-being is our priority. With top-notch hospitals and medical centers within close proximity, you can access world-class healthcare services with ease and peace of mind.",
+      "Your health comes first. Benefit from immediate access to leading hospitals and medical centres, ensuring world-class healthcare is always within reach.",
   },
   {
-    subheading: "Under 10KM",
-    heading: "Shopping & Markets",
+    subheading: "Within 10KM",
+    heading: "Shopping & Retail",
     description:
-      "Shop till you drop! Discover a variety of shopping centers, malls, and local markets offering everything from luxury brands to daily essentials, all within a short distance.",
+      " Discover a vibrant shopping scene with a variety of malls, luxury stores, and local markets offering everything from high-end brands to everyday essentials.",
   },
   {
-    subheading: "Under 5KM",
-    heading: "Hotels & Restaurants",
+    subheading: "Within 5KM:",
+    heading: "Dining & Hospitality",
     description:
       "Indulge in fine dining and explore world-class hospitality. With an array of hotels and restaurants nearby, you'll always have a perfect spot for dining or hosting guests.",
   },
   {
-    subheading: "Under 5KM",
-    heading: "Dubai International Airport",
+    subheading: "Within 5KM",
+    heading: " Dubai International Airport",
     description:
-      "Travel effortlessly with Dubai International Airport just minutes away. Whether for business or leisure, seamless global connectivity is at your doorstep.",
+      "Travel made simple. Having Dubai International Airport just a few minutes away, that way you can enjoy effortless global connectivity not only for the  business but also for the  leisure.",
   },
   {
-    subheading: "Under 10KM",
-    heading: "Iconic Landmarks",
+    subheading: "Within 10KM",
+    heading: " Iconic Landmarks",
     description:
-      "Live in the heart of Dubai’s vibrancy, with landmarks like Burj Khalifa close by. Experience the world’s tallest skyscraper and the excitement of Downtown Dubai within reach.",
+      "Live in the midst of Dubai’s excitement, with iconic landmarks like the Burj Khalifa and Downtown Dubai just a short distance away.",
   },
   {
-    subheading: "Under 5KM",
-    heading: "Beaches",
+    subheading: "Within 5KM",
+    heading: " Pristine Beaches",
     description:
-      "Relax and unwind by the sea. Enjoy the pristine beaches of Dubai, perfect for a family day out, water sports, or simply soaking up the sun, just a short drive away.",
+      "Unwind at Dubai’s stunning beaches, ideal for family outings, water activities, or simply soaking up the sun, all just a quick drive away.",
   },
   {
-    subheading: "Under 5KM",
+    subheading: "Within 5KM",
     heading: "Recreational Areas",
     description:
-      "Stay active and entertained with access to parks, sports facilities, and entertainment hubs. Perfect for family outings or personal leisure, these areas offer something for everyone.",
+      "Stay active and entertained with easy access to parks, sports facilities, and entertainment hubs, offering something for everyone—whether for family outings or personal leisure.",
   },
   {
-    subheading: "Under 5KM",
+    subheading: "Within 5KM",
     heading: "Education",
     description:
-      "Give your children access to quality education with top-tier schools, colleges, and universities nearby. A great choice for families, ensuring your children's future is bright.",
+      "Ensure a bright future for your children with top-tier schools, colleges, and universities nearby. That’s the best choice for families seeking quality education in Dubai.",
   },
   {
-    subheading: "Under 5KM",
+    subheading: "Within 5KM",
     heading: "Family Parks",
     description:
-      "Create cherished memories with your loved ones in lush green family parks. Ideal for picnics, playdates, or a peaceful stroll, these parks are just around the corner.",
+      "Create lasting memories in lush family parks, perfect for picnics, playdates, or peaceful walks. These green spaces will be close to your residence.",
   },
   {
-    subheading: "Under 10KM",
+    subheading: "Within 10KM",
     heading: "Sports Clubs",
     description:
-      "Keep fit and pursue your passion for sports with well-equipped sports clubs nearby. From fitness training to competitive sports, you'll find it all close to home.",
+      " Stay fit and pursue your athletic passions with well-equipped sports clubs nearby, offering everything from fitness training to competitive sports.",
   },
   {
-    subheading: "Under 10KM",
+    subheading: "Within 10KM",
     heading: "Ports",
     description:
-      "Stay connected to maritime trade and leisure with easy access to Dubai’s modern ports. Perfect for businesses and individuals who value seamless logistics.",
+      " Benefit from easy access to Dubai’s modern ports, connecting you to both maritime trade and leisure activities—ideal for businesses and individuals valuing smooth logistics.",
   },
 ];
