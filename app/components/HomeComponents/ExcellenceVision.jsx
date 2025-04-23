@@ -6,12 +6,12 @@ import shoopingMall from "../../../public/ShoppingMall.svg";
 
 const ExcellenceVision = () => {
   return (
-    <section className=" py-28 mx-auto px-6  relative max-w-[1440px] xl:px-20   ">
-      <div className="md:w-4/6  mx-auto  mb-8 ">
-        <h1 className="font-poppins text-TextandIcons text-5xl font-normal mt-5  md:text-center">
+    <section className=" pt-40 mx-auto px-6  relative max-w-[1440px] xl:px-20   ">
+      <div className="md:w-4/5  mx-auto  mb-8 ">
+        <h2 className="headingSeaction">
           Experience the <b>Vision of Excellence</b>
-        </h1>
-        <p className="descriptionText text-center">
+        </h2>
+        <p className="descriptionText md:text-center">
           In just two decades, Dubai has envisioned, built, and delivered
           extraordinary state-of-the-art real estate projects that set
           benchmarks not only in the region but also globally.

@@ -31,7 +31,7 @@ export default function Home() {
               Revolutionizing Real Estate with <b>Vision</b>
             </h2>
 
-            <p className="descriptionText  md:text-center   md:w-4/5 mx-auto mt-4">
+            <p className="descriptionText text-start md:text-center">
               Giga Group’s real estate projects in Dubai reflect a strong
               commitment to world-class architecture, luxury lifestyle living,
               and innovative commercial infrastructure—solidifying the city’s
@@ -53,13 +53,13 @@ export default function Home() {
                 commercial experiences globally.​
               </p>
             </div>
-            <div className="cartContainer w-full sm:w-1/3 ">
+            <div className="py-6 cartContainer  w-full sm:w-1/3 ">
               <Image src={my_location} alt="architecture" />
               <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
                 <b>Prime Real Estate</b> Locations with High Investment
                 Potential
               </h1>
-              <p className="font-poppins text-sm text-TextandIcons mt-2">
+              <p className="font-poppins py-5 text-sm text-TextandIcons mt-2">
                 We build in the most sought-after areas, ensuring convenience,
                 connectivity, and future growth potential.
               </p>
@@ -85,11 +85,11 @@ export default function Home() {
       </div>
 
       <div className="bg-excellenceCover flex items-center z-50 justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-24  w-full bg-repeat-round  object-center  bg-cover">
-        <div className=" w-[95%] sm:[50rem] md:w-[68rem] px-4 sm:px-28  py-12 gap-4 backdrop-blur-lg  items-center flex flex-col justify-center bg-white bg-opacity-30  rounded-lg">
+        <div className=" w-[95%] sm:[50rem] md:w-[70rem] px-4 sm:px-28  py-12 gap-4 backdrop-blur-lg  items-center flex flex-col justify-center bg-white bg-opacity-30  rounded-2xl">
           <h1 className="text-white md:text-5xl  text-4xl ">
-            Revolutionizing Real Estate with<b>Giga Group's Excellence</b>
+            Revolutionizing Real Estate with<b> Excellence</b>
           </h1>
-          <p className="descriptionText text-white text-center">
+          <p className="descriptionText text-white md:text-center">
             At Giga Group Real Estate Developers, we specialize in creating
             exceptional properties that combine innovative design, prime
             locations, and sustainable development. Our portfolio, ranging from
@@ -101,7 +101,7 @@ export default function Home() {
         </div>
       </div>
 
-      <HomeMap />
+      {/* <HomeMap /> */}
 
       <DistanceDetails />
       <div className="bg-secondary blur-[200px]   w-96 h-20 rounded-full absolute right-0"></div>

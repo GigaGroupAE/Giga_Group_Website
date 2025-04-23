@@ -8,7 +8,7 @@ const ClientSays = () => {
   return (
     <section className="bg-white/0 py-28">
       <div className="md:w-4/6 w-11/12 mx-auto">
-        <h1 className="font-poppins text-TextandIcons text-5xl font-normal md:text-center">
+        <h1 className="headingSeaction">
           What Our <b>Clients Say </b>
         </h1>
         <p className="descriptionText md:text-center">
