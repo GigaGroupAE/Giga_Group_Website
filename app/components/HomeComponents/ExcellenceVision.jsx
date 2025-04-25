@@ -1,13 +1,49 @@
 import React from "react";
-import car from "../../../public/car.webp";
 import Image from "next/image";
+import car from "../../../public/car.webp";
 import beach from "../../../public/beach.webp";
+import Historical from "../../../public/historical-places.webp";
 import shoopingMall from "../../../public/ShoppingMall.svg";
+import { motion } from "framer-motion";
+import sportsClub from "../../../public/sportsclub.webp";
+
+const fadeLeft = {
+  hidden: { opacity: 0, x: -50 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.6, ease: "easeOut" },
+  },
+};
+
+const fadeRight = {
+  hidden: { opacity: 0, x: 50 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.6, ease: "easeOut" },
+  },
+};
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: "easeOut" },
+  },
+};
 
 const ExcellenceVision = () => {
   return (
-    <section className=" pt-40 mx-auto px-6  relative max-w-[1440px] xl:px-20   ">
-      <div className="md:w-4/5  mx-auto  mb-8 ">
+    <section className="pt-40 mx-auto px-6 relative max-w-[1440px] xl:px-20">
+      <motion.div
+        className="md:w-4/5 mx-auto mb-8"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+      >
         <h2 className="headingSeaction">
           Experience the <b>Vision of Excellence</b>
         </h2>
@@ -16,60 +52,95 @@ const ExcellenceVision = () => {
           extraordinary state-of-the-art real estate projects that set
           benchmarks not only in the region but also globally.
         </p>
-      </div>
+      </motion.div>
 
-      {/* seaction images  */}
-
-      <div className="  gap-4 flex md:flex-row flex-col container mx-auto items-center  ">
-        <div className="  md:w-[37rem] ">
+      {/* Section images */}
+      <div className="gap-4 flex md:flex-row flex-col container mx-auto items-center">
+        <motion.div
+          className="md:w-[37rem]"
+          variants={fadeLeft}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
             <b className="bold">Recreational </b> Areas
           </h1>
-
           <Image
             src={car}
             alt="Recreational Areas"
-            className="   bg-repeat-round h-[40rem] "
+            className="bg-repeat-round h-[40rem]"
           />
-        </div>
-        <div className=" space-y-5  w-[24rem] my-auto flex flex-col items-center justify-center  ">
-          <div className="">
+        </motion.div>
+
+        <motion.div
+          className="space-y-5  my-auto flex flex-col items-center justify-center"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          <div>
             <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
               Beaches
             </h1>
             <Image
               src={beach}
               alt="beaches"
-              className="h-[18rem] bg-contain     bg-repeat-round"
+              className="h-[18rem] w-[24rem] bg-contain bg-repeat-round"
             />
           </div>
 
           <div className="my-3">
             <Image
-              src={beach}
-              alt="beaches"
-              className="h-[19rem] bg-contain   bg-repeat-round"
+              src={sportsClub}
+              alt="sports-club"
+              className="h-[19rem] w-[24rem] bg-contain rounded-2xl bg-repeat-round"
             />
-
             <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
               Sports Clubs
             </h1>
           </div>
-        </div>
-        <div className=" h-4/5   ">
-          <div className=" ">
+        </motion.div>
+
+        <motion.div
+          className="h-4/5"
+          variants={fadeRight}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          <div>
             <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
               <b className="bold">Shopping </b> Malls
             </h1>
-
             <Image
               src={shoopingMall}
-              alt="Recreational Areas"
-              className=" bg-contain  h-[40rem]   w-[24rem]  bg-repeat-round"
+              alt="Shopping Malls"
+              className="bg-contain h-[40rem] w-[24rem] bg-repeat-round"
             />
           </div>
-        </div>
+        </motion.div>
       </div>
+
+      <motion.div
+        className="w-full py-4"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+      >
+        <div>
+          <Image
+            src={Historical}
+            alt="Shopping Malls"
+            className="bg-contain h-[20rem] object-center rounded-2xl w-full bg-repeat-round"
+          />
+        </div>
+        <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
+          <b className="bold">Historical </b> Places
+        </h1>
+      </motion.div>
     </section>
   );
 };
