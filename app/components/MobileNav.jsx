@@ -29,9 +29,7 @@ const MobileNav = ({ onClose }) => {
           <div key={item.id} className="relative py-3">
             <div className="flex justify-between items-center">
               <Link
-                href={
-                  item.title === "HOME" ? "/" : `/${item.title.toLowerCase()}`
-                }
+                href={item?.link}
                 onClick={handleNavigation}
                 className="text-gray-800 text-sm font-medium hover:text-secondary"
               >

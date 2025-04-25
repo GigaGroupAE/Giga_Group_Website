@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { onGoinProjects } from "@/src/Data/OnGoingProjectsData";
 import React from "react";
 import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
@@ -30,9 +30,7 @@ const OnGoingProjects = () => {
 
             const handleNavigation = () => {
               const href =
-                item.title === "Ocean Crest Residence"
-                  ? "/ocean-crest"
-                  : `/`;
+                item.title === "Ocean Crest Residence" ? "/ocean-crest" : `/`;
 
               router.push(href);
             };

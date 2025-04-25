@@ -1,3 +1,5 @@
+"use client";
+
 import {
   investmentPost,
   posts,
@@ -7,215 +9,135 @@ import Image from "next/image";
 import React from "react";
 import newsImage from "../../public/blog1.webp";
 import FrequentlyQA from "../components/HomeComponents/FrequentlyQA";
+import { motion } from "framer-motion";
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (i = 1) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.2, duration: 0.6 },
+  }),
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.2, duration: 0.6, ease: "easeOut" },
+  }),
+};
 
 const page = () => {
   return (
-    <div className="">
-      <div className="">
-        <div className="container flex items-center justify-between flex-col md:flex-row mx-auto  ">
-          <div className="">
-            <div className=" py-16 justify-between">
-              <Image
-                src={newsImage}
-                alt="background image"
-                className="bg-indigo-200  w-[50rem] rounded-2xl h-[25rem]"
-              />
-            </div>
-          </div>
-          <div className=" bg-[#FDFDFD] md:w-[25rem] w-[95%]  space-y-7 py-7 ">
-            <div className=" py-5">
-              <div className="space-y-5">
-                <div className="space-y-5">
-                  {recentBlogs.map((item, index) => {
-                    return (
-                      <div className="flex items-center space-x-4 " key={index}>
-                        <Image
-                          src={newsImage}
-                          alt="AnnouncementImage"
-                          className=" h-16 w-16 rounded-md    object-cover"
-                        />
+    <div className="bg-[#FAFAFA] text-black">
+      <div className="container mx-auto px-4 py-10 space-y-16">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-10">
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            className="w-full md:w-2/3"
+          >
+            <Image
+              src={newsImage}
+              alt="Header"
+              className="w-full h-64 md:h-[25rem] object-cover rounded-2xl"
+            />
+          </motion.div>
 
-                        <div className="">
-                          <h2 className="font-poppins text-sm text-TextandIcons font-semibold">
-                            {item?.title}
-                          </h2>
-                          <p className="font-poppins text-xs text-TextandIcons">
-                            {item?.description}
-                          </p>
-                        </div>
-                      </div>
-                    );
-                  })}
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            custom={2}
+            className="w-full md:w-[30%] bg-white rounded-xl shadow-md p-6 space-y-6"
+          >
+            <h3 className="text-xl font-semibold">Recent Blogs</h3>
+            {recentBlogs.map((item, index) => (
+              <motion.div
+                key={index}
+                variants={fadeUp}
+                initial="hidden"
+                animate="visible"
+                custom={index + 3}
+                className="flex items-start gap-4"
+              >
+                <Image
+                  src={newsImage}
+                  alt="Thumbnail"
+                  className="h-16 w-16 object-cover rounded-md"
+                />
+                <div>
+                  <h4 className="text-sm font-semibold">{item.title}</h4>
+                  <p className="text-xs text-gray-600">{item.description}</p>
                 </div>
-              </div>
-            </div>
-          </div>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
 
-        {/* blogs Post  */}
+        <Section title="Recent Posts" data={posts} />
 
-        <div className=" py-10 mx-auto container">
-          <div className="flex justify-between  items-center ">
-            <h2 className="subHeading">Recent Posts</h2>
+        <Section title="Investment Posts" data={investmentPost} />
 
-            <div className=" px-5 py-1 text-center rounded-full bg-greyBG">
-              <p className="font-poppins text-center text-xs text-TextandIcons ">
-                View all
-              </p>
-            </div>
-          </div>
+        <Section title="Business Posts" data={investmentPost} />
 
-          <div className=" py-12 flex md:flex-row flex-col">
-            {posts.map((item, index) => {
-              return (
-                <div className=" w-[95%]  py-7 space-y-3 " key={index}>
-                  <Image
-                    src={newsImage}
-                    alt="AnnouncementImage"
-                    className=" rounded-2xl h-80 w-96    object-cover"
-                  />
-
-                  <div className="flex space-x-2 items-center  ">
-                    <p className="font-poppins text-placeholderText font-medium text-sm">
-                      {item?.date}{" "}
-                    </p>
-                  </div>
-
-                  <h2 className="font-poppins text-lg font-semibold text-TextandIcons">
-                    {item?.title}
-                  </h2>
-                  <p className="font-poppins text-xs text-TextandIcons">
-                    {item?.content}
-                  </p>
-                  <div className="flex items-center space-x-3">
-                    <Image
-                      src={newsImage}
-                      alt="AnnouncementImage"
-                      className=" h-6 w-6 rounded-full    object-cover"
-                    />
-                    <h2 className="font-poppins text-xs text-TextandIcons font-semibold">
-                      John Mathew
-                    </h2>
-                  </div>
-                </div>
-              );
-            })}
-
-            <div className="bg-secondary h-52 blur-[200px] w-52 -ml-52 mt-80 rounded-full absolute  "></div>
-          </div>
-        </div>
-
-        {/* Investment  Post  */}
-
-        <div className=" py-10 mx-auto container">
-          <div className="flex justify-between  items-center ">
-            <h2 className="subHeading">Investments Posts</h2>
-
-            <div className=" px-5 py-1 text-center rounded-full bg-greyBG">
-              <p className="font-poppins text-center text-xs text-TextandIcons ">
-                View all
-              </p>
-            </div>
-          </div>
-
-          <div className=" py-12 flex md:flex-row flex-col">
-            {investmentPost.map((item, index) => {
-              return (
-                <div className=" w-[95%]  py-7 space-y-3 " key={index}>
-                  <Image
-                    src={newsImage}
-                    alt="AnnouncementImage"
-                    className=" rounded-2xl h-80 w-72    object-cover"
-                  />
-
-                  <div className="flex space-x-2 items-center  ">
-                    <p className="font-poppins text-placeholderText font-medium text-sm">
-                      {item?.date}{" "}
-                    </p>
-                  </div>
-
-                  <h2 className="font-poppins text-lg font-semibold text-TextandIcons">
-                    {item?.title}
-                  </h2>
-                  <p className="font-poppins text-xs text-TextandIcons">
-                    {item?.content}
-                  </p>
-                  <div className="flex items-center space-x-3">
-                    <Image
-                      src={newsImage}
-                      alt="AnnouncementImage"
-                      className=" h-6 w-6 rounded-full    object-cover"
-                    />
-                    <h2 className="font-poppins text-xs text-TextandIcons font-semibold">
-                      John Mathew
-                    </h2>
-                  </div>
-                </div>
-              );
-            })}
-            <div className="bg-white/50  mt-96  -z-40  container  flex justify-end h-72 absolute">
-              <div className="bg-secondary h-60   w-60 blur-[200px]   -mr-20 rounded-full absolute  "></div>
-            </div>
-          </div>
-        </div>
-
-        {/* Business Posts Post  */}
-
-        <div className=" py-10 mx-auto container">
-          <div className="flex justify-between  items-center ">
-            <h2 className="subHeading">Business Posts</h2>
-
-            <div className=" px-5 py-1 text-center rounded-full bg-greyBG">
-              <p className="font-poppins text-center text-xs text-TextandIcons ">
-                View all
-              </p>
-            </div>
-          </div>
-
-          <div className=" py-12 flex md:flex-row flex-col">
-            {investmentPost.map((item, index) => {
-              return (
-                <div className=" w-[95%]  py-7 space-y-3 " key={index}>
-                  <Image
-                    src={newsImage}
-                    alt="AnnouncementImage"
-                    className=" rounded-2xl h-80 w-72    object-cover"
-                  />
-
-                  <div className="flex space-x-2 items-center  ">
-                    <p className="font-poppins text-placeholderText font-medium text-sm">
-                      {item?.date}{" "}
-                    </p>
-                  </div>
-
-                  <h2 className="font-poppins text-lg font-semibold text-TextandIcons">
-                    {item?.title}
-                  </h2>
-                  <p className="font-poppins text-xs text-TextandIcons">
-                    {item?.content}
-                  </p>
-                  <div className="flex items-center space-x-3">
-                    <Image
-                      src={newsImage}
-                      alt="AnnouncementImage"
-                      className=" h-6 w-6 rounded-full    object-cover"
-                    />
-                    <h2 className="font-poppins text-xs text-TextandIcons font-semibold">
-                      John Mathew
-                    </h2>
-                  </div>
-                </div>
-              );
-            })}
-            <div className="bg-white/50  mt-96  -z-40  container  flex justify-center h-72 absolute">
-              <div className="bg-secondary h-60   w-60 blur-[200px]   -mr-20 rounded-full absolute  "></div>
-            </div>
-          </div>
-        </div>
-
+        {/* FAQ */}
         <FrequentlyQA />
       </div>
     </div>
+  );
+};
+
+const Section = ({ title, data }) => {
+  return (
+    <motion.div
+      className="space-y-10"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: false, amount: 0.3 }}
+    >
+      <div className="flex items-center justify-between">
+        <h2 className="text-2xl font-semibold">{title}</h2>
+        <div className="bg-gray-200 px-4 py-1 rounded-full">
+          <p className="text-xs text-gray-600">View all</p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {data.map((item, index) => (
+          <motion.div
+            key={index}
+            className="bg-white rounded-xl shadow hover:shadow-lg transition-shadow duration-300 p-4"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            custom={index}
+          >
+            <Image
+              src={newsImage}
+              alt="Post"
+              className="w-full h-48 object-cover rounded-lg"
+            />
+            <p className="text-sm text-gray-500 mt-2">{item.date}</p>
+            <h3 className="font-semibold text-lg mt-1">{item.title}</h3>
+            <p className="text-sm text-gray-600 mt-1">{item.content}</p>
+            <div className="flex items-center mt-4 space-x-3">
+              <Image
+                src={newsImage}
+                alt="Author"
+                className="h-6 w-6 rounded-full object-cover"
+              />
+              <span className="text-xs font-semibold">John Mathew</span>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </motion.div>
   );
 };
 
