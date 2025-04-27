@@ -1,116 +1,189 @@
 export const announcementsData = [
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title: "Best Family-Friendly Parks Near Deira and Al Mamzar",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Discover beautiful parks perfect for family outings around New Dubai, with jogging tracks, playgrounds, picnic spots, and lush green surroundings for outdoor fun.",
     image: "image1.jpg",
   },
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title: " Top Beaches Near New Dubai for a Perfect Weekend Getaway",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Relax and unwind at the best beaches near New Dubai, offering crystal-clear waters, scenic sunsets, family-friendly zones, and thrilling water activities.",
     image: "image2.jpg",
   },
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title: "Waterfront Market: Dubai’s Freshest Seafood and More",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Enjoy the freshest seafood, meats, fruits, and vegetables at Waterfront Market — Dubai’s lively destination for culinary explorers and fresh produce lovers.",
     image: "image3.jpg",
   },
 ];
 
 export const recentBlogs = [
   {
-    title: "Blog Title",
+    title: "Top Schools for Quality Education ... ",
     description:
-      "Great institutions are built over time, nurturing dreams and fostering visions that promote...",
+      "Find top-rated schools offering world-class education near New Dubai, focusing on academic excellence, modern facilities ...",
+    image: "/school.webp",
   },
   {
-    title: "Blog Title",
+    title: "Best Biryani Spots Around Deira...",
     description:
-      "Great institutions are built over time, nurturing dreams and fostering visions that promote...",
+      "Treat yourself to mouthwatering biryanis from top-rated restaurants in Deira and Al Nahda, blending aromatic spices ...",
+    image: "/biryani.webp",
   },
   {
-    title: "Blog Title",
+    title: "Top 10 Restaurants You Must ...",
     description:
-      "Great institutions are built over time, nurturing dreams and fostering visions that promote...",
+      "Savor diverse cuisines at the best restaurants around New Dubai, offering authentic Arabic, seafood, Indian...",
+    image: "/restaurants.webp",
   },
   {
-    title: "Blog Title",
+    title: "Sharjah Aquarium: Dive Into...",
     description:
-      "Great institutions are built over time, nurturing dreams and fostering visions that promote...",
+      "Dive into marine wonders at Sharjah Aquarium, where vibrant underwater life is displayed across 21 aquariums, perfect ...",
+    image: "/sharjahaquarium.webp",
   },
-  {
-    title: "Blog Title",
-    description:
-      "Great institutions are built over time, nurturing dreams and fostering visions that promote...",
-  },
+  // {
+  //   title: "Blog Title",
+  //   description:
+  //     "Great institutions are built over time, nurturing dreams and fostering visions that promote...",
+  // },
 ];
 
 export const posts = [
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title:
+      "Hidden Gems: Traditional Markets and Souks Near Deira and Al Mamzar",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "image1.jpg",
+      "Explore Dubai’s vibrant traditional markets near Deira and Al Mamzar, offering spices, textiles, souvenirs, and a glimpse into the city’s cultural shopping heritage.",
+    image: "/Deira-markets.webp",
   },
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title: "Explore the Best Shopping Malls Around New Dubai",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "image2.jpg",
+      "Shop luxury brands, daily essentials, and entertainment experiences at the top malls around New Dubai, blending world-class retail therapy with family-friendly attractions.",
+    image: "/Dubai-Shopping-Mall-Featured.webp",
   },
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title: "Best Medical Fitness Centers for Visa Screening in Dubai",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "image3.jpg",
+      "Find reliable and efficient medical fitness centers across New Dubai offering fast visa medical screenings with advanced facilities for your residency and work permit needs.",
+    image: "/MFC-Image-6.webp",
   },
 ];
 
 export const investmentPost = [
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title: "Top Investment Opportunities in New Dubai for 2025",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "image1.jpg",
+      "Discover lucrative investment options in New Dubai, from residential properties to commercial hubs, designed to offer high returns and long-term security in 2025.",
+    image: "/estate.webp",
   },
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title: "Why Investing in New Dubai Real Estate is a Smart Move",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "image2.jpg",
+      "Learn why New Dubai’s booming real estate market offers excellent opportunities for investors, with high rental yields, capital appreciation, and strategic locations.",
+    image: "/invest-estate.webp",
   },
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title: "Commercial Investment Hotspots Near Dubai Creek and Deira",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "image3.jpg",
+      "Explore the best commercial real estate hotspots near Dubai Creek and Deira, offering premium office spaces, retail units, and investment-friendly developments.",
+    image: "/commercial.webp",
   },
   {
     date: "Jan 20, 2025",
-    author: "John Doe",
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
+    author: "Giga Group",
+    title:
+      "How Waterfront Developments Are Changing Investment Trends in Dubai",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "image3.jpg",
+      "Understand how waterfront projects like the Waterfront Market and coastal communities are reshaping real estate investment trends and driving demand in Dubai.",
+    image: "/DUBAI-CREEK-HARBOUR.webp",
+  },
+  {
+    date: "Jan 20, 2025",
+    author: "Giga Group",
+    title: "Benefits of Early Investment in Dubai’s Upcoming Mega Projects",
+    content:
+      "Explore why early investments in Dubai’s upcoming mega developments offer massive returns, exclusive pricing advantages, and premium future growth potential.",
+    image: "/biggroup.webp",
+  },
+  {
+    date: "Jan 20, 2025",
+    author: "Giga Group",
+    title: "How Dubai’s Tourism Growth is Boosting Property Investments",
+    content:
+      "Understand how Dubai’s booming tourism industry is fueling property demand, creating lucrative opportunities for investors in hospitality, residential, and retail sectors.",
+    image: "/tourism.webp",
+  },
+];
+
+export const BusinessPost = [
+  {
+    date: "Jan 20, 2025",
+    author: "Giga Group",
+    title: "Top Business-Friendly Zones Around New Dubai",
+    content:
+      "Discover the best free zones and commercial areas near New Dubai designed for startups, SMEs, and multinational companies to thrive with ease.",
+    image: "/Top-Business-Friendly-Zones-Around-New-Dubai.webp",
+  },
+  {
+    date: "Jan 20, 2025",
+    author: "Giga Group",
+    title: " Why Dubai is the Best Place to Start Your Business in 2025",
+    content:
+      "Learn why Dubai’s economic policies, global connectivity, and innovation-friendly environment make it the ideal destination for launching new businesses.",
+    image: "/Dubai-best-place-business.webp",
+  },
+  {
+    date: "Jan 20, 2025",
+    author: "Giga Group",
+    title: " Emerging Business Sectors to Watch in New Dubai",
+    content:
+      "Explore booming sectors like fintech, healthcare, e-commerce, and sustainability that are reshaping the business landscape around New Dubai.",
+    image: "/UAE-emerging-sectors.webp",
+  },
+  {
+    date: "Jan 20, 2025",
+    author: "Giga Group",
+    title: ". How to Set Up a Company in New Dubai: Step-by-Step Guide",
+    content:
+      "Get a simple guide to setting up a company in New Dubai, from choosing the right license to securing offices and legal paperwork.",
+    image: "/DUBAI-CREEK-HARBOUR.webp",
+  },
+  {
+    date: "Jan 20, 2025",
+    author: "Giga Group",
+    title: "The Rise of Co-Working Spaces Near Dubai Creek and Deira",
+    content:
+      "Explore how flexible co-working spaces around Dubai Creek and Deira are transforming how startups, freelancers, and remote teams operate.",
+    image: "/co-working.webp",
+  },
+  {
+    date: "Jan 20, 2025",
+    author: "Giga Group",
+    title: "Top Business Networking Events Near New Dubai in 2025",
+    content:
+      "Attend the best networking events, exhibitions, and business summits happening near New Dubai to connect with investors, entrepreneurs, and industry leaders.",
+    image: "/events.webp",
   },
 ];

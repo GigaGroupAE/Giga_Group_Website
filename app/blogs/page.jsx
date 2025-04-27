@@ -1,13 +1,13 @@
 "use client";
-
 import {
+  BusinessPost,
   investmentPost,
   posts,
   recentBlogs,
 } from "@/src/Data/AnnouncementData";
 import Image from "next/image";
 import React from "react";
-import newsImage from "../../public/blog1.webp";
+import newsImage from "../../public/TouristSpots.webp";
 import FrequentlyQA from "../components/HomeComponents/FrequentlyQA";
 import { motion } from "framer-motion";
 
@@ -29,6 +29,8 @@ const cardVariants = {
   }),
 };
 
+console.log(posts, "posts");
+
 const page = () => {
   return (
     <div className="bg-[#FAFAFA] text-black">
@@ -38,12 +40,17 @@ const page = () => {
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="w-full md:w-2/3"
+            className="w-full md:w-2/3 md:h-[28rem]"
           >
+            {/* <div className="absolute z-50 top-64 sm:top-72">
+              <h1 className="bg-red-600">
+                Top Tourist Spots to Visit Within 15km of New Dubai
+              </h1>
+            </div> */}
             <Image
               src={newsImage}
               alt="Header"
-              className="w-full h-64 md:h-[25rem] object-cover rounded-2xl"
+              className="w-full  h-full  object-cover rounded-2xl"
             />
           </motion.div>
 
@@ -52,7 +59,7 @@ const page = () => {
             initial="hidden"
             animate="visible"
             custom={2}
-            className="w-full md:w-[30%] bg-white rounded-xl shadow-md p-6 space-y-6"
+            className="w-full md:w-[30%] md:h-[28rem] bg-white rounded-xl shadow-md p-6 space-y-6"
           >
             <h3 className="text-xl font-semibold">Recent Blogs</h3>
             {recentBlogs.map((item, index) => (
@@ -64,10 +71,13 @@ const page = () => {
                 custom={index + 3}
                 className="flex items-start gap-4"
               >
-                <Image
-                  src={newsImage}
+                <img
+                  src={item.image}
                   alt="Thumbnail"
-                  className="h-16 w-16 object-cover rounded-md"
+                  className=" w-16 h-16  rounded-md"
+                  width={30}
+                  height={30}
+                  style={{ objectFit: "cover" }}
                 />
                 <div>
                   <h4 className="text-sm font-semibold">{item.title}</h4>
@@ -82,7 +92,7 @@ const page = () => {
 
         <Section title="Investment Posts" data={investmentPost} />
 
-        <Section title="Business Posts" data={investmentPost} />
+        <Section title="Business Posts" data={BusinessPost} />
 
         {/* FAQ */}
         <FrequentlyQA />
@@ -118,8 +128,8 @@ const Section = ({ title, data }) => {
             viewport={{ once: true }}
             custom={index}
           >
-            <Image
-              src={newsImage}
+            <img
+              src={item.image}
               alt="Post"
               className="w-full h-48 object-cover rounded-lg"
             />
@@ -132,7 +142,7 @@ const Section = ({ title, data }) => {
                 alt="Author"
                 className="h-6 w-6 rounded-full object-cover"
               />
-              <span className="text-xs font-semibold">John Mathew</span>
+              <span className="text-xs font-semibold">Giga Group</span>
             </div>
           </motion.div>
         ))}
