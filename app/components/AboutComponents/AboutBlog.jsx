@@ -3,6 +3,7 @@ import { aboutBlog } from "@/src/Data/AboutBlog";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import { posts } from "@/src/Data/AnnouncementData";
 
 const blogCardVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -28,7 +29,7 @@ const AboutBlog = () => {
         </motion.h1>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-14">
-          {aboutBlog.map((item, index) => (
+          {posts.map((item, index) => (
             <motion.div
               key={item.id}
               className="text-[#ffffff] rounded-2xl px-7 space-y-4"
@@ -46,10 +47,10 @@ const AboutBlog = () => {
                 className="rounded-md object-cover w-full h-[250px]"
               />
               <h2 className="text-lg md:text-xl font-bold text-TextandIcons">
-                {item.heading}
+                {item.title}
               </h2>
               <p className="text-TextandIcons font-poppins text-sm">
-                {item.description}
+                {item.content}
               </p>
               <h2 className="font-poppins text-sm text-TextandIcons font-semibold cursor-pointer hover:underline transition-all">
                 Learn More

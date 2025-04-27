@@ -10,6 +10,7 @@ import searchImage from "../../public/search.webp";
 import Image from "next/image";
 import ButtonPrimary from "../components/ButtonPrimary";
 import { motion } from "framer-motion";
+import logo from "../../public/LogoMobile.svg";
 
 const index = () => {
   const fadeInUp = {
@@ -32,8 +33,8 @@ const index = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <Image
-                src={newsImage}
+              <img
+                src={item?.image}
                 alt="AnnouncementImage"
                 className="rounded-2xl h-64 object-cover w-full"
               />
@@ -85,18 +86,18 @@ const index = () => {
             </h2>
             <div className="flex items-center space-x-3">
               <Image
-                src={newsImage}
+                src={logo}
                 alt="AnnouncementImage"
-                className="h-10 w-10 rounded-full object-cover"
+                className="h-14 w-14 rounded-full object-contain"
               />
               <h2 className="font-poppins text-sm text-TextandIcons font-semibold">
-                John Mathew
+                Giga Group
               </h2>
             </div>
             <p className="font-poppin text-TextandIcons text-sm">
-              Great institutions are built over time, nurturing dreams and
-              fostering visions that promote peaceful and inclusive societies
-              for sustainable development.
+              Great institutions are built over decades, shaping skylines,
+              empowering communities, and delivering iconic developments that
+              drive progress, innovation, and sustainable urban living.
             </p>
           </div>
 
@@ -116,10 +117,10 @@ const index = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                 >
-                  <Image
-                    src={newsImage}
+                  <img
+                    src={item?.image}
                     alt="AnnouncementImage"
-                    className="h-16 w-16 rounded-md object-cover"
+                    className="h-20 w-20 rounded-md object-cover"
                   />
                   <div>
                     <h2 className="font-poppins text-sm text-TextandIcons font-semibold">
@@ -173,8 +174,8 @@ const index = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <Image
-                src={newsImage}
+              <img
+                src={item?.image}
                 alt="Post Image"
                 className="rounded-2xl h-80 w-full object-cover"
               />
@@ -191,12 +192,12 @@ const index = () => {
               </p>
               <div className="flex items-center space-x-3">
                 <Image
-                  src={newsImage}
+                  src={logo}
                   alt="Author"
-                  className="h-6 w-6 rounded-full object-cover"
+                  className="h-6 w-6 rounded-full object-contain"
                 />
                 <h2 className="font-poppins text-xs text-TextandIcons font-semibold">
-                  John Mathew
+                  Giga Group
                 </h2>
               </div>
             </motion.div>

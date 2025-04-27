@@ -2,26 +2,28 @@ export const announcementsData = [
   {
     date: "Jan 20, 2025",
     author: "Giga Group",
-    title: "Best Family-Friendly Parks Near Deira and Al Mamzar",
+    title:
+      "Ocean Crest Project Launching Soon – The New Face of Waterfront Living",
     content:
-      "Discover beautiful parks perfect for family outings around New Dubai, with jogging tracks, playgrounds, picnic spots, and lush green surroundings for outdoor fun.",
-    image: "image1.jpg",
+      "Ocean Crest is launching soon, setting a new standard for premium waterfront living near New Dubai. With stunning views, luxury amenities, and unbeatable location, Ocean Crest is designed to elevate modern lifestyles. Stay tuned for official launch details!",
+    image: "/DUBAI-CREEK-HARBOUR.webp",
   },
   {
     date: "Jan 20, 2025",
     author: "Giga Group",
-    title: " Top Beaches Near New Dubai for a Perfect Weekend Getaway",
+    title:
+      " Giga Boutique Mall – Islamabad’s New Landmark with Pakistan’s First Indoor Water Park",
     content:
-      "Relax and unwind at the best beaches near New Dubai, offering crystal-clear waters, scenic sunsets, family-friendly zones, and thrilling water activities.",
-    image: "image2.jpg",
+      "Exciting news from DHA Phase 2 Islamabad! Giga Boutique Mall is launching soon, featuring Pakistan’s first-ever indoor water park, premium shopping, world-class dining, and entertainment all in one destination. Located on the prime GT Road at Giga Downtown, Giga Boutique Mall is set to redefine family fun and urban lifestyle experiences.",
+    image: "/DMallNew-1024x559.jpg",
   },
   {
     date: "Jan 20, 2025",
     author: "Giga Group",
-    title: "Waterfront Market: Dubai’s Freshest Seafood and More",
+    title: "Golden Investment Opportunities Await in New Dubai’s Growing Icons",
     content:
-      "Enjoy the freshest seafood, meats, fruits, and vegetables at Waterfront Market — Dubai’s lively destination for culinary explorers and fresh produce lovers.",
-    image: "image3.jpg",
+      "With groundbreaking projects like Ocean Crest and Giga Boutique Mall on the horizon, now is the time to invest in New Dubai’s future. Secure your position early in these thriving landmarks and watch your investments grow.",
+    image: "/investment-opportunities.jpeg",
   },
 ];
 
@@ -165,7 +167,7 @@ export const BusinessPost = [
   {
     date: "Jan 20, 2025",
     author: "Giga Group",
-    title: ". How to Set Up a Company in New Dubai: Step-by-Step Guide",
+    title: "How to Set Up a Company in New Dubai: Step-by-Step Guide",
     content:
       "Get a simple guide to setting up a company in New Dubai, from choosing the right license to securing offices and legal paperwork.",
     image: "/DUBAI-CREEK-HARBOUR.webp",
