@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const WhyChoiceProject = () => {
   return (
-    <div className="bg-secondary">
-      <div className=" py-[70] px-5 md:px-0  container  mx-auto items-center">
+    <div className="bg-secondary ">
+      <div className=" py-16 px-5 md:px-0  container  mx-auto items-center">
         <h3 className="text-center  font-medium text-white text-[35px]">
           Why Choose <b>Pearl Bliss Residence?</b>
         </h3>
-        <p className='text-white   text-center text-sm font-poppins'>
+        <p className="text-white   text-center text-sm font-poppins">
           Pearl Bliss Residence by Giga Group offers a lifestyle like no other,
           set in a prime location that caters to your every need. Surrounded by
           lush parks, top-rated schools, nurseries, and a diverse range of
@@ -19,6 +19,6 @@ const WhyChoiceProject = () => {
       </div>
     </div>
   );
-}
+};
 
-export default WhyChoiceProject
+export default WhyChoiceProject;

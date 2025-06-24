@@ -186,8 +186,10 @@ const page = () => {
       </div>
 
       <div className="bg-secondary">
-        <div className="w-4/6 mx-auto py-16  space-y-2
-        ">
+        <div
+          className="w-4/6 mx-auto py-16  space-y-2
+        "
+        >
           <h1 className="text-center text-white font-poppins text-4xl font-semibold ">
             Why Choose <b>Pearl Bliss Residence?</b>{" "}
           </h1>
@@ -203,7 +205,7 @@ const page = () => {
         </div>
       </div>
 
-      <ContactUsForm/>
+      <ContactUsForm />
     </section>
   );
 };
