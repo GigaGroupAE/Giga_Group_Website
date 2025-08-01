@@ -1,140 +1,126 @@
 "use client";
-import { useState } from "react";
+
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link"; // Importing Link component from next/link
-import { NavbarData } from "../../src/Data/NavbarData";
-import logo from "../../public/giga-group-logo.svg";
-import logoMobile from "../../public/LogoMobile.svg";
-import { IoIosArrowDown } from "react-icons/io";
-import { MdKeyboardArrowRight } from "react-icons/md";
-import { AiOutlineGlobal } from "react-icons/ai";
+import { usePathname } from "next/navigation";
+import Logo from "../../public/giga-group-logo.svg";
 import ButtonPrimary from "./ButtonPrimary";
-import { CiMenuBurger } from "react-icons/ci";
-import MobileNav from "./MobileNav";
+import ButtonSecandary from "./ButtonSecandary";
+
+const menuItems = [
+  { name: "HOME", path: "/" },
+  { name: "ABOUT", path: "/about-us" },
+  { name: "COMPANIES", path: "/companies" },
+  { name: "MANAGEMENT", path: "/management" },
+  { name: "PROJECTS", path: "/projects" },
+  { name: "GALLERY", path: "/gallery" },
+];
 
 const Navbar = () => {
-  const [dropdownVisible, setDropdownVisible] = useState(false);
-  const [subDropdownVisible, setSubDropdownVisible] = useState(null);
-  const [isMobileNav, setisMobileNav] = useState(false);
-  const [activeMenu, setActiveMenu] = useState(null);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
-  const handleClose = () => {
-    setisMobileNav(!isMobileNav);
+  useEffect(() => {
+    const handleScroll = () => setIsScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleNavigation = (path) => {
+    if (!path) return;
+    window.location.href = path;
+    setIsMenuOpen(false);
   };
 
   return (
-    <nav className="py-4 container mx-auto">
-      {isMobileNav && (
-        <div>
-          <MobileNav onClose={handleClose} />
-        </div>
-      )}
-      <div className="flex flex-row items-center justify-between px-4">
-        {/* Mobile Menu Toggle */}
-        <div
-          className="md:hidden flex items-center"
-          onClick={() => setisMobileNav(true)}
-        >
-          <CiMenuBurger />
-        </div>
-        {/* Logo on the left */}
-        <div className="hidden md:flex  items-center">
-          <Image src={logo} alt="Logo" width={150} height={50} />
-        </div>
-        <div className=" md:hidden  items-center">
-          <Image src={logoMobile} alt="Logo" width={150} height={50} />
-        </div>
+    <nav
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        isScrolled ? "bg-white/40 backdrop-blur-md shadow-lg" : "bg-white"
+      }`}
+    >
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-6 py-4">
+        <a href="/" className="flex items-center space-x-2">
+          <Image src={Logo} alt="GIGA Group Logo" width={150} height={100} />
+        </a>
 
-        {/* Menu in the center */}
-        <div className="hidden md:flex flex-row space-x-6">
-          {NavbarData.map((item) => (
-            <div
-              key={item.id}
-              className="relative flex flex-row items-center gap-2"
-            >
-              <Link
-                href={item?.link}
-                onClick={() => setActiveMenu(item.title)}
-                className={`text-sm font-poppins hover:text-secondary ${
-                  activeMenu === item.title
-                    ? "text-secondary"
-                    : "text-TextandIcons"
+        <div className="hidden lg:flex items-center space-x-6">
+          {menuItems.map((item) => {
+            const isActive = pathname === item.path;
+            return (
+              <button
+                key={item.name}
+                onClick={() => handleNavigation(item.path)}
+                className={`text-sm font-medium px-2 py-1 transition-colors ${
+                  isActive
+                    ? "text-yellow-600"
+                    : "text-gray-800 hover:text-yellow-600"
                 }`}
               >
-                {item.title}
-              </Link>
-              {item.title === "PROJECTS" && <IoIosArrowDown size={14} />}
+                {item.name}
+              </button>
+            );
+          })}
 
-              {/* Dropdown for PROJECTS */}
-              {item.title === "PROJECTS" && dropdownVisible && (
-                <div className=" absolute  top-8 left-0 w-52  bg-white  rounded shadow-lg">
-                  {["Residential Projects", "Commercial Projects"].map(
-                    (subItem, index) => (
-                      <div key={index} className="relative">
-                        <button
-                          onClick={() =>
-                            setSubDropdownVisible(
-                              subDropdownVisible === subItem ? null : subItem
-                            )
-                          }
-                          className="font-poppins px-4 flex justify-between w-full py-3 text-sm text-TextandIcons hover:text-#61646A hover:bg-[rgba(250,247,229)]"
-                        >
-                          {subItem}
-                          <MdKeyboardArrowRight size={14} />
-                        </button>
-                        {/* Nested Sub-dropdown */}
-                        {subDropdownVisible === subItem && (
-                          <div className=" ml-2 absolute left-full top-0 w-52 bg-white rounded shadow-lg">
-                            <Link
-                              href="/ocean-crest"
-                              className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
-                            >
-                              Ocean Crest Residence
-                            </Link>
-                            <a
-                              href="#"
-                              className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
-                            >
-                              Goldcrest Views 1
-                            </a>
-                            <a
-                              href="#"
-                              className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
-                            >
-                              Goldcrest Views 2
-                            </a>
-                            <a
-                              href="#"
-                              className="block py-3 text-sm text-TextandIcons  hover:bg-[rgba(250,247,229)] px-4"
-                            >
-                              Goldcrest Executive
-                            </a>
-                          </div>
-                        )}
-                      </div>
-                    )
-                  )}
-                </div>
-              )}
-            </div>
-          ))}
+          <ButtonPrimary
+            title="CONTACT US"
+            onClick={() => handleNavigation("/contact")}
+          />
         </div>
 
-        {/* Right side: Language and User */}
-        <div className="flex items-center space-x-6">
-          <div className="hidden md:block">
-            <AiOutlineGlobal />
-          </div>
-          <div>
-            <h2 className="text-sm font-poppins underline text-TextandIcons">
-              Login In
-            </h2>
-          </div>
-          <div className="hidden md:block">
-            <ButtonPrimary title="Become a Member" />
-          </div>
-        </div>
+        <button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="lg:hidden w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full text-gray-700"
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
       </div>
+
+      {/* Mobile Navigation */}
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.div
+            initial={{ x: "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "-100%" }}
+            transition={{ duration: 0.4 }}
+            className="fixed top-0 left-0 w-full h-screen bg-white/90 backdrop-blur-md shadow-lg z-50 flex flex-col justify-center items-center"
+          >
+            <motion.div className="bg-white py-6 rounded-xl shadow-lg w-80 flex flex-col space-y-0">
+              {menuItems.map((item) => {
+                const isActive = pathname === item.path;
+                return (
+                  <button
+                    key={item.name}
+                    onClick={() => handleNavigation(item.path)}
+                    className={`w-full text-left py-3 px-6 border-b text-lg font-medium transition-colors ${
+                      isActive
+                        ? "bg-yellow-50 text-yellow-700 border-gray-200"
+                        : "text-gray-800 hover:text-yellow-600 border-transparent"
+                    }`}
+                  >
+                    {item.name}
+                  </button>
+                );
+              })}
+
+              <div className="gap-y-4 px-6  flex flex-col">
+                <ButtonPrimary
+                  title="Contact Us"
+                  onClick={() => handleNavigation("/contact")}
+                />
+
+                <ButtonSecandary
+                  title="Close Menu"
+                  onClick={() => setIsMenuOpen(false)}
+                />
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 };

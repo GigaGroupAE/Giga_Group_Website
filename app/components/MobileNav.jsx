@@ -1,9 +1,10 @@
 "use client";
-import { NavbarData } from "@/src/Data/NavbarData";
+
 import React, { useState } from "react";
-import { MdKeyboardArrowRight } from "react-icons/md";
-import { IoIosArrowDown } from "react-icons/io";
 import Link from "next/link";
+import { NavbarData } from "@/src/Data/NavbarData";
+import { IoIosArrowDown } from "react-icons/io";
+import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
 
 const MobileNav = ({ onClose }) => {
@@ -12,85 +13,94 @@ const MobileNav = ({ onClose }) => {
 
   const handleNavigation = () => {
     onClose();
-    console.log("clicl");
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex">
-      <div className="bg-white w-4/5 h-full px-4 py-4 relative shadow-lg">
-        <div
-          onClick={() => console.log("handler")}
-          className="absolute top-4  right-4 text-gray-600 hover:text-black"
+    <div className=" inset-0   relative z-50 bg-black bg-opacity-60 flex">
+      <div className="bg-white w-4/5 max-w-sm h-full px-6 py-6 shadow-2xl relative overflow-y-auto">
+        {/* Close Icon */}
+        <button
+          onClick={onClose}
+          aria-label="Close menu"
+          className="absolute top-4 right-4 text-gray-600 hover:text-black transition"
         >
-          <IoClose size={24} />
-        </div>
+          <IoClose size={26} />
+        </button>
 
-        {NavbarData.map((item) => (
-          <div key={item.id} className="relative py-3">
-            <div className="flex justify-between items-center">
-              <Link
-                href={item?.link}
-                onClick={handleNavigation}
-                className="text-gray-800 text-sm font-medium hover:text-secondary"
-              >
-                {item.title}
-              </Link>
+        {/* Menu Items */}
+        <nav className="mt-8 space-y-6">
+          {NavbarData.map((item) => (
+            <div key={item.id} className="space-y-1">
+              <div className="flex justify-between items-center">
+                <Link
+                  href={item.link}
+                  onClick={handleNavigation}
+                  className="text-base font-semibold text-gray-900 hover:text-yellow-600 transition"
+                >
+                  {item.title}
+                </Link>
 
-              {item.title === "PROJECTS" && (
-                <button onClick={() => setDropdownVisible(!dropdownVisible)}>
-                  <IoIosArrowDown
-                    size={14}
-                    className={`${
-                      dropdownVisible ? "rotate-180" : ""
-                    } transition-transform`}
-                  />
-                </button>
-              )}
-            </div>
-
-            {item.title === "PROJECTS" && dropdownVisible && (
-              <div className="bg-white border rounded-md mt-2 shadow-md">
-                {["Residential Projects", "Commercial Projects"].map(
-                  (subItem) => (
-                    <div key={subItem} className="group">
-                      <button
-                        onClick={() =>
-                          setSubDropdownVisible(
-                            subDropdownVisible === subItem ? null : subItem
-                          )
-                        }
-                        className="w-full text-left py-2 px-4 text-gray-700 hover:bg-gray-100 flex justify-between items-center"
-                      >
-                        {subItem}
-                        <MdKeyboardArrowRight size={14} />
-                      </button>
-
-                      {subDropdownVisible === subItem && (
-                        <div className="pl-6 border-l">
-                          {[
-                            "Ocean Crest Residence",
-                            "Goldcrest Views 1",
-                            "Goldcrest Views 2",
-                            "Goldcrest Executive",
-                          ].map((project) => (
-                            <Link
-                              key={project}
-                              href="#"
-                              onClick={handleNavigation}
-                              className="block py-2 px-4 text-gray-600 hover:bg-gray-100"
-                            >
-                              {project}
-                            </Link>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  )
+                {item.title === "PROJECTS" && (
+                  <button
+                    onClick={() => setDropdownVisible(!dropdownVisible)}
+                    aria-label="Toggle Projects"
+                    className="text-gray-700"
+                  >
+                    <IoIosArrowDown
+                      size={18}
+                      className={`transition-transform duration-300 ${
+                        dropdownVisible ? "rotate-180" : ""
+                      }`}
+                    />
+                  </button>
                 )}
               </div>
-            )}
-          </div>
-        ))}
+
+              {/* PROJECTS Dropdown */}
+              {item.title === "PROJECTS" && dropdownVisible && (
+                <div className="ml-3 mt-2 space-y-3 border-l border-gray-200 pl-3">
+                  {["Residential Projects", "Commercial Projects"].map(
+                    (subItem) => (
+                      <div key={subItem}>
+                        <button
+                          onClick={() =>
+                            setSubDropdownVisible(
+                              subDropdownVisible === subItem ? null : subItem
+                            )
+                          }
+                          className="flex justify-between w-full text-sm text-gray-700 hover:text-black transition items-center"
+                        >
+                          {subItem}
+                          <MdKeyboardArrowRight size={16} />
+                        </button>
+
+                        {subDropdownVisible === subItem && (
+                          <div className="mt-2 space-y-1 ml-3 border-l border-gray-100 pl-3">
+                            {[
+                              "Ocean Crest Residence",
+                              "Goldcrest Views 1",
+                              "Goldcrest Views 2",
+                              "Goldcrest Executive",
+                            ].map((project) => (
+                              <Link
+                                key={project}
+                                href="#"
+                                onClick={handleNavigation}
+                                className="block text-sm text-gray-600 hover:text-black transition"
+                              >
+                                {project}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    )
+                  )}
+                </div>
+              )}
+            </div>
+          ))}
+        </nav>
       </div>
     </div>
   );
