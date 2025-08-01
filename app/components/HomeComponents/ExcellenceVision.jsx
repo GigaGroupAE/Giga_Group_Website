@@ -54,7 +54,6 @@ const ExcellenceVision = () => {
         </p>
       </motion.div>
 
-      {/* Section images */}
       <div className="gap-4 flex md:flex-row flex-col container mx-auto items-center">
         <motion.div
           className="md:w-[37rem]"

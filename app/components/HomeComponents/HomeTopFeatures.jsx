@@ -1,7 +1,6 @@
 import { topFeatures } from "@/src/Data/TopFeaturesData";
 import React from "react";
 import ButtonPrimary from "../ButtonPrimary";
-import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import { motion } from "framer-motion";
 
 const HomeTopFeatures = () => {

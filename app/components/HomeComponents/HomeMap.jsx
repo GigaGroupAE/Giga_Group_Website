@@ -26,9 +26,7 @@ const HomeMap = () => {
             </div>
           </div>
         </div>
-        {/* Right Container  */}
         <div className="flex-2 flex bg-contain   bg-bgmap h-[700px] object-contain  w-full">
-          {/* container left  */}
           <div className=" flex items-end md:items-center md:justify-center md:flex-col flex-row md:gap-72">
             <div className="bg-[rgba(250,248,229)] rounded-full w-28 h-28 flex items-center justify-center">
               <h1 className="text-TextandIcons font-bold text-2xl">2.5</h1>
@@ -40,16 +38,12 @@ const HomeMap = () => {
             </div>
           </div>
 
-          {/* container bottom  */}
-
           <div className=" relative  md:self-end self-baseline  -bottom-[620px] md:-bottom-0   md:-right-80   -right-14  ">
             <div className="bg-[rgba(250,248,229)] rounded-full w-28 h-28 flex items-center justify-center relative bottom-10">
               <h1 className="text-TextandIcons font-bold text-2xl">10</h1>
               <p className="">KM</p>
             </div>
           </div>
-
-          {/* pin  */}
 
           <div className=" mx-auto md:my-auto md:ml-10 md:mt-64 mt-32   -ml-44  ">
             <Image src={pin} alt="Location " />

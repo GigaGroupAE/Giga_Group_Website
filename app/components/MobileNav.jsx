@@ -18,7 +18,6 @@ const MobileNav = ({ onClose }) => {
   return (
     <div className=" inset-0   relative z-50 bg-black bg-opacity-60 flex">
       <div className="bg-white w-4/5 max-w-sm h-full px-6 py-6 shadow-2xl relative overflow-y-auto">
-        {/* Close Icon */}
         <button
           onClick={onClose}
           aria-label="Close menu"
@@ -27,7 +26,6 @@ const MobileNav = ({ onClose }) => {
           <IoClose size={26} />
         </button>
 
-        {/* Menu Items */}
         <nav className="mt-8 space-y-6">
           {NavbarData.map((item) => (
             <div key={item.id} className="space-y-1">
@@ -56,7 +54,6 @@ const MobileNav = ({ onClose }) => {
                 )}
               </div>
 
-              {/* PROJECTS Dropdown */}
               {item.title === "PROJECTS" && dropdownVisible && (
                 <div className="ml-3 mt-2 space-y-3 border-l border-gray-200 pl-3">
                   {["Residential Projects", "Commercial Projects"].map(

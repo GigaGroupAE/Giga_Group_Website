@@ -29,8 +29,6 @@ const cardVariants = {
   }),
 };
 
-console.log(posts, "posts");
-
 const page = () => {
   return (
     <div className="bg-[#FAFAFA] text-black">

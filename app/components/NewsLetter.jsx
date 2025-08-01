@@ -1,53 +1,97 @@
-import React from "react";
+"use client";
+import { useState } from "react";
 import ButtonPrimary from "./ButtonPrimary";
 
-const NewsLetter = () => {
+export default function Newsletter() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [errors, setErrors] = useState({});
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newErrors = {};
+    if (!name.trim()) newErrors.name = "Name cannot be empty";
+    if (!/\S+@\S+\.\S+/.test(email))
+      newErrors.email = "Please enter a valid email address";
+
+    if (Object.keys(newErrors).length === 0) {
+      setSubmitted(true);
+      setErrors({});
+      setName("");
+      setEmail("");
+    } else {
+      setErrors(newErrors);
+      setSubmitted(false);
+    }
+  };
+
   return (
-    <section className="  bg-gradient-to-tr from-[#F8F7EB] to-white flex flex-row  items-center py-[80px]  ">
-      <div className="md:max-w-[1440px] xl:px-20  w-11/12 mx-auto flex  md:flex-row flex-col items-center  ">
-        <div className=" w-11/12">
-          <h2 className="font-poppins text-TextandIcons font-medium text-[30px]">
-            Stay Updated with
+    <section className="bg-gradient-to-r from-white via-[#fdfae9]  to-white py-20 md:px-6">
+      <div className="container  px-8 mx-auto grid md:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 className="text-4xl font-bold text-black mb-4">
+            Stay Updated with <span className="font-extrabold">Giga Group</span>
           </h2>
-
-          <h2 className="font-poppins text-TextandIcons font-semibold text-[30px]">
-            Giga Group
-          </h2>
-
-          <p className="font-poppins text-TextandIcons text-xs">
+          <p className="text-[#1E293B] text-base leading-relaxed max-w-md ">
             Subscribe to our newsletter and be the first to know about our
             latest projects, exclusive offers, and industry insights. Your
             gateway to premium real estate opportunities awaits!
           </p>
         </div>
-        <div className="md:w-[75%]  w-[95%] md:ml-10  py-16   shadow-md bg-opacity-40 backdrop-blur-md      rounded-2xl flex flex-col justify-center px-6">
-          <h2 className="font-poppins text-TextandIcons text-[25px] font-medium">
-            <b className="font-semibold">Newsletter</b> Form
-          </h2>
-          <div className="bg-secondary w-[110px] h-[2px] my-3"></div>
 
-          {/* input forms  */}
+        <div className="flex justify-center w-full ">
+          <div className="w-full max-w-[700px] bg-white/70 backdrop-blur-md border border-white/30 rounded-2xl shadow-xl p-10">
+            <h3 className="text-2xl font-extrabold text-black mb-1">
+              Newsletter Form
+            </h3>
+            <div className="h-[2px] w-20 bg-yellow-500 mb-6" />
 
-          <div className=" gap-2 flex md:flex-row flex-col items-center space-y-4 md:space-y-0  ">
-            <input
-              type="text"
-              placeholder="Name"
-              className="    rounded-md py-2 px-4  md:w-[233px] w-full outline-none "
-            />
-            <input
-              type="text"
-              placeholder="Email Address"
-              className="    rounded-md py-2 px-4  mx-2 md:w-[233px] w-full  outline-none "
-            />
+            <form onSubmit={handleSubmit}>
+              <div className="flex  justify-center  flex-col lg:flex-row items-center gap-4">
+                <div className="flex-1 w-full">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    className="w-full py-3 px-4 text-sm text-gray-800 placeholder-gray-400 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  />
+                  {errors.name && (
+                    <p className="text-red-500 text-xs mt-1 ml-1">
+                      *{errors.name}
+                    </p>
+                  )}
+                </div>
 
-            <div className=" w-full md:flex">
-              <ButtonPrimary title="Subscribe" />
-            </div>
+                <div className="flex-1 w-full">
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    className="w-full py-3 px-4 text-sm text-gray-800 placeholder-gray-400 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  />
+                  {errors.email && (
+                    <p className="text-red-500 text-xs mt-1 ml-1">
+                      *{errors.email}
+                    </p>
+                  )}
+                </div>
+
+                <ButtonPrimary title="Subscribe" />
+              </div>
+
+              {submitted && (
+                <p className="bg-green-100 text-green-700 px-4 py-2 rounded-md text-sm mt-4">
+                  Thank you for subscribing! You’ll now receive the latest
+                  updates from Giga Group right in your inbox.
+                </p>
+              )}
+            </form>
           </div>
         </div>
       </div>
     </section>
   );
-};
-
-export default NewsLetter;
+}

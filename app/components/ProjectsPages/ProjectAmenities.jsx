@@ -17,7 +17,6 @@ export default function ProjectAmenities({ amenities }) {
         </p>
       </div>
 
-      {/* Mobile scrollable & desktop grid */}
       <div
         className="container mx-auto mt-16 px-4 md:px-32
         grid grid-flow-col md:grid-cols-4 overflow-x-auto md:overflow-visible gap-4 snap-x scroll-smooth"
@@ -50,7 +49,6 @@ export default function ProjectAmenities({ amenities }) {
         ))}
       </div>
 
-      {/* Description Section */}
       <div className="bg-secondary">
         <div className="w-4/6 mx-auto py-16 space-y-2">
           <h1 className="text-center text-white font-poppins text-4xl font-semibold">

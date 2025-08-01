@@ -12,11 +12,9 @@ const features = [
 const AboutProject = () => {
   return (
     <div className="relative px-4 overflow-hidden">
-      {/* Golden blur overlay on right */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-60 h-60 bg-[#C9BB00] opacity-20 rounded-full blur-3xl pointer-events-none z-0" />
 
       <div className="relative  mx-auto z-10 space-y-12">
-        {/* Text box with slight background */}
         <div className="bg-[rgba(250,250,250,0.75)] backdrop-blur-sm px-6 py-10">
           <h2 className="text-center text-3xl md:text-4xl font-poppins font-extrabold text-[#2D2D2D]">
             <span className="font-extrabold">Investing</span>{" "}
@@ -33,7 +31,6 @@ const AboutProject = () => {
           </p>
         </div>
 
-        {/* Feature Cards */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
           {features.map((feature, index) => (
             <div

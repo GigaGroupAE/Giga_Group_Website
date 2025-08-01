@@ -8,6 +8,9 @@ import ClientSays from "../components/HomeComponents/ClientSays";
 import FrequentlyQA from "../components/HomeComponents/FrequentlyQA";
 import NewsLetter from "../components/NewsLetter";
 import { motion } from "framer-motion";
+import HeroWrapper from "../components/Hero/HeroWrapper";
+import HeroPageTitle from "../components/Hero/HeroPageTitle";
+import HeroCard from "../components/Hero/HeroCard";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 60 },
@@ -25,41 +28,19 @@ const fadeUp = {
 const page = () => {
   return (
     <main>
-      <div className="bg-projectsHero flex items-end h-[38rem] bg-cover bg-center relative">
-        <motion.div
-          initial={{ opacity: 0, y: 80 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          viewport={{ once: true }}
-          className="mb-6 flex-col md:w-3/4 w-11/12 mx-auto space-y-5 bg-[rgba(241,242,245,0.89)] px-8 py-5 backdrop-blur-md flex rounded-3xl shadow-lg"
-        >
-          <div className="flex">
-            <Label title="Coming Soon" />
-          </div>
-
-          <h1 className="subHeading">
-            <b>Ocean</b> Crest
-          </h1>
-
-          <p className="descriptionText">
-            Great institutions are built over time, nurturing dreams and
-            fostering visions that promote peaceful and inclusive societies for
-            sustainable development. Giga Group is one such institution. Since
-            its inception in 1956, the company has expanded its footprint across
-            the textile industry, bullion trading, real estate development, and
-            construction sectors in Dubai, United Arab Emirates.
-          </p>
-
-          <motion.div
-            className="md:flex block"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: 0.6 }}
-          >
-            <ButtonPrimary title="Learn More" />
-          </motion.div>
-        </motion.div>
-      </div>
+      <HeroWrapper backgroundImage="bg-projectsHero">
+        <div className="w-full flex  flex-col-reverse md:flex-row justify-between  md:ml-12 md:items-end relative">
+          <HeroPageTitle title="Projects" />
+          <HeroCard
+            badgeText="Giga___________"
+            title="Goldcrest"
+            subtitle="Views"
+            description="Great institutions are built over time, nurturing dreams and fostering visions that promote peaceful and inclusive societies for sustainable development. Giga Group is one such institution. Since its inception in 1956, the company has expanded its footprint across the textile industry, bullion trading, real estate development, and construction sectors in Dubai, United Arab Emirates."
+            buttonText="Learn More"
+            onButtonClick={() => console.log("Navigate to Goldcrest")}
+          />
+        </div>
+      </HeroWrapper>
 
       <motion.div
         initial="hidden"

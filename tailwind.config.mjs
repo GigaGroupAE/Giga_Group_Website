@@ -12,7 +12,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        heroImage: "url('/HeroImage.webp')",
+        heroImage: "url('/companies_banner.webp')",
         excellenceCover: "url('/cover.webp')",
         bgmap: "url('/map.svg')",
         aboutCover: "url('/coverAbout.svg')",

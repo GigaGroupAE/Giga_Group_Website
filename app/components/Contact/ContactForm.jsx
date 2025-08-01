@@ -1,10 +1,9 @@
-import React from 'react'
-import ButtonPrimary from '../ButtonPrimary';
+import React from "react";
+import ButtonPrimary from "../ButtonPrimary";
 
 const ContactForm = () => {
   return (
     <div className=" container mx-auto py-[100] ">
-
       <div className="md:w-4/6  w-4/5  mx-auto">
         <h2 className="text-center headingSeaction">
           Contact <b>Us</b>
@@ -12,8 +11,6 @@ const ContactForm = () => {
         <p className="descriptionText text-center">
           Let us know how we may help you!
         </p>
-
-        {/* Input Forms  */}
 
         <form action="" className=" md:w-4/6 w-full mx-auto     space-y-4">
           <input
@@ -41,6 +38,6 @@ const ContactForm = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ContactForm
+export default ContactForm;

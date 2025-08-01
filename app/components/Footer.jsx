@@ -17,7 +17,6 @@ const Footer = () => {
     <section className="bg-[#1f4772] pt-[50]   ">
       {/* <div className="md:px-[130px] px-4 py-[50px] flex md:flex-row flex-col md:space-x-[60px]"> */}
       <div className="flex max-w-[1440px] xl:px-20  md:flex-row px-4 md:px-0 flex-col md:space-x-[60px]  container mx-auto  py-12 ">
-        {/* Details  */}
         <div className=" w-[340px] space-y-[25px] flex flex-col">
           <Image
             src={logoWhite}
@@ -34,15 +33,11 @@ const Footer = () => {
             shaping communities.
           </p>
 
-          {/* conatact number  */}
-
           <div className="font-semibold font-poppins text-xs text-white flex flex-col gap-1">
             <h2>Contact</h2>
             <h4 className="font-medium">+971 5654944812</h4>
             <h4 className="font-medium">+971 5654944812</h4>
           </div>
-
-          {/* Emails  */}
 
           <div className="font-semibold font-poppins text-xs text-white flex flex-col gap-1">
             <h2>Email</h2>
@@ -51,14 +46,11 @@ const Footer = () => {
             <h4 className="font-medium">info@gigagroup.ae</h4>
           </div>
 
-          {/* Address  */}
-
           <div className="font-semibold font-poppins text-xs text-white flex flex-col gap-1">
             <h2>Address:</h2>
             <h4 className="font-medium">Dubai - United Arab Emirates</h4>
           </div>
         </div>
-        {/* Quick Links */}
         <div className="   md:space-y-[50px] space-y-6 mt-4 md:mt-0">
           <div className="space-y-[15px] ">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
@@ -77,7 +69,6 @@ const Footer = () => {
               );
             })}
           </div>
-          {/* Resources Links  */}
 
           <div className="space-y-[15px] w-[120px]">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
@@ -97,7 +88,6 @@ const Footer = () => {
             })}
           </div>
         </div>
-        {/* About Us */}
         <div className="   md:space-y-[50px] space-y-6">
           <div className="space-y-[15px] mt-8 md:mt-0">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
@@ -135,7 +125,6 @@ const Footer = () => {
             })}
           </div>
         </div>
-        {/* Projects */}
         <div className="space-y-8  md:space-y-[50px]">
           <div className="space-y-[15px] mt-4 md:mt-0">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
@@ -154,7 +143,6 @@ const Footer = () => {
               );
             })}
           </div>
-          {/* Certifications & Partnerships */}
           <div className="space-y-[15px] relative md:top-8">
             <h2 className="font-poppins text-white text-[16px] font-semibold">
               Certifications & Partnerships
@@ -173,7 +161,6 @@ const Footer = () => {
             })}
           </div>
         </div>
-        {/* Services */}
         <div className="spaec-y-[50px]  space-y-[50px] w-[190px]  mt-8 md:mt-0">
           <div className="space-y-[15px]">
             <h2 className="font-poppins text-white text-[16px] font-semibold">

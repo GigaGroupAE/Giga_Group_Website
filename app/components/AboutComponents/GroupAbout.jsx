@@ -16,7 +16,6 @@ const fadeSlide = {
 const GroupAbout = () => {
   return (
     <div className="bg-white/50 backdrop-blur-[200px] relative">
-      {/* Decorative blur circle */}
       <div className="bg-secondary h-40 w-60 absolute mt-[40rem] -left-9 blur-[160px] -z-50 rounded-full" />
 
       <div className="container mx-auto px-4 py-28">
@@ -33,9 +32,12 @@ const GroupAbout = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              Great institutions are built over time, nurturing dreams and
-              fostering visions that promote peaceful and inclusive societies
-              for sustainable development. Giga Group is one such institution.
+              The Giga vision is to become one of the top international
+              conglomerates with the right action, right partners, right
+              business principles, and the right attitude to all clients and
+              employees that nourish the entity. Just like a tree nourishes the
+              entire planet, Giga wishes to enrich the lives of all those who
+              are touched by its presence.
             </motion.p>
 
             <motion.div

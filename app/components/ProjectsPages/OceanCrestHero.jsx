@@ -8,7 +8,6 @@ const OceanCrestHero = () => {
     <div className="w-full">
       <div className="bg-oceanCrest bg-cover bg-center flex items-end py-8 md:py-0 md:h-[38rem]">
         <div className="container mx-auto flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0 mb-12 px-4">
-          {/* Left Text Block */}
           <motion.div
             initial={{ opacity: 0, y: 80 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -31,7 +30,6 @@ const OceanCrestHero = () => {
             </p>
           </motion.div>
 
-          {/* Right Form Block */}
           <motion.div
             initial={{ opacity: 0, y: 80 }}
             whileInView={{ opacity: 1, y: 0 }}

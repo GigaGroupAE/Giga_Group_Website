@@ -11,6 +11,19 @@ const fadeInUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
+const fadeUp = {
+  hidden: { opacity: 0, y: 60 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: i * 0.2,
+      duration: 0.6,
+      ease: "easeOut",
+    },
+  }),
+};
+
 export default function RealEstate() {
   return (
     <div className="pt-40">
@@ -128,6 +141,34 @@ export default function RealEstate() {
           </p>
         </motion.div>
       </div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="bg-[#FEFEFE] xl:px-20"
+      >
+        <div className="container mx-auto px-4 md:px-0 py-20">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 md:gap-y-0 gap-x-6 md:gap-x-10 text-center">
+            {[
+              ["60+", "Years of Excellence"],
+              ["5000+", "Employees around the Globe"],
+              ["99.99%", "Customer Satisfaction"],
+              ["10000+", "Projects Delivered"],
+            ].map(([value, label], i) => (
+              <motion.div
+                key={i}
+                custom={i}
+                variants={fadeUp}
+                className="flex flex-col items-center"
+              >
+                <h2 className="headingCount">{value}</h2>
+                <p className="countSubHeading">{label}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </motion.div>
     </div>
   );
 }

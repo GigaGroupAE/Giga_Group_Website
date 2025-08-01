@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image"; // assuming Next.js
+import Image from "next/image";
 import map from "../../../public/projectMap.svg";
 import projectImage1 from "../../../public/aboutGiga2.webp";
 import projectImage2 from "../../../public/aboutGiga2.webp";
@@ -12,7 +12,6 @@ import ButtonSecandary from "../ButtonSecandary";
 const ProjectLocation = () => {
   return (
     <div>
-      {/* Map + Ocean Crest */}
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-[65%]">
           <Image src={map} alt="Map" className="w-full h-96 object-cover" />
@@ -34,9 +33,7 @@ const ProjectLocation = () => {
         </div>
       </div>
 
-      {/* Giga + Images */}
       <div className="container mx-auto py-24 flex flex-col md:flex-row md:space-x-16">
-        {/* Text Content */}
         <div className="w-full md:w-[40%] space-y-5">
           <GigaComponent title="Giga" />
           <h1 className="subHeading">
@@ -56,7 +53,6 @@ const ProjectLocation = () => {
           </div>
         </div>
 
-        {/* Image Grid */}
         <div className="w-full md:w-[60%] grid grid-cols-2 gap-4 mt-10 md:mt-0">
           <Image
             src={projectImage1}

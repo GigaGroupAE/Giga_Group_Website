@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <section className="">
+    <section>
       <HeroAbout />
       <GroupAbout />
       <WhoWeAre />
@@ -19,7 +19,7 @@ const page = () => {
       <AboutAward />
 
       <div className="w-full">
-        <Image src={map} alt="map" className="w-full"/ >
+        <Image src={map} alt="map" className="w-full" />
       </div>
     </section>
   );

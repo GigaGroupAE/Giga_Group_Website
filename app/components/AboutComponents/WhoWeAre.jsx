@@ -1,7 +1,6 @@
 "use client";
 import { whoWeAre } from "@/src/Data/WhoWeAre";
 import React from "react";
-import ButtonPrimary from "../ButtonPrimary";
 import { motion } from "framer-motion";
 
 const cardVariants = {
@@ -16,7 +15,6 @@ const cardVariants = {
 const WhoWeAre = () => {
   return (
     <div className="bg-white/50 py-28 backdrop-blur-[200px] relative">
-      {/* Decorative blur circle */}
       <div className="bg-secondary blur-[200px] h-60 w-60 absolute mt-[20rem] right-0 -z-50 rounded-full"></div>
 
       <div className="container mx-auto">
@@ -48,11 +46,11 @@ const WhoWeAre = () => {
               <p className="text-TextandIcons font-poppins text-sm">
                 {item.about}
               </p>
-              <div className="bg-secondary px-[25px] py-[10px] text-center rounded-md">
+              {/* <div className="bg-secondary px-[25px] py-[10px] text-center rounded-md">
                 <h1 className="text-[#ffffff] font-poppins text-sm font-semibold">
                   Learn More
                 </h1>
-              </div>
+              </div> */}
             </motion.div>
           ))}
         </div>

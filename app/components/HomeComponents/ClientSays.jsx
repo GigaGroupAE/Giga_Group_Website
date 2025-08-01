@@ -1,8 +1,7 @@
 import { FeedBackData } from "@/src/Data/FeedBackData";
 import Image from "next/image";
 import React from "react";
-import diamond from "../../../public/diamond.svg";
-import "./ClientSaysAnimation.css"; // Make sure to import the CSS with animations
+import "./ClientSaysAnimation.css";
 
 const ClientSays = () => {
   return (
@@ -18,7 +17,6 @@ const ClientSays = () => {
         </p>
       </div>
 
-      {/* Top Row (Scroll Right) */}
       <div className="overflow-hidden my-10">
         <div className="scroll-right gap-4">
           {FeedBackData.map((item, index) => (
@@ -51,7 +49,6 @@ const ClientSays = () => {
         </div>
       </div>
 
-      {/* Bottom Row (Scroll Left) */}
       <div className="overflow-hidden my-10">
         <div className="scroll-left gap-4 ml-10">
           {FeedBackData.map((item, index) => (

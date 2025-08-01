@@ -38,3 +38,31 @@
 .sectionSubHeading {
   @apply font-poppins text-4xl text-TextandIcons my-3;
 }
+
+.cardWrapper {
+  @apply relative w-full h-[28rem] bg-cover bg-no-repeat cursor-pointer rounded-xl overflow-hidden shadow-lg;
+}
+
+.cardBadge {
+  @apply absolute top-4 right-4 bg-white/30 backdrop-blur-md px-4 py-1.5 rounded-full text-white font-semibold text-sm;
+}
+
+.cardOverlay {
+  @apply absolute inset-0 bg-black/40 flex flex-col justify-end p-6 transition-opacity duration-300 group-hover:bg-black/60;
+}
+
+.cardTitle {
+  @apply text-white text-2xl font-poppins font-bold mb-1;
+}
+
+.cardDescription {
+  @apply text-white font-poppins text-sm;
+}
+
+.cardButtonWrapper {
+  @apply opacity-0 group-hover:opacity-100 mt-4 transition-opacity duration-300;
+}
+
+.containerWrapper {
+  @apply max-w-screen-xl px-4 sm:px-6 lg:px-8;
+}

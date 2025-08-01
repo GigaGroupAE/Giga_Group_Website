@@ -1,25 +1,20 @@
 "use client";
-import Navbar from "@/app/components/Navbar";
 import HomeHeroSeaction from "./components/HomeComponents/HomeHeroSeaction";
 import HomeAboutSeaction from "./components/HomeComponents/HomeAboutSeaction";
 import HomeTopFeatures from "./components/HomeComponents/HomeTopFeatures";
-import HomeMap from "./components/HomeComponents/HomeMap";
 import DistanceDetails from "./components/HomeComponents/DistanceDetails";
 import ExcellenceVision from "./components/HomeComponents/ExcellenceVision";
 import ClientSays from "./components/HomeComponents/ClientSays";
 import FrequentlyQA from "./components/HomeComponents/FrequentlyQA";
 import NewsLetter from "./components/NewsLetter";
-import architecture from "../public//architecture.svg";
-import my_location from "../public//my_location.svg";
-import psychiatry from "../public//psychiatry.svg";
-import Image from "next/image";
 import RealEstate from "./components/HomeComponents/RealEstateSection";
+import ProjectsGrid from "./components/HomeComponents/ProjectsGrid";
 
 export default function Home() {
   return (
     <main className="">
       <HomeHeroSeaction />
-
+      <ProjectsGrid />
       <HomeAboutSeaction />
 
       <HomeTopFeatures />

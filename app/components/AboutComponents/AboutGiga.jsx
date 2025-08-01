@@ -9,6 +9,7 @@ import giga4 from "../../../public/aboutGiga4.webp";
 import giga5 from "../../../public/aboutGiga5.webp";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { signatureStructures } from "@/src/Data/WhoWeAre";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -48,26 +49,26 @@ const AboutGiga = () => {
         <motion.div className="space-y-4" variants={fadeUp}>
           <GigaComponent />
           <h2 className="font-poppins text-TextandIcons font-normal text-[35px]">
-            About <b>Giga Group</b>
+            Signature <b>Structures</b>
           </h2>
           <p className="w-[350px] descriptionText">
-            Since 1956, Giga Group has grown into a global institution,
-            committed to fostering inclusive growth and sustainable development.
-            With strong roots in the textile industry, the company has expanded
-            into bullion trading, real estate, and construction. Today, Giga
-            Group continues to shape modern skylines across Dubai and the UAE
-            with a legacy of innovation and integrity.
+            Islamabad's landscape is evolving with several prominent
+            developments that stand out as significant urban landmarks.
           </p>
-          <div className="md:flex">
-            <ButtonPrimary title="Learn More" />
-          </div>
+          {signatureStructures.map((item, index) => (
+            <motion.div key={index} variants={fadeUp}>
+              <h3 className="text-lg font-semibold text-gray-800">
+                {item.title}
+              </h3>
+              <p className="text-sm text-gray-600 mt-1">{item.description}</p>
+            </motion.div>
+          ))}
         </motion.div>
 
-        {/* Images Section */}
         <div className="flex md:flex-row px-6 flex-col md:items-center md:gap-6 mt-12 md:mt-0">
           <div className="flex flex-col items-center space-y-4">
             <motion.div
-              className="md:w-[26rem] w-[23rem] h-[350px] relative rounded-2xl overflow-hidden"
+              className="md:w-[22rem] w-[23rem] h-[350px] relative rounded-2xl overflow-hidden"
               variants={slideFrom("left")}
             >
               <Image
@@ -79,7 +80,7 @@ const AboutGiga = () => {
             </motion.div>
 
             <motion.div
-              className="md:w-[26rem] w-[23rem] h-[200px] relative rounded-2xl overflow-hidden"
+              className="md:w-[22rem] w-[23rem] h-[200px] relative rounded-2xl overflow-hidden"
               variants={slideFrom("top")}
             >
               <Image
@@ -93,7 +94,7 @@ const AboutGiga = () => {
 
           <div className="flex flex-col my-8 md:my-0 items-center space-y-4">
             <motion.div
-              className="md:w-[22rem] bg-indigo-700 w-full h-[200px] relative rounded-2xl overflow-hidden"
+              className="md:w-[20rem] bg-indigo-700 w-full h-[200px] relative rounded-2xl overflow-hidden"
               variants={slideFrom("bottom")}
             >
               <Image
@@ -105,7 +106,7 @@ const AboutGiga = () => {
             </motion.div>
 
             <motion.div
-              className="md:w-[22rem] w-full h-[139px] relative rounded-2xl overflow-hidden"
+              className="md:w-[20rem] w-full h-[139px] relative rounded-2xl overflow-hidden"
               variants={slideFrom("right")}
             >
               <Image
@@ -117,8 +118,8 @@ const AboutGiga = () => {
             </motion.div>
 
             <motion.div
-              className="md:w-[22rem] w-full h-[200px] relative rounded-2xl overflow-hidden"
-              variants={fadeUp} // fallback simple fade-up
+              className="md:w-[20rem] w-full h-[200px] relative rounded-2xl overflow-hidden"
+              variants={fadeUp}
             >
               <Image
                 src={giga5}
