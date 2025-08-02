@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useRef } from "react";
-import ButtonPrimary from "./ButtonPrimary";
 import { motion, useInView } from "framer-motion";
 import { onGoinProjects } from "@/src/Data/OnGoingProjectsData";
 import Link from "next/link";
+import ButtonPrimary from "../ButtonPrimary";
 
 const containerVariants = {
   hidden: {},
@@ -26,7 +26,7 @@ const cardVariants = {
   },
 };
 
-const OnGoingProjects = () => {
+const OnGoingProjectsCom = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const toggleExpand = (index) => {
@@ -40,6 +40,11 @@ const OnGoingProjects = () => {
     <div className="container xl:px-8 mx-auto py-20">
       <div className="flex justify-between items-center px-6 md:px-0">
         <h2 className="subHeading font-semibold">On Going Projects</h2>
+        <Link href="/projects">
+          <div className="px-5 py-1 text-center rounded-full bg-greyBG">
+            <p className="font-poppins text-xs text-TextandIcons">View all</p>
+          </div>
+        </Link>
       </div>
 
       <motion.div
@@ -50,7 +55,7 @@ const OnGoingProjects = () => {
         variants={containerVariants}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {onGoinProjects.map((item, index) => {
+          {onGoinProjects.slice(0, 4).map((item, index) => {
             const imageUrl = item?.image ? `/${item.image}` : "";
             const isExpanded = expandedIndex === index;
 
@@ -84,7 +89,7 @@ const OnGoingProjects = () => {
                       WebkitBoxOrient: "vertical",
                       WebkitLineClamp: isExpanded ? "unset" : 4,
                     }}
-                    className="cardDescription "
+                    className="cardDescription"
                   >
                     {item?.description}
                   </motion.p>
@@ -107,4 +112,4 @@ const OnGoingProjects = () => {
   );
 };
 
-export default OnGoingProjects;
+export default OnGoingProjectsCom;

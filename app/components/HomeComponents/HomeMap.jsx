@@ -7,7 +7,6 @@ const HomeMap = () => {
   return (
     <section className="flex my-[70] md:my-0 container  mx-auto   ">
       <div className="flex items-center  md:flex-row flex-col  justify-center w-full mx-auto    ">
-        {/* Left Container */}
         <div className=" px-4 flex-2 flex md:w-[110%]     mr-10 ">
           <div className=" px-4  mx-auto   ">
             <h1 className="font-poppins text-4xl  w-4/5  font-normal text-TextandIcons">

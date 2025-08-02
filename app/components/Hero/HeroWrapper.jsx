@@ -12,6 +12,7 @@ const fadeSlideUp = {
 };
 
 export default function HeroWrapper({ backgroundImage, children }) {
+  console.log(backgroundImage);
   return (
     <div
       className={`relative min-h-[700px] w-full bg-no-repeat bg-cover bg-center brightness-110 ${backgroundImage} flex items-end`}

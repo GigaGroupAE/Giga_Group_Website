@@ -45,7 +45,6 @@ const AboutGiga = () => {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        {/* Text Section */}
         <motion.div className="space-y-4" variants={fadeUp}>
           <GigaComponent />
           <h2 className="font-poppins text-TextandIcons font-normal text-[35px]">

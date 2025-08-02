@@ -32,12 +32,12 @@ const page = () => {
         <div className="w-full flex  flex-col-reverse md:flex-row justify-between  md:ml-12 md:items-end relative">
           <HeroPageTitle title="Projects" />
           <HeroCard
-            badgeText="Giga___________"
-            title="Goldcrest"
-            subtitle="Views"
-            description="Great institutions are built over time, nurturing dreams and fostering visions that promote peaceful and inclusive societies for sustainable development. Giga Group is one such institution. Since its inception in 1956, the company has expanded its footprint across the textile industry, bullion trading, real estate development, and construction sectors in Dubai, United Arab Emirates."
-            buttonText="Learn More"
-            onButtonClick={() => console.log("Navigate to Goldcrest")}
+            // badgeText="Giga___________"
+            title="Shaping Skylines"
+            subtitle="Building Dreams"
+            description="From luxury high-rises and commercial marvels in Islamabad to iconic developments across Dubai, Karachi, and Lahore, Giga Group’s projects redefine real estate excellence across borders."
+            // buttonText="Learn More"
+            // onButtonClick={() => console.log("Navigate to Goldcrest")}
           />
         </div>
       </HeroWrapper>

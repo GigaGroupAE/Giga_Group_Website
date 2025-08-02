@@ -1,31 +1,13 @@
 import React from "react";
-import aboutGiga1 from "../../../public/aboutGiga1.webp";
-import aboutGiga2 from "../../../public/aboutGiga2.webp";
-import aboutGiga3 from "../../../public/aboutGiga3.webp";
-import aboutGiga4 from "../../../public/aboutGiga4.webp";
-import aboutGiga5 from "../../../public/aboutGiga5.webp";
 import Image from "next/image";
 
-const MediaProject = () => {
-  const galleryImages = [
-    aboutGiga1,
-    aboutGiga2,
-    aboutGiga3,
-    aboutGiga4,
-    aboutGiga5,
-    aboutGiga4,
-  ];
-
+const MediaProject = ({ videoUrl, gallery }) => {
   return (
-    <div className="bg-white text-gray-800 max-w-screen-xl mx-auto">
-      <h1 className="text-3xl md:text-4xl font-bold text-center py-8">
-        Dubai Lifestyle & Interior Showcase
-      </h1>
-
-      <div className="aspect-w-16 aspect-h-9 mb-6 mx-4 sm:mx-8 md:mx-1">
+    <div className="bg-white text-gray-800 container mx-auto px-4 md:px-8 py-8">
+      <div className="aspect-w-16 aspect-h-9 mb-8 rounded-xl overflow-hidden shadow-lg">
         <iframe
-          className="w-full  h-[40rem] rounded-lg"
-          src="https://www.youtube.com/embed/Scxs7L0vhZ4"
+          className="w-full h-[25rem] md:h-[40rem]"
+          src={videoUrl}
           title="Dubai Skyline Video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -33,14 +15,38 @@ const MediaProject = () => {
         ></iframe>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0">
-        {galleryImages.map((img, index) => (
-          <Image
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+        {gallery.slice(0, 4).map((img, index) => (
+          <div
             key={index}
-            src={img}
-            alt={`Interior ${index + 1}`}
-            className="w-full h-auto object-cover"
-          />
+            className="relative h-52 rounded-xl overflow-hidden shadow-md transition-transform transform "
+          >
+            <Image
+              src={img}
+              alt={`Interior ${index + 1}`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 50vw, 25vw"
+              priority={index < 4}
+            />
+          </div>
+        ))}
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {gallery.slice(4, 7).map((img, index) => (
+          <div
+            key={index + 4}
+            className="relative h-52 rounded-xl overflow-hidden shadow-md transition-transform transform"
+          >
+            <Image
+              src={img}
+              alt={`Interior ${index + 5}`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
+            />
+          </div>
         ))}
       </div>
     </div>

@@ -12,8 +12,8 @@ const HomeTopFeatures = () => {
         </h2>
         <p className="descriptionText md:text-center">
           These developments embody Giga Group’s unwavering dedication to
-          architectural excellence and premium quality, reinforcing Dubai’s
-          status as a global epicentre for luxurious living and cutting-edge
+          architectural excellence and premium quality, strengthening Pakistan’s
+          position as a rising hub for luxurious living and world-class
           commercial infrastructure.
         </p>
       </div>

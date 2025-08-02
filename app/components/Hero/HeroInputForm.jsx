@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import ButtonPrimary from "../ButtonPrimary";
 
-export default function HeroInputForm() {
+export default function HeroInputForm({ title }) {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -56,6 +56,11 @@ export default function HeroInputForm() {
 
   return (
     <div className="w-full max-w-[480px] bg-white/30 backdrop-blur-[16px] border border-white/40 shadow-2xl rounded-[25px] p-6 md:p-8 text-left">
+      {title && (
+        <h3 className="text-TextandIcons text-center text-xl md:text-2xl font-bold mb-4">
+          {title}
+        </h3>
+      )}
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <div className="flex flex-col">
           <label

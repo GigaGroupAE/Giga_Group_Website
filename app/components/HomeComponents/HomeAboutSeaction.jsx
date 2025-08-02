@@ -55,22 +55,24 @@ const HomeAboutSeaction = () => {
               </div>
 
               <h1 className="font-poppins text-3xl text-TextandIcons my-3">
-                About <b>Giga Group</b>
+                The Pinnacle Of Modern <b> Living</b>
               </h1>
 
               <p className="descriptionText">
-                Since 1956, Giga Group has grown into a global institution,
-                committed to fostering inclusive growth and sustainable
-                development. With strong roots in the textile industry, the
-                company has expanded into bullion trading, real estate, and
-                construction. Today, Giga Group continues to shape modern
-                skylines across Dubai and the UAE with a legacy of innovation
-                and integrity.
+                Welcome to Goldcrest Views – which is more than just a home.
+                Located in the heart of DHA Phase 2, Islamabad, this iconic Giga
+                Group development combines contemporary Dubai-inspired design
+                with premium lifestyle features. From stylish studios to
+                breathtaking penthouses, every unit is meticulously crafted,
+                offering uninterrupted cityscapes or serene mountain vistas.
+                With round-the-clock security and luxury amenities, you’ll be
+                part of a dynamic community built around comfort, connection,
+                and elevated living.
               </p>
 
-              <div className="mt-6">
+              {/* <div className="mt-6">
                 <ButtonPrimary title="Learn More" />
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>

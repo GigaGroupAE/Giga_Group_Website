@@ -21,7 +21,6 @@ const index = () => {
   return (
     <div className="backdrop-blur-[50px] w-full bg-white/50 mx-auto xl:px-8 pb-24">
       <div className="flex container mx-auto md:flex-row flex-col px-3 md:px-0 gap-10">
-        {/* Left Container  */}
         <div className="md:w-[75rem] w-full">
           {announcementsData.map((item, index) => (
             <motion.div
@@ -56,7 +55,6 @@ const index = () => {
           ))}
         </div>
 
-        {/* Right Container (Sidebar) */}
         <motion.div
           className="bg-[#FDFDFD] md:w-[25rem] w-[95%] space-y-7 py-7 px-4 rounded-xl shadow-sm"
           variants={fadeInUp}
@@ -65,7 +63,6 @@ const index = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          {/* Search Section */}
           <div className="space-y-5">
             <h2 className="font-poppins text-lg text-TextandIcons font-semibold">
               Find & Search
@@ -79,7 +76,6 @@ const index = () => {
             </div>
           </div>
 
-          {/* About Author */}
           <div className="py-5 space-y-5">
             <h2 className="font-poppins text-lg text-TextandIcons font-semibold">
               About Author
@@ -101,7 +97,6 @@ const index = () => {
             </p>
           </div>
 
-          {/* Recent Blogs */}
           <div className="py-5 space-y-5">
             <h2 className="font-poppins text-lg text-TextandIcons font-semibold">
               Recent Blogs
@@ -135,7 +130,6 @@ const index = () => {
             </div>
           </div>
 
-          {/* Newsletter */}
           <div className="py-5 space-y-5">
             <h2 className="font-poppins text-lg text-TextandIcons font-semibold">
               Subscribe for Newsletter
@@ -154,7 +148,6 @@ const index = () => {
         </motion.div>
       </div>
 
-      {/* Posts Section */}
       <div className="container mx-auto py-12 px-3 md:px-0">
         <div className="flex justify-between items-center">
           <h2 className="subHeading">Posts</h2>

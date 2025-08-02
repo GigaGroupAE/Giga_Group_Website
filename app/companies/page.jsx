@@ -83,8 +83,6 @@ const Page = () => {
                       {item?.title}
                     </h2>
 
-                    {/* Animated paragraph container */}
-
                     <motion.p
                       initial={{ height: "6rem", opacity: 0.8 }}
                       animate={{
@@ -103,7 +101,6 @@ const Page = () => {
                       {item?.description}
                     </motion.p>
 
-                    {/* Fading gradient when text is cropped */}
                     {!isExpanded && (
                       <div className="absolute bottom-0 left-0 w-full h-8 bg-gradient-to-t from-white to-transparent pointer-events-none" />
                     )}

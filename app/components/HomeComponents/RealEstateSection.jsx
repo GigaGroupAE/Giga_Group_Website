@@ -40,10 +40,11 @@ export default function RealEstate() {
           </h2>
 
           <p className="descriptionText text-start md:text-center">
-            Giga Group’s real estate projects in Dubai reflect a strong
-            commitment to world-class architecture, luxury lifestyle living, and
-            innovative commercial infrastructure—solidifying the city’s position
-            as a premier global destination for high-end real estate investment.
+            Giga Group’s real estate projects across Pakistan and also in Dubai
+            embody a steadfast commitment to architectural brilliance, modern
+            lifestyle experiences, and innovative commercial spaces, positioning
+            Islamabad and other key cities as emerging hubs for premium real
+            estate investment.
           </p>
         </motion.div>
 
@@ -58,13 +59,14 @@ export default function RealEstate() {
           >
             <Image src={architecture} alt="architecture" />
             <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
-              <b>Architectural Excellence</b> in Real Estate Development
+              <b>Architectural </b>Excellence
             </h1>
             <p className="font-poppins text-sm text-TextandIcons mt-1">
-              At Giga Group, our real estate developments showcase modern
-              architectural design and intelligent building solutions, creating
-              iconic structures that enhance residential and commercial
-              experiences globally.​
+              At Giga Group, we design Islamabad’s skyline with architectural
+              mastery and smart building solutions. Our iconic residential and
+              commercial landmarks, like Goldcrest Views and Giga Downtown,
+              redefine urban living while enhancing lifestyles and investment
+              value across Pakistan’s most vibrant cities and communities.
             </p>
           </motion.div>
 
@@ -78,11 +80,15 @@ export default function RealEstate() {
           >
             <Image src={my_location} alt="location" />
             <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
-              <b>Prime Real Estate</b> Locations with High Investment Potential
+              <b>Prime Real Estate</b> Locations
             </h1>
             <p className="font-poppins py-5 text-sm text-TextandIcons mt-2">
-              We build in the most sought-after areas, ensuring convenience,
-              connectivity, and future growth potential.
+              Our developments are Pakistan’s most sought-after areas, including
+              DHA Phase 2 Islamabad, providing exceptional convenience,
+              outstanding connectivity, and future growth potential. Our
+              projects create ideal opportunities for investors seeking prime
+              locations that promise strong returns and long-term stability in
+              the Pakistani real estate market.
             </p>
           </motion.div>
 
@@ -96,13 +102,15 @@ export default function RealEstate() {
           >
             <Image src={psychiatry} alt="sustainability" />
             <h1 className="font-poppins text-TextandIcons text-xl sm:text-2xl mt-4">
-              <b>Commitment to Sustainable</b> and Eco-Friendly Living
+              <b>Commitment to </b>Sustainable
             </h1>
             <p className="font-poppins text-sm text-TextandIcons mt-2">
-              We prioritise eco-friendly real estate development, integrating
-              energy-efficient solutions and green building practices to foster
-              a healthier environment and cultivate sustainable communities for
-              future generations.
+              We champion eco-friendly real estate across Pakistan, using
+              energy-efficient solutions and sustainable practices to promote
+              healthier environments. Our commitment ensures communities like
+              Giga City thrive, fostering sustainable urban living and
+              protecting the future for generations seeking modern, responsible
+              lifestyles in Pakistan’s key cities.
             </p>
           </motion.div>
         </div>
@@ -132,12 +140,13 @@ export default function RealEstate() {
           viewport={{ once: true }}
         >
           <h1 className="text-white md:text-5xl text-4xl">
-            Revolutionizing Real Estate with <b>Excellence</b>
+            A Legacy of <b>Excellence</b>
           </h1>
           <p className="descriptionText text-white md:text-center">
-            At Giga Group Real Estate Developers, we specialize in creating
-            exceptional properties that combine innovative design, prime
-            locations, and sustainable development...
+            Over 60 years of experience, 5,000+ team members worldwide, and
+            millions of square feet delivered in iconic projects like Giga Mall
+            and Giga Downtown. With 99.99% customer satisfaction, Giga Group
+            sets the benchmark for premium real estate in Pakistan.
           </p>
         </motion.div>
       </div>
@@ -154,7 +163,7 @@ export default function RealEstate() {
               ["60+", "Years of Excellence"],
               ["5000+", "Employees around the Globe"],
               ["99.99%", "Customer Satisfaction"],
-              ["10000+", "Projects Delivered"],
+              ["7M+ Sq ft", "Commercial & Residential Space"],
             ].map(([value, label], i) => (
               <motion.div
                 key={i}

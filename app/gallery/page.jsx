@@ -1,7 +1,12 @@
+"use client";
 import React, { useRef, useState } from "react";
-import ButtonPrimary from "./ButtonPrimary";
-import { deliveredData } from "@/src/Data/DeliveredProjectsData";
 import { motion, useInView } from "framer-motion";
+
+import HeroWrapper from "../components/Hero/HeroWrapper";
+import HeroPageTitle from "../components/Hero/HeroPageTitle";
+import HeroCard from "../components/Hero/HeroCard";
+import { galleryData } from "@/src/Data/GalleryData";
+import ButtonPrimary from "../components/ButtonPrimary";
 
 const containerVariants = {
   hidden: {},
@@ -24,46 +29,59 @@ const cardVariants = {
   },
 };
 
-const DeliveredProjects = () => {
+const Page = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   const toggleExpand = (index) => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.1 });
   return (
-    <div className="container xl:px-8 mx-auto py-20">
-      <div className="flex justify-between items-center px-6 md:px-0">
-        <h2 className="subHeading font-semibold">On Going Projects</h2>
-      </div>
+    <section>
+      <HeroWrapper backgroundImage="bg-heroImage">
+        <div className="w-full flex flex-col-reverse md:flex-row justify-between md:ml-12 md:items-end relative">
+          <HeroPageTitle title="Gallery" />
+          <HeroCard
+            title="A Legacy of Leadership "
+            subtitle="Across Industries"
+            description="From textiles and bullion to real estate, construction, and global trading, Giga Group’s dynamic portfolio reflects decades of innovation, strategic partnerships, and impact-driven growth across Pakistan, the Middle East, and Africa."
+            onButtonClick={() => console.log("Navigate to Goldcrest")}
+          />
+        </div>
+      </HeroWrapper>
 
       <motion.div
         ref={ref}
-        className="w-full py-10 px-4"
+        className="w-full px-4"
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
         variants={containerVariants}
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {deliveredData.map((item, index) => {
+        <div className="grid grid-cols-1 sm:grid-cols-2 py-24  container mx-auto gap-6">
+          {galleryData.map((item, index) => {
             const imageUrl = item?.image ? `/${item.image}` : "";
             const isExpanded = expandedIndex === index;
 
             return (
               <motion.div
                 key={index}
-                className="group cardWrapper"
-                style={{
-                  backgroundImage: imageUrl ? `url(${imageUrl})` : "none",
-                }}
+                className="group overflow-hidden relative"
                 variants={cardVariants}
               >
-                <h2 className="cardBadge">{item?.status}</h2>
+                {imageUrl && (
+                  <img
+                    src={imageUrl}
+                    alt={item?.title}
+                    className="w-full rounded-2xl h-96 object-cover"
+                  />
+                )}
 
-                <div className="cardOverlay">
-                  <h1 className="cardTitle">{item?.title}</h1>
+                <div className="py-4">
+                  <h2 className="text-lg font-semibold text-gray-800 mb-2">
+                    {item?.title}
+                  </h2>
 
                   <motion.p
                     initial={{ height: "6rem", opacity: 0.8 }}
@@ -78,10 +96,14 @@ const DeliveredProjects = () => {
                       WebkitBoxOrient: "vertical",
                       WebkitLineClamp: isExpanded ? "unset" : 4,
                     }}
-                    className="cardDescription "
+                    className=" text-black font-poppins text-sm"
                   >
                     {item?.description}
                   </motion.p>
+
+                  {!isExpanded && (
+                    <div className="absolute bottom-0 left-0 w-full h-8 bg-gradient-to-t from-white to-transparent pointer-events-none" />
+                  )}
 
                   <div className="flex">
                     <div className="cardButtonWrapper">
@@ -97,8 +119,8 @@ const DeliveredProjects = () => {
           })}
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 
-export default DeliveredProjects;
+export default Page;

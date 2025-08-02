@@ -9,21 +9,19 @@ import managementData from "@/src/Data/managementData";
 const page = () => {
   return (
     <section>
-      {/* Hero Section */}
       <HeroWrapper backgroundImage="bg-managementHero">
         <div className="w-full flex flex-col-reverse md:flex-row justify-between md:ml-12 md:items-end relative">
           <HeroPageTitle title="Management" />
           <HeroCard
-            title="About"
-            subtitle="Giga Group"
-            description="Great institutions are built over time, nurturing dreams and fostering visions that promote peaceful and inclusive societies for sustainable development. Giga Group is one such institution. Since its inception in 1956, the company has expanded its footprint across the textile industry, bullion trading, real estate development, and construction sectors in Dubai, United Arab Emirates."
+            title="Visionary Leadership"
+            subtitle=" Timeless Legacy"
+            description="Meet the minds behind Giga Group, Haji Muhammad Amin Pardesi and Najeeb Amin Pardesi, driving decades of global success, groundbreaking real estate, and unwavering commitment to Pakistan’s future."
             onButtonClick={() => console.log("Navigate to Goldcrest")}
           />
         </div>
       </HeroWrapper>
 
       <div className="relative w-full bg-white py-16 overflow-hidden">
-        {/* Background Blurs */}
         <div className="absolute top-96 left-0 h-96 w-40 bg-gradient-to-r from-secondary via-transparent to-transparent blur-[100px] md:blur-3xl z-0"></div>
         <div className="absolute right-0 bottom-20 h-96 w-40 bg-gradient-to-l from-secondary via-transparent to-transparent blur-[100px] md:blur-3xl z-0"></div>
 
@@ -43,7 +41,6 @@ const page = () => {
                 index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
               } items-start gap-8`}
             >
-              {/* Image Section */}
               <div className="w-full lg:w-1/3">
                 <img
                   src={person.image}
@@ -58,7 +55,6 @@ const page = () => {
                 </h3>
               </div>
 
-              {/* Text Section */}
               <div className="w-full lg:w-2/3">
                 <p className="text-justify font-poppins text-base whitespace-pre-line leading-relaxed text-TextandIcons">
                   {person.description}

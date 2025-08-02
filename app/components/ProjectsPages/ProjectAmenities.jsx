@@ -1,70 +1,45 @@
-import { useState } from "react";
-import Image from "next/image";
+"use client";
 
-export default function ProjectAmenities({ amenities }) {
-  const [activeIndex, setActiveIndex] = useState(0);
+import React from "react";
 
+const ProjectAmenities = ({
+  amenitiesFeaturesTitle,
+  amenities,
+  whyChooseTitle,
+  whyChooseDesc,
+}) => {
   return (
-    <div className="bg-gradient-to-tr py-16">
-      <div className="mx-auto w-2/4 items-center">
-        <h2 className="text-center subHeading">
-          Investing in <b>Everything you Need</b>
+    <section className="bg-[#fdfcf6] backdrop-blur-sm py-16  text-gray-800">
+      <div className="text-center mb-12 max-w-3xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-semibold">
+          {amenitiesFeaturesTitle}
         </h2>
-        <p className="text-center descriptionText">
-          Great institutions are built over time, nurturing dreams and fostering
-          visions that promote peaceful and inclusive societies for sustainable
-          development. Giga Group is one such institution.
-        </p>
       </div>
 
-      <div
-        className="container mx-auto mt-16 px-4 md:px-32
-        grid grid-flow-col md:grid-cols-4 overflow-x-auto md:overflow-visible gap-4 snap-x scroll-smooth"
-      >
-        {amenities?.map((item, index) => (
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        {amenities?.slice(0, 10).map((amenity, index) => (
           <div
             key={index}
-            className={`
-              min-w-[70%] md:min-w-0 flex flex-col items-center justify-center space-y-4 
-              rounded-md py-10 px-4
-              snap-center
-              transition-all duration-300
-              ${
-                activeIndex === index
-                  ? "border border-yellow-400 bg-white shadow-md"
-                  : "bg-gray-100"
-              }
-            `}
-            onClick={() => setActiveIndex(index)}
+            className="bg-white rounded-xl p-6 flex flex-col items-center text-center shadow-sm transition-all duration-300 ease-in-out hover:shadow-md hover:border hover:border-secondary"
           >
-            <Image
-              src={item.image}
-              width={25}
-              height={23}
-              alt={item.title}
-              className="rounded-md object-cover"
-            />
-            <h2 className="descriptionText text-center">{item.title}</h2>
+            <div className="text-secondary text-4xl mb-3">{amenity.icon}</div>
+            <h4 className="text-gray-800 font-medium text-base">
+              {amenity.title}
+            </h4>
           </div>
         ))}
       </div>
 
-      <div className="bg-secondary">
-        <div className="w-4/6 mx-auto py-16 space-y-2">
-          <h1 className="text-center text-white font-poppins text-4xl font-semibold">
-            Why Choose <b>Pearl Bliss Residence?</b>
-          </h1>
-          <p className="text-center text-white font-poppins text-sm">
-            Pearl Bliss Residence by Giga Group offers a lifestyle like no
-            other, set in a prime location that caters to your every need.
-            Surrounded by lush parks, top-rated schools, nurseries, and a
-            diverse range of restaurants and retail outlets, this community is
-            thoughtfully designed for families seeking comfort and convenience.
-            With advanced security and daycare services, Pearl Bliss Residence
-            ensures peace of mind for every resident.
-          </p>
-        </div>
+      <div className="bg-secondary w-full mt-20 py-[70px]  text-white text-center">
+        <h3 className="text-2xl md:text-3xl font-semibold mb-4">
+          {whyChooseTitle}
+        </h3>
+        <p className="max-w-4xl mx-auto text-sm font-poppins leading-relaxed">
+          {whyChooseDesc}
+        </p>
       </div>
-    </div>
+    </section>
   );
-}
+};
+
+export default ProjectAmenities;

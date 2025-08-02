@@ -10,11 +10,11 @@ const CompaniHeroSection = () => {
       <div className="w-full flex  flex-col-reverse md:flex-row justify-between  md:ml-12 md:items-end relative">
         <HeroPageTitle title="Companies" />
         <HeroCard
-          badgeText="Special Offer"
-          title="Goldcrest"
-          subtitle="Views"
-          description="Great institutions are built over time, nurturing dreams and fostering visions that promote peaceful and inclusive societies for sustainable development. Giga Group is one such institution. Since its inception in 1956, the company has expanded its footprint across the textile industry, bullion trading, real estate development, and construction sectors in Dubai, United Arab Emirates."
-          buttonText="Learn More"
+          // badgeText="Special Offer"
+          title="A Legacy of Leadership "
+          subtitle="Across Industries"
+          description="From textiles and bullion to real estate, construction, and global trading, Giga Group’s dynamic portfolio reflects decades of innovation, strategic partnerships, and impact-driven growth across Pakistan, the Middle East, and Africa."
+          // buttonText="Learn More"
           onButtonClick={() => console.log("Navigate to Goldcrest")}
         />
       </div>
