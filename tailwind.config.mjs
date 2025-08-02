@@ -20,6 +20,7 @@ export default {
         contactCover: "url('/contact-bg.webp')",
         oceanCrest: "url('/ocean-crestCover.webp')",
         projectsHero: "url('/projectHero.webp')",
+        managementHero: "url('/management.webp')",
       },
       colors: {
         TextandIcons: "#454C54",

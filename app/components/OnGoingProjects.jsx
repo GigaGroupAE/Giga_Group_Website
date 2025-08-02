@@ -1,9 +1,12 @@
 "use client";
-import React, { useState, useRef } from "react";
-import ButtonPrimary from "./ButtonPrimary";
+import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { onGoinProjects } from "@/src/Data/OnGoingProjectsData";
+import HeroWrapper from "../components/Hero/HeroWrapper";
+import HeroPageTitle from "../components/Hero/HeroPageTitle";
+import HeroCard from "../components/Hero/HeroCard";
+import managementData from "@/src/Data/managementData";
 
+// Animation variants (copied and reused)
 const containerVariants = {
   hidden: {},
   visible: {
@@ -25,83 +28,74 @@ const cardVariants = {
   },
 };
 
-const OnGoingProjects = () => {
-  const [expandedIndex, setExpandedIndex] = useState(null);
-
-  const toggleExpand = (index) => {
-    setExpandedIndex(expandedIndex === index ? null : index);
-  };
-
+const page = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   return (
-    <div className="container xl:px-8 mx-auto py-20">
-      <div className="flex justify-between items-center px-6 md:px-0">
-        <h2 className="subHeading font-semibold">On Going Projects</h2>
-      </div>
-
-      <motion.div
-        ref={ref}
-        className="w-full py-10 px-4"
-        initial="hidden"
-        animate={isInView ? "visible" : "hidden"}
-        variants={containerVariants}
-      >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {onGoinProjects.map((item, index) => {
-            const imageUrl = item?.image ? `/${item.image}` : "";
-            const isExpanded = expandedIndex === index;
-
-            return (
-              <motion.div
-                key={index}
-                className="group cardWrapper"
-                style={{
-                  backgroundImage: imageUrl ? `url(${imageUrl})` : "none",
-                  backgroundColor: !imageUrl ? "#333" : undefined,
-                }}
-                variants={cardVariants}
-              >
-                <h2 className="cardBadge">{item?.status}</h2>
-
-                <div className="cardOverlay">
-                  <h1 className="cardTitle">{item?.title}</h1>
-
-                  <motion.p
-                    initial={{ height: "6rem", opacity: 0.8 }}
-                    animate={{
-                      height: isExpanded ? "auto" : "6rem",
-                      opacity: isExpanded ? 1 : 0.8,
-                    }}
-                    transition={{ duration: 0.5, ease: "easeInOut" }}
-                    style={{
-                      overflow: "hidden",
-                      display: "-webkit-box",
-                      WebkitBoxOrient: "vertical",
-                      WebkitLineClamp: isExpanded ? "unset" : 4,
-                    }}
-                    className="cardDescription "
-                  >
-                    {item?.description}
-                  </motion.p>
-
-                  <div className="flex">
-                    <div className="cardButtonWrapper">
-                      <ButtonPrimary
-                        title={isExpanded ? "Show Less" : "Learn More"}
-                        onClick={() => toggleExpand(index)}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            );
-          })}
+    <section>
+      {/* Hero Section */}
+      <HeroWrapper backgroundImage="bg-managementHero">
+        <div className="w-full flex flex-col-reverse md:flex-row justify-between md:ml-12 md:items-end relative">
+          <HeroPageTitle title="Management" />
+          <HeroCard
+            title="About"
+            subtitle="Giga Group"
+            description="Great institutions are built over time, nurturing dreams and fostering visions that promote peaceful and inclusive societies for sustainable development. Giga Group is one such institution. Since its inception in 1956, the company has expanded its footprint across the textile industry, bullion trading, real estate development, and construction sectors in Dubai, United Arab Emirates."
+            onButtonClick={() => console.log("Navigate to Goldcrest")}
+          />
         </div>
-      </motion.div>
-    </div>
+      </HeroWrapper>
+
+      {/* Management Section */}
+      <div className="relative w-full bg-white py-16 overflow-hidden">
+        {/* Background Blurs */}
+        <div className="absolute top-96 left-0 h-96 w-40 bg-gradient-to-r from-secondary via-transparent to-transparent blur-[100px] md:blur-3xl z-0"></div>
+        <div className="absolute right-0 bottom-20 h-96 w-40 bg-gradient-to-l from-secondary via-transparent to-transparent blur-[100px] md:blur-3xl z-0"></div>
+
+        {/* Animated Content Container */}
+        <motion.div
+          ref={ref}
+          className="relative z-10 max-w-7xl mx-auto px-6 space-y-24"
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+          variants={containerVariants}
+        >
+          {managementData.map((person, index) => (
+            <motion.div
+              key={person.name}
+              variants={cardVariants}
+              className={`flex flex-col ${
+                index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
+              } items-start gap-8`}
+            >
+              {/* Image Section */}
+              <div className="w-full lg:w-1/3">
+                <img
+                  src={person.image}
+                  alt={person.name}
+                  className="rounded-lg shadow-lg object-cover h-[408px] w-full"
+                />
+                <h2 className="text-lg font-poppins font-semibold mt-4">
+                  {person.name}
+                </h2>
+                <h3 className="text-lg font-poppins font-normal text-secondary mb-4">
+                  {person.title}
+                </h3>
+              </div>
+
+              {/* Text Section */}
+              <div className="w-full lg:w-2/3">
+                <p className="text-justify font-poppins text-base whitespace-pre-line leading-relaxed text-TextandIcons">
+                  {person.description}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+      </div>
+    </section>
   );
 };
 
-export default OnGoingProjects;
+export default page;
