@@ -1,20 +1,20 @@
-"use client";
+'use client';
 
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
-import { usePathname } from "next/navigation";
-import Logo from "../../public/giga-group-logo.svg";
-import ButtonPrimary from "./ButtonPrimary";
-import ButtonSecandary from "./ButtonSecandary";
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
+import { usePathname } from 'next/navigation';
+import Logo from '../../public/giga-group-logo.svg';
+import ButtonPrimary from './ButtonPrimary';
+import ButtonSecandary from './ButtonSecandary';
 
 const menuItems = [
-  { name: "HOME", path: "/" },
-  { name: "ABOUT", path: "/about-us" },
-  { name: "COMPANIES", path: "/companies" },
-  { name: "MANAGEMENT", path: "/management" },
-  { name: "PROJECTS", path: "/projects" },
-  { name: "GALLERY", path: "/gallery" },
+  { name: 'HOME', path: '/' },
+  { name: 'ABOUT', path: '/about-us' },
+  { name: 'COMPANIES', path: '/companies' },
+  { name: 'MANAGEMENT', path: '/management' },
+  { name: 'PROJECTS', path: '/projects' },
+  { name: 'GALLERY', path: '/gallery' },
 ];
 
 const Navbar = () => {
@@ -24,11 +24,11 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleNavigation = (path) => {
+  const handleNavigation = path => {
     if (!path) return;
     window.location.href = path;
     setIsMenuOpen(false);
@@ -37,25 +37,23 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/40 backdrop-blur-md shadow-lg" : "bg-white"
+        isScrolled ? 'bg-white/40 backdrop-blur-md shadow-lg' : 'bg-white'
       }`}
     >
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-6 py-4">
+      <div className=" container mx-auto flex items-center justify-between px-6 py-4">
         <a href="/" className="flex items-center space-x-2">
           <Image src={Logo} alt="GIGA Group Logo" width={150} height={100} />
         </a>
 
         <div className="hidden lg:flex items-center space-x-6">
-          {menuItems.map((item) => {
+          {menuItems.map(item => {
             const isActive = pathname === item.path;
             return (
               <button
                 key={item.name}
                 onClick={() => handleNavigation(item.path)}
                 className={`text-sm font-medium px-2 py-1 transition-colors ${
-                  isActive
-                    ? "text-yellow-600"
-                    : "text-gray-800 hover:text-yellow-600"
+                  isActive ? 'text-yellow-600' : 'text-gray-800 hover:text-yellow-600'
                 }`}
               >
                 {item.name}
@@ -63,10 +61,7 @@ const Navbar = () => {
             );
           })}
 
-          <ButtonPrimary
-            title="CONTACT US"
-            onClick={() => handleNavigation("/contact")}
-          />
+          <ButtonPrimary title="CONTACT US" onClick={() => handleNavigation('/contact')} />
         </div>
 
         <button
@@ -82,14 +77,14 @@ const Navbar = () => {
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div
-            initial={{ x: "-100%" }}
+            initial={{ x: '-100%' }}
             animate={{ x: 0 }}
-            exit={{ x: "-100%" }}
+            exit={{ x: '-100%' }}
             transition={{ duration: 0.4 }}
             className="fixed top-0 left-0 w-full h-screen bg-white/90 backdrop-blur-md shadow-lg z-50 flex flex-col justify-center items-center"
           >
             <motion.div className="bg-white py-6 rounded-xl shadow-lg w-80 flex flex-col space-y-0">
-              {menuItems.map((item) => {
+              {menuItems.map(item => {
                 const isActive = pathname === item.path;
                 return (
                   <button
@@ -97,8 +92,8 @@ const Navbar = () => {
                     onClick={() => handleNavigation(item.path)}
                     className={`w-full text-left py-3 px-6 border-b text-lg font-medium transition-colors ${
                       isActive
-                        ? "bg-yellow-50 text-yellow-700 border-gray-200"
-                        : "text-gray-800 hover:text-yellow-600 border-transparent"
+                        ? 'bg-yellow-50 text-yellow-700 border-gray-200'
+                        : 'text-gray-800 hover:text-yellow-600 border-transparent'
                     }`}
                   >
                     {item.name}
@@ -107,15 +102,9 @@ const Navbar = () => {
               })}
 
               <div className="gap-y-4 px-6  flex flex-col">
-                <ButtonPrimary
-                  title="Contact Us"
-                  onClick={() => handleNavigation("/contact")}
-                />
+                <ButtonPrimary title="Contact Us" onClick={() => handleNavigation('/contact')} />
 
-                <ButtonSecandary
-                  title="Close Menu"
-                  onClick={() => setIsMenuOpen(false)}
-                />
+                <ButtonSecandary title="Close Menu" onClick={() => setIsMenuOpen(false)} />
               </div>
             </motion.div>
           </motion.div>

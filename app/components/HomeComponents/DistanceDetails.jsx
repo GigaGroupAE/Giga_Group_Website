@@ -1,13 +1,13 @@
-import { distanceMap } from "@/src/Data/DistanceData";
-import React from "react";
-import { motion } from "framer-motion";
+import { distanceMap } from '@/src/Data/DistanceData';
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: "easeOut" },
+    transition: { duration: 0.6, ease: 'easeOut' },
   },
 };
 
@@ -26,13 +26,11 @@ const DistanceDetails = () => {
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
             >
-              <h2 className="text-2xl font-bold text-TextandIcons font-poppins">
+              <h2 className=" text-xl md:text-2xl font-bold text-TextandIcons font-poppins">
                 {item.heading}
               </h2>
 
-              <p className="font-poppins text-xs text-TextandIcons">
-                {item?.description}
-              </p>
+              <p className="font-poppins text-xs text-TextandIcons">{item?.description}</p>
             </motion.div>
           ))}
         </div>

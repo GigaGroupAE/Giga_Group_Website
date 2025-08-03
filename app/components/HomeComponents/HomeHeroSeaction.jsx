@@ -1,9 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import HeroWrapper from "../Hero/HeroWrapper";
-import HeroPageTitle from "../Hero/HeroPageTitle";
-import HeroCard from "../Hero/HeroCard";
 import HeroInputForm from "../Hero/HeroInputForm";
 
 const HomeHeroSection = () => {

@@ -1,38 +1,41 @@
 export const galleryData = [
   {
-    title: "Textile Industry",
+    // title: 'Textile Industry',
     description:
-      "Mian Akbar Trading Corporation in Pakistan and Giga Group’s textile ventures in Tanzania, Nida Textile Mills, Namera Group, and Diamond Ginning & Oil, are major contributors to textile manufacturing and exports, combining traditional methods with modern technology and earning national recognition.",
-    image: "investments.webp",
+      'Honorable Mian Shahbaz Sharif -Chief Minister Punjab, presenting the Best Developer award in 2009, to Haji Muhammad Amin Pardesi – President Giga Group of Companies.',
+    image: 'award1a.webp',
   },
   {
-    title: "Gold & Jewellery Trading",
+    // title: 'Gold & Jewellery Trading',
     description:
-      "Mazyood Jewellery DMCC in Dubai is a key bullion supplier to the subcontinent, importing gold from global financial institutions. In Pakistan, H.A. Rahim & Sons (Pvt) Ltd stands as a prominent importer of gold and silver.",
-    image: "investments.webp",
+      'General Parvez Musharaf – President of the Islamic Republic of Pakistan, presenting the Best Export Performance Trophy, to Haji Muhammad Amin Pardesi – President of Giga Group of Companies.',
+    image: 'award2b.webp',
   },
   {
-    title: "Construction",
+    // title: 'Construction',
     description:
-      "Giga Group’s construction footprint includes Al Najeebi Construction, Mazyood Giga International, and Bridgestone Construction in Pakistan, as well as UAE-based ventures like Bina Goodyear, IJM Gulf, and Sky Construction. These companies deliver residential, commercial, and infrastructure projects that meet international standards.",
-    image: "investments.webp",
+      'H.E. Mir Zafrullah Khan Jamali, Prime Minister of the Islamic Republic of Pakistan, presenting the Best Export Performance Merit Trophy to Haji Muhammad Amin Pardesi, President of Giga Group of Companies.',
+    image: 'award3c.webp',
   },
   {
-    title: "Real Estate Investment and Property Development",
+    // title: 'Real Estate Investment and Property Development',
     description:
-      "From Dubai to Islamabad and Karachi, Giga Group leads landmark real estate projects through companies like Mazyood Giga International, Al Ghurair Giga, and joint ventures with EMAAR. Signature developments like Goldcrest Views, Crescent Bay, and Platinum Square reflect luxury, innovation, and economic impact.",
-    image: "investments.webp",
+      'Najeeb Amin Pardesi – Vice Chairman & CEO Giga Group of Companies, receiving Best Exhibiter Award from Makhdoom Amin Fahim – Federal Commerce Minister, at UAE Expo 2011',
+    image: 'award5.webp',
   },
   {
-    title: "General Trading",
-    description:
-      "Since 1985, Mian Akbar Trading Corporation has excelled in exporting textiles, industrial parts, and accessories. Its consistent performance and diverse product portfolio have earned it honors from FPCCI, KCCI, and PCMA.",
-    image: "investments.webp",
+    // title: 'General Trading',
+    description: `Honorable Dr. Ishrat Hussain, Governor of State Bank of Pakistan, presenting Gold Medal and Certificate for Loyalty and Faith shown for Pakistan to Honorable Haji Abdul Rahim Ismail Giga, Head and Founder of Giga Group of Companies,
+H.E. Mohammed Mian Soomro, Chairman Senate of Pakistan, and Haji Muhammad Amin Pardesi were also present on this occasion. `,
+    image: 'award6.webp',
   },
   {
-    title: "Investments",
-    description:
-      "Star Giga Establishment Limited, a joint venture between Mazyood Giga International and ETA Star, develops high-rise residential and mixed-use projects across Dubai and Ajman. Notable developments include Goldcrest Views 2, Pearl Residence, and Goldcrest Dreams, reflecting modern community living.",
-    image: "investments.webp",
+    // title: 'Investments',
+    description: `
+      Best Export Trophies (Pakistan)
+BEST EXPORT TROPHIES (Pakistan).
+
+      `,
+    image: 'award7.webp',
   },
 ];

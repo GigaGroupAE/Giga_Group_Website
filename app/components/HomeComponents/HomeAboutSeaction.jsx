@@ -4,13 +4,12 @@ import { motion } from "framer-motion";
 import about3 from "../../../public/ocean.webp";
 import about2 from "../../../public/about3.webp";
 import beach from "../../../public/beach.webp";
-import ButtonPrimary from "../ButtonPrimary";
 
 const HomeAboutSeaction = () => {
   return (
-    <section className="max-w-[1440px] px-2 md:px-0 mx-auto overflow-hidden">
-      <div className="bg-white xl:px-20">
-        <div className="container px-4 py-28 mx-auto flex flex-col md:flex-row items-center gap-10">
+    <section className="container  px-2 md:px-0 mx-auto overflow-hidden">
+      <div className="bg-white ">
+        <div className="container px-4 py-20 md:py-28 mx-auto flex flex-col md:flex-row items-center gap-10">
           <motion.div
             initial={{ opacity: 0, x: -80 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -29,7 +28,7 @@ const HomeAboutSeaction = () => {
               <Image
                 src={about2}
                 alt="gigagroup"
-                className="rounded-xl shadow-md"
+                className="rounded-xl shadow-md "
               />
               <Image
                 src={about3}

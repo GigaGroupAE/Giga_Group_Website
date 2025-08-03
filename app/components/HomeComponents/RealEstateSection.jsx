@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import Image from "next/image";
-import architecture from "../../../public/architecture.svg";
-import my_location from "../../../public/my_location.svg";
-import psychiatry from "../../../public/psychiatry.svg";
+import { motion } from 'framer-motion';
+import Image from 'next/image';
+import architecture from '../../../public/architecture.svg';
+import my_location from '../../../public/my_location.svg';
+import psychiatry from '../../../public/psychiatry.svg';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -13,23 +13,23 @@ const fadeInUp = {
 
 const fadeUp = {
   hidden: { opacity: 0, y: 60 },
-  visible: (i) => ({
+  visible: i => ({
     opacity: 1,
     y: 0,
     transition: {
       delay: i * 0.2,
       duration: 0.6,
-      ease: "easeOut",
+      ease: 'easeOut',
     },
   }),
 };
 
 export default function RealEstate() {
   return (
-    <div className="pt-40">
-      <div className="-z-50  left-1/3 blur-3xl  absolute w-[600px] h-96  rounded-b-full bg-[#f8f7e0]"></div>
+    <div className="">
+      <div className="-z-50  md:left-1/3 blur-3xl  absolute w-96 md:w-[600px] h-96  rounded-b-full bg-[#f8f7e0]"></div>
 
-      <div className="container mt-10 mx-auto px-3 md:px-0">
+      <div className="container py-20 md:py-28  mx-auto px-2 md:px-0">
         <motion.div
           className="w-full mb-8 sm:mb-12"
           variants={fadeInUp}
@@ -42,11 +42,10 @@ export default function RealEstate() {
           </h2>
 
           <p className="descriptionText text-start md:text-center">
-            Giga Group’s real estate projects across Pakistan and also in Dubai
-            embody a steadfast commitment to architectural brilliance, modern
-            lifestyle experiences, and innovative commercial spaces, positioning
-            Islamabad and other key cities as emerging hubs for premium real
-            estate investment.
+            Giga Group’s real estate projects across Pakistan and also in Dubai embody a steadfast
+            commitment to architectural brilliance, modern lifestyle experiences, and innovative
+            commercial spaces, positioning Islamabad and other key cities as emerging hubs for
+            premium real estate investment.
           </p>
         </motion.div>
 
@@ -64,11 +63,10 @@ export default function RealEstate() {
               <b>Architectural </b>Excellence
             </h1>
             <p className="font-poppins text-sm text-TextandIcons mt-1">
-              At Giga Group, we design Islamabad’s skyline with architectural
-              mastery and smart building solutions. Our iconic residential and
-              commercial landmarks, like Goldcrest Views and Giga Downtown,
-              redefine urban living while enhancing lifestyles and investment
-              value across Pakistan’s most vibrant cities and communities.
+              At Giga Group, we design Islamabad’s skyline with architectural mastery and smart
+              building solutions. Our iconic residential and commercial landmarks, like Goldcrest
+              Views and Giga Downtown, redefine urban living while enhancing lifestyles and
+              investment value across Pakistan’s most vibrant cities and communities.
             </p>
           </motion.div>
 
@@ -85,12 +83,11 @@ export default function RealEstate() {
               <b>Prime Real Estate</b> Locations
             </h1>
             <p className="font-poppins py-5 text-sm text-TextandIcons mt-2">
-              Our developments are Pakistan’s most sought-after areas, including
-              DHA Phase 2 Islamabad, providing exceptional convenience,
-              outstanding connectivity, and future growth potential. Our
-              projects create ideal opportunities for investors seeking prime
-              locations that promise strong returns and long-term stability in
-              the Pakistani real estate market.
+              Our developments are Pakistan’s most sought-after areas, including DHA Phase 2
+              Islamabad, providing exceptional convenience, outstanding connectivity, and future
+              growth potential. Our projects create ideal opportunities for investors seeking prime
+              locations that promise strong returns and long-term stability in the Pakistani real
+              estate market.
             </p>
           </motion.div>
           <div className="-z-50  blur-3xl left-0 absolute w-20 h-52  rounded-r-full bg-[#f8f7e0]"></div>
@@ -108,18 +105,17 @@ export default function RealEstate() {
               <b>Commitment to </b>Sustainable
             </h1>
             <p className="font-poppins text-sm text-TextandIcons mt-2">
-              We champion eco-friendly real estate across Pakistan, using
-              energy-efficient solutions and sustainable practices to promote
-              healthier environments. Our commitment ensures communities like
-              Giga City thrive, fostering sustainable urban living and
-              protecting the future for generations seeking modern, responsible
-              lifestyles in Pakistan’s key cities.
+              We champion eco-friendly real estate across Pakistan, using energy-efficient solutions
+              and sustainable practices to promote healthier environments. Our commitment ensures
+              communities like Giga City thrive, fostering sustainable urban living and protecting
+              the future for generations seeking modern, responsible lifestyles in Pakistan’s key
+              cities.
             </p>
           </motion.div>
         </div>
       </div>
 
-      <div className="bg-excellenceCover mt-32 flex items-center z-50 justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-24 w-full bg-repeat-round object-center bg-cover">
+      <div className="bg-excellenceCover  flex items-center z-50 justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-24 w-full bg-repeat-round object-center bg-cover">
         <motion.div
           className="w-[95%] sm:[50rem] md:w-[70rem] px-4 sm:px-28 py-12 gap-4 backdrop-blur-lg items-center flex flex-col justify-center bg-white bg-opacity-30 rounded-2xl"
           variants={fadeInUp}
@@ -131,10 +127,9 @@ export default function RealEstate() {
             A Legacy of <b>Excellence</b>
           </h1>
           <p className="descriptionText text-white md:text-center">
-            Over 60 years of experience, 5,000+ team members worldwide, and
-            millions of square feet delivered in iconic projects like Giga Mall
-            and Giga Downtown. With 99.99% customer satisfaction, Giga Group
-            sets the benchmark for premium real estate in Pakistan.
+            Over 60 years of experience, 5,000+ team members worldwide, and millions of square feet
+            delivered in iconic projects like Giga Mall and Giga Downtown. With 99.99% customer
+            satisfaction, Giga Group sets the benchmark for premium real estate in Pakistan.
           </p>
         </motion.div>
       </div>
@@ -148,10 +143,10 @@ export default function RealEstate() {
         <div className="container mx-auto px-4 md:px-0 py-20">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 md:gap-y-0 gap-x-6 md:gap-x-10 text-center">
             {[
-              ["60+", "Years of Excellence"],
-              ["5000+", "Employees around the Globe"],
-              ["99.99%", "Customer Satisfaction"],
-              ["7M+ Sq ft", "Commercial & Residential Space"],
+              ['60+', 'Years of Excellence'],
+              ['5000+', 'Employees around the Globe'],
+              ['99.99%', 'Customer Satisfaction'],
+              ['7M+', 'Commercial & Residential Space'],
             ].map(([value, label], i) => (
               <motion.div
                 key={i}

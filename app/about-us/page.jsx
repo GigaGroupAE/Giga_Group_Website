@@ -1,26 +1,27 @@
-import React from "react";
-import HeroAbout from "../components/AboutComponents/HeroAbout";
-import GroupAbout from "../components/AboutComponents/GroupAbout";
-import WhoWeAre from "../components/AboutComponents/WhoWeAre";
-import AboutBlog from "../components/AboutComponents/AboutBlog";
-import AboutGiga from "../components/AboutComponents/AboutGiga";
-import AboutAward from "../components/AboutComponents/AboutAward";
-import map from "../../public/aboutMap.svg";
-import Image from "next/image";
+import React from 'react';
+import AboutMain from '../components/AboutComponents/AboutMain';
+
+export const metadata = {
+  title: 'About Us - Vision, Values & Strength - Giga Group of Companies',
+  description:
+    'Find more information about Giga Group of Companies. The leadership, management, mission statement, vision, strengths, core values, and more!',
+  keywords: [
+    'Giga Group',
+    'Real Estate Pakistan',
+    'Gold Refining',
+    'Bullion Trade',
+    'Textile Industry',
+    'Business Conglomerate',
+    'Giga Mall',
+    'Investment in Pakistan',
+    'Property in Islamabad',
+  ],
+};
 
 const page = () => {
   return (
     <section>
-      <HeroAbout />
-      <GroupAbout />
-      <WhoWeAre />
-      <AboutBlog />
-      <AboutGiga />
-      <AboutAward />
-
-      <div className="w-full">
-        <Image src={map} alt="map" className="w-full" />
-      </div>
+      <AboutMain />
     </section>
   );
 };

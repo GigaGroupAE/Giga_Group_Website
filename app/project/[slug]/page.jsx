@@ -1,26 +1,26 @@
-import HeroCard from "@/app/components/Hero/HeroCard";
-import HeroInputForm from "@/app/components/Hero/HeroInputForm";
-import HeroWrapper from "@/app/components/Hero/HeroWrapper";
-import AboutProject from "@/app/components/ProjectsPages/AboutProject";
-import OnGoingProjectsCom from "@/app/components/ProjectsPages/OnGoingProjectCom";
-import ProjectAmenities from "@/app/components/ProjectsPages/ProjectAmenities";
-import ProjectContactUs from "@/app/components/ProjectsPages/ProjectContactUs";
-import MediaProject from "@/app/components/ProjectsPages/ProjectGallery";
-import ProjectLocation from "@/app/components/ProjectsPages/ProjectLocation";
-import { projects } from "@/src/Data/ProjectsData";
-import Image from "next/image";
-import { notFound } from "next/navigation";
+import HeroCard from '@/app/components/Hero/HeroCard';
+import HeroInputForm from '@/app/components/Hero/HeroInputForm';
+import HeroWrapper from '@/app/components/Hero/HeroWrapper';
+import AboutProject from '@/app/components/ProjectsPages/AboutProject';
+import OnGoingProjectsCom from '@/app/components/ProjectsPages/OnGoingProjectCom';
+import ProjectAmenities from '@/app/components/ProjectsPages/ProjectAmenities';
+import ProjectContactUs from '@/app/components/ProjectsPages/ProjectContactUs';
+import MediaProject from '@/app/components/ProjectsPages/ProjectGallery';
+import ProjectLocation from '@/app/components/ProjectsPages/ProjectLocation';
+import { projects } from '@/src/Data/ProjectsData';
+import Image from 'next/image';
+import { notFound } from 'next/navigation';
 
 export async function generateStaticParams() {
   return projects.map(({ slug }) => ({
-    slug: slug.replace("/", ""),
+    slug: slug.replace('/', ''),
   }));
 }
 
 const ProjectPage = ({ params }) => {
   const slug = `/${params.slug}`;
 
-  const project = projects.find((p) => p.slug === slug);
+  const project = projects.find(p => p.slug === slug);
 
   if (!project) return notFound();
 
@@ -64,16 +64,14 @@ const ProjectPage = ({ params }) => {
             // subtitle={status}
             description={description}
           />
-          <HeroInputForm title={formTitle || "Inquire Now"} />
+          <HeroInputForm title={formTitle || 'Inquire Now'} />
         </div>
       </HeroWrapper>
-
       <AboutProject
         amenitiesTitle={amenitiesTitle}
         amenitiesDesc={amenitiesDesc}
         features={features}
       />
-
       <MediaProject videoUrl={videoUrl} gallery={gallery} />
       <ProjectLocation
         mapTitle={mapTitle}
@@ -82,17 +80,18 @@ const ProjectPage = ({ params }) => {
         galleryDesc={imageGalleryTitleDesc}
         gallery={locationImageGallery}
       />
+      <div className="-z-10   md:left-80 absolute w-96 md:w-[700px] h-96  rounded-b-full  bg-[#f8f7e0]"></div>
       <ProjectAmenities
         amenitiesFeaturesTitle={amenitiesFeaturesTitle}
         amenities={amenities}
         whyChooseTitle={whyChooseTitle}
         whyChooseDesc={whyChooseDesc}
       />
+      <div className="-z-10 blur-2xl  md:left-72 absolute w-96 md:w-[700px] h-96  rounded-b-full  bg-[#f8f7e0]"></div>
       <dev className="bg-gradient-to-b from-[#f5f9f6] to-[#f2f2f2] py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-semibold text-gray-800 mb-10">
-            Construction{" "}
-            <span className="font-bold text-gray-900">Updates</span>
+            Construction <span className="font-bold text-gray-900">Updates</span>
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -111,10 +110,7 @@ const ProjectPage = ({ params }) => {
         </div>
       </dev>
       <OnGoingProjectsCom />
-      <ProjectContactUs
-        contactUsdec={contactUsdec}
-        contactUsTitle={contactUsTitle}
-      />
+      <ProjectContactUs contactUsdec={contactUsdec} contactUsTitle={contactUsTitle} />
     </section>
   );
 };

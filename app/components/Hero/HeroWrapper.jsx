@@ -12,13 +12,12 @@ const fadeSlideUp = {
 };
 
 export default function HeroWrapper({ backgroundImage, children }) {
-  console.log(backgroundImage);
   return (
     <div
       className={`relative min-h-[700px] w-full bg-no-repeat bg-cover bg-center brightness-110 ${backgroundImage} flex items-end`}
     >
       <motion.div
-        className="w-full max-w-[1440px] mx-auto px-6 md:px-[150px] pb-16"
+        className="w-full max-w-[1440px] mx-auto px-3 md:px-[150px] pb-16"
         variants={fadeSlideUp}
         initial="hidden"
         animate="visible"

@@ -1,18 +1,18 @@
-import React from "react";
-import Image from "next/image";
-import car from "../../../public/car.webp";
-import beach from "../../../public/beach.webp";
-import Historical from "../../../public/historical-places.webp";
-import shoopingMall from "../../../public/ShoppingMall.svg";
-import { motion } from "framer-motion";
-import sportsClub from "../../../public/sportsclub.webp";
+import React from 'react';
+import Image from 'next/image';
+import car from '../../../public/car.webp';
+import beach from '../../../public/beach.webp';
+import Historical from '../../../public/historical-places.webp';
+import shoopingMall from '../../../public/ShoppingMall.svg';
+import { motion } from 'framer-motion';
+import sportsClub from '../../../public/sportsclub.webp';
 
 const fadeLeft = {
   hidden: { opacity: 0, x: -50 },
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.6, ease: "easeOut" },
+    transition: { duration: 0.6, ease: 'easeOut' },
   },
 };
 
@@ -21,7 +21,7 @@ const fadeRight = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.6, ease: "easeOut" },
+    transition: { duration: 0.6, ease: 'easeOut' },
   },
 };
 
@@ -30,7 +30,7 @@ const fadeUp = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: "easeOut" },
+    transition: { duration: 0.6, ease: 'easeOut' },
   },
 };
 
@@ -48,9 +48,9 @@ const ExcellenceVision = () => {
           Experience the <b>Vision of Excellence</b>
         </h2>
         <p className="descriptionText md:text-center">
-          In just two decades, Dubai has envisioned, built, and delivered
-          extraordinary state-of-the-art real estate projects that set
-          benchmarks not only in the region but also globally.
+          In just two decades, Dubai has envisioned, built, and delivered extraordinary
+          state-of-the-art real estate projects that set benchmarks not only in the region but also
+          globally.
         </p>
       </motion.div>
 
@@ -68,7 +68,7 @@ const ExcellenceVision = () => {
           <Image
             src={car}
             alt="Recreational Areas"
-            className="bg-repeat-round h-[40rem]"
+            className="bg-repeat-round h-[20rem] md:h-[40rem]"
           />
         </motion.div>
 
@@ -116,7 +116,7 @@ const ExcellenceVision = () => {
             <Image
               src={shoopingMall}
               alt="Shopping Malls"
-              className="bg-contain h-[40rem] w-[24rem] bg-repeat-round"
+              className="bg-contain h-[20rem] md:h-[40rem] w-[24rem] bg-repeat-round"
             />
           </div>
         </motion.div>
