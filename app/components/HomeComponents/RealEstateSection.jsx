@@ -27,6 +27,8 @@ const fadeUp = {
 export default function RealEstate() {
   return (
     <div className="pt-40">
+      <div className="-z-50  left-1/3 blur-3xl  absolute w-[600px] h-96  rounded-b-full bg-[#f8f7e0]"></div>
+
       <div className="container mt-10 mx-auto px-3 md:px-0">
         <motion.div
           className="w-full mb-8 sm:mb-12"
@@ -91,6 +93,7 @@ export default function RealEstate() {
               the Pakistani real estate market.
             </p>
           </motion.div>
+          <div className="-z-50  blur-3xl left-0 absolute w-20 h-52  rounded-r-full bg-[#f8f7e0]"></div>
 
           <motion.div
             className="cartContainer w-full sm:w-1/3"
@@ -114,21 +117,6 @@ export default function RealEstate() {
             </p>
           </motion.div>
         </div>
-
-        <motion.div
-          className="bg-secondary w-60 h-60 -z-40 blur-[250px] top-[25rem] left-0 absolute rounded-full"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.4 }}
-        />
-        <motion.div
-          className="bg-secondary w-60 h-20 blur-[200px] -z-40 right-96 2xl:right-96 absolute rounded-full"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-        />
       </div>
 
       <div className="bg-excellenceCover mt-32 flex items-center z-50 justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-24 w-full bg-repeat-round object-center bg-cover">

@@ -24,15 +24,15 @@ export default function Home() {
       {/* <HomeMap /> */}
 
       <DistanceDetails />
-      <div className="bg-secondary blur-[200px]   w-96 h-20 rounded-full absolute right-0"></div>
-      <div className="bg-secondary blur-[200px]   w-96 h-20 rounded-full absolute "></div>
+      {/* <div className="bg-secondary blur-[200px]   w-96 h-20 rounded-full absolute right-0"></div>
+      <div className="bg-secondary blur-[200px]   w-96 h-20 rounded-full absolute "></div> */}
 
       <ExcellenceVision />
       <div className="bg-white/70 flex items-center  -z-10 justify-center   w-11/12 h-96 absolute rounded-full   mx-auto ">
         <div className="bg-secondary w-96 h-96  blur-[240px]   absolute rounded-full  z-50 mx-auto "></div>
       </div>
 
-      <ClientSays />
+      {/* <ClientSays /> */}
 
       <FrequentlyQA />
 

@@ -26,36 +26,66 @@ const fadeInUp = {
 
 const ProjectsGrid = () => {
   return (
-    <section className=" bg-white">
-      <div className=" mx-auto px-4">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={{
-            visible: {
+    <section className="bg-white py-6">
+      <div className="mx-auto px-4">
+        <div className="overflow-hidden">
+          <motion.div
+            className="flex gap-6"
+            initial={{ x: 0 }}
+            animate={{
+              x: "-100%",
               transition: {
-                staggerChildren: 0.15,
+                ease: "linear",
+                duration: 15,
+                repeat: Infinity,
+                repeatType: "loop",
               },
-            },
-          }}
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-6 justify-items-center items-center"
-        >
-          {projects.map((project, index) => (
-            <motion.div key={index} variants={fadeInUp}>
-              <div className="relative w-auto  transition duration-300 ease-in-out">
-                <Image
-                  src={project.src}
-                  alt={project.alt}
-                  height={200}
-                  width={200}
-                  className="object-contain"
-                  //   loading="lazy"
-                />
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
+            }}
+            style={{
+              display: "flex",
+            }}
+          >
+            {projects.map((project, index) => (
+              <motion.div
+                key={index}
+                variants={fadeInUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <div className="relative w-40 h-40">
+                  <Image
+                    src={project.src}
+                    alt={project.alt}
+                    height={200}
+                    width={200}
+                    className="object-contain"
+                  />
+                </div>
+              </motion.div>
+            ))}
+            {/* Second loop of projects to make seamless scroll */}
+            {projects.map((project, index) => (
+              <motion.div
+                key={`copy-${index}`}
+                variants={fadeInUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <div className="relative w-40 h-40">
+                  <Image
+                    src={project.src}
+                    alt={project.alt}
+                    height={200}
+                    width={200}
+                    className="object-contain"
+                  />
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
       </div>
     </section>
   );
