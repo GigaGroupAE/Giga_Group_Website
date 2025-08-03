@@ -1,16 +1,12 @@
-"use client";
-import {
-  announcementsData,
-  posts,
-  recentBlogs,
-} from "@/src/Data/AnnouncementData";
-import React from "react";
-import newsImage from "../../public/blog1.webp";
-import searchImage from "../../public/search.webp";
-import Image from "next/image";
-import ButtonPrimary from "../components/ButtonPrimary";
-import { motion } from "framer-motion";
-import logo from "../../public/LogoMobile.svg";
+'use client';
+import { announcementsData, posts, recentBlogs } from '@/src/Data/AnnouncementData';
+import React from 'react';
+import newsImage from '../../public/blog1.webp';
+import searchImage from '../../public/search.webp';
+import Image from 'next/image';
+import ButtonPrimary from '../components/ButtonPrimary';
+import { motion } from 'framer-motion';
+import logo from '../../public/LogoMobile.svg';
 
 const index = () => {
   const fadeInUp = {
@@ -19,7 +15,7 @@ const index = () => {
   };
 
   return (
-    <div className="backdrop-blur-[50px] w-full bg-white/50 mx-auto xl:px-8 pb-24">
+    <div className="backdrop-blur-[50px] w-full bg-white/50 mx-auto xl:px-8">
       <div className="flex container mx-auto md:flex-row flex-col px-3 md:px-0 gap-10">
         <div className="md:w-[75rem] w-full">
           {announcementsData.map((item, index) => (
@@ -39,18 +35,14 @@ const index = () => {
               />
 
               <div className="flex space-x-2 items-center">
-                <p className="font-poppins font-semibold text-sm">
-                  {item?.date}
-                </p>
+                <p className="font-poppins font-semibold text-sm">{item?.date}</p>
                 <p className="font-poppins text-sm">. {item?.author}</p>
               </div>
 
               <h2 className="font-poppins text-lg font-semibold text-TextandIcons">
                 {item?.title}
               </h2>
-              <p className="font-poppins text-base text-TextandIcons">
-                {item?.content}
-              </p>
+              <p className="font-poppins text-base text-TextandIcons">{item?.content}</p>
             </motion.div>
           ))}
         </div>
@@ -64,9 +56,7 @@ const index = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="space-y-5">
-            <h2 className="font-poppins text-lg text-TextandIcons font-semibold">
-              Find & Search
-            </h2>
+            <h2 className="font-poppins text-lg text-TextandIcons font-semibold">Find & Search</h2>
             <div className="flex items-center gap-4">
               <input
                 placeholder="Search"
@@ -77,30 +67,24 @@ const index = () => {
           </div>
 
           <div className="py-5 space-y-5">
-            <h2 className="font-poppins text-lg text-TextandIcons font-semibold">
-              About Author
-            </h2>
+            <h2 className="font-poppins text-lg text-TextandIcons font-semibold">About Author</h2>
             <div className="flex items-center space-x-3">
               <Image
                 src={logo}
                 alt="AnnouncementImage"
                 className="h-14 w-14 rounded-full object-contain"
               />
-              <h2 className="font-poppins text-sm text-TextandIcons font-semibold">
-                Giga Group
-              </h2>
+              <h2 className="font-poppins text-sm text-TextandIcons font-semibold">Giga Group</h2>
             </div>
             <p className="font-poppin text-TextandIcons text-sm">
-              Great institutions are built over decades, shaping skylines,
-              empowering communities, and delivering iconic developments that
-              drive progress, innovation, and sustainable urban living.
+              Great institutions are built over decades, shaping skylines, empowering communities,
+              and delivering iconic developments that drive progress, innovation, and sustainable
+              urban living.
             </p>
           </div>
 
           <div className="py-5 space-y-5">
-            <h2 className="font-poppins text-lg text-TextandIcons font-semibold">
-              Recent Blogs
-            </h2>
+            <h2 className="font-poppins text-lg text-TextandIcons font-semibold">Recent Blogs</h2>
             <div className="space-y-5">
               {recentBlogs.map((item, index) => (
                 <motion.div
@@ -121,9 +105,7 @@ const index = () => {
                     <h2 className="font-poppins text-sm text-TextandIcons font-semibold">
                       {item?.title}
                     </h2>
-                    <p className="font-poppins text-xs text-TextandIcons">
-                      {item?.description}
-                    </p>
+                    <p className="font-poppins text-xs text-TextandIcons">{item?.description}</p>
                   </div>
                 </motion.div>
               ))}
@@ -180,18 +162,10 @@ const index = () => {
               <h2 className="font-poppins text-lg font-semibold text-TextandIcons">
                 {item?.title}
               </h2>
-              <p className="font-poppins text-xs text-TextandIcons">
-                {item?.content}
-              </p>
+              <p className="font-poppins text-xs text-TextandIcons">{item?.content}</p>
               <div className="flex items-center space-x-3">
-                <Image
-                  src={logo}
-                  alt="Author"
-                  className="h-6 w-6 rounded-full object-contain"
-                />
-                <h2 className="font-poppins text-xs text-TextandIcons font-semibold">
-                  Giga Group
-                </h2>
+                <Image src={logo} alt="Author" className="h-6 w-6 rounded-full object-contain" />
+                <h2 className="font-poppins text-xs text-TextandIcons font-semibold">Giga Group</h2>
               </div>
             </motion.div>
           ))}
