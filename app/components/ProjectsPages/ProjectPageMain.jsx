@@ -53,7 +53,7 @@ const ProjectPageMain = () => {
               ['60+', 'Years of Excellence'],
               ['5000+', 'Employees around the Globe'],
               ['99.99%', 'Customer Satisfaction'],
-              ['7M+', 'Commercial & Residential Space'],
+              ['7M+ SQFT', 'Commercial & Residential Space'],
             ].map(([value, label], i) => (
               <motion.div
                 key={i}

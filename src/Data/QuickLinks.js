@@ -1,125 +1,154 @@
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaGlobe } from 'react-icons/fa';
 export const QuickLinks = [
   {
     id: 1,
-    title: "Home",
+    title: 'Home',
+    path: '/',
   },
   {
     id: 2,
-    title: "About Us",
+    title: 'About Us',
+    path: '/about-us',
   },
   {
     id: 3,
-    title: "Projects",
+    title: 'Companies',
+    path: '/companies',
   },
   {
     id: 4,
-    title: "Services",
+    title: 'Management',
+    path: '/management',
   },
   {
     id: 5,
-    title: "Contact Us",
+    title: 'Projects',
+    path: '/projects',
+  },
+  {
+    id: 6,
+    title: 'Gallery',
+    path: '/gallery',
+  },
+  {
+    id: 7,
+    title: 'Contact Us',
+    path: '/contact-us',
   },
 ];
 
 export const Resources = [
   {
     id: 1,
-    title: "FAQs",
+    title: 'FAQs',
   },
   {
     id: 2,
-    title: "News & Updates",
+    title: 'News & Updates',
   },
   {
     id: 3,
-    title: "Download Brochures",
+    title: 'Download Brochures',
   },
   {
     id: 4,
-    title: "Market Insights",
+    title: 'Market Insights',
   },
 ];
 
 export const AboutUs = [
   {
     id: 1,
-    title: "Who We Are",
+    title: '+92 304 111 0073',
+    icon: <FaPhoneAlt />,
   },
   {
     id: 2,
-    title: "Our Legacy",
+    title: '+92 51 111 786 123',
+    icon: <FaPhoneAlt />,
   },
   {
     id: 3,
-    title: "Leadership Team",
+    title: 'info@gigagroup.com',
+    icon: <FaEnvelope />,
   },
   {
     id: 4,
-    title: "Careers",
+    title: 'sales@gigagroup.com',
+    icon: <FaEnvelope />,
+  },
+  {
+    id: 5,
+    title: 'Downtown Giga, Defence Housing Authority Phase II Islamabad, Pakistan-44000',
+    icon: <FaMapMarkerAlt />,
+  },
+  {
+    id: 6,
+    title: 'https://gigagroup.com',
+    icon: <FaGlobe />,
   },
 ];
 
 export const Legal = [
   {
     id: 1,
-    title: "Privacy Policy",
+    title: 'Privacy Policy',
   },
   {
     id: 2,
-    title: "Terms & Conditions",
+    title: 'Terms & Conditions',
   },
   {
     id: 3,
-    title: "Real Estate Regulations",
+    title: 'Real Estate Regulations',
   },
 ];
 
 export const Projects = [
   {
     id: 1,
-    title: "Residential Projects",
+    title: 'Residential Projects',
   },
   {
     id: 2,
-    title: "Commercial Projects",
+    title: 'Commercial Projects',
   },
   {
     id: 3,
-    title: "Upcoming Projects",
+    title: 'Upcoming Projects',
   },
   {
     id: 4,
-    title: "International Projects",
+    title: 'International Projects',
   },
 ];
 
 export const certificationsPartnerships = [
   {
     id: 1,
-    title: "Certifications",
+    title: 'Certifications',
   },
   {
     id: 2,
-    title: "Partners",
+    title: 'Partners',
   },
 ];
 
 export const Services = [
   {
     id: 1,
-    title: "Property Management",
+    title: 'Property Management',
   },
   {
     id: 2,
-    title: "Investment Opportunities",
+    title: 'Investment Opportunities',
   },
   {
     id: 3,
-    title: "Customer Support",
+    title: 'Customer Support',
   },
   {
     id: 4,
-    title: "Customization Options",
+    title: 'Customization Options',
   },
 ];
-

@@ -1,20 +1,22 @@
-import React from "react";
-import fb from "../../public/fb.svg";
-import x from "../../public/x.svg";
-import yt from "../../public/yt.svg";
-import whatsapp from "../../public/whatsapp.svg";
-import pintrust from "../../public/pintrust.svg";
-import linkdin from "../../public/lindin.svg";
-import ig from "../../public/ig.svg";
-import Image from "next/image";
+import React from 'react';
+import fb from '../../public/fb.svg';
+import x from '../../public/x.svg';
+import yt from '../../public/yt.svg';
+import whatsapp from '../../public/whatsapp.svg';
+import pintrust from '../../public/pintrust.svg';
+import linkdin from '../../public/lindin.svg';
+import ig from '../../public/ig.svg';
+import Image from 'next/image';
 
 const CopyRights = () => {
   return (
-    <section className="bg-white px-[50px] h-[70px] flex md:flex-row flex-col
-     items-center md:justify-between   justify-around ">
+    <section
+      className="bg-white px-[50px] h-[70px] flex md:flex-row flex-col
+     items-center md:justify-between   justify-around "
+    >
       <div className="">
         <h2 className="font-poppins text-xs text-TextandIcons relative font-medium z-50">
-          All © Reserved by <b>Giga</b> Group ® | United Arab Emirates
+          All © Reserved by <b>Giga</b> Group ® | Pakistan
         </h2>
       </div>
       <div className="flex items-center gap-4 relative z-50 ">

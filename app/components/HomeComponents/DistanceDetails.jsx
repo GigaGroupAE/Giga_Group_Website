@@ -16,11 +16,11 @@ const DistanceDetails = () => {
     <section className=" bg-white/ mx-auto pt-40 max-w-[1440px] xl:px-20">
       <div className="-z-50  blur-3xl absolute w-96 h-[600px] right-0  rounded-l-full bg-[#f8f7e0]"></div>
       <div className="container mx-auto">
-        <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3">
+        <div className="mx-auto grid grid-cols-1 gap-y-2 sm:grid-cols-2 gap-6 lg:grid-cols-3">
           {distanceMap?.map((item, index) => (
             <motion.div
               key={index}
-              className="px-7 py-3 bg-white/75 w-96 rounded-md border   backdrop-blur-md  border-white"
+              className="px-7 py-3 bg-white/75 w-96 space-y-4 rounded-md border   backdrop-blur-md  border-white"
               variants={fadeInUp}
               initial="hidden"
               whileInView="visible"
@@ -30,7 +30,9 @@ const DistanceDetails = () => {
                 {item.heading}
               </h2>
 
-              <p className="font-poppins text-xs text-TextandIcons">{item?.description}</p>
+              <p className="font-poppins text-xs text-TextandIcons    leading-loose">
+                {item?.description}
+              </p>
             </motion.div>
           ))}
         </div>

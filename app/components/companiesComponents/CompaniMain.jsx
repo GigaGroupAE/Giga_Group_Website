@@ -5,6 +5,7 @@ import { motion, useInView } from 'framer-motion';
 import { businessSectors } from '@/src/Data/CompaniesData';
 import CompaniHeroSection from './CompanHero';
 import ButtonPrimary from '../ButtonPrimary';
+import Link from 'next/link';
 
 const containerVariants = {
   hidden: {},
@@ -69,15 +70,19 @@ const CompaniMain = () => {
                   variants={cardVariants}
                 >
                   {imageUrl && (
-                    <img
-                      src={imageUrl}
-                      alt={item?.title}
-                      className="w-full rounded-2xl h-96 object-cover"
-                    />
+                    <Link href={`${item.slug}`}>
+                      <img
+                        src={imageUrl}
+                        alt={item?.title}
+                        className="w-full rounded-2xl h-96 object-cover"
+                      />
+                    </Link>
                   )}
 
                   <div className="py-4">
-                    <h2 className="text-lg font-semibold text-gray-800 mb-2">{item?.title}</h2>
+                    <Link href={`${item.slug}`}>
+                      <h2 className="text-lg font-semibold text-gray-800 mb-2">{item?.title}</h2>
+                    </Link>
 
                     <motion.p
                       initial={{ height: '6rem', opacity: 0.8 }}

@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 
 const WhyChoiceProject = () => {
   return (
     <div className="bg-secondary ">
       <div className=" py-16 px-5 md:px-0  container  mx-auto items-center">
         <h3 className="text-center  font-medium text-white text-[35px]">
-          Why Choose <b>Pearl Bliss Residence?</b>
+          Why Choose <b>Giga Group </b>
         </h3>
         <p className="text-white   text-center text-sm font-poppins">
-          Pearl Bliss Residence by Giga Group offers a lifestyle like no other,
-          set in a prime location that caters to your every need. Surrounded by
-          lush parks, top-rated schools, nurseries, and a diverse range of
-          restaurants and retail outlets, this community is thoughtfully
-          designed for families seeking comfort and convenience. With advanced
-          security and daycare services, Pearl Bliss Residence ensures peace of
-          mind for every resident.
+          Giga Group is a trusted name in Pakistan and the UAE, known for delivering high-quality,
+          future-forward real estate projects in prime locations like DHA Phase II and Giga Downtown
+          Islamabad. With over 70 years of business legacy and 20+ years in real estate, Giga Group
+          stands out for its timely delivery, transparent dealings, and innovative developments like
+          Goldcrest Views and Giga Mall. Whether you're investing, relocating, or launching a
+          business, Giga Group offers secure, high-ROI opportunities designed for modern living and
+          long-term value.
         </p>
       </div>
     </div>

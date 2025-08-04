@@ -10,7 +10,7 @@ const HomeMap = () => {
       <div className="flex flex-col md:w-1/2 justify-center  md:items-start">
         <GigaComponent title="10% Down Payment | Convenient Monthly Installments" />
 
-        <h1 className="font-poppins text-3xl text-TextandIcons my-3">
+        <h1 className="font-poppins text-3xl md:w-4/5 text-TextandIcons my-3">
           Reserve Your <span className="font-semibold">Luxury Apartment</span> in DHA Phase 2,
           Islamabad
         </h1>

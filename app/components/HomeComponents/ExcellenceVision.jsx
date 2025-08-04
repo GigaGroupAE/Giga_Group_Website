@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import car from '../../../public/car.webp';
-import beach from '../../../public/beach.webp';
+import car from '../../../public/islamabad.jpg';
+import beach from '../../../public/Goldcrest-Views-4.webp';
 import Historical from '../../../public/historical-places.webp';
-import shoopingMall from '../../../public/ShoppingMall.svg';
+import shoopingMall from '../../../public/Pakistan_National.jpg';
 import { motion } from 'framer-motion';
-import sportsClub from '../../../public/sportsclub.webp';
+import sportsClub from '../../../public/GME.webp';
 
 const fadeLeft = {
   hidden: { opacity: 0, x: -50 },
@@ -48,9 +48,9 @@ const ExcellenceVision = () => {
           Experience the <b>Vision of Excellence</b>
         </h2>
         <p className="descriptionText md:text-center">
-          In just two decades, Dubai has envisioned, built, and delivered extraordinary
-          state-of-the-art real estate projects that set benchmarks not only in the region but also
-          globally.
+          In just two decades, Pakistan has envisioned, built, and delivered extraordinary,
+          state-of-the-art real estate projects that set benchmarks not only in the country but also
+          across South Asia.
         </p>
       </motion.div>
 
@@ -62,31 +62,31 @@ const ExcellenceVision = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
+          {/* <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
             <b className="bold">Recreational </b> Areas
-          </h1>
+          </h1> */}
           <Image
             src={car}
             alt="Recreational Areas"
-            className="bg-repeat-round h-[20rem] md:h-[40rem]"
+            className="bg-repeat-round h-[20rem] bg-cover rounded-2xl md:h-[30rem]"
           />
         </motion.div>
 
         <motion.div
-          className="space-y-5  my-auto flex flex-col items-center justify-center"
+          className="space-y-5   my-auto flex flex-col items-center justify-center"
           variants={fadeUp}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
           <div>
-            <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
+            {/* <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
               Beaches
-            </h1>
+            </h1> */}
             <Image
               src={beach}
               alt="beaches"
-              className="h-[18rem] w-[24rem] bg-contain bg-repeat-round"
+              className="h-[15rem] w-[24rem] rounded-2xl bg-contain bg-repeat-round"
             />
           </div>
 
@@ -94,11 +94,11 @@ const ExcellenceVision = () => {
             <Image
               src={sportsClub}
               alt="sports-club"
-              className="h-[19rem] w-[24rem] bg-contain rounded-2xl bg-repeat-round"
+              className="h-[14rem] w-[24rem] bg-contain rounded-2xl bg-repeat-round"
             />
-            <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
+            {/* <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
               Sports Clubs
-            </h1>
+            </h1> */}
           </div>
         </motion.div>
 
@@ -110,19 +110,19 @@ const ExcellenceVision = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <div>
-            <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
+            {/* <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
               <b className="bold">Shopping </b> Malls
-            </h1>
+            </h1> */}
             <Image
               src={shoopingMall}
               alt="Shopping Malls"
-              className="bg-contain h-[20rem] md:h-[40rem] w-[24rem] bg-repeat-round"
+              className="bg-repeat-round h-[20rem] bg-cover rounded-2xl md:h-[30rem]"
             />
           </div>
         </motion.div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         className="w-full py-4"
         variants={fadeUp}
         initial="hidden"
@@ -139,7 +139,7 @@ const ExcellenceVision = () => {
         <h1 className="font-poppins text-TextandIcons text-[17px] py-2">
           <b className="bold">Historical </b> Places
         </h1>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

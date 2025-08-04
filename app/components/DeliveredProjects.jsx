@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react";
-import ButtonPrimary from "./ButtonPrimary";
-import { deliveredData } from "@/src/Data/DeliveredProjectsData";
-import { motion, useInView } from "framer-motion";
+import React, { useRef, useState } from 'react';
+import ButtonPrimary from './ButtonPrimary';
+import { deliveredData } from '@/src/Data/DeliveredProjectsData';
+import { motion, useInView } from 'framer-motion';
 
 const containerVariants = {
   hidden: {},
@@ -19,7 +19,7 @@ const cardVariants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: "easeOut",
+      ease: 'easeOut',
     },
   },
 };
@@ -27,7 +27,7 @@ const cardVariants = {
 const DeliveredProjects = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
-  const toggleExpand = (index) => {
+  const toggleExpand = index => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
@@ -36,19 +36,19 @@ const DeliveredProjects = () => {
   return (
     <div className="container xl:px-8 mx-auto py-20">
       <div className="flex justify-between items-center px-6 md:px-0">
-        <h2 className="subHeading font-semibold">On Going Projects</h2>
+        <h2 className="subHeading font-semibold">Delivered Projects</h2>
       </div>
 
       <motion.div
         ref={ref}
         className="w-full py-10 px-4"
         initial="hidden"
-        animate={isInView ? "visible" : "hidden"}
+        animate={isInView ? 'visible' : 'hidden'}
         variants={containerVariants}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {deliveredData.map((item, index) => {
-            const imageUrl = item?.image ? `/${item.image}` : "";
+            const imageUrl = item?.image ? `/${item.image}` : '';
             const isExpanded = expandedIndex === index;
 
             return (
@@ -56,7 +56,7 @@ const DeliveredProjects = () => {
                 key={index}
                 className="group cardWrapper"
                 style={{
-                  backgroundImage: imageUrl ? `url(${imageUrl})` : "none",
+                  backgroundImage: imageUrl ? `url(${imageUrl})` : 'none',
                 }}
                 variants={cardVariants}
               >
@@ -66,17 +66,17 @@ const DeliveredProjects = () => {
                   <h1 className="cardTitle">{item?.title}</h1>
 
                   <motion.p
-                    initial={{ height: "6rem", opacity: 0.8 }}
+                    initial={{ height: '6rem', opacity: 0.8 }}
                     animate={{
-                      height: isExpanded ? "auto" : "6rem",
+                      height: isExpanded ? 'auto' : '6rem',
                       opacity: isExpanded ? 1 : 0.8,
                     }}
-                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    transition={{ duration: 0.5, ease: 'easeInOut' }}
                     style={{
-                      overflow: "hidden",
-                      display: "-webkit-box",
-                      WebkitBoxOrient: "vertical",
-                      WebkitLineClamp: isExpanded ? "unset" : 4,
+                      overflow: 'hidden',
+                      display: '-webkit-box',
+                      WebkitBoxOrient: 'vertical',
+                      WebkitLineClamp: isExpanded ? 'unset' : 4,
                     }}
                     className="cardDescription "
                   >
@@ -86,7 +86,7 @@ const DeliveredProjects = () => {
                   <div className="flex">
                     <div className="cardButtonWrapper">
                       <ButtonPrimary
-                        title={isExpanded ? "Show Less" : "Learn More"}
+                        title={isExpanded ? 'Show Less' : 'Learn More'}
                         onClick={() => toggleExpand(index)}
                       />
                     </div>

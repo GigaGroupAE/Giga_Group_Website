@@ -1,17 +1,17 @@
 export const awards = [
   {
     id: 1,
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
-    image: "/award1.webp",
+    title: 'Pakistan Environmental Award 2024',
+    image: '/award1.webp',
   },
   {
     id: 2,
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
-    image: "/award2.webp",
+    title: 'Pakistan Environmental Certificate 2024',
+    image: '/award2.webp',
   },
   {
     id: 3,
-    title: "Crafting Seamless Experiences: The Art of Intuitive UI Design",
-    image: "/award3.webp",
+    title: 'RCCI TECHNOLOGY RECOGNITION AWARDS 2022',
+    image: '/award3.webp',
   },
 ];

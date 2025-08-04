@@ -1,26 +1,34 @@
 export const projectsName = [
   {
     id: 1,
-    name: "General",
+    name: 'General',
   },
   {
     id: 2,
-    name: "Giga Group",
+    name: 'Giga Group',
   },
   {
     id: 3,
-    name: "Ocean Crest Residence",
+    name: 'Goldcrest Views',
   },
   {
     id: 4,
-    name: "Purchasing & Investment",
+    name: 'Goldcrest Commercial',
   },
   {
     id: 5,
-    name: "Construction & Delivery",
+    name: 'Giga Business Complex',
   },
   {
     id: 6,
-    name: "Post-Sale Support",
+    name: 'Central Palace Residence',
+  },
+  {
+    id: 7,
+    name: 'Giga Mall',
+  },
+  {
+    id: 8,
+    name: 'Giga Mall Extension',
   },
 ];

@@ -10,6 +10,7 @@ import FrequentlyQA from './FrequentlyQA';
 import Newsletter from '../NewsLetter';
 import HomeAboutSeaction from './HomeAboutSeaction';
 import HomeMap from './HomeMap';
+import ClientSays from './ClientSays';
 
 const HomeMain = () => {
   return (
@@ -33,9 +34,7 @@ const HomeMain = () => {
         <div className="bg-secondary w-96 h-96  blur-[240px]   absolute rounded-full  z-50 mx-auto "></div>
       </div>
 
-      {/* <ClientSays /> */}
-
-      <FrequentlyQA />
+      <ClientSays />
 
       <Newsletter />
     </main>

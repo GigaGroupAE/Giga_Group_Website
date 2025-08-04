@@ -62,7 +62,7 @@ const Navbar = () => {
             );
           })}
 
-          <ButtonPrimary title="CONTACT US" onClick={() => handleNavigation('/contact')} />
+          <ButtonPrimary title="CONTACT US" onClick={() => handleNavigation('contact-us')} />
         </div>
 
         <button
@@ -93,8 +93,8 @@ const Navbar = () => {
                     onClick={() => handleNavigation(item.path)}
                     className={`w-full text-left py-3 px-6 border-b text-lg font-medium transition-colors ${
                       isActive
-                        ? 'bg-yellow-50 text-yellow-700 border-gray-200'
-                        : 'text-gray-800 hover:text-yellow-600 border-transparent'
+                        ? 'bg-yellow-50 text-secondary border-gray-200'
+                        : 'text-gray-800 hover:[#EADE41] border-transparent'
                     }`}
                   >
                     {item.name}
@@ -103,7 +103,7 @@ const Navbar = () => {
               })}
 
               <div className="gap-y-4 px-6  flex flex-col">
-                <ButtonPrimary title="Contact Us" onClick={() => handleNavigation('/contact')} />
+                <ButtonPrimary title="Contact Us" onClick={() => handleNavigation('/contact-us')} />
 
                 <ButtonSecandary title="Close Menu" onClick={() => setIsMenuOpen(false)} />
               </div>

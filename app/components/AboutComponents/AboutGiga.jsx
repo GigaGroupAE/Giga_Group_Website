@@ -2,11 +2,11 @@
 import React from 'react';
 import GigaComponent from '../GigaComponent';
 import ButtonPrimary from '../ButtonPrimary';
-import giga1 from '../../../public/aboutGiga1.webp';
-import giga2 from '../../../public/aboutGiga2.webp';
-import giga3 from '../../../public/aboutGiga3.webp';
-import giga4 from '../../../public/aboutGiga4.webp';
-import giga5 from '../../../public/aboutGiga5.webp';
+import giga1 from '../../../public/Goldcrest-Views-5.jpeg';
+import giga2 from '../../../public/GME.webp';
+import giga3 from '../../../public/goldcrest-commerical.webp';
+import giga4 from '../../../public/Faisal-Mosque.jpg';
+import giga5 from '../../../public/goldcrest-views-giga-downtown.webp';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { signatureStructures } from '@/src/Data/WhoWeAre';

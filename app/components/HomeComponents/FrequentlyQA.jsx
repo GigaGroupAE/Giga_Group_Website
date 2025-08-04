@@ -1,7 +1,17 @@
-"use client";
-import { projectsName } from "@/src/Data/ProjectsName";
-import React, { useState } from "react";
-import GeneralQA from "../GeneralQA";
+'use client';
+import { projectsName } from '@/src/Data/ProjectsName';
+import React, { useState } from 'react';
+import GeneralQA from '../QA/GeneralQA';
+import {
+  CentralPalaceResidence,
+  GigaBusinessComplex,
+  GigaGroup,
+  GigaMall,
+  GigaMallExtension,
+  GoldcrestCommercial,
+  GoldcrestViews,
+  QAData,
+} from '@/src/Data/QuestionsData';
 
 const FrequentlyQA = () => {
   const [activeItem, setActiveItem] = useState(1);
@@ -15,24 +25,33 @@ const FrequentlyQA = () => {
       </div>
 
       <div className="flex md:flex-row flex-col w-[95%] md:w-[90%] mx-auto justify-around mt-12">
-        {projectsName.map((item) => {
+        {projectsName.map(item => {
           return (
             <div
               key={item?.id}
               onClick={() => setActiveItem(item?.id)}
               className={`${
                 activeItem === item?.id
-                  ? "bg-[rgba(252,252,242)] rounded-tl-lg px-6 py-6 border-l"
-                  : "px-6 py-6"
+                  ? 'bg-[rgba(252,252,242)] cursor-pointer rounded-tl-lg px-3 py-6 border-l'
+                  : 'px-3 py-6 cursor-pointer'
               }`}
             >
-              <h1 className="font-poppins text-sm font-semibold">
-                {item?.name}
-              </h1>
+              <h1 className="font-poppins text-sm font-semibold">{item?.name}</h1>
 
               {activeItem === item?.id && (
                 <div className="mt-4 md:hidden">
-                  {activeItem === 1 && <GeneralQA />}
+                  {activeItem && (
+                    <div>
+                      {activeItem === 1 && <GeneralQA QAData={QAData} />}
+                      {activeItem === 2 && <GeneralQA QAData={GigaGroup} />}
+                      {activeItem === 3 && <GeneralQA QAData={GoldcrestViews} />}
+                      {activeItem === 4 && <GeneralQA QAData={GoldcrestCommercial} />}
+                      {activeItem === 5 && <GeneralQA QAData={GigaBusinessComplex} />}
+                      {activeItem === 6 && <GeneralQA QAData={CentralPalaceResidence} />}
+                      {activeItem === 7 && <GeneralQA QAData={GigaMall} />}
+                      {activeItem === 8 && <GeneralQA QAData={GigaMallExtension} />}
+                    </div>
+                  )}
                 </div>
               )}
             </div>
@@ -43,7 +62,14 @@ const FrequentlyQA = () => {
 
       {activeItem && (
         <div className="md:w-[80%] mx-auto mt-6 md:mt-12 hidden md:block">
-          {activeItem === 1 && <GeneralQA />}
+          {activeItem === 1 && <GeneralQA QAData={QAData} />}
+          {activeItem === 2 && <GeneralQA QAData={GigaGroup} />}
+          {activeItem === 3 && <GeneralQA QAData={GoldcrestViews} />}
+          {activeItem === 4 && <GeneralQA QAData={GoldcrestCommercial} />}
+          {activeItem === 5 && <GeneralQA QAData={GigaBusinessComplex} />}
+          {activeItem === 6 && <GeneralQA QAData={CentralPalaceResidence} />}
+          {activeItem === 7 && <GeneralQA QAData={GigaMall} />}
+          {activeItem === 8 && <GeneralQA QAData={GigaMallExtension} />}
         </div>
       )}
     </section>

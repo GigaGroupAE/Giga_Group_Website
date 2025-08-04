@@ -1,9 +1,10 @@
-import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
-import about3 from "../../../public/ocean.webp";
-import about2 from "../../../public/about3.webp";
-import beach from "../../../public/beach.webp";
+import Image from 'next/image';
+import React from 'react';
+import { motion } from 'framer-motion';
+import about3 from '../../../public/Goldcrest-Views-4.webp';
+import about2 from '../../../public/goldcrest-views-giga-downtown.webp';
+import beach from '../../../public/biggroup.webp';
+import ButtonPrimary from '../ButtonPrimary';
 
 const HomeAboutSeaction = () => {
   return (
@@ -21,20 +22,12 @@ const HomeAboutSeaction = () => {
               <Image
                 src={beach}
                 alt="gigagroup"
-                className="h-[350px] w-full object-cover rounded-xl shadow-md"
+                className="h-60 md:h-[350px] w-full object-cover rounded-xl shadow-md"
               />
             </div>
             <div className="flex-1 flex flex-col gap-2">
-              <Image
-                src={about2}
-                alt="gigagroup"
-                className="rounded-xl shadow-md "
-              />
-              <Image
-                src={about3}
-                alt="gigagroup"
-                className="rounded-xl shadow-md md:w-80"
-              />
+              <Image src={about2} alt="gigagroup" className="rounded-xl  shadow-md " />
+              <Image src={about3} alt="gigagroup" className="rounded-xl shadow-md md:w-80" />
             </div>
           </motion.div>
 
@@ -47,9 +40,7 @@ const HomeAboutSeaction = () => {
           >
             <div className="md:w-3/4 w-full mx-auto">
               <div className="flex items-center gap-2">
-                <h1 className="text-placeholderText text-sm font-poppins">
-                  Giga
-                </h1>
+                <h1 className="text-placeholderText text-sm font-poppins">Giga</h1>
                 <div className="bg-secondary w-[110px] h-0.5"></div>
               </div>
 
@@ -58,20 +49,18 @@ const HomeAboutSeaction = () => {
               </h1>
 
               <p className="descriptionText">
-                Welcome to Goldcrest Views – which is more than just a home.
-                Located in the heart of DHA Phase 2, Islamabad, this iconic Giga
-                Group development combines contemporary Dubai-inspired design
-                with premium lifestyle features. From stylish studios to
-                breathtaking penthouses, every unit is meticulously crafted,
-                offering uninterrupted cityscapes or serene mountain vistas.
-                With round-the-clock security and luxury amenities, you’ll be
-                part of a dynamic community built around comfort, connection,
+                Welcome to Goldcrest Views – which is more than just a home. Located in the heart of
+                DHA Phase 2, Islamabad, this iconic Giga Group development combines contemporary
+                Dubai-inspired design with premium lifestyle features. From stylish studios to
+                breathtaking penthouses, every unit is meticulously crafted, offering uninterrupted
+                cityscapes or serene mountain vistas. With round-the-clock security and luxury
+                amenities, you’ll be part of a dynamic community built around comfort, connection,
                 and elevated living.
               </p>
 
-              {/* <div className="mt-6">
+              <div className="mt-6">
                 <ButtonPrimary title="Learn More" />
-              </div> */}
+              </div>
             </div>
           </motion.div>
         </div>

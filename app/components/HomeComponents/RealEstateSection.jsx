@@ -115,7 +115,7 @@ export default function RealEstate() {
         </div>
       </div>
 
-      <div className="bg-excellenceCover  flex items-center z-50 justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-24 w-full bg-repeat-round object-center bg-cover">
+      <div className="bg-excellenceCover  flex items-center z-50 justify-center bg-blend-multiply bg-[rgb(72,105,143,0.7)] py-24 w-full bg-repeat-round bg-cover ">
         <motion.div
           className="w-[95%] sm:[50rem] md:w-[70rem] px-4 sm:px-28 py-12 gap-4 backdrop-blur-lg items-center flex flex-col justify-center bg-white bg-opacity-30 rounded-2xl"
           variants={fadeInUp}
@@ -146,7 +146,7 @@ export default function RealEstate() {
               ['60+', 'Years of Excellence'],
               ['5000+', 'Employees around the Globe'],
               ['99.99%', 'Customer Satisfaction'],
-              ['7M+', 'Commercial & Residential Space'],
+              ['7M+ SQFT', 'Commercial & Residential Space'],
             ].map(([value, label], i) => (
               <motion.div
                 key={i}
