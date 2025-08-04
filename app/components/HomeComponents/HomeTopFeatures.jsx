@@ -19,13 +19,13 @@ const HomeTopFeatures = () => {
   return (
     <section className="md:ml-[175px] bg-white mx-auto px-2 py-20 md:py-28 md:px-0 relative">
       <div className="md:mx-auto md:w-4/5 px-2 w-full">
-        <h2 className="headingSeaction text-start md:text-center text-4xl font-semibold mb-6">
-          Explore Our <b>Top Features Projects</b>
+        <h2 className="headingSeaction leading-normal text-start md:text-center text-4xl font-semibold mb-6">
+          <b> Giga City</b> Top Featured Projects
         </h2>
         <p className="descriptionText text-start md:text-center mb-12 text-lg">
-          These developments embody Giga Group’s unwavering dedication to architectural excellence
-          and premium quality, strengthening Dubai’s position as a rising hub for luxurious living
-          and world-class commercial infrastructure.
+          All these developments embody Giga Group’s unwavering spirit architectural excellence and
+          premium quality, which strengthens Pakistan’s position as a rising hub for high-rise
+          living and world-class commercial infrastructure.
         </p>
       </div>
 

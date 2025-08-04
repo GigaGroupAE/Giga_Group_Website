@@ -79,7 +79,7 @@ export const AboutUs = [
   },
   {
     id: 5,
-    title: 'Downtown Giga, Defence Housing Authority Phase II Islamabad, Pakistan-44000',
+    title: 'Giga City, Defence Housing Authority Phase II Islamabad, Pakistan-44000',
     icon: <FaMapMarkerAlt />,
   },
   {

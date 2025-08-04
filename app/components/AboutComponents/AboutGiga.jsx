@@ -48,7 +48,7 @@ const AboutGiga = () => {
         <motion.div className="space-y-4 px-2" variants={fadeUp}>
           <GigaComponent />
           <h2 className="font-poppins text-TextandIcons font-normal text-[35px]">
-            Signature <b>Structures</b>
+            The Rise Of <b>Giga City</b>
           </h2>
           <p className="w-[350px] descriptionText">
             Islamabad's landscape is evolving with several prominent developments that stand out as

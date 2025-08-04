@@ -64,9 +64,10 @@ export default function RealEstate() {
             </h1>
             <p className="font-poppins text-sm text-TextandIcons mt-1">
               At Giga Group, we design Islamabad’s skyline with architectural mastery and smart
-              building solutions. Our iconic residential and commercial landmarks, like Goldcrest
-              Views and Giga Downtown, redefine urban living while enhancing lifestyles and
-              investment value across Pakistan’s most vibrant cities and communities.
+              building solutions. Our iconic residential and commercial community know as Giga City
+              with projects like Goldcrest Views and Goldcrest Commercial, redefine urban living
+              while enhancing lifestyles and investment value across Pakistan’s most vibrant cities
+              and communities.
             </p>
           </motion.div>
 
@@ -128,8 +129,9 @@ export default function RealEstate() {
           </h1>
           <p className="descriptionText text-white md:text-center">
             Over 60 years of experience, 5,000+ team members worldwide, and millions of square feet
-            delivered in iconic projects like Giga Mall and Giga Downtown. With 99.99% customer
-            satisfaction, Giga Group sets the benchmark for premium real estate in Pakistan.
+            delivered in iconic Giga City with projects like Giga Mall and many more. With 99.99%
+            customer satisfaction, Giga Group sets the benchmark for premium real estate in
+            Pakistan.
           </p>
         </motion.div>
       </div>

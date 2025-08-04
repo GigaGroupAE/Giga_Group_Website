@@ -9,7 +9,7 @@ export const QAData = [
     id: 2,
     question: 'What are the key real estate projects of Giga Group in Pakistan?',
     answer:
-      'Some of the major projects developed by Giga Group in DHA Phase II, Islamabad, include:\n- Giga Mall – One of Pakistan’s largest shopping malls.\n- Goldcrest Views – A luxury 40-story residential project.\n- Goldcrest Highlife – High-rise luxury apartments with modern amenities.\n- Defence Residency – A mid-rise residential project offering affordable living.\n- Lignum Tower – A 20-story residential and commercial building.\n- Goldcrest Commercial – A prime business hub within Giga Downtown.',
+      'Some of the major projects developed by Giga Group in DHA Phase II, Islamabad, include:\n- Giga Mall – One of Pakistan’s largest shopping malls.\n- Goldcrest Views – A luxury 40-story residential project.\n- Goldcrest Highlife – High-rise luxury apartments with modern amenities.\n- Defence Residency – A mid-rise residential project offering affordable living.\n- Lignum Tower – A 20-story residential and commercial building.\n- Goldcrest Commercial – A prime business hub within Giga City',
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ export const GigaGroup = [
     id: 3,
     question: 'Where are Giga Group’s projects located?',
     answer:
-      'Most projects are centered in Downtown Giga (DHA Phase 2, Islamabad), a high-demand area with easy access to Rawalpindi, GT Road, and Islamabad Expressway.',
+      'Most projects are centered in Giga City (DHA Phase 2, Islamabad), a high-demand area with easy access to Rawalpindi, GT Road, and Islamabad Expressway.',
   },
   {
     id: 4,
@@ -177,7 +177,7 @@ export const CentralPalaceResidence = [
     id: 2,
     question: 'Where is it located?',
     answer:
-      'In Downtown Giga, near GT Road and upcoming Ring Road interchanges—ensuring 3-side access to twin cities.',
+      'In Giga City, near GT Road and upcoming Ring Road interchanges—ensuring 3-side access to twin cities.',
   },
   {
     id: 3,

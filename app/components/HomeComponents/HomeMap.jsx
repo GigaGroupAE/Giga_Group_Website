@@ -12,8 +12,8 @@ const HomeMap = () => {
         <GigaComponent title="10% Down Payment | Convenient Monthly Installments" />
 
         <h1 className="font-poppins text-3xl md:w-4/5 text-TextandIcons my-3">
-          Reserve Your <span className="font-semibold">Luxury Apartment</span> in DHA Phase 2,
-          Islamabad
+          Reserve Your <span className="font-semibold">Luxury Apartment</span> in <b>Giga City</b> -
+          DHA Phase 2 Islamabad
         </h1>
         <p className="descriptionText text-start  md:w-4/5">
           Step into elevated living at Goldcrest Views, a premium address in DHA Phase 2. Discover a

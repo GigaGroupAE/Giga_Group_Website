@@ -60,7 +60,7 @@ const ProjectPage = ({ params }) => {
       <ProjectPageHero backgroundImage={backgroundImage}>
         <div className="w-full  space-y-40 gap-10 flex flex-col-reverse md:flex-row justify-between md:ml-12 md:items-end relative">
           <HeroCard
-            badgeText={status}
+            // badgeText={status}
             title={title}
             // subtitle={status}
             description={description}

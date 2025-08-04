@@ -43,7 +43,7 @@ const ProjectLocation = ({
           viewport={{ once: true }}
           className="w-full md:w-1/2"
         >
-          <iframe src={mapEmbedUrl} width="600" height="320" className="  rounded-2xl"></iframe>
+          <iframe src={mapEmbedUrl} className=" w-[98%] h-96 md:w-[600px]  rounded-2xl"></iframe>
         </motion.div>
 
         <motion.dev
@@ -60,7 +60,7 @@ const ProjectLocation = ({
         </motion.dev>
       </div>
       <div className="bg-secondary   blur-[200px]    -left-10  w-52 h-52  rounded-full absolute "></div>
-      <div className="bg-white text-gray-800 gap-24 flex-col md:flex-row flex container mx-auto px-4 md:px-8 py-8">
+      <div className="bg-white text-gray-800  flex-col md:flex-row flex container mx-auto px-4 md:px-8 py-8">
         <motion.div
           initial={{ opacity: 0, x: -80 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -73,7 +73,7 @@ const ProjectLocation = ({
             <p className="text-gray-700 text-base">{galleryDesc}</p>
           </div>
         </motion.div>
-        <div className=" flex ">
+        <div className="hidden md:flex ">
           <div className="flex md:flex-row md:px-6 flex-col md:items-center md:gap-3 mt-6 md:mt-0">
             <motion.div
               initial={{ opacity: 0, x: 80 }}
@@ -86,14 +86,24 @@ const ProjectLocation = ({
                 className="md:w-[354] w-[380] h-[220px] relative rounded-2xl overflow-hidden"
                 variants={slideFrom('left')}
               >
-                <Image src={gallery[1].src} alt={gallery[1].alt} layout="fill" objectFit="cover" />
+                <Image
+                  src={gallery[1].src}
+                  alt={gallery[1].alt}
+                  layout="fill"
+                  className="object-fill"
+                />
               </motion.div>
 
               <motion.div
                 className="md:w-[354] w-[380] h-[200px] relative rounded-2xl overflow-hidden"
                 variants={slideFrom('top')}
               >
-                <Image src={gallery[2].src} alt={gallery[2].alt} layout="fill" objectFit="cover" />
+                <Image
+                  src={gallery[2].src}
+                  alt={gallery[2].alt}
+                  layout="fill"
+                  className="object-fill"
+                />
               </motion.div>
             </motion.div>
 
@@ -108,18 +118,50 @@ const ProjectLocation = ({
                 className="md:w-[209] bg-indigo-700 w-full h-[139px] relative rounded-2xl overflow-hidden"
                 variants={slideFrom('bottom')}
               >
-                <Image src={gallery[3].src} alt={gallery[3].alt} layout="fill" objectFit="cover" />
+                <Image
+                  src={gallery[3].src}
+                  alt={gallery[3].alt}
+                  layout="fill"
+                  className="object-fill"
+                />
               </motion.div>
 
               <motion.div
                 className="md:w-[209] w-full h-[259px] relative rounded-2xl overflow-hidden"
                 variants={slideFrom('right')}
               >
-                <Image src={gallery[0].src} alt={gallery[0].alt} layout="fill" objectFit="cover" />
+                <Image
+                  src={gallery[0].src}
+                  alt={gallery[0].alt}
+                  layout="fill"
+                  className="object-fill"
+                />
               </motion.div>
             </motion.div>
           </div>
           <div className="-z-10  md:left-1/3 blur-3xl  absolute w-96 md:w-[600px] h-96  rounded-b-full    bg-[#f8f7e0]"></div>
+        </div>
+
+        {/*TODO: For mobile only will chage  */}
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {gallery?.map((img, index) => (
+            <motion.div
+              key={index}
+              className="relative h-52 rounded-xl overflow-hidden shadow-md"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: (index + 4) * 0.2, duration: 0.6 }}
+            >
+              <Image
+                src={img?.src}
+                alt={`Interior ${index + 5}`}
+                fill
+                className="object-fill"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+            </motion.div>
+          ))}
         </div>
       </div>
     </div>

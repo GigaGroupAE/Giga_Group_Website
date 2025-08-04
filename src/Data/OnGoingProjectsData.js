@@ -5,14 +5,13 @@ export const onGoinProjects = [
     description:
       'Awarded the “Best High-rise Development Award 2008” in Dubai, Giga Group is proud to bring the upgraded version of the Icon of Dubai to DHA Islamabad. Goldcrest Views comprises seven 40-story stunning high-risers having penthouses, studio apartments, 1, 2, 3, and 4 bedroom ultra-luxury modern apartments, catering to all your needs for a luxurious life.',
     button: 'Learn More',
-    image: 'goldcrest1.webp',
+    image: 'goldcrestviewsProject.webp',
     slug: '/goldcrest-views',
   },
   {
     title: 'Goldcrest Commercial',
     status: 'Pre-Launch',
-    description:
-      'A nine-story commercial project in Giga Downtown, DHA Phase 2, Islamabad, offering premium retail and medical spaces. Featuring a Medical Hub, Kapra Center, mobile market, and food court with smart amenities and high rental yield. Booking starts at just 20%.',
+    description: `A nine-story commercial project in Giga City, DHA Phase 2, Islamabad, offering premium retail and medical spaces. It features a dedicated Medical Hub, the Kapra Center, a mobile market, and a vibrant food court, designed to serve a diverse range of businesses. With smart amenities, 24/7 security, and high rental yields, it's a prime investment. Located along Main GT Road, near Giga Mall, it ensures heavy footfall and easy access. Booking starts at just 20% in this pre-launch opportunity.`,
     button: 'Learn More',
     image: 'goldcrest-commerical.webp',
     slug: '/goldcrest-commercial',
@@ -39,7 +38,7 @@ export const onGoinProjects = [
     title: 'Central Palace Residence',
     status: 'Coming Soon',
     description:
-      'An affordable residential project located in Downtown Giga, DHA Phase 2. Offers luxury homes with high-end fixtures & finishes, situated among 2000+ delivered apartments and right next to the GT Road.',
+      'An affordable residential project in the heart of Islamabad. Located at the prime location of Giga City, DHA Phase 2,  right next to the main GT road and in the center of 2000+ delivered apartments. Apartments in Central Palace Residence are dream luxury homes with luxury fixtures & finishes. The unique style and decorative details will distinguish the luxury apartments of Central Palace Residence from other projects. ',
     button: 'Learn More',
     image: 'Central-Palace-Residence-2.webp',
     slug: '/central-palace-residence/',

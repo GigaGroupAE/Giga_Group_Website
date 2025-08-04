@@ -9,7 +9,7 @@ const WhyChoiceProject = () => {
         </h3>
         <p className="text-white   text-center text-sm font-poppins">
           Giga Group is a trusted name in Pakistan and the UAE, known for delivering high-quality,
-          future-forward real estate projects in prime locations like DHA Phase II and Giga Downtown
+          future-forward real estate projects in prime locations like DHA Phase II and Giga City
           Islamabad. With over 70 years of business legacy and 20+ years in real estate, Giga Group
           stands out for its timely delivery, transparent dealings, and innovative developments like
           Goldcrest Views and Giga Mall. Whether you're investing, relocating, or launching a

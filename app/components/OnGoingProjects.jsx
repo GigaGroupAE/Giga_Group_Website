@@ -66,7 +66,7 @@ const OnGoingProjects = () => {
                 }}
                 variants={cardVariants}
               >
-                <h2 className="cardBadge">{item?.status}</h2>
+                {/* <h2 className="cardBadge">{item?.status}</h2> */}
 
                 <div className="cardOverlay">
                   <Link href={`/project/${item.slug}`} target="_blank">

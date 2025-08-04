@@ -13,17 +13,21 @@ export default function HeroInputForm({ title }) {
   });
 
   const [status, setStatus] = useState({ type: '', message: '' });
+  const [loading, setLoading] = useState(false);
 
   const handleChange = e => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = e => {
+  const handleSubmit = async e => {
     e.preventDefault();
 
-    emailjs
-      .send(
+    if (loading) return;
+    setLoading(true);
+
+    try {
+      await emailjs.send(
         'service_vhg5z4w',
         'template_rbumtof',
         {
@@ -34,24 +38,25 @@ export default function HeroInputForm({ title }) {
           project: formData.project,
         },
         'NSfDaAmK37KYylceo'
-      )
-      .then(() => {
-        setStatus({ type: 'success', message: 'Form submitted successfully!' });
-        setFormData({
-          fullName: '',
-          email: '',
-          phone: '',
-          city: '',
-          project: '',
-        });
-      })
-      .catch(error => {
-        console.error('EmailJS Error:', error);
-        setStatus({
-          type: 'error',
-          message: 'Something went wrong. Please try again.',
-        });
+      );
+
+      setStatus({ type: 'success', message: 'Form submitted successfully!' });
+      setFormData({
+        fullName: '',
+        email: '',
+        phone: '',
+        city: '',
+        project: '',
       });
+    } catch (error) {
+      console.error('EmailJS Error:', error);
+      setStatus({
+        type: 'error',
+        message: 'Something went wrong. Please try again.',
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -122,7 +127,11 @@ export default function HeroInputForm({ title }) {
           <option value="central-palace-residence">Central Palace Residence</option>
         </select>
 
-        <ButtonPrimary title="Submit" type="submit" />
+        <ButtonPrimary
+          title={loading ? 'Submitting...' : 'Submit'}
+          type="submit"
+          disabled={loading}
+        />
 
         {status.message && (
           <p

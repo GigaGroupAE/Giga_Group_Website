@@ -36,7 +36,7 @@ const fadeUp = {
 
 const ExcellenceVision = () => {
   return (
-    <section className="pt-40 mx-auto px-6 relative max-w-[1440px] xl:px-20">
+    <section className="pt-40 mx-auto px-6 relative container md:max-w-[1440px] xl:px-20">
       <motion.div
         className="md:w-4/5 mx-auto mb-8"
         variants={fadeUp}
@@ -56,7 +56,7 @@ const ExcellenceVision = () => {
 
       <div className="gap-4 flex md:flex-row flex-col container mx-auto items-center">
         <motion.div
-          className="md:w-[37rem]"
+          className="w-[21rem] md:w-[35rem]"
           variants={fadeLeft}
           initial="hidden"
           whileInView="visible"
@@ -86,7 +86,7 @@ const ExcellenceVision = () => {
             <Image
               src={beach}
               alt="beaches"
-              className="h-[15rem] w-[24rem] rounded-2xl bg-contain bg-repeat-round"
+              className="h-[15rem] w-[21rem] md:w-[24rem] rounded-2xl bg-contain bg-repeat-round"
             />
           </div>
 
@@ -94,7 +94,7 @@ const ExcellenceVision = () => {
             <Image
               src={sportsClub}
               alt="sports-club"
-              className="h-[14rem] w-[24rem] bg-contain rounded-2xl bg-repeat-round"
+              className="h-[14rem] w-[21rem] md:w-[24rem] bg-contain rounded-2xl bg-repeat-round"
             />
             {/* <h1 className="font-poppins text-TextandIcons font-semibold text-[17px] py-2">
               Sports Clubs
@@ -103,7 +103,7 @@ const ExcellenceVision = () => {
         </motion.div>
 
         <motion.div
-          className="h-4/5"
+          // className="h-4/5"
           variants={fadeRight}
           initial="hidden"
           whileInView="visible"
@@ -116,7 +116,7 @@ const ExcellenceVision = () => {
             <Image
               src={shoopingMall}
               alt="Shopping Malls"
-              className="bg-repeat-round h-[20rem] bg-cover rounded-2xl md:h-[30rem]"
+              className=" hidden md:flex  w-[21rem] md:w-[35rem]  h-[20rem] bg-cover rounded-2xl md:h-[30rem]"
             />
           </div>
         </motion.div>

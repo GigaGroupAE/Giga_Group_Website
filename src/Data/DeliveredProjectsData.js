@@ -66,7 +66,7 @@ export const deliveredData = [
     title: 'Lignum Tower, Islamabad',
     status: 'Delivered',
     description:
-      'Lignum Tower in DHA Phase 2, Giga Downtown, Islamabad, offers stylish high-rise and terrace apartments. With spacious interiors, ultra-modern kitchens, airy bedrooms, and high-end bathrooms, it delivers elegant and secure urban living. Amenities include dedicated parking, CCTV, intercom, elevators, and 24/7 power backup.',
+      'Lignum Tower in DHA Phase 2, Giga City, Islamabad, offers stylish high-rise and terrace apartments designed for modern professionals. Featuring spacious dining rooms, ultra-modern kitchens, airy bedrooms, and luxury bathrooms, it blends elegance with comfort. Amenities include dedicated parking, CCTV security, intercom access, swift elevators, and 24/7 power backup, delivering a premium urban living experience.',
     image: 'lignum-tower.webp',
   },
   {

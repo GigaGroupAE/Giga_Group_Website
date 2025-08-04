@@ -63,7 +63,7 @@ const MediaProject = ({ videoUrl, gallery }) => {
               src={img}
               alt={`Interior ${index + 1}`}
               fill
-              className="object-cover"
+              className="object-fill"
               sizes="(max-width: 768px) 50vw, 25vw"
               priority={index < 4}
             />
@@ -76,9 +76,9 @@ const MediaProject = ({ videoUrl, gallery }) => {
           <motion.div
             key={index + 4}
             className="relative h-52 rounded-xl overflow-hidden shadow-md"
-            initial={{ opacity: 0, y: 50 }} // Start below and invisible
-            animate={{ opacity: 1, y: 0 }} // End at normal position
-            transition={{ delay: (index + 4) * 0.2, duration: 0.6 }} // Staggered animation for second set of images
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: (index + 4) * 0.2, duration: 0.6 }}
           >
             <Image
               src={img}

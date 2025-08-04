@@ -3,7 +3,7 @@ export const topFeatures = [
     id: 1,
     projectName: 'Goldcrest Views',
     description:
-      "Awarded the 'Best High-rise Development Award 2008' in Dubai, Giga Group brings an upgraded version to DHA Islamabad with luxury apartments and stunning views...",
+      'Awarded the “Best High-rise Development Award 2008” in Dubai, Giga Group is proud to bring the upgraded version of the Icon of Dubai to DHA Islamabad. Goldcrest Views consists of seven 40-story high-rise buildings having studio apartments, 1, 2, 3, 4 bedrooms and luxurious penthouses. So, these apartments cater to all your needs for a luxurious life. The project’s 40-story towers are upgraded version of  Goldcrest Views delivered by Giga Group in 2008 at Jumeirah Lake Towers, Dubai.',
     // status: 'Coming Soon',
     image: 'goldcrest1.webp',
     slug: '/goldcrest-views',
@@ -12,7 +12,7 @@ export const topFeatures = [
     id: 2,
     projectName: 'Central Palace Residence',
     description:
-      'Central Palace Residence offers affordable luxury in the heart of Islamabad with exquisite finishes and unique style. Located in Downtown Giga, DHA Phase 2...',
+      'An affordable residential project in the heart of Islamabad. Located at the prime location of Giga City, DHA Phase 2,  right next to the main GT road and in the center of 2000+ delivered apartments. Apartments in Central Palace Residence are dream luxury homes with luxury fixtures & finishes. The unique style and decorative details will distinguish the luxury apartments of Central Palace Residence from other projects. ',
     status: 'Delivered',
     image: 'Central-Palace-Residence-2.webp',
     slug: '/central-palace-residence/',
@@ -21,7 +21,7 @@ export const topFeatures = [
     id: 3,
     projectName: 'Goldcrest Commercial',
     description:
-      'A nine-story commercial project in Giga Downtown, DHA Phase 2, offering retail and medical spaces with smart amenities, 24/7 security, and high rental yields...',
+      'A nine-story commercial project in Giga City, DHA Phase 2, offering retail and medical spaces with smart amenities, 24/7 security, and high rental yields...',
     // status: 'Delivered',
     image: 'goldcrest-commerical.webp',
     slug: '/goldcrest-commercial',
