@@ -1,21 +1,24 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ButtonPrimary from '../ButtonPrimary';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
-export default function HeroInputForm({ title }) {
+
+export default function ProjectInquiryForm({ title, projectData }) {
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
     phone: '',
     city: '',
-    project: '',
+    project: projectData.name,
+    selectedOption: '',
   });
 
-  const [status, setStatus] = useState({ type: '', message: '' });
   const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState({ type: '', message: '' });
 
   const handleChange = e => {
     const { name, value } = e.target;
@@ -28,7 +31,15 @@ export default function HeroInputForm({ title }) {
     if (loading) return;
     setLoading(true);
 
-    try {
+    console.log(
+      formData.fullName,
+      formData.email,
+      formData.phone,
+      formData.city,
+      formData.selectedOption,
+      formData.selectedOption
+    );
+    selectedOption: try {
       await emailjs.send(
         'service_vhg5z4w',
         'template_rbumtof',
@@ -37,7 +48,7 @@ export default function HeroInputForm({ title }) {
           email: formData.email,
           phone: formData.phone,
           city: formData.city,
-          project: formData.project,
+          project: formData.selectedOption,
         },
         'NSfDaAmK37KYylceo'
       );
@@ -59,12 +70,14 @@ export default function HeroInputForm({ title }) {
           draggable: false,
         }
       );
+
       setFormData({
         fullName: '',
         email: '',
         phone: '',
         city: '',
-        project: '',
+        project: projectData.name,
+        selectedOption: '',
       });
     } catch (error) {
       console.error('EmailJS Error:', error);
@@ -143,20 +156,18 @@ export default function HeroInputForm({ title }) {
         />
 
         <select
-          name="project"
-          value={formData.project}
+          name="selectedOption"
+          value={formData.selectedOption}
           onChange={handleChange}
-          className="p-3 outline-none     uppercase rounded-md border border-gray-300 text-gray-800"
+          className="p-3 outline-none uppercase rounded-md border border-gray-300 text-gray-800"
           required
         >
-          <option value="">Select Project</option>
-          <option value="goldcrest-views">Goldcrest Views</option>
-          <option value="giga-mall">GIGA Mall</option>
-          <option value="giga-business-complex">Giga Business Complex</option>
-          <option value="goldcrest-highlife">Goldcrest Highlife</option>
-          <option value="goldcrest-commercial">Goldcrest Commercial</option>
-          <option value="giga-mall-extension">GIGA Mall Extension</option>
-          <option value="central-palace-residence">Central Palace Residence</option>
+          <option value="">Select an Option</option>
+          {projectData?.map(option => (
+            <option key={option} value={option}>
+              {option}
+            </option>
+          ))}
         </select>
 
         <ButtonPrimary

@@ -6,6 +6,7 @@ import OnGoingProjectsCom from '@/app/components/ProjectsPages/OnGoingProjectCom
 import ProjectAmenities from '@/app/components/ProjectsPages/ProjectAmenities';
 import ProjectContactUs from '@/app/components/ProjectsPages/ProjectContactUs';
 import MediaProject from '@/app/components/ProjectsPages/ProjectGallery';
+import ProjectInquiryForm from '@/app/components/ProjectsPages/ProjectInquiryForm';
 import ProjectLocation from '@/app/components/ProjectsPages/ProjectLocation';
 import ProjectPageHero from '@/app/components/ProjectsPages/ProjectPageHero';
 import { projects } from '@/src/Data/ProjectsData';
@@ -53,7 +54,10 @@ const ProjectPage = ({ params }) => {
     updates,
     contactUsTitle,
     contactUsdec,
+    availableOptions,
   } = project;
+
+  console.log(availableOptions);
 
   return (
     <section>
@@ -65,7 +69,8 @@ const ProjectPage = ({ params }) => {
             // subtitle={status}
             description={description}
           />
-          <HeroInputForm title={formTitle || 'Inquire Now'} />
+          {/* <HeroInputForm title={formTitle || 'Inquire Now'} /> */}
+          <ProjectInquiryForm title={formTitle || 'Inquire Now'} projectData={availableOptions} />
         </div>
       </ProjectPageHero>
       <AboutProject
