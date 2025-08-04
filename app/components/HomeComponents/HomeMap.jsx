@@ -3,6 +3,7 @@ import ButtonPrimary from '../ButtonPrimary';
 import pin from '../../../public/pin.svg';
 import Image from 'next/image';
 import GigaComponent from '../GigaComponent';
+import Link from 'next/link';
 
 const HomeMap = () => {
   return (
@@ -24,7 +25,9 @@ const HomeMap = () => {
         </p>
 
         <div className="my-4">
-          <ButtonPrimary title="Learn More" />
+          <Link href="/project/goldcrest-views">
+            <ButtonPrimary title="Learn More" />
+          </Link>
         </div>
       </div>
 

@@ -25,7 +25,14 @@ const slideFrom = direction => {
     },
   };
 };
-const ProjectLocation = ({ mapTitle, mapDesc, galleryTitle, galleryDesc, gallery }) => {
+const ProjectLocation = ({
+  mapTitle,
+  mapDesc,
+  mapEmbedUrl,
+  galleryTitle,
+  galleryDesc,
+  gallery,
+}) => {
   return (
     <div className="w-full bg-white px-4 md:px-12 py-16 space-y-20">
       <div className="flex flex-col md:flex-row md:items-center max-w-7xl mx-auto gap-8">
@@ -36,7 +43,7 @@ const ProjectLocation = ({ mapTitle, mapDesc, galleryTitle, galleryDesc, gallery
           viewport={{ once: true }}
           className="w-full md:w-1/2"
         >
-          <Image src={map} alt="Map" className="w-full h-auto rounded-lg shadow-lg" />
+          <iframe src={mapEmbedUrl} width="600" height="320" className="  rounded-2xl"></iframe>
         </motion.div>
 
         <motion.dev

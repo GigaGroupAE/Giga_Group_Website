@@ -43,6 +43,24 @@ import {
   FaRegSquare,
   FaParking,
   FaPray,
+  FaChair,
+  FaDoorOpen,
+  FaWind,
+  FaThLarge,
+  FaMicrochip,
+  FaCalendarAlt,
+  FaMapMarkedAlt,
+  FaGlobe,
+  FaBriefcase,
+  FaPaintBrush,
+  FaCut,
+  FaUsers,
+  FaShoppingBag,
+  FaCoffee,
+  FaHome,
+  FaGlassMartiniAlt,
+  FaFire,
+  FaBolt,
 } from 'react-icons/fa';
 
 export const projects = [
@@ -52,7 +70,7 @@ export const projects = [
     status: 'Coming Soon',
     location: 'DHA Phase 2, Islamabad',
     formTitle: 'Bookings Open Now!',
-    backgroundImage: 'bg-gcv',
+    backgroundImage: '/Goldcrest-Views-4.webp',
     description:
       'Awarded the “Best High-rise Development Award 2008” in Dubai, Giga Group proudly introduces the upgraded version of this icon to DHA Islamabad. Featuring seven 40-story towers, Goldcrest Views offers studio apartments, 1, 2, 3, and 4-bedroom luxury units, and breathtaking penthouses, redefining upscale living in the Twin Cities.',
     features: [
@@ -119,7 +137,8 @@ Giga Group introduces more than just homes; we bring iconic living. At Goldcrest
       },
     ],
     amenitiesFeaturesTitle: 'Features and Amenities',
-    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=...',
+    mapEmbedUrl:
+      'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d106434.6482267791!2d73.06690929709029!3d33.52523391820261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x38dfedbc825db4d3%3A0xf2067784d377d58d!2sBlock%2010%2C%20G5G2%2BF4G%20Al%20Ghurair%20Giga%2C%20Defense%20Residency%2C%20Sector%20Road%2C%20Sector%20A%20DHA%20Phase%20II%2C%20Islamabad!3m2!1d33.525261199999996!2d73.1493105!5e0!3m2!1sen!2s!4v1754322815423!5m2!1sen!2s',
 
     mapTitle: 'A Prime Address at Downtown Giga, DHA 2 Islamabad',
     mapDesc: `Located along the main G.T. Road, Goldcrest Views offers unmatched accessibility and convenience. Whether it's world-class shopping at Giga Mall or quality education and healthcare, everything is just steps away.
@@ -136,6 +155,7 @@ Furthermore, the sweeping curves of the “Fins” create a visual contrast agai
     whyChooseDesc: `Goldcrest Views is not just another project; it’s the evolution of excellence. Brought to you by Giga Group – the trusted developers behind Giga Mall, Lignum Tower, and Defence Residency – this project embodies a legacy of award-winning developments across Dubai and Pakistan. With a strong commitment to timely delivery and investor satisfaction, Goldcrest Views ensures transparency through real-time construction updates, setting a new benchmark for quality and reliability.
 `,
   },
+
   {
     title: 'Goldcrest Commercial',
     description:
@@ -176,52 +196,54 @@ Its iconic staircase-style façade isn't just eye-catching; it supports smooth v
 `,
     status: 'Coming Soon',
     location: 'DHA Phase 2, Islamabad',
-    backgroundImage: 'bg-gcc',
+    backgroundImage: '/goldcrest-commerical.webp',
 
     startingFrom: 'AED 600,000',
     imageUrl: '/images/goldcrest-views-isb.webp',
-    videoUrl: 'https://www.youtube.com/embed/8vDRmBfNlj0',
+    videoUrl: 'https://www.youtube.com/embed/HGhOLQ6AajU',
     gallery: [
-      '/investments.webp',
-      '/investments.webp',
-      '/investments.webp',
-      '/investments.webp',
-      '/investments.webp',
-      '/investments.webp',
-      '/investments.webp',
+      '/Post 4.png',
+      '/Post 3.png',
+      '/Post 2.png',
+      '/Post5.jpg',
+      '/Post6.jpg',
+      '/Post7.jpg',
+      '/Post8.jpg',
     ],
 
     contactUsTitle: 'Built by Giga Group – Trusted Since Day One',
     contactUsdec: `
 Built by Giga Group—trusted since day one—Goldcrest Commercial is backed by a legacy of excellence with a global footprint and over a decade of success in DHA Islamabad. With over 10 million sq. ft. delivered across landmark projects like Giga Mall, El Ceilo, Defence Residency, and Lignum Tower, Giga Group represents trust, innovation, and timely project delivery, supported by 24/7 property management and after-sales service. Whether you’re opening a clinic, pharmacy, boutique, or electronics shop, Goldcrest Commercial offers the perfect environment for your business to thrive in one of Islamabad’s busiest commercial zones. Secure your commercial unit in the capital’s fastest-growing hub—get in touch today and unlock exclusive pre-launch offers.`,
     locationImageGallery: [
-      { src: '/investments.webp', alt: 'Interior' },
-      { src: '/investments.webp', alt: 'Couple planning' },
-      { src: '/investments.webp', alt: 'Construction site' },
-      { src: '/investments.webp', alt: 'City view' },
+      { src: '/Goldcrest Commercial 3.jpg', alt: 'Interior' },
+      { src: '/Goldcrest Commercial 2.jpg', alt: 'Couple planning' },
+      { src: '/Goldcrest Commercial location.jpg', alt: 'Construction site' },
+      { src: '/Gcc-4a.webp', alt: 'City view' },
     ],
 
-    updates: [
-      {
-        src: '/blog1.webp',
-        alt: 'GoldCrest Tower construction progress - image 1',
-      },
-      {
-        src: '/blog2.webp',
-        alt: 'GoldCrest Tower construction progress - image 2',
-      },
-      {
-        src: '/blog1.webp',
-        alt: 'GoldCrest Tower construction progress - image 3',
-      },
-    ],
+    // updates: [
+    //   {
+    //     src: '/blog1.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 1',
+    //   },
+    //   {
+    //     src: '/blog2.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 2',
+    //   },
+    //   {
+    //     src: '/blog1.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 3',
+    //   },
+    // ],
     amenitiesFeaturesTitle: 'Premium Amenities ',
-    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=...',
+    mapEmbedUrl:
+      'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d106439.27574418583!2d73.07569189692255!3d33.52147371971902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x38dfed007d04f201%3A0x41adcb05b88e60b5!2sG5C5%2BJ64%2C%20Main%20Grand%20Trunk%20Rd%2C%20Defense%20Housing%20Authority%2C%20DHA%20Expressway%2C%20Sector%20F%20DHA%20Phase%20II%2C%20Islamabad%2C%2044000!3m2!1d33.521501!2d73.1580931!5e0!3m2!1sen!2s!4v1754324595479!5m2!1sen!2s" ',
 
     featuresTitle: '',
 
     slug: '/goldcrest-commercial',
   },
+
   {
     title: 'Giga Mall & its Extension',
     description:
@@ -266,7 +288,7 @@ Giga Mall Extension is a 30-story mixed-use landmark located in DHA Phase II, Is
 `,
     status: 'Coming Soon',
     location: 'DHA Phase 2, Islamabad',
-    backgroundImage: 'bg-heroImage',
+    backgroundImage: '/GME.webp',
 
     startingFrom: 'AED 600,000',
     imageUrl: '/images/goldcrest-views-isb.webp',
@@ -312,6 +334,7 @@ Own a unit in this iconic project with flexible payment terms: 20% down payment,
 
     slug: '/giga-mall-extension',
   },
+
   {
     title: 'Central Palace Residence',
     description:
@@ -362,7 +385,7 @@ Giga Group’s latest signature development brings affordable, high-quality resi
 `,
     status: 'Coming Soon',
     location: 'DHA Phase 2, Islamabad',
-    backgroundImage: 'bg-heroImage',
+    backgroundImage: '/Central-Palace-Residence-2.webp',
 
     startingFrom: 'AED 600,000',
     imageUrl: '/images/goldcrest-views-isb.webp',
@@ -407,6 +430,7 @@ With just a 25% down payment, an easy 2-year payment plan, 8 quarterly installme
     featuresTitle: '',
     slug: '/central-palace-residence',
   },
+
   {
     title: 'Giga Business Complex',
     description:
@@ -460,7 +484,137 @@ A modern office complex by Giga Group, thoughtfully designed to fuel growth and 
 `,
     status: 'Coming Soon',
     location: 'DHA Phase 2, Islamabad',
-    backgroundImage: 'bg-heroImage',
+    backgroundImage: '/Gbc.webp',
+
+    startingFrom: 'AED 600,000',
+    imageUrl: '/images/goldcrest-views-isb.webp',
+    videoUrl: 'https://www.youtube.com/embed/TYpIQehIO4U',
+    gallery: [
+      '/gbcpost1.webp',
+      '/gbcpost2.webp',
+      '/gbcpost3.webp',
+      '/gbcpost4.webp',
+      '/gbcpost5.webp',
+      '/gbcpost6.webp',
+      '/gbcpost7.webp',
+      '/gbcpost8.webp',
+    ],
+
+    contactUsTitle: 'Your Future Office is Waiting',
+    contactUsdec: `
+Whether you're launching a startup, opening a branch office, or expanding operations, Giga Business Complex is your destination for growth. With multiple office sizes available, you can own your premium office suite starting from just PKR 5 million, payable in 4 easy quarterly installments. With possession in just 20 months, now is the time to secure your space in Islamabad’s most strategic business location. Contact us today and take the next step toward success.`,
+    locationImageGallery: [
+      { src: '/GBCGallery.webp', alt: 'Interior' },
+      { src: '/GBCGallery1.webp', alt: 'Couple planning' },
+      { src: '/GBCGallery2.webp', alt: 'Construction site' },
+      { src: '/GBCGallery3.webp', alt: 'City view' },
+    ],
+
+    // updates: [
+    //   {
+    //     src: '/blog1.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 1',
+    //   },
+    //   {
+    //     src: '/blog2.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 2',
+    //   },
+    //   {
+    //     src: '/blog1.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 3',
+    //   },
+    // ],
+    amenitiesFeaturesTitle: 'Features & Amenities',
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=...',
+
+    featuresTitle: '',
+
+    slug: '/giga-business-complex',
+  },
+
+  {
+    title: 'Goldcrest Highlife',
+    description:
+      "Brought to life by Giga Group, Goldcrest Highlife is a 3-tower residential masterpiece located in DHA Phase II, Islamabad, offering scenic views of the Twin Cities. Drawing inspiration from successful developments like Goldcrest Views I & II and Goldcrest Executive in Dubai's Jumeirah Lake Towers, this project blends international luxury with local accessibility. With an affordable 5-year installment plan, it's the perfect opportunity to own a high-end apartment in a premium location.",
+    formTitle: 'Dubai-Inspired Living in DHA Phase II, Islamabad',
+    amenitiesTitle: 'From Dubai to DHA – A New Way of Living In Islamaabd ',
+    amenitiesDesc:
+      'Goldcrest Highlife offers a lifestyle never seen before in Pakistan, modern, elegant, and full of resort-style amenities, all just minutes away from the capital’s best retail and commercial centers.',
+    features: [
+      {
+        label: '1 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '2 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '3 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '5-Year Easy Installment Plan',
+        icon: <FaCalendarAlt size={24} />,
+      },
+      {
+        label: 'Rooftop Infinity Pool & Lounge',
+        icon: <FaSwimmingPool size={24} />,
+      },
+    ],
+    mapTitle: 'Located in the Heart of Downtown Giga',
+    mapDesc:
+      'Goldcrest Highlife enjoys a prime position in DHA Phase II, Islamabad, right along the Main GT Road and just steps away from Giga Mall. Its prime location offers seamless access to both Islamabad and Rawalpindi, placing residents within minutes of top schools, shopping centers, healthcare facilities, and major city connections. Set in one of the capital’s fastest-growing neighborhoods, it combines convenience with a vibrant, upscale lifestyle.',
+    imageGalleryTitle: 'Project Overview',
+    imageGalleryTitleDesc: `
+Goldcrest Highlife is a modern residential development comprising three architecturally striking towers, designed to cater to a wide range of lifestyles and budgets. Whether you're a first-time buyer or seeking an upgrade, the project offers spacious layouts, podium-level leisure zones, rooftop amenities, and multi-level parking within a secure, gated environment. Construction is progressing rapidly, with Giga Group working around the clock to ensure timely and even early delivery. This rapid development reflects the group’s strong commitment to delivering high-quality housing and ensuring dependable project completion.`,
+    amenities: [
+      {
+        title: 'Infinity Swimming Pool',
+        icon: <FaSwimmingPool size={24} />,
+      },
+      {
+        title: 'Health Club and Gymnasium',
+        icon: <FaDumbbell size={24} />,
+      },
+      {
+        title: 'Juice Bar and Rooftop Lounge',
+        icon: <FaGlassMartiniAlt size={24} />,
+      },
+      {
+        title: 'Children’s Play Areas',
+        icon: <FaChild size={24} />,
+      },
+      {
+        title: 'Jogging Track',
+        icon: <FaRunning size={24} />,
+      },
+      {
+        title: 'Barbecue Area',
+        icon: <FaFire size={24} />,
+      },
+      {
+        title: 'Power Backup System',
+        icon: <FaBolt size={24} />,
+      },
+      {
+        title: 'Covered Car Parking',
+        icon: <FaCar size={24} />,
+      },
+      {
+        title: '24/7 CCTV Security and Surveillance',
+        icon: <FaShieldAlt size={24} />,
+      },
+      {
+        title: 'Community Center',
+        icon: <FaUsers size={24} />,
+      },
+    ],
+    whyChooseTitle: 'Why Choose Goldcrest Highlife ',
+    whyChooseDesc: `Goldcrest Highlife offers a rare blend of international elegance and local convenience, bringing Dubai-inspired design and modern urban living to DHA Phase 2, Islamabad. With scenic views of the Twin Cities, rooftop wellness amenities, and thoughtfully designed residential spaces, it redefines high-rise living. Backed by Giga Group’s trusted legacy and delivered through a flexible 5-year installment plan, the project promises exceptional value in a vibrant, fast-growing community, making it an ideal choice for both homeowners and investors.`,
+    status: 'Coming Soon',
+    location: 'DHA Phase 2, Islamabad',
+    backgroundImage: '/Goldcrest-Highlife-apartments-for-sale.webp',
 
     startingFrom: 'AED 600,000',
     imageUrl: '/images/goldcrest-views-isb.webp',
@@ -475,9 +629,9 @@ A modern office complex by Giga Group, thoughtfully designed to fuel growth and 
       '/investments.webp',
     ],
 
-    contactUsTitle: 'Your Future Office is Waiting',
+    contactUsTitle: 'Elevate Your Lifestyle at Goldcrest Highlife',
     contactUsdec: `
-Whether you're launching a startup, opening a branch office, or expanding operations, Giga Business Complex is your destination for growth. With multiple office sizes available, you can own your premium office suite starting from just PKR 5 million, payable in 4 easy quarterly installments. With possession in just 20 months, now is the time to secure your space in Islamabad’s most strategic business location. Contact us today and take the next step toward success.`,
+Whether you're seeking a smart investment, a stylish new home, or a complete lifestyle upgrade, Goldcrest Highlife offers elevated living in one of Islamabad’s most desirable locations. With exceptional amenities, a prime address near Giga Mall, and flexible payment options, this is your chance to own a high-rise apartment that delivers real value, just steps from everything that matters.`,
     locationImageGallery: [
       { src: '/investments.webp', alt: 'Interior' },
       { src: '/investments.webp', alt: 'Couple planning' },
@@ -504,6 +658,246 @@ Whether you're launching a startup, opening a branch office, or expanding operat
 
     featuresTitle: '',
 
-    slug: '/giga-business-complex',
+    slug: '/goldcrest-highlife',
+  },
+
+  {
+    title: 'World Trade Center, Islamabad',
+    description:
+      "Take your business to new heights at the World Trade Center, Islamabad, a prestigious commercial development located within Giga Mall. With ready-to-book office suites and an 18-month installment plan, this corporate floor offers unmatched visibility, convenience, and prestige for enterprises of all sizes. Whether you're a startup or a multinational, this is your chance to establish a presence at Pakistan’s most strategic commercial address.",
+    formTitle: 'Premium Office Suites at the Twin Cities’ Most Iconic Business Address',
+    amenitiesTitle: 'Make a Statement with a World-Class Office Address ',
+    amenitiesDesc:
+      'With its unique architectural presence and prestigious branding, the World Trade Center Islamabad sets a new standard for corporate environments in Pakistan. It’s more than just an office; it’s a global business gateway.',
+    features: [
+      {
+        label: 'Corporate Offices in Giga Mall',
+        icon: <FaBuilding size={24} />,
+      },
+      {
+        label: '18-Month Flexible Installment Plan',
+        icon: <FaCalendarAlt size={24} />,
+      },
+      {
+        label: 'Prime Location: Three Major Roads',
+        icon: <FaMapMarkedAlt size={24} />,
+      },
+      {
+        label: 'Connected to Global WTC Network',
+        icon: <FaGlobe size={24} />,
+      },
+      {
+        label: 'Modern, Move-In Ready Office Suites',
+        icon: <FaBriefcase size={24} />,
+      },
+    ],
+    mapTitle: 'Prime Location',
+    mapDesc: `Strategically located at the commercial crossroads of the Twin Cities, the WTC, Islamabad, enjoys direct connectivity to three of the region’s major arteries. Islamabad Highway, Rawalpindi Ring Road, and the Grand Trunk (GT) Road. This central positioning ensures effortless access from all corners of Islamabad and Rawalpindi, making it a prime business address for high-growth enterprises, global brands, and corporate investors alike.`,
+    imageGalleryTitle: 'Your Business, Elevated',
+    imageGalleryTitleDesc: `The WTC, Islamabad, offers exclusive, move-in-ready office suites within Giga Mall’s dedicated corporate floor, now open for booking. Ideal for growing businesses, regional offices, and international ventures, these flexible spaces come with an easy 18-month payment plan. Enjoy high-speed connectivity, secure modern facilities, and direct access to retail, dining, and leisure at Giga Mall, all developed by the trusted Giga Group. As part of the World Trade Centers Association, WTC Islamabad links you to over 750,000 businesses in 100+ countries, boosting your brand visibility and unlocking global trade and investment opportunities from Pakistan’s capital.`,
+    amenities: [
+      {
+        title: 'Super-Class Interiors',
+        icon: <FaChair size={24} />,
+      },
+      {
+        title: 'Touchless Entry Systems',
+        icon: <FaDoorOpen size={24} />,
+      },
+      {
+        title: 'Advanced Air Filtration',
+        icon: <FaWind size={24} />,
+      },
+      {
+        title: 'Customizable Layouts',
+        icon: <FaThLarge size={24} />,
+      },
+      {
+        title: 'Reception & Shared Lounges',
+        icon: <FaConciergeBell size={24} />,
+      },
+      {
+        title: 'Smart Tech Infrastructure',
+        icon: <FaMicrochip size={24} />,
+      },
+    ],
+    whyChooseTitle: 'Why Choose World Trade Center, Islamabad?',
+    whyChooseDesc: `Your business deserves a global-standard home at the flagship commercial floor within Giga Mall, offering direct access to three of Islamabad’s main roads for unmatched connectivity. With high visibility and strong brand value, the WTC, Islamabad, is connected to over 300 World Trade Centers worldwide, providing a powerful international network. Developed by the trusted Giga Group, it is the ideal choice for corporates, investors, and global brands seeking a prestigious and strategically located business address.`,
+    status: 'Coming Soon',
+    location: 'DHA Phase 2, Islamabad',
+    backgroundImage: '/wtc-giga-mall.png',
+
+    startingFrom: 'AED 600,000',
+    imageUrl: '/images/goldcrest-views-isb.webp',
+    videoUrl: 'https://www.youtube.com/embed/8vDRmBfNlj0',
+    gallery: [
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+    ],
+
+    contactUsTitle: 'Own Your Office at the World Trade Center, Islamabad',
+    contactUsdec: `
+    Establish your business in one of the region’s most recognized commercial hubs. With flexible payments, strategic location, and global connectivity, the World Trade Center, Islamabad, offers everything you need to grow, network, and succeed.
+    `,
+    locationImageGallery: [
+      { src: '/investments.webp', alt: 'Interior' },
+      { src: '/investments.webp', alt: 'Couple planning' },
+      { src: '/investments.webp', alt: 'Construction site' },
+      { src: '/investments.webp', alt: 'City view' },
+    ],
+
+    updates: [
+      {
+        src: '/blog1.webp',
+        alt: 'GoldCrest Tower construction progress - image 1',
+      },
+      {
+        src: '/blog2.webp',
+        alt: 'GoldCrest Tower construction progress - image 2',
+      },
+      {
+        src: '/blog1.webp',
+        alt: 'GoldCrest Tower construction progress - image 3',
+      },
+    ],
+    amenitiesFeaturesTitle: 'Features & Amenities',
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=...',
+
+    featuresTitle: '',
+
+    slug: '/world-trade-center-islamabad',
+  },
+
+  {
+    title: 'Goldcrest Bay Sands – Karachi',
+    description:
+      'Welcome to Goldcrest Bay Sands, a landmark development by Giga Group, soon rising in the prestigious Crescent Bay, DHA Phase 8. With three 40-story towers offering panoramic views of the Arabian Sea, this project brings a new standard of tech-integrated, ultra-luxury seaside living to Karachi. Designed for the elite, it promises unmatched elegance, breathtaking surroundings, and world-class amenities, all in the city’s most coveted coastal zone.',
+    formTitle: 'Beachfront Luxury Redefined in DHA Phase VIII',
+    amenitiesTitle: 'A Coastal Icon for a Global City',
+    amenitiesDesc:
+      'Goldcrest Bay Sands will transform Karachi’s skyline with its towering beachfront presence. Aesthetically designed, meticulously detailed, and powered by modern living, it brings Dubai-inspired sophistication to Pakistan’s financial capital. ',
+    features: [
+      {
+        label: '1 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '2 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '3 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '4 and 5 Bedroom Duplex',
+        icon: <FaHome size={24} />,
+      },
+      {
+        label: 'Prime Beachfront Location',
+        icon: <FaMapMarkerAlt size={24} />,
+      },
+    ],
+    mapTitle: 'Prime Waterfront Location in Crescent Bay',
+    mapDesc: `Situated in the iconic Crescent Bay, DHA Phase 8, Karachi, Goldcrest Bay Sands offers a prestigious beachfront address with uninterrupted views of the Arabian Sea. Nestled within one of the city’s most sought-after coastal zones, the project provides seamless access to Clifton, HMR Waterfront, and other urban conveniences. As Crescent Bay becomes Karachi’s leading destination for upscale living, Goldcrest Bay Sands emerges as a defining symbol of coastal luxury, exclusivity, and architectural excellence.`,
+    imageGalleryTitle: 'Project Overview: Redefining Coastal Luxury',
+    imageGalleryTitleDesc: `Goldcrest Bay Sands brings a new benchmark in high-end living to Karachi with three 40-story beachfront towers designed for elegance, comfort, and exclusivity. Featuring panoramic sea views, smart tech, refined interiors, and a grand entrance lobby, the project offers a complete lifestyle in Crescent Bay, DHA Phase 8. Developed by the trusted Giga Group, it continues a legacy of landmark projects like Goldcrest Views and Highlife. Positioned on the HMR Waterfront, Goldcrest Bay Sands promises a premium residential experience in one of Pakistan’s most prestigious coastal locations.`,
+    amenities: [
+      {
+        title: 'Secure Parking Levels',
+        icon: <FaParking size={24} />,
+      },
+      {
+        title: 'Designer Interiors',
+        icon: <FaPaintBrush size={24} />,
+      },
+      {
+        title: 'Luxury Gym & Fitness Club',
+        icon: <FaDumbbell size={24} />,
+      },
+      {
+        title: 'Sauna & Wellness Spa',
+        icon: <FaSpa size={24} />,
+      },
+      {
+        title: 'Beauty Salon',
+        icon: <FaCut size={24} />,
+      },
+      {
+        title: 'Business & Meeting Lounge',
+        icon: <FaUsers size={24} />,
+      },
+      {
+        title: 'Indoor Games Complex',
+        icon: <FaGamepad size={24} />,
+      },
+      {
+        title: 'Kids Play Area & Daycare',
+        icon: <FaChild size={24} />,
+      },
+      {
+        title: 'Retail & Shopping Zone',
+        icon: <FaShoppingBag size={24} />,
+      },
+      {
+        title: 'Café & Community Hall',
+        icon: <FaCoffee size={24} />,
+      },
+    ],
+    whyChooseTitle: 'Why Choose Goldcrest Bay Sands?',
+    whyChooseDesc: `Goldcrest Bay Sands offers a rare opportunity to own a residence in Crescent Bay, Karachi’s most prestigious coastal enclave. With its signature 40-story beachfront towers, the project combines breathtaking sea views, curated amenities, and beautifully designed interiors exclusively for residents. Developed by the globally trusted Giga Group, it caters to both luxury homeowners and long-term investors seeking a high-value, lifestyle-driven address in one of Pakistan’s most elite locations.`,
+    status: 'Coming Soon',
+    location: 'DHA Phase 2, Islamabad',
+    backgroundImage: '/goldcrestbaysand.webp',
+
+    startingFrom: 'AED 600,000',
+    imageUrl: '/images/goldcrest-views-isb.webp',
+    videoUrl: 'https://www.youtube.com/embed/8vDRmBfNlj0',
+    gallery: [
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+      '/investments.webp',
+    ],
+
+    contactUsTitle: 'Live Where the Ocean Meets Opulence',
+    contactUsdec: `
+    Goldcrest Bay Sands offers a unique blend of beachfront tranquility, modern architecture, and a globally inspired lifestyle in the heart of Karachi’s most elite coastal district. From breathtaking sunrise views to serene sunset walks, it delivers an unmatched living experience along the Arabian Sea, making it the ultimate destination for those seeking refined seaside living.
+    `,
+    locationImageGallery: [
+      { src: '/investments.webp', alt: 'Interior' },
+      { src: '/investments.webp', alt: 'Couple planning' },
+      { src: '/investments.webp', alt: 'Construction site' },
+      { src: '/investments.webp', alt: 'City view' },
+    ],
+
+    updates: [
+      {
+        src: '/blog1.webp',
+        alt: 'GoldCrest Tower construction progress - image 1',
+      },
+      {
+        src: '/blog2.webp',
+        alt: 'GoldCrest Tower construction progress - image 2',
+      },
+      {
+        src: '/blog1.webp',
+        alt: 'GoldCrest Tower construction progress - image 3',
+      },
+    ],
+    amenitiesFeaturesTitle: 'Features & Amenities',
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=...',
+
+    featuresTitle: '',
+
+    slug: '/goldcrest-bay-sands',
   },
 ];

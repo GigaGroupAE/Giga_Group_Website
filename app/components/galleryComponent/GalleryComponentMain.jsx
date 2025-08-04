@@ -45,7 +45,8 @@ const GalleryComponentMain = () => {
           <HeroCard
             title="A Legacy of Leadership "
             subtitle="Across Industries"
-            description="From textiles and bullion to real estate, construction, and global trading, Giga Group’s dynamic portfolio reflects decades of innovation, strategic partnerships, and impact-driven growth across Pakistan, the Middle East, and Africa."
+            description="Awarded by Nations, Trusted by Generations
+From Prime Ministers and Presidents to Governors and Federal Ministers, Giga Group’s leadership has been honored with prestigious awards for Best Developer, Best Export Performance, and National Loyalty, recognizing decades of excellence in business, real estate, and global trade."
             onButtonClick={() => console.log('Navigate to Goldcrest')}
           />
         </div>

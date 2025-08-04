@@ -7,6 +7,7 @@ import ProjectAmenities from '@/app/components/ProjectsPages/ProjectAmenities';
 import ProjectContactUs from '@/app/components/ProjectsPages/ProjectContactUs';
 import MediaProject from '@/app/components/ProjectsPages/ProjectGallery';
 import ProjectLocation from '@/app/components/ProjectsPages/ProjectLocation';
+import ProjectPageHero from '@/app/components/ProjectsPages/ProjectPageHero';
 import { projects } from '@/src/Data/ProjectsData';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
@@ -56,7 +57,7 @@ const ProjectPage = ({ params }) => {
 
   return (
     <section>
-      <HeroWrapper backgroundImage={backgroundImage}>
+      <ProjectPageHero backgroundImage={backgroundImage}>
         <div className="w-full  space-y-40 gap-10 flex flex-col-reverse md:flex-row justify-between md:ml-12 md:items-end relative">
           <HeroCard
             badgeText={status}
@@ -66,7 +67,7 @@ const ProjectPage = ({ params }) => {
           />
           <HeroInputForm title={formTitle || 'Inquire Now'} />
         </div>
-      </HeroWrapper>
+      </ProjectPageHero>
       <AboutProject
         amenitiesTitle={amenitiesTitle}
         amenitiesDesc={amenitiesDesc}
@@ -79,6 +80,7 @@ const ProjectPage = ({ params }) => {
         galleryTitle={imageGalleryTitle}
         galleryDesc={imageGalleryTitleDesc}
         gallery={locationImageGallery}
+        mapEmbedUrl={mapEmbedUrl}
       />
       <div className="-z-10   md:left-80 absolute w-96 md:w-[700px] h-96  rounded-b-full  bg-[#f8f7e0]"></div>
       <ProjectAmenities
@@ -88,27 +90,31 @@ const ProjectPage = ({ params }) => {
         whyChooseDesc={whyChooseDesc}
       />
       <div className="-z-10 blur-2xl  md:left-72 absolute w-96 md:w-[700px] h-96  rounded-b-full  bg-[#f8f7e0]"></div>
-      <dev className="bg-gradient-to-b from-[#f5f9f6] to-[#f2f2f2] py-16">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-semibold text-gray-800 mb-10">
-            Construction <span className="font-bold text-gray-900">Updates</span>
-          </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {updates?.map((update, index) => (
-              <div key={index} className="rounded-lg overflow-hidden shadow-sm">
-                <Image
-                  src={update.src}
-                  alt={update.alt}
-                  width={500}
-                  height={500}
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            ))}
+      {updates && (
+        <dev className="bg-gradient-to-b from-[#f5f9f6] to-[#f2f2f2] py-16">
+          <div className="max-w-7xl mx-auto px-4 text-center">
+            <h2 className="text-3xl font-semibold text-gray-800 mb-10">
+              Construction <span className="font-bold text-gray-900">Updates</span>
+            </h2>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {updates?.map((update, index) => (
+                <div key={index} className="rounded-lg overflow-hidden shadow-sm">
+                  <Image
+                    src={update.src}
+                    alt={update.alt}
+                    width={500}
+                    height={500}
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </dev>
+        </dev>
+      )}
+
       <OnGoingProjectsCom />
       <ProjectContactUs contactUsdec={contactUsdec} contactUsTitle={contactUsTitle} />
     </section>

@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import ButtonPrimary from '../ButtonPrimary';
 import { motion } from 'framer-motion';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import Link from 'next/link';
 
 const HomeTopFeatures = () => {
   const scrollContainerRef = useRef(null);
@@ -65,16 +66,18 @@ const HomeTopFeatures = () => {
                   whileHover="hover"
                   animate="rest"
                 >
-                  <motion.h2
-                    className="text-white text-2xl font-semibold"
-                    variants={{
-                      rest: { y: 0, opacity: 1 },
-                      hover: { y: -10, opacity: 1 },
-                    }}
-                    transition={{ duration: 0.4, ease: 'easeOut' }}
-                  >
-                    {item?.projectName}
-                  </motion.h2>
+                  <Link href={`/project/${item?.slug}`}>
+                    <motion.h2
+                      className="text-white text-2xl font-semibold"
+                      variants={{
+                        rest: { y: 0, opacity: 1 },
+                        hover: { y: -10, opacity: 1 },
+                      }}
+                      transition={{ duration: 0.4, ease: 'easeOut' }}
+                    >
+                      {item?.projectName}
+                    </motion.h2>
+                  </Link>
 
                   <motion.p
                     className="font-poppins text-sm text-white leading-relaxed"
@@ -95,7 +98,9 @@ const HomeTopFeatures = () => {
                     }}
                     transition={{ duration: 0.4, ease: 'easeOut', delay: 0.1 }}
                   >
-                    <ButtonPrimary title="Learn More" />
+                    <Link href={`/project/${item?.slug}`}>
+                      <ButtonPrimary title="Learn More" />
+                    </Link>
                   </motion.div>
                 </motion.div>
               </div>

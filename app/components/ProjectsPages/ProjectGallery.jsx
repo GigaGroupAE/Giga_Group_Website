@@ -29,23 +29,25 @@ const MediaProject = ({ videoUrl, gallery }) => {
   const isInView = useInView(ref, { once: true, amount: 0.1 });
   return (
     <div className="bg-white text-gray-800 container mx-auto px-4 md:px-8 py-8">
-      <motion.div
-        ref={ref}
-        initial="hidden"
-        animate={isInView ? 'visible' : 'hidden'}
-        variants={containerVariants}
-        div
-        className="aspect-w-16 aspect-h-9 mb-8 rounded-xl overflow-hidden shadow-lg"
-      >
-        <iframe
-          className="w-full h-[25rem] md:h-[40rem]"
-          src={videoUrl}
-          title="Dubai Skyline Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </motion.div>
+      {videoUrl && (
+        <motion.div
+          ref={ref}
+          initial="hidden"
+          animate={isInView ? 'visible' : 'hidden'}
+          variants={containerVariants}
+          div
+          className="aspect-w-16 aspect-h-9 mb-8 rounded-xl overflow-hidden shadow-lg"
+        >
+          <iframe
+            className="w-full h-[25rem] md:h-[40rem]"
+            src={videoUrl}
+            title="Dubai Skyline Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </motion.div>
+      )}
 
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-4">
         {gallery.slice(0, 4).map((img, index) => (

@@ -3,6 +3,7 @@ import React from 'react';
 import OnGoingProjectsCom from '../components/ProjectsPages/OnGoingProjectCom';
 import ContactUsForm from '../components/ContactUsForm';
 import { notFound } from 'next/navigation';
+import ProjectPageHero from '../components/ProjectsPages/ProjectPageHero';
 
 export async function generateStaticParams() {
   return gigaGroupCompanies.map(({ slug }) => ({
@@ -18,7 +19,7 @@ const page = ({ params }) => {
 
   return (
     <main>
-      <div className={`bg-${category?.image} h-[90vh] bg-cover`}></div>
+      <ProjectPageHero backgroundImage={category?.image}></ProjectPageHero>
 
       <div className=" container mx-auto py-28">
         <h1 className="headingSeaction text-center font-semibold">{category.type}</h1>

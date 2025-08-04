@@ -5,6 +5,7 @@ import about3 from '../../../public/Goldcrest-Views-4.webp';
 import about2 from '../../../public/goldcrest-views-giga-downtown.webp';
 import beach from '../../../public/biggroup.webp';
 import ButtonPrimary from '../ButtonPrimary';
+import Link from 'next/link';
 
 const HomeAboutSeaction = () => {
   return (
@@ -59,7 +60,9 @@ const HomeAboutSeaction = () => {
               </p>
 
               <div className="mt-6">
-                <ButtonPrimary title="Learn More" />
+                <Link href="/project/goldcrest-views">
+                  <ButtonPrimary title="Learn More" />
+                </Link>
               </div>
             </div>
           </motion.div>

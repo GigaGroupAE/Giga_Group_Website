@@ -27,9 +27,8 @@ export default {
         realEstate: "url('/construction.webp')",
         general: "url('/general-trading.webp')",
         investments: "url('/investments.webp')",
-        gcv: "url('/Goldcrest-Views-5.jpeg')",
-        gbc: "url('/Giga_BusinessC.jpeg')",
-        gcc: 'url("/goldcrest-commerical.webp")',
+        gcv: "url('/companies_banner.webp')",
+        gcc: "url('/investments.webp')",
       },
       colors: {
         TextandIcons: '#454C54',

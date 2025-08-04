@@ -24,7 +24,7 @@ export const businessSectors = [
     title: 'Real Estate Investment and Property Development',
     description:
       'From Dubai to Islamabad and Karachi, Giga Group leads landmark real estate projects through companies like Mazyood Giga International, Al Ghurair Giga, and joint ventures with EMAAR. Signature developments like Goldcrest Views, Crescent Bay, and Platinum Square reflect luxury, innovation, and economic impact.',
-    image: 'textile-industry.webp',
+    image: 'goldcrest-views-giga-downtown.webp',
     slug: '/real-estate-investment-and-property-development',
   },
   {
@@ -50,7 +50,7 @@ export const gigaGroupCompanies = [
     id: 1,
     type: 'Textile Industry',
     slug: '/textile-industry',
-    image: 'textile',
+    image: '/textile-industry.webp',
     companies: [
       {
         id: 1,
@@ -82,7 +82,7 @@ export const gigaGroupCompanies = [
     id: 2,
     type: 'Gold & Jewellery Trading',
     slug: '/gold-jewellery-trading',
-    image: 'gold',
+    image: '/gold-jewellery-trading.webp',
     companies: [
       {
         id: 1,
@@ -105,7 +105,7 @@ In February 2000, the company was honored by UBS Warburg for being the largest i
     id: 3,
     type: 'Real Estate Investment and Property Development',
     slug: '/real-estate-investment-and-property-development',
-    image: 'realEstate',
+    image: '/goldcrest-views-giga-downtown.webp',
     companies: [
       {
         id: 1,
@@ -147,7 +147,7 @@ Furthermore, EMAAR Giga Karachi Limited is developing Crescent Bay. It’s a dev
     id: 4,
     type: 'Construction',
     slug: '/construction-company',
-    image: 'construction',
+    image: '/construction.webp',
     companies: [
       {
         id: 1,
@@ -188,7 +188,7 @@ Al Najeebi Bazar, a commercial building with superior facilities for trade and r
     id: 5,
     type: 'General Trading',
     slug: '/general-trading',
-    image: 'general',
+    image: '/general-trading.webp',
     companies: [
       {
         id: 1,
@@ -205,7 +205,7 @@ The performance of Mian Akber Trading Corporation has been well acknowledged by 
     id: 6,
     type: 'Investments',
     slug: '/investments',
-    image: 'investments',
+    image: '/investments.webp',
     companies: [
       {
         id: 1,
