@@ -80,14 +80,18 @@ const HomeTopFeatures = () => {
                   </Link>
 
                   <motion.p
-                    className="font-poppins text-sm text-white leading-relaxed"
+                    className="font-poppins text-sm text-white leading-relaxed transition-all duration-500 ease-in-out"
                     variants={{
                       rest: { y: 0, opacity: 1 },
                       hover: { y: -10, opacity: 1 },
                     }}
                     transition={{ duration: 0.5, ease: 'easeOut' }}
                   >
-                    {item?.description}
+                    <span className="block group-hover:hidden">
+                      {item?.description?.slice(0, 160)}
+                      {item?.description?.length > 160 ? '...' : ''}
+                    </span>
+                    <span className="hidden group-hover:block">{item?.description}</span>
                   </motion.p>
 
                   <motion.div

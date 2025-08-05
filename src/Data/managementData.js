@@ -1,9 +1,9 @@
 export const managementData = [
   {
-    name: "Haji Muhammad Amin Pardesi Giga",
-    title: "President",
-    image: "/blog1.webp",
-    color: "text-yellow-600",
+    name: 'Haji Muhammad Amin Pardesi Giga',
+    title: 'President',
+    image: '/Haji Muhammad Amin Pardesi Giga.jpeg',
+    color: 'text-yellow-600',
     description: `
 Haji Muhammad Amin Pardesi took over his family's textile business in 1982, which his father, Haji Abdul Rahim Giga, had established in 1956. Haji Muhammad Amin Pardesi strategically focused on non-traditional and non-quota regions like Africa for trade in textiles, made-ups, and machinery. Under his leadership, Mian Akber Trading Corporation in Pakistan has won the Largest Exporter to Non-Quota Countries award for the past 17 years.
 
@@ -20,10 +20,10 @@ Today, all Giga Group Companies have the privilege of the leadership of Haji Ami
 `,
   },
   {
-    name: "Najeeb Amin Pardesi Giga",
-    title: "Vice-Chairman and CEO",
-    image: "/blog1.webp",
-    color: "text-green-600",
+    name: 'Najeeb Amin Pardesi Giga',
+    title: 'Vice-Chairman and CEO',
+    image: '/Najeeb Amin Pardesi​ Giga.webp',
+    color: 'text-green-600',
     description: `Mr. Najeeb Amin Pardesi Giga has been the Vice Chairman and CEO of Giga Group since January 2016. He is the Chairman of World Trade Center (WTC) Pakistan & Member of ‘WTC A’ New York, USA. He holds many executive and leadership positions in the member group companies. Najeeb Amin Pardesi is regarded as a Dynamic Visionary Shaping Pakistan’s Real estate landscape.
 
 With his vision and extraordinary business sense, Mr. Najeeb Amin successfully modified and launched new projects for Giga Group Pakistan. He also played a significant role in expanding development projects in Iraq and Libya, worth 900 million dollars.

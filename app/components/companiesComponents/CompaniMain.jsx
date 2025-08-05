@@ -71,20 +71,17 @@ const CompaniMain = () => {
                   variants={cardVariants}
                 >
                   {imageUrl && (
-                    <Link href={`${item.slug}`}>
-                      <img
-                        src={imageUrl}
-                        alt={item?.title}
-                        className="w-full rounded-2xl h-96 object-cover"
-                      />
-                    </Link>
+                    <img
+                      src={imageUrl}
+                      alt={item?.title}
+                      className="w-full rounded-2xl h-96 object-cover"
+                    />
                   )}
 
                   <div className="py-4">
-                    <Link href={`${item.slug}`}>
-                      <h2 className="text-lg font-semibold text-gray-800 mb-2">{item?.title}</h2>
-                    </Link>
+                    <h2 className="text-lg font-semibold text-gray-800 mb-2">{item?.title}</h2>
 
+                    {/* 
                     <motion.p
                       initial={{ height: '6rem', opacity: 0.8 }}
                       animate={{
@@ -101,20 +98,20 @@ const CompaniMain = () => {
                       className=" text-black font-poppins text-sm"
                     >
                       {item?.description}
-                    </motion.p>
+                    </motion.p> */}
 
-                    {!isExpanded && (
+                    {/* {!isExpanded && (
                       <div className="absolute bottom-0 left-0 w-full h-8 bg-gradient-to-t from-white to-transparent pointer-events-none" />
-                    )}
+                    )} */}
 
-                    <div className="flex">
+                    {/* <div className="flex">
                       <div className="cardButtonWrapper">
                         <ButtonPrimary
                           title={isExpanded ? 'Show Less' : 'Learn More'}
                           onClick={() => toggleExpand(index)}
                         />
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </motion.div>
               );
