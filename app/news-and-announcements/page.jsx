@@ -7,6 +7,7 @@ import Image from 'next/image';
 import ButtonPrimary from '../components/ButtonPrimary';
 import { motion } from 'framer-motion';
 import logo from '../../public/LogoMobile.svg';
+import OnGoingProjectsCom from '../components/ProjectsPages/OnGoingProjectCom';
 
 const index = () => {
   const fadeInUp = {
@@ -31,7 +32,7 @@ const index = () => {
               <img
                 src={item?.image}
                 alt="AnnouncementImage"
-                className="rounded-2xl h-64 object-cover w-full"
+                className="rounded-2xl h-64 object-fill w-full"
               />
 
               <div className="flex space-x-2 items-center">
@@ -171,6 +172,7 @@ const index = () => {
           ))}
         </div>
       </div>
+      <OnGoingProjectsCom />
     </div>
   );
 };

@@ -82,11 +82,11 @@ export const AboutUs = [
     title: 'Giga City, Defence Housing Authority Phase II Islamabad, Pakistan-44000',
     icon: <FaMapMarkerAlt />,
   },
-  {
-    id: 6,
-    title: 'https://gigagroup.com',
-    icon: <FaGlobe />,
-  },
+  // {
+  //   id: 6,
+  //   title: 'https://gigagroup.com',
+  //   icon: <FaGlobe />,
+  // },
 ];
 
 export const Legal = [

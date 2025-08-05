@@ -30,10 +30,9 @@ const page = ({ params }) => {
             <p className="text-gray-600 mt-4">{company.description}</p>
           </div>
         ))}
-
-        <OnGoingProjectsCom />
-        <ContactUsForm />
       </div>
+      <OnGoingProjectsCom />
+      <ContactUsForm />
     </main>
   );
 };

@@ -34,7 +34,7 @@ const HomeMain = () => {
         <div className="bg-secondary w-96 h-96  blur-[240px]   absolute rounded-full  z-50 mx-auto "></div>
       </div>
 
-      <ClientSays />
+      {/* <ClientSays />  */}
 
       <Newsletter />
     </main>

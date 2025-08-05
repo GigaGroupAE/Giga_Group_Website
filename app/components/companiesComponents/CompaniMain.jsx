@@ -6,6 +6,7 @@ import { businessSectors } from '@/src/Data/CompaniesData';
 import CompaniHeroSection from './CompanHero';
 import ButtonPrimary from '../ButtonPrimary';
 import Link from 'next/link';
+import OnGoingProjectsCom from '../ProjectsPages/OnGoingProjectCom';
 
 const containerVariants = {
   hidden: {},
@@ -121,6 +122,8 @@ const CompaniMain = () => {
           </div>
         </motion.div>
       </div>
+
+      <OnGoingProjectsCom />
     </section>
   );
 };

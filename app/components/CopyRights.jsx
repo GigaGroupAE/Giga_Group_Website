@@ -20,28 +20,28 @@ const CopyRights = () => {
           All © Reserved by <b>Giga</b> Group ® | Pakistan
         </h2>
       </div>
-      <div className="flex items-center gap-4 relative z-50 ">
-        <Link href="https://www.facebook.com/GigaGroupPakistan/">
+      <div className="flex items-center gap-4 relative z-50  ">
+        <Link target="_blank" href="https://www.facebook.com/GigaGroupPakistan/">
           <Image src={fb} alt="Facebook" />
         </Link>
-        <Link href="https://www.instagram.com/gigagrouppakistan">
+        <Link target="_blank" href="https://www.instagram.com/gigagrouppakistan">
           <Image src={ig} alt="Instagram" />
         </Link>
-        <Link href="https://www.linkedin.com/company/giga-group-of-companies">
+        <Link target="_blank" href="https://www.linkedin.com/company/giga-group-of-companies">
           <Image src={linkdin} alt="linkedin" />
         </Link>
-        <Link href="https://www.pinterest.com/gigamall/giga-mall/">
+        <Link target="_blank" href="https://www.pinterest.com/gigamall/giga-mall/">
           <Image src={pintrust} alt="Pintrust" />
         </Link>
-        <Link href="https://www.youtube.com/channel/UCYFOlyPzx3G6FnCVy1AaXmA">
+        <Link target="_blank" href="https://www.youtube.com/channel/UCYFOlyPzx3G6FnCVy1AaXmA">
           <Image src={yt} alt="Youtube" />
         </Link>
-        <Link href="https://x.com/GigaGroupofCo">
+        <Link target="_blank" href="https://x.com/GigaGroupofCo">
           <Image src={x} alt="X" />
         </Link>
-        <Link href="s">
+        {/* <Link target="_blank" href="s">
           <Image src={whatsapp} alt="whatsapp" />
-        </Link>
+        </Link> */}
       </div>
 
       <div className=" absolute h-[70px] w-2/6 right-0  rounded-ss-full  bg-gradient-to-r from-white to-secondary/30 z-0"></div>

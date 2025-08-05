@@ -14,7 +14,7 @@ const menuItems = [
   { name: 'COMPANIES', path: '/companies' },
   { name: 'MANAGEMENT', path: '/management' },
   { name: 'PROJECTS', path: '/projects' },
-  { name: 'NEWS & ANNOUNCEMENTS', path: '/news-and-announcements' },
+  // { name: 'NEWS & ANNOUNCEMENTS', path: '/news-and-announcements' },
   { name: 'GALLERY', path: '/gallery' },
 ];
 

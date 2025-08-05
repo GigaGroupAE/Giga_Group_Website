@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <section className="bg-[#1f4772] pt-[50]   ">
       {/* <div className="md:px-[130px] px-4 py-[50px] flex md:flex-row flex-col md:space-x-[60px]"> */}
-      <div className="flex max-w-[1440px] xl:px-20  md:flex-row px-4 md:px-0 flex-col md:justify-around  container mx-auto  py-12 ">
+      <div className="flex  px-6 md:flex-row  md:px-0 flex-col md:justify-around  container mx-auto  py-12 ">
         <div className=" w-[340px] space-y-[25px] flex flex-col">
           <Image src={logoWhite} alt="Giga Group" className="" w={40} height={40} />
 
@@ -32,7 +32,7 @@ const Footer = () => {
             <h2 className="font-poppins text-white text-[16px] font-semibold">Quick Links</h2>
             {QuickLinks.map(item => {
               return (
-                <div key={item?.id} className="py-1  gap-2 flex flex-col cursor-pointer">
+                <div key={item?.id} className="  gap-2 flex flex-col cursor-pointer">
                   <Link
                     href={item.path}
                     className="font-poppins w-80 text-sm text-white font-medium"

@@ -1,32 +1,32 @@
 export const NavbarData = [
   {
     id: 1,
-    title: "HOME",
-    link: "/",
+    title: 'HOME',
+    link: '/',
   },
   {
     id: 2,
-    title: "ABOUT",
-    link: "about",
+    title: 'ABOUT',
+    link: 'about',
   },
   {
     id: 3,
-    title: "PROJECTS",
-    link: "/projects",
+    title: 'PROJECTS',
+    link: '/projects',
   },
-  {
-    id: 4,
-    title: "NEWS & ANNOUNCEMENTS",
-    link: "/news-and-announcements",
-  },
+  // {
+  //   id: 4,
+  //   title: "NEWS & ANNOUNCEMENTS",
+  //   link: "/news-and-announcements",
+  // },
   {
     id: 5,
-    title: "BLOGS",
-    link: "/blogs",
+    title: 'BLOGS',
+    link: '/blogs',
   },
   {
     id: 6,
-    title: "CONTACT",
-    link: "/contact",
+    title: 'CONTACT',
+    link: '/contact',
   },
 ];

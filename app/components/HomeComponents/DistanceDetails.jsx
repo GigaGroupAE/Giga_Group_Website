@@ -15,6 +15,23 @@ const DistanceDetails = () => {
   return (
     <section className=" bg-white/ mx-auto pt-40 max-w-[1440px] xl:px-20">
       <div className="-z-50  blur-3xl absolute w-96 h-[600px] right-0  rounded-l-full bg-[#f8f7e0]"></div>
+      <motion.div
+        className="w-full mb-8 sm:mb-12"
+        variants={fadeInUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        <h2 className="headingSeaction">
+          <b> Giga City</b> Redefining Urban Living in Pakistan
+        </h2>
+        <p className="descriptionText text-start md:text-center">
+          Giga City is more than a development; it’s a modern masterpiece. With smart planning,
+          sustainable design, and luxury at every turn, it sets new standards for urban living in
+          Islamabad. Here’s what makes it a standout destination:
+        </p>
+      </motion.div>
+
       <div className="container mx-auto">
         <div className="mx-auto grid grid-cols-1 gap-y-2 sm:grid-cols-2 gap-6 lg:grid-cols-3">
           {distanceMap?.map((item, index) => (

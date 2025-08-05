@@ -1,44 +1,27 @@
 export const distanceMap = [
   {
     subheading: 'Within 5KM',
-    heading: 'Strategic Road Connectivity',
-    description:
-      'Goldcrest Views is perfectly positioned on Main GT Road in Giga City , DHA Phase 2, Islamabad. Just five minutes from Islamabad Expressway, it ensures fast and direct access to central Islamabad, Rawalpindi Saddar, Bahria Town, Gulberg Greens, and the Airport. With alternate routes via PWD, Naval Anchorage, Kahuta Road, and various signal-free corridors, commuting is smooth from every direction.',
+    heading: 'Giga City Amenities',
+    description: `Giga City offers a complete lifestyle ecosystem, featuring luxury shopping at Giga Mall, rooftop leisure zones, fitness centers, kids' play areas, mosques, swimming pools, clinics, and coworking spaces. With indoor water parks, skywalks, and fine dining, it caters to every age and lifestyle. This urban marvel fuses convenience, recreation, and elegance, setting a new benchmark for luxury living in Pakistan.`,
   },
   {
     subheading: 'Within 5KM',
-    heading: 'On-Site Accessibility',
-    description:
-      'Designed for convenience, the development offers multi-level parking with ample space for vehicles and motorbikes. Dedicated drop-off zones make family arrivals and ride-hailing services hassle-free. Wheelchair-friendly entry points, along with elevators, escalators, and clear signage, ensure easy navigation throughout the premises.',
+    heading: 'Sustainable Development',
+    description: `Giga City is built on smart urbanism, where luxury meets responsibility. From solar energy and rainwater harvesting to green zones, heat-reflective materials, and smart HVAC systems, every feature minimizes environmental impact. Thoughtful landscaping and eco-conscious planning create a cooler, cleaner, and healthier environment, making Giga City a trailblazer in sustainable real estate across Pakistan`,
   },
   {
     subheading: 'Within 5KM',
-    heading: 'Public Transport Convenience',
-    description:
-      'Goldcrest Views is well-connected to public transport, with regular bus and wagon routes running along GT Road and the Expressway. It also benefits from proximity to the Silk Road and supports ride-hailing apps like InDrive, with defined pickup points, making daily commuting reliable and effortless.',
+    heading: 'Giga City Mixed-Use Hub',
+    description: `Giga City blends residential, commercial, corporate, and leisure spaces into one vibrant, walkable hub. With interconnected facilities, including high-rise apartments, offices, retail outlets, entertainment zones, and dining venues, it offers everything in one place. Whether you're living, working, shopping, or relaxing, Giga City’s integrated design fosters a seamless, modern lifestyle unlike any other in Islamabad.`,
   },
   {
     subheading: 'Within 20KM',
-    heading: 'Nearby Healthcare Facilities',
-    description:
-      'Quality healthcare is within easy reach. Al-Shifa and Fauji Foundation Hospitals are both just 20 minutes away, offering dependable medical services. MaxHealth Hospital in G-8 Markaz provides advanced care, including a 24/7 emergency department, ICU, burn center, and modern diagnostics, ensuring residents are always close to critical care when needed.',
+    heading: 'Residential & Commercial High-Rises',
+    description: `Giga City’s skyline is shaped by iconic high-rises, luxury apartments, penthouses, and modern commercial towers. From the soaring Goldcrest Views to sleek corporate spaces, each building offers panoramic vistas, smart layouts, and premium amenities. Whether it’s upscale living or business expansion, these vertical marvels redefine urban sophistication and cater to both lifestyle seekers and forward-thinking investors.`,
   },
   {
     subheading: 'Within 5KM',
-    heading: 'Educational Institutions Nearby',
-    description:
-      'Families have access to some of the region’s top educational institutes. DHAI is only 1.8 kilometers (about three minutes) away. The City School and The Educators are nearby, with Capital University of Science and Technology (CUST) just 25 minutes away. Renowned universities like Quaid-i-Azam University, Shifa Tameer-e-Millat, IST, IIUI, PIEAS, and AIOU are also conveniently accessible.',
-  },
-  {
-    subheading: 'Within 30-60KM',
-    heading: 'Tourist & Recreational Access',
-    description:
-      'From family fun to scenic escapes, Goldcrest Views is close to it all. Enjoy Fun City, an indoor amusement park located within Giga Mall. Popular attractions such as Faisal Mosque, Pakistan Monument, Lok Virsa Museum, Rawal Lake, and Daman-e-Koh are all within a 30 to 60-minute drive. Other nearby spots include the Golra Railway Museum, Bahria Enclave Zoo, and Rawalpindi Cricket Stadium.',
-  },
-  {
-    subheading: 'Within 5KM',
-    heading: 'Why It Matters',
-    description:
-      'Goldcrest Views is more than just a place to live; it’s a lifestyle hub. With unmatched connectivity, healthcare, education, and entertainment all within reach, it offers urban convenience tailored for families, investors, expats, and professionals alike. It’s an ideal choice for those seeking comfort, accessibility, and vibrant city living in one central location.',
+    heading: 'Architectural Excellence',
+    description: `Giga City blends bold design with intelligent urban planning. Its towers feature sleek façades, sky lounges, green podiums, and panoramic terraces, all crafted for visual impact and functional living. Inspired by global benchmarks yet rooted in local needs, every structure reflects modernity, sustainability, and elegance. It’s architecture that doesn’t just rise, it inspires, setting new standards for real estate design in Pakistan.`,
   },
 ];
