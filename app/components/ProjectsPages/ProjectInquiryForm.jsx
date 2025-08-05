@@ -31,14 +31,6 @@ export default function ProjectInquiryForm({ title, projectData }) {
     if (loading) return;
     setLoading(true);
 
-    console.log(
-      formData.fullName,
-      formData.email,
-      formData.phone,
-      formData.city,
-      formData.selectedOption,
-      formData.selectedOption
-    );
     selectedOption: try {
       await emailjs.send(
         'service_vhg5z4w',

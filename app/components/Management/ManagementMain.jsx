@@ -17,7 +17,6 @@ const ManagementMain = () => {
             title="Visionary Leadership"
             subtitle=" Timeless Legacy"
             description="Meet the minds behind Giga Group, Haji Muhammad Amin Pardesi and Najeeb Amin Pardesi, driving decades of global success, groundbreaking real estate, and unwavering commitment to Pakistan’s future."
-            onButtonClick={() => console.log('Navigate to Goldcrest')}
           />
         </div>
       </HeroWrapper>

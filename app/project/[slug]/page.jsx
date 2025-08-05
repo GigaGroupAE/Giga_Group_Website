@@ -57,8 +57,6 @@ const ProjectPage = ({ params }) => {
     availableOptions,
   } = project;
 
-  console.log(availableOptions);
-
   return (
     <section>
       <ProjectPageHero backgroundImage={backgroundImage}>

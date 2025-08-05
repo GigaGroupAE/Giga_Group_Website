@@ -15,7 +15,7 @@ const index = () => {
   };
 
   return (
-    <div className="backdrop-blur-[50px] w-full bg-white/50 mx-auto xl:px-8">
+    <div className="backdrop-blur-[50px] w-full pt-28 bg-white/50 mx-auto xl:px-8">
       <div className="flex container mx-auto md:flex-row flex-col px-3 md:px-0 gap-10">
         <div className="md:w-[75rem] w-full">
           {announcementsData.map((item, index) => (

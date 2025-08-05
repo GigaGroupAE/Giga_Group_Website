@@ -15,7 +15,6 @@ const HeroAbout = () => {
           subtitle="Growing Without Bounds"
           description="From a single textile venture in 1956 to a diversified global powerhouse across textiles, bullion, real estate, construction, and trade, Giga Group enriches lives and landscapes with visionary leadership, trusted partnerships, and a commitment to sustainable growth."
           // buttonText="Learn More"
-          onButtonClick={() => console.log('Navigate to Goldcrest')}
         />
       </div>
     </HeroWrapper>

@@ -57,11 +57,11 @@ const OnGoingProjects = () => {
             return (
               <motion.div
                 key={index}
-                className="group cardWrapper bg-contain "
+                className="group cardWrapper  "
                 style={{
                   backgroundImage: imageUrl ? `url(${imageUrl})` : 'none',
                   backgroundColor: !imageUrl ? '#333' : undefined,
-                  objectFit: 'contain',
+                  objectFit: 'fill',
                   objectPosition: 'center',
                 }}
                 variants={cardVariants}

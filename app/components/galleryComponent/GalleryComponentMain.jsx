@@ -47,7 +47,7 @@ const GalleryComponentMain = () => {
             subtitle="Across Industries"
             description="Awarded by Nations, Trusted by Generations
 From Prime Ministers and Presidents to Governors and Federal Ministers, Giga Group’s leadership has been honored with prestigious awards for Best Developer, Best Export Performance, and National Loyalty, recognizing decades of excellence in business, real estate, and global trade."
-            onButtonClick={() => console.log('Navigate to Goldcrest')}
+            // onButtonClick={() => console.log('Navigate to Goldcrest')}
           />
         </div>
       </HeroWrapper>
