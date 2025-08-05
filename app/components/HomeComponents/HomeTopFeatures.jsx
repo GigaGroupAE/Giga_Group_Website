@@ -66,7 +66,7 @@ const HomeTopFeatures = () => {
                   whileHover="hover"
                   animate="rest"
                 >
-                  <Link href={`/project/${item?.slug}`}>
+                  <Link href={item?.slug === '/' ? '/' : `/project/${item?.slug}`}>
                     <motion.h2
                       className="text-white text-2xl font-semibold"
                       variants={{
@@ -102,7 +102,7 @@ const HomeTopFeatures = () => {
                     }}
                     transition={{ duration: 0.4, ease: 'easeOut', delay: 0.1 }}
                   >
-                    <Link href={`/project/${item?.slug}`}>
+                    <Link href={item?.slug === '/' ? '/' : `/project/${item?.slug}`}>
                       <ButtonPrimary title="Learn More" />
                     </Link>
                   </motion.div>

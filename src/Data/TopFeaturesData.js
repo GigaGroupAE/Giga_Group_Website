@@ -1,5 +1,14 @@
 export const topFeatures = [
   {
+    id: 0,
+    projectName: 'Giga City Islamabad',
+    description:
+      'Giga City, Islamabad’s “Mini Dubai,” is a visionary urban marvel by Giga Group. Located on Main GT Road in DHA Phase 2, it blends luxury living, cutting-edge commercial hubs, and sustainable design. With iconic high-rises, vibrant malls, and smart infrastructure, Giga City redefines modern living in Pakistan.',
+    // status: 'Coming Soon',
+    image: 'giga-city.webp',
+    slug: '/',
+  },
+  {
     id: 1,
     projectName: 'Goldcrest Views',
     description:
@@ -17,15 +26,7 @@ export const topFeatures = [
     image: 'Central-Palace-Residence-2.webp',
     slug: '/central-palace-residence/',
   },
-  {
-    id: 3,
-    projectName: 'Goldcrest Commercial',
-    description:
-      'A nine-story commercial project in Giga City, DHA Phase 2, offering retail and medical spaces with smart amenities, 24/7 security, and high rental yields...',
-    // status: 'Delivered',
-    image: 'goldcrest-commerical.webp',
-    slug: '/goldcrest-commercial',
-  },
+
   {
     id: 4,
     projectName: 'Giga Mall and its Extension',
@@ -52,5 +53,14 @@ export const topFeatures = [
     status: 'Delivered',
     image: 'highlife.jpeg',
     slug: '/goldcrest-highlife/',
+  },
+  {
+    id: 3,
+    projectName: 'Goldcrest Commercial',
+    description:
+      'A nine-story commercial project in Giga City, DHA Phase 2, offering retail and medical spaces with smart amenities, 24/7 security, and high rental yields...',
+    // status: 'Delivered',
+    image: 'goldcrest-commerical.webp',
+    slug: '/goldcrest-commercial',
   },
 ];
