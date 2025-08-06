@@ -941,4 +941,141 @@ Whether you're seeking a smart investment, a stylish new home, or a complete lif
 
     slug: '/goldcrest-bay-sands',
   },
+
+  {
+    title: 'Giga City: Islamabad’s Iconic Urban Marvel ',
+    description:
+      'Experience the future of urban living at Giga City, where upscale residences, grand retail spaces, and cutting-edge commercial hubs converge in one extraordinary development. Strategically located on Main GT Road in DHA Phase 2, Islamabad, Giga City offers unmatched connectivity, stunning architecture, and a complete lifestyle ecosystem inspired by the world’s greatest cities.',
+    // formTitle: 'Beachfront Luxury Redefined in DHA Phase VIII',
+    availableOptions: [
+      '1 Bed Apartment',
+      '2 Bed Apartment',
+      '3 Bed Apartment',
+      '4 Bed Apartment',
+      '4 Bed Apartment',
+    ],
+    amenitiesTitle: 'The Heart of Islamabad’s Urban Lifestyle',
+    amenitiesDesc:
+      'Step into Giga City, Islamabad’s most vibrant urban center, designed to meet your every need. Enjoy luxury apartments with panoramic views, world-class shopping at Giga Mall, a diverse culinary scene, entertainment options for the entire family, and high-end office spaces, all within a secure, master-planned community crafted for a modern lifestyle. ',
+    features: [
+      {
+        label: '1 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '2 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '3 Bedroom',
+        icon: <FaBed size={24} />,
+      },
+      {
+        label: '4 and 5 Bedroom Duplex',
+        icon: <FaHome size={24} />,
+      },
+      {
+        label: 'Prime Beachfront Location',
+        icon: <FaMapMarkerAlt size={24} />,
+      },
+    ],
+    mapTitle: 'Located in Visionary Giga City',
+    mapDesc: `Nestled in DHA Phase 2 on Main GT Road, Giga City’s prime location connects you seamlessly to Islamabad’s key business districts, government offices, educational institutions, and recreational spots. With upcoming infrastructure and road networks enhancing accessibility even further, Giga City is perfectly positioned to become the city’s premier residential and commercial hub.`,
+    imageGalleryTitle: 'Islamabad’s Next Mixed-Use Destination',
+    imageGalleryTitleDesc: `Giga City is redefining Islamabad’s skyline as the ultimate mixed-use development, harmoniously blending residential towers, luxury shopping at Giga Mall and its grand Extension, premium office spaces, and exciting leisure facilities. Designed with meticulous planning, Giga City offers a secure, walkable environment where convenience, comfort, and class meet to deliver an unmatched urban lifestyle.`,
+    amenities: [
+      {
+        title: 'Secure Parking Levels',
+        icon: <FaParking size={24} />,
+      },
+      {
+        title: 'Designer Interiors',
+        icon: <FaPaintBrush size={24} />,
+      },
+      {
+        title: 'Luxury Gym & Fitness Club',
+        icon: <FaDumbbell size={24} />,
+      },
+      {
+        title: 'Sauna & Wellness Spa',
+        icon: <FaSpa size={24} />,
+      },
+      {
+        title: 'Beauty Salon',
+        icon: <FaCut size={24} />,
+      },
+      {
+        title: 'Business & Meeting Lounge',
+        icon: <FaUsers size={24} />,
+      },
+      {
+        title: 'Indoor Games Complex',
+        icon: <FaGamepad size={24} />,
+      },
+      {
+        title: 'Kids Play Area & Daycare',
+        icon: <FaChild size={24} />,
+      },
+      {
+        title: 'Retail & Shopping Zone',
+        icon: <FaShoppingBag size={24} />,
+      },
+      {
+        title: 'Café & Community Hall',
+        icon: <FaCoffee size={24} />,
+      },
+    ],
+    whyChooseTitle: 'Why Giga Group?',
+    whyChooseDesc: `With over two decades of international and local excellence, Giga Group has transformed skylines in Dubai with iconic Goldcrest projects and elevated Islamabad’s real estate with landmark developments like Giga Mall, Goldcrest Views, and Defence Residency. Our commitment to quality, innovation, and trust makes us the preferred choice for discerning investors and homeowners.`,
+    status: '',
+    location: 'DHA Phase 2, Islamabad',
+    backgroundImage: '/giga-city.webp',
+
+    startingFrom: '',
+    imageUrl: '/images/goldcrest-views-isb.webp',
+    videoUrl: 'https://www.youtube.com/embed/8vDRmBfNlj0',
+    gallery: [
+      '/giga-city.webp',
+      '/goldcrest-commerical.webp',
+
+      '/highlife.jpeg',
+      '/Goldcrest-Views-4.webp',
+      '/goldcrest-views-giga-downtown.webp',
+      '/World-Trade-Center4.webp',
+      '/World-Trade-Center6.webp',
+    ],
+
+    contactUsTitle: 'Easy Payment Plan',
+    contactUsdec: `
+    Investing in Giga City is easier than ever with flexible installment plans tailored to your budget. Choose from convenient options for both residential and commercial properties, designed to turn your investment dreams into reality without financial strain. Reach out today to explore personalized plans and secure your place in Islamabad’s most prestigious urban development.
+    `,
+    locationImageGallery: [
+      { src: '/World-Trade-Center9.webp', alt: 'Interior' },
+      { src: '/wtc-giga-mall.png', alt: 'Couple planning' },
+      { src: '/Goldcrest-Views-Construction-Updates1.webp', alt: 'Construction site' },
+      { src: '/lignum-tower.webp', alt: 'City view' },
+    ],
+
+    // updates: [
+    //   {
+    //     src: '/blog1.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 1',
+    //   },
+    //   {
+    //     src: '/blog2.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 2',
+    //   },
+    //   {
+    //     src: '/blog1.webp',
+    //     alt: 'GoldCrest Tower construction progress - image 3',
+    //   },
+    // ],
+    amenitiesFeaturesTitle: 'Features & Amenities',
+    mapEmbedUrl:
+      'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d106439.27574418583!2d73.07569189692255!3d33.52147371971902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x38dfed007d04f201%3A0x41adcb05b88e60b5!2sG5C5%2BJ64%2C%20Main%20Grand%20Trunk%20Rd%2C%20Defense%20Housing%20Authority%2C%20DHA%20Expressway%2C%20Sector%20F%20DHA%20Phase%20II%2C%20Islamabad%2C%2044000!3m2!1d33.521501!2d73.1580931!5e0!3m2!1sen!2s!4v1754324595479!5m2!1sen!2s" ',
+
+    featuresTitle: '',
+
+    slug: '/giga-city-islamabad',
+  },
 ];

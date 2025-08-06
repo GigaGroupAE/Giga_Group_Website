@@ -12,6 +12,8 @@ export default function ProjectInquiryForm({ title, projectData }) {
     fullName: '',
     email: '',
     phone: '',
+    profession: '',
+    message: '',
     city: '',
     project: projectData.name,
     selectedOption: '',
@@ -33,16 +35,18 @@ export default function ProjectInquiryForm({ title, projectData }) {
 
     selectedOption: try {
       await emailjs.send(
-        'service_vhg5z4w',
-        'template_rbumtof',
+        'service_658s2ke',
+        'template_m3ogp4t',
         {
           fullName: formData.fullName,
           email: formData.email,
           phone: formData.phone,
           city: formData.city,
           project: formData.selectedOption,
+          profession: formData.profession,
+          message: formData.message,
         },
-        'NSfDaAmK37KYylceo'
+        'ck9DNObPZvF0mqOZp'
       );
 
       toast.success(
@@ -70,6 +74,7 @@ export default function ProjectInquiryForm({ title, projectData }) {
         city: '',
         project: projectData.name,
         selectedOption: '',
+        message: '',
       });
     } catch (error) {
       console.error('EmailJS Error:', error);
@@ -139,6 +144,16 @@ export default function ProjectInquiryForm({ title, projectData }) {
 
         <input
           type="text"
+          name="profession"
+          placeholder="Profession"
+          value={formData.profession}
+          onChange={handleChange}
+          className="p-3 outline-none rounded-md border border-gray-300 text-gray-800"
+          required
+        />
+
+        <input
+          type="text"
           name="city"
           placeholder="City"
           value={formData.city}
@@ -161,6 +176,17 @@ export default function ProjectInquiryForm({ title, projectData }) {
             </option>
           ))}
         </select>
+
+        <textarea
+          type="text"
+          rows="2"
+          name="message"
+          placeholder="Your Message"
+          value={formData.message}
+          onChange={handleChange}
+          className="p-3 outline-none rounded-md border border-gray-300 text-gray-800"
+          required
+        />
 
         <ButtonPrimary
           title={loading ? 'Submitting...' : 'Submit'}
