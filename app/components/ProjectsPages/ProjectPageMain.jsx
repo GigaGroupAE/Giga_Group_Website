@@ -72,9 +72,9 @@ const ProjectPageMain = () => {
       <OnGoingProjects />
       <DeliveredProjects />
 
-      <ClientSays />
+      {/* <ClientSays /> */}
 
-      <FrequentlyQA />
+      {/* <FrequentlyQA /> */}
 
       <Newsletter />
     </main>
