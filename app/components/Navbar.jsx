@@ -62,7 +62,7 @@ const Navbar = () => {
             );
           })}
 
-          <ButtonPrimary title="CONTACT US" onClick={() => handleNavigation('contact-us')} />
+          <ButtonPrimary title="CONTACT US" onClick={() => handleNavigation('/contact-us')} />
         </div>
 
         <button

@@ -30,8 +30,8 @@ export default function HeroInputForm({ title }) {
 
     try {
       await emailjs.send(
-        'service_vhg5z4w',
-        'template_rbumtof',
+        'service_658s2ke',
+        'template_p8iwpoc',
         {
           fullName: formData.fullName,
           email: formData.email,
@@ -39,7 +39,7 @@ export default function HeroInputForm({ title }) {
           city: formData.city,
           project: formData.project,
         },
-        'NSfDaAmK37KYylceo'
+        'ck9DNObPZvF0mqOZp'
       );
 
       toast.success(

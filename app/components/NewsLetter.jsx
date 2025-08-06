@@ -27,13 +27,13 @@ export default function Newsletter() {
 
       try {
         const response = await emailjs.send(
-          'service_vhg5z4w',
-          'template_rbumtof',
+          'service_658s2ke',
+          'template_p8iwpoc',
           {
             fullName,
             email,
           },
-          'NSfDaAmK37KYylceo'
+          'ck9DNObPZvF0mqOZp'
         );
 
         if (response.status === 200) {
