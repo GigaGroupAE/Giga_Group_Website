@@ -1,24 +1,14 @@
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaGlobe } from 'react-icons/fa';
 export const QuickLinks = [
-  {
-    id: 1,
-    title: 'Home',
-    path: '/',
-  },
+  // {
+  //   id: 1,
+  //   title: 'Home',
+  //   path: '/',
+  // },
   {
     id: 2,
-    title: 'About Us',
+    title: 'About Company',
     path: '/about-us',
-  },
-  {
-    id: 3,
-    title: 'Companies',
-    path: '/companies',
-  },
-  {
-    id: 4,
-    title: 'Management',
-    path: '/management',
   },
   {
     id: 5,
@@ -26,15 +16,31 @@ export const QuickLinks = [
     path: '/projects',
   },
   {
+    id: 7,
+    title: 'Blog',
+    path: '/blog',
+  },
+  {
     id: 6,
     title: 'Gallery',
     path: '/gallery',
   },
+  // {
+  //   id: 3,
+  //   title: 'Companies',
+  //   path: '/companies',
+  // },
   {
-    id: 7,
-    title: 'Contact Us',
-    path: '/contact-us',
+    id: 4,
+    title: 'Management',
+    path: '/management',
   },
+
+  // {
+  //   id: 7,
+  //   title: 'Contact Us',
+  //   path: '/contact-us',
+  // },
 ];
 
 export const Resources = [
@@ -79,7 +85,7 @@ export const AboutUs = [
   },
   {
     id: 5,
-    title: 'Giga City, Defence Housing Authority Phase II Islamabad, Pakistan-44000',
+    title: 'Downtown Giga, Defence Housing Authority Phase II Islamabad, Pakistan-44000',
     icon: <FaMapMarkerAlt />,
   },
   // {

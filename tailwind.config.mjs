@@ -16,7 +16,7 @@ export default {
         excellenceCover: "url('/excelance.webp')",
         bgmap: "url('/gcv-location-updated.png')",
         aboutCover: "url('/about-hero.png')",
-        grpupCover: "url('/group.webp')",
+        grpupCover: "url('/Giga-Group-received-the-Water-Conservation-Award.webp')",
         contactCover: "url('/contact-bg.webp')",
         oceanCrest: "url('/ocean-crestCover.webp')",
         projectsHero: "url('/projectHero.webp')",

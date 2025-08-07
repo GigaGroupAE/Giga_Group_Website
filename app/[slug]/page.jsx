@@ -4,37 +4,42 @@ import OnGoingProjectsCom from '../components/ProjectsPages/OnGoingProjectCom';
 import ContactUsForm from '../components/ContactUsForm';
 import { notFound } from 'next/navigation';
 import ProjectPageHero from '../components/ProjectsPages/ProjectPageHero';
+import { blogsData } from '@/src/Data/BlogsData';
+import CompanyMain from '../components/companiesComponents/CompanyMain';
+import BlogMain from '../components/Blogs/BlogMain';
+
+// export async function generateStaticParams() {
+//   return gigaGroupCompanies.map(({ slug }) => ({
+//     slug: slug.replace('/', ''),
+//   }));
+// }
 
 export async function generateStaticParams() {
-  return gigaGroupCompanies.map(({ slug }) => ({
+  const companySlugs = gigaGroupCompanies?.map(({ slug }) => ({
     slug: slug.replace('/', ''),
   }));
+
+  const blogSlugs = blogsData?.map(({ slug }) => ({
+    slug: slug.replace('/', ''),
+  }));
+
+  return [...companySlugs, ...blogSlugs];
 }
 
 const page = ({ params }) => {
   const slug = `/${params.slug}`;
-  const category = gigaGroupCompanies.find(p => p.slug === slug);
 
-  if (!category) return notFound();
+  const company = gigaGroupCompanies.find(p => p.slug === slug);
+  if (company) {
+    return <CompanyMain category={company} />;
+  }
 
-  return (
-    <main>
-      <ProjectPageHero backgroundImage={category?.image}></ProjectPageHero>
+  const blog = blogsData.find(b => b.slug === slug);
+  if (blog) {
+    return <BlogMain data={blog} />;
+  }
 
-      <div className=" container mx-auto py-28">
-        <h1 className="headingSeaction text-center font-semibold">{category.type}</h1>
-
-        {category?.companies?.map(company => (
-          <div key={company.id} className=" p-6 rounded-lg transition-shadow">
-            <h2 className="text-2xl font-semibold text-gray-800">{company.title}</h2>
-            <p className="text-gray-600 mt-4">{company.description}</p>
-          </div>
-        ))}
-      </div>
-      <OnGoingProjectsCom />
-      <ContactUsForm />
-    </main>
-  );
+  return notFound();
 };
 
 export default page;
