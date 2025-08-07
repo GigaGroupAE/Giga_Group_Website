@@ -78,7 +78,7 @@ export const projects = [
       'Studio Apartment',
       'Penthouse Apartment',
     ],
-    backgroundImage: '/Goldcrest-Views-4.webp',
+    backgroundImage: '/gcv_hero_image.webp',
     description:
       'Awarded the “Best High-rise Development Award 2008” in Dubai, Giga Group proudly introduces the upgraded version of this icon to DHA Islamabad. Featuring seven 40-story towers, Goldcrest Views offers studio apartments, 1, 2, 3, and 4-bedroom luxury units, and breathtaking penthouses, redefining upscale living in the Twin Cities.',
     features: [
@@ -97,13 +97,13 @@ export const projects = [
     imageUrl: '/images/goldcrest-views-isb.webp',
     videoUrl: 'https://www.youtube.com/embed/8vDRmBfNlj0',
     gallery: [
-      '/gcv1.jpeg',
-      '/gcv2.jpeg',
-      '/gcv3.jpeg',
-      '/gcv4.jpeg',
-      '/gcv5.jpeg',
-      '/gcv6.jpeg',
-      '/gcv7.jpeg',
+      '/gcv1.webp',
+      '/gcv2.webp',
+      '/gcv3.webp',
+      '/gcv4.webp',
+      '/gcv5.webp',
+      '/gcv6.webp',
+      '/gcv7.webp',
     ],
 
     contactUsTitle: 'Invest in Tomorrow, Live in Luxury',

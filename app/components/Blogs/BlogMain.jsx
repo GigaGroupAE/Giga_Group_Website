@@ -38,6 +38,7 @@ const BlogMain = ({ data }) => {
               return (
                 <div className="" key={index}>
                   <h2 className="text-3xl font-bold my-4">{item?.heading}</h2>
+                  <h3 className="text-2xl font-bold my-4">{item?.subHeading}</h3>
                   <p className="whitespace-pre-line">{item?.description}</p>
                   {item?.image && (
                     <div>
@@ -49,6 +50,17 @@ const BlogMain = ({ data }) => {
                         className=" h-full my-6 w-full rounded-2xl"
                       />
                     </div>
+                  )}
+
+                  {item?.video && (
+                    <iframe
+                      className="w-full my-6 h-[15rem] md:h-[25rem]"
+                      src={item?.video}
+                      title="Dubai Skyline Video"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
                   )}
 
                   {item?.projects && (
@@ -99,7 +111,6 @@ const BlogMain = ({ data }) => {
                                 <div className="">
                                   <h4 className="text-2xl font-bold my-4">Amenities</h4>
                                   {item?.amenities?.map(item => {
-                                    console.log(item, 'item');
                                     return (
                                       <ul>
                                         <li className="">{item}</li>
