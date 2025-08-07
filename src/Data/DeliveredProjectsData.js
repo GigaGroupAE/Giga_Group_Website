@@ -4,7 +4,7 @@ export const deliveredData = [
     status: 'Delivered',
     description:
       'Goldcrest Views 1 is a 40-storey residential tower in JLT Cluster V, developed by Al Ghurair Group. It offers 376 ready units, from studios to penthouses, with top-tier amenities like a rooftop pool, gym, sauna, and sports bar. Located near metro stations, Dubai Marina, and Palm Jumeirah, it promises a luxurious yet convenient lifestyle.',
-    image: 'gcv1.webp',
+    image: 'gcv1a.webp',
   },
   {
     title: 'Goldcrest Views 2, Dubai',
