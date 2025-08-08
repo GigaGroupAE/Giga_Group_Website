@@ -61,6 +61,11 @@ import {
   FaGlassMartiniAlt,
   FaFire,
   FaBolt,
+  FaCity,
+  FaLeaf,
+  FaTree,
+  FaIndustry,
+  FaLock,
 } from 'react-icons/fa';
 
 export const projects = [
@@ -943,10 +948,9 @@ Whether you're seeking a smart investment, a stylish new home, or a complete lif
   },
 
   {
-    title: 'Giga City: Islamabad’s Iconic Urban Marvel ',
-    description:
-      'Experience the future of urban living at Giga City, where upscale residences, grand retail spaces, and cutting-edge commercial hubs converge in one extraordinary development. Strategically located on Main GT Road in DHA Phase 2, Islamabad, Giga City offers unmatched connectivity, stunning architecture, and a complete lifestyle ecosystem inspired by the world’s greatest cities.',
-    // formTitle: 'Beachfront Luxury Redefined in DHA Phase VIII',
+    title: 'Giga City Islamabad',
+    description: `Imagine starting each morning framed by gleaming towers, aromatic sky gardens, and tree-lined boulevards, all within a single master-planned metropolis. Giga City Islamabad reimagines the intersection of the New Silk Route and the twin cities as an eco-friendly haven of luxury, innovation, and sustainable living. Here, every sunrise brings fresh opportunities to live, work, shop, and play in a community designed for visionaries. `,
+    formTitle: 'Your “Mini Dubai” at the Heart of Pakistan’s Capital',
     availableOptions: [
       '1 Bed Apartment',
       '2 Bed Apartment',
@@ -954,86 +958,100 @@ Whether you're seeking a smart investment, a stylish new home, or a complete lif
       '4 Bed Apartment',
       '4 Bed Apartment',
     ],
-    amenitiesTitle: 'The Heart of Islamabad’s Urban Lifestyle',
-    amenitiesDesc:
-      'Step into Giga City, Islamabad’s most vibrant urban center, designed to meet your every need. Enjoy luxury apartments with panoramic views, world-class shopping at Giga Mall, a diverse culinary scene, entertainment options for the entire family, and high-end office spaces, all within a secure, master-planned community crafted for a modern lifestyle. ',
+    amenitiesTitle: 'Why Just Visit Dubai When You Can Live in Dubai?',
+    amenitiesDesc: `From solar-powered streets to aromatic sky gardens, Giga City Islamabad packs all the excitement of a world-class urban playground into Pakistan’s most ambitious address.`,
     features: [
       {
-        label: '1 Bedroom',
-        icon: <FaBed size={24} />,
+        label: 'High Rise Development',
+        icon: <FaBuilding size={24} />,
       },
       {
-        label: '2 Bedroom',
-        icon: <FaBed size={24} />,
+        label: 'Commercial Hub',
+        icon: <FaBusinessTime size={24} />,
       },
       {
-        label: '3 Bedroom',
-        icon: <FaBed size={24} />,
+        label: 'Business Center',
+        icon: <FaCity size={24} />,
       },
       {
-        label: '4 and 5 Bedroom Duplex',
-        icon: <FaHome size={24} />,
-      },
-      {
-        label: 'Prime Beachfront Location',
-        icon: <FaMapMarkerAlt size={24} />,
-      },
-    ],
-    mapTitle: 'Located in Visionary Giga City',
-    mapDesc: `Nestled in DHA Phase 2 on Main GT Road, Giga City’s prime location connects you seamlessly to Islamabad’s key business districts, government offices, educational institutions, and recreational spots. With upcoming infrastructure and road networks enhancing accessibility even further, Giga City is perfectly positioned to become the city’s premier residential and commercial hub.`,
-    imageGalleryTitle: 'Islamabad’s Next Mixed-Use Destination',
-    imageGalleryTitleDesc: `Giga City is redefining Islamabad’s skyline as the ultimate mixed-use development, harmoniously blending residential towers, luxury shopping at Giga Mall and its grand Extension, premium office spaces, and exciting leisure facilities. Designed with meticulous planning, Giga City offers a secure, walkable environment where convenience, comfort, and class meet to deliver an unmatched urban lifestyle.`,
-    amenities: [
-      {
-        title: 'Secure Parking Levels',
-        icon: <FaParking size={24} />,
-      },
-      {
-        title: 'Designer Interiors',
-        icon: <FaPaintBrush size={24} />,
-      },
-      {
-        title: 'Luxury Gym & Fitness Club',
-        icon: <FaDumbbell size={24} />,
-      },
-      {
-        title: 'Sauna & Wellness Spa',
-        icon: <FaSpa size={24} />,
-      },
-      {
-        title: 'Beauty Salon',
-        icon: <FaCut size={24} />,
-      },
-      {
-        title: 'Business & Meeting Lounge',
+        label: 'Community Living',
         icon: <FaUsers size={24} />,
       },
       {
-        title: 'Indoor Games Complex',
-        icon: <FaGamepad size={24} />,
+        label: 'Luxury Living',
+        icon: <FaHome size={24} />,
       },
       {
-        title: 'Kids Play Area & Daycare',
-        icon: <FaChild size={24} />,
+        label: 'Sustainable Development',
+        icon: <FaLeaf size={24} />,
       },
       {
-        title: 'Retail & Shopping Zone',
+        label: 'Safety and Security',
+        icon: <FaShieldAlt size={24} />,
+      },
+    ],
+    mapTitle: 'Giga City Islamabad: A Perfect Destination ',
+    mapDesc: `Perfectly positioned on the Main GT Road, Giga City offers effortless access to the Islamabad Highway and the upcoming Rawalpindi Ring Road, placing you just minutes away from every corner of the twin cities. Seamlessly connected to a thriving hub of shopping, dining, and entertainment, this master-planned community ensures your daily commute is smooth and stress-free, so you can spend less time in traffic and more time enjoying the best Islamabad has to offer.`,
+    imageGalleryTitle: 'Pakistan’s Self-Contained Urban Metropolis',
+    imageGalleryTitleDesc: `
+    Giga City Islamabad is a master-planned mixed-use metropolis on Main GT Road DHA Phase 2, where luxury residences, from Goldcrest Views and Highlife to Central Palace Residency, meet the Giga Mall’s 200+ brands and a forthcoming 30-story extension with a hotel and crescent-topped mosque. Premium office floors in Giga Business Complex and Goldcrest Commercial flank vibrant retail and clinic spaces, while Giga West’s indoor waterpark and Skywalk bridge redefine family entertainment. Seamlessly linked to the Islamabad Highway and Rawalpindi Ring Road, this self-sufficient community blends world-class amenities with solar arrays, rainwater harvesting, and smart HVAC for a sustainable urban lifestyle.
+
+    `,
+    amenities: [
+      {
+        title: 'Giga Mall',
         icon: <FaShoppingBag size={24} />,
       },
       {
-        title: 'Café & Community Hall',
-        icon: <FaCoffee size={24} />,
+        title: 'Luxury Apartments',
+        icon: <FaHome size={24} />,
+      },
+      {
+        title: 'Mixed-Use Urban Hub',
+        icon: <FaBuilding size={24} />,
+      },
+      {
+        title: 'Sky Gardens & Rooftop Lounges',
+        icon: <FaTree size={24} />,
+      },
+      {
+        title: 'Indoor Waterpark & Skywalk Bridge',
+        icon: <FaWater size={24} />,
+      },
+      {
+        title: 'Premium Office Floors',
+        icon: <FaIndustry size={24} />,
+      },
+      {
+        title: 'Smart Sustainability Systems',
+        icon: <FaWifi size={24} />,
+      },
+      {
+        title: 'Podium-Level Lifestyle Facilities',
+        icon: <FaBuilding size={24} />,
+      },
+      {
+        title: 'High-Speed Connectivity',
+        icon: <FaWifi size={24} />,
+      },
+      {
+        title: '24/7 Security & Automation',
+        icon: <FaLock size={24} />,
+      },
+      {
+        title: 'Family & Wellness Zones',
+        icon: <FaHeartbeat size={24} />,
       },
     ],
-    whyChooseTitle: 'Why Giga Group?',
-    whyChooseDesc: `With over two decades of international and local excellence, Giga Group has transformed skylines in Dubai with iconic Goldcrest projects and elevated Islamabad’s real estate with landmark developments like Giga Mall, Goldcrest Views, and Defence Residency. Our commitment to quality, innovation, and trust makes us the preferred choice for discerning investors and homeowners.`,
+    whyChooseTitle: 'Why Invest in Giga City Islamabad?',
+    whyChooseDesc: `Home to 2,800+ families and 35,000+ daily visitors, Giga City Islamabad offers strong rental yields, rising property values, and a complete urban ecosystem. From luxury residences and premium offices to world-class retail, entertainment, and green infrastructure, this self-sufficient metropolis, backed by Giga Group’s legacy, ensures both lifestyle excellence and solid returns.`,
     status: '',
     location: 'DHA Phase 2, Islamabad',
     backgroundImage: '/giga-city.webp',
 
     startingFrom: '',
     imageUrl: '/images/goldcrest-views-isb.webp',
-    videoUrl: 'https://www.youtube.com/embed/8vDRmBfNlj0',
+    videoUrl: 'https://www.youtube.com/embed/lxOWww4vfmY',
     gallery: [
       '/giga-city.webp',
       '/goldcrest-commerical.webp',
@@ -1045,9 +1063,11 @@ Whether you're seeking a smart investment, a stylish new home, or a complete lif
       '/World-Trade-Center6.webp',
     ],
 
-    contactUsTitle: 'Easy Payment Plan',
+    contactUsTitle: 'A New Era of Urban Living Begins Here',
     contactUsdec: `
-    Investing in Giga City is easier than ever with flexible installment plans tailored to your budget. Choose from convenient options for both residential and commercial properties, designed to turn your investment dreams into reality without financial strain. Reach out today to explore personalized plans and secure your place in Islamabad’s most prestigious urban development.
+    Giga City Islamabad isn’t just a destination, it’s a bold vision shaping the future of real estate in Pakistan. Seamlessly blending smart infrastructure, modern amenities, and sustainable design, it sets a new benchmark for luxurious yet practical urban living. Whether you're looking for your dream home, an iconic business address, or a secure investment, Giga City offers it all in one self-contained community.
+Ready to be part of the future?
+Book your space today and experience the next level of living.
     `,
     locationImageGallery: [
       { src: '/World-Trade-Center9.webp', alt: 'Interior' },
