@@ -627,4 +627,189 @@ Cons: Usually have High rent and maintenance costs.`,
       },
     ],
   },
+
+  {
+    id: 13,
+    slug: '/flats-on-installments-in-islamabad',
+    image: '/Flats-on-installments-in-Islamabad-1.webp',
+    title: 'Residential Property for sale in Islamabad: Best Investment Opportunities',
+    introduction: `Whether you want to purchase another home or invest in residential real estate, highrise apartments offer great options per your requirements. You can get flats in installments in Islamabad, according to floor plans, finishing, style, etc. However, because of so many options, making the right decision isn’t as straightforward as you think.\n \n Therefore, we bring you the basic information you may need when looking for luxury apartments in Islamabad. We also include some tips to guide you through the entire purchase process. So, without further ado, let’s dive right into the details.`,
+    sections: [
+      {
+        projects: [
+          {
+            name: '1. Goldcrest Views Apartments',
+            location: 'DHA Phase 2, Islamabad',
+            booking: ' (Easy Installment Plan)',
+            image: '/blog-12.webp',
+          },
+          {
+            name: '2. Central Palace Residence',
+            location: 'DHA Phase 2, Islamabad',
+            image: '/Residential-property-for-sale-Central-Palace-Residences.webp',
+            booking: 'Booking Open Now (Easy Installment Plan)',
+          },
+          {
+            name: '3. Giga Mall Extension Hotel Apartments',
+            location: 'DHA Phase 2, Islamabad',
+            image: '/GME.webp',
+            booking: 'Booking Open Now (Easy Installment Plan)',
+          },
+          {
+            name: '4. Goldcrest Highlife Apartments',
+            location: 'DHA Phase 2, Islamabad',
+            image: '/Goldcrest-Highlife-apartments-for-sale.webp',
+            booking: 'Booking Open Now (Easy Installment Plan)',
+            description: `Below options are available in luxury flats on installments in Islamabad.
+
+Studio apartments for sale in Islamabad in projects like Central Palace Residence
+One-bed apartments for sale in Islamabad in projects like Goldcrest Views
+2-bed apartments for sale in Islamabad in projects like Goldcrest Views
+3-bed apartments for sale in Islamabad in projects like Goldcrest Views
+Penthouses for sale in Islamabad in projects like Goldcrest Views
+ \n
+ In most cases, location is the primary factor that defines luxury apartments or flats on Installments in Islamabad. It should offer convenient access to all the city’s main shopping centers, educational institutes, and major hospitals. For instance, Goldcrest Views is a prime example of such a project. Its prime location on the main GT road is close to Giga Mall and Giga West – the two biggest shopping malls in Islamabad.\nAnother feature that differentiates a high-end luxury apartment from just another flat is luxury amenities. These include a dedicated reception area, valet parking, 24/7 CCTV security, a rooftop swimming pool, etc.`,
+          },
+        ],
+      },
+      {
+        heading: 'Benefits to Buy Flats on installments in Islamabad',
+
+        benefits: [
+          {
+            title: 'Easy Payment',
+            content: `The biggest benefit of getting flats in installments in Islamabad is that payment becomes easy. You can easily select a suitable payment plan to make the payment in installments. This way, payment of your home is not a burden on your bank balance. You can easily deduct the requisite amount from your monthly earnings and make the payment. On the other hand, if you have to pay a lump sum amount, it becomes a big hassle as not everyone has a big bank balance to ensure timely payment of the entire amount for flats in installments in Islamabad.`,
+          },
+          {
+            title: 'Better Security',
+            content: `Such flats are often part of a big apartment complex or come with a gated community. Some even have CCTV surveillance cameras and 24 hours security features that give you peace of mind. Moreover, most have cameras on all the important entry/exit points, community areas, and hallways.
+
+Therefore, you have the peace of mind that you and your family will live a peaceful life without having to face any security issues and breaches that are common in most neighborhoods of Pakistani cities.`,
+          },
+          {
+            title: 'A Comfortable lifestyle',
+            content: `Another reason to get flats on installments in Islamabad is that you are guaranteed a comfortable lifestyle. When you get a luxury apartment, it mostly comes with elevated lifestyle experiences. These include spacious rooms, fully fitted kitchens and washrooms, stylish balconies, and more. Therefore, living in such highrise apartments transforms your routine life into a luxurious experience you can cherish almost every moment.`,
+          },
+          {
+            title: 'Vicinity of Commercial Areas',
+            content: `Another reason to get such luxury apartments is that such flats are in close proximity to major shopping centers of the city. This brings many facilities to the entire household. For example, Goldcrest Views by Giga Group is just a stone’s throw away from the two largest shopping malls of the twin cities. Giga Mall and D-Mall are nearby. Therefore residents can even visit them on foot to purchase valuables. Living in a prime neighborhood like DownTown Giga is one of the major benefits.`,
+          },
+          {
+            title: 'Parking Spaces',
+            content: `Safe and secure parking is a major issue in Rawalpindi and Islamabad. There are limited parking spaces available, and even if you find one, you are never sure about their security. However, when you purchase luxury apartments, most come with secure and covered car parking. You can take the example of Goldcrest Views, which is expected to have a multi-level car parking facility.`,
+          },
+          {
+            title: 'What are luxury apartments?',
+            content: `Most people believe that price alone is enough to differentiate between a luxury and a non-luxury flat. Because you can easily get any of these flats in installments in Islamabad. However, that isn’t exactly so. While price is an important differentiator, it isn’t the only one. Luxury apartments come with very distinctive features that clarify this difference.
+
+For instance, high-end luxury apartments often have spacious environments. They are built at prime locations and come with high-end construction features like modern fittings & fixtures. `,
+          },
+          {
+            title: 'Final Thoughts',
+            content: `Overall, the real estate market of Islamabad and Pakistan provides great options for investors. Most recently, there has been a surge in demand for highrise projects. As a result, the demand for luxury apartments in Islamabad is continuously increasing. This is one of the main reasons why multiple high-rise apartment projects are in the development stage.`,
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 14,
+    slug: '/apartments-for-sale-in-islamabad',
+    image: '/Flats-for-sale-in-Islamabad-banner.webp',
+    title: 'Luxury Apartments For Sale in Islamabad',
+    introduction: `Explore luxury apartments for sale in Islamabad – DHA phase 2, with an easy installment plan by Giga Group.`,
+    sections: [
+      {
+        projects: [
+          {
+            name: '1. Goldcrest Views Apartments',
+            location: 'DHA Phase 2, Islamabad',
+            booking: ' (Easy Installment Plan)',
+            image: '/blog-12.webp',
+            description: `The flagship residential project of Giga Group, Goldcrest Views, is in the phase of completion. It’s the award-winning project of Giga Group that earned them the “Best high-rise Development Award 2008” in Dubai. Likewise, Goldcrest Views introduces the modern standard of living to people with upgrades. Furthermore, Goldcrest Views constitutes 7 buildings, each with 40 stories. 
+
+Moreover, each facility offers studio apartments, penthouses, 1, 2, 3, and 4 bedrooms modern luxury residences. 
+
+Soon it will show the finest apartments for sale in Islamabad.
+
+Bookings are open now! `,
+          },
+          {
+            name: '2. Giga Mall Extension Hotel Apartments',
+            location: 'DHA Phase 2, Islamabad',
+            image: '/GME.webp',
+            booking: 'Booking Open Now (Easy Installment Plan)',
+            description: `First ever in Pakistan, Giga Group is bringing the most luxurious hotel apartments for those who believe in quality. The skyscraper will consist of shopping, leisure, entertainment, recreation, and work facilities. Moreover, a beautifully designed mosque will also be constructed on top of the building, offering scenic views. 
+
+So, Bookings are open to getting state-of-the-art hotel apartments.`,
+          },
+          {
+            name: '3. Central Palace Residence Apartments',
+            location: 'DHA Phase 2, Islamabad',
+            image: '/Residential-property-for-sale-Central-Palace-Residences.webp',
+            booking: 'Booking Open Now (Easy Installment Plan)',
+            description: `After multiple successes in delivering extraordinary residential projects, the Giga Group is ready to introduce another fantastic opportunity. If you’re seeking to buy a residential apartment with its new project Central Palace Residence. Moreover, the project lies in the heart of Downtown Giga in DHA Phase 2 Islamabad. In this place, already 2000+ projects have been delivered. 
+
+Central Palace will provide luxury residences and is a mix-use development. It will have retail outlets, commercial shops, indoor shops, and outdoor restaurants will be available in one place. 
+
+Pre-launch bookings are open with a limited offer, so don’t wait.`,
+          },
+          {
+            name: '4. Goldcrest Highlife Apartments',
+            location: 'DHA Phase 2, Islamabad',
+            image: '/Goldcrest-Highlife-apartments-for-sale.webp',
+            booking: 'Booking Open Now (Easy Installment Plan)',
+            description: `Below options are available in luxury flats on installments in Islamabad.
+
+Studio apartments for sale in Islamabad in projects like Central Palace Residence
+One-bed apartments for sale in Islamabad in projects like Goldcrest Views
+2-bed apartments for sale in Islamabad in projects like Goldcrest Views
+3-bed apartments for sale in Islamabad in projects like Goldcrest Views
+Penthouses for sale in Islamabad in projects like Goldcrest Views
+ \n
+ In most cases, location is the primary factor that defines luxury apartments or flats on Installments in Islamabad. It should offer convenient access to all the city’s main shopping centers, educational institutes, and major hospitals. For instance, Goldcrest Views is a prime example of such a project. Its prime location on the main GT road is close to Giga Mall and Giga West – the two biggest shopping malls in Islamabad.\nAnother feature that differentiates a high-end luxury apartment from just another flat is luxury amenities. These include a dedicated reception area, valet parking, 24/7 CCTV security, a rooftop swimming pool, etc.`,
+          },
+        ],
+      },
+      {
+        heading: 'Delivered Projects in DHA Phase 2, Islamabad',
+
+        benefits: [
+          {
+            title: 'Lignum Tower Apartments',
+            content: `Lignum Tower offers its residents a world-class living standard. It provides both a modern high-rise tower and traditional terrace-style apartments. The construction is of international standards with Italian-style buildings and modern facilities. It’s a kind of residential project with everything under one roof. Therefore, Lignum Tower in Islamabad is an exhilarating living experience of the 21st century. Moreover, the project has been sold out due to its high-quality residence and amenities.`,
+          },
+          {
+            title: 'Defense Residency Apartments',
+            content: `Similarly, This is another complete project by the Giga Group. It’s a low-rise residential project comprising 2, 3, 4, and 5-bed Executive Apartments. If you are looking for apartments for sale in Islamabad with secure community living, options like Defense Residency can prove to be fruitful, and only Giga Group is providing such opportunities. Lastly, Defense Residency, due to its high quality, has already been sold out.`,
+          },
+          {
+            title: 'Defence Executive Tower Apartments',
+            content: `Likewise, Defence Tower Apartments in Downtown Giga are another high-rise luxury residential development. These apartments offer all the amenities you can expect from a modern high-riser. From uninterrupted 24/7 power & water supply to secure car parking, concierge, CCTV security, and more. Defence Tower Apartments are a hallmark of luxury living in the twin cities. `,
+          },
+          {
+            title: 'El Cielo I and II Apartments',
+            content: `This is one of the most luxurious residential developments in DHA II, Islamabad. Its name, El Cielo means “The Sky.” Just like its name, the amenities and luxuries in El Cielo I and II residences will be touching the sky. Holding a capacity of 320 apartments, the building is complete with finishing work in progress under full throttle. Furthermore, It is almost ready for eager residents to find their luxury abode. The available options In El Cielo I & II include premium, premium plus, and executive apartments. So, if someone is looking for the best apartments for sale in Islamabad, El Cielo I & II can be a great option.`,
+          },
+          {
+            title: 'Perks of buying Giga Group apartments for Sale in Islamabad',
+            content: `
+            Economical: The first and foremost benefit of buying these apartments is that they are extremely economical and cheaper than houses. Maintenance and utilities are also at the most affordable possible rates.
+
+Maintenance: The maintenance of these apartments is not your headache. The company takes care of that, disengaging you from all the possible ruckus you might face. So, maintenance is easy!
+
+24/7 Security: Apartments are part of a gated community, which makes them the best choice in terms of the safety and security of your family. The latest CCTV technology makes sure the place is secure for you. 
+
+Parking Spots: Every project has its own spacious parking spot that keeps you away from any hassle and makes the lifestyle easy and comfortable.
+
+Considering the rising inflation and population rate, the world is adopting new modes of living. The best among the available options is to find an apartment that matches your desires and the comforts you need. Islamabad is the most valuable place to live in Pakistan. However, unfortunately, the sky-high prices of houses in the city don’t match the buying power of the people. Moreover, the modern living and luxury amenities catch people’s interest, and they seek the best apartments for sale in Islamabad. 
+
+Additionally, the lack of space is also altering the style of construction. The new trend is residential buildings with modern amenities. However, such kinds of residential apartments for sale in Islamabad with state-of-the-art facilities have been provided only by the Giga Group of Companies. The flats under the flag of Giga Group come with benefits like experiencing community living with friendly neighbors right across the hall. 24/7 fully secure entrances and exits, technology-driven infrastructure, modern amenities, and nearby world-class health, and educational facilities. Moreover, they contain everything else you may desire for a luxury lifestyle.
+            `,
+          },
+        ],
+      },
+    ],
+  },
 ];
