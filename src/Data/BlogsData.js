@@ -812,4 +812,611 @@ Additionally, the lack of space is also altering the style of construction. The 
       },
     ],
   },
+
+  {
+    id: 15,
+
+    image: '/Bahrin-expo-web-banner_.webp',
+    slug: '/cityscape-bahrain-property-expo-2022',
+    title: 'Giga Group Is Participating in Cityscape Bahrain Property Expo 2022',
+    introduction: `Later this year, Cityscape, a significant regional real estate exhibition, will make its Bahrain premiere as one of the first significant events at the new Exhibition World Bahrain. The launch comes in response to an agreement signed during the Cityscape Bahrain Property Expo in November 2021 between Informa Markets, Cityscape’s organizers, and the Kingdom’s Real Estate Regulatory Authority. All facets of the real estate ecosystem, including residential, hotel, and commercial, as well as proptech and finance initiatives to promote market expansion, will be covered in the show.`,
+    sections: [
+      {
+        heading: 'Highlights of Cityscape Bahrian Property Expo',
+        description: `Cityscape Bahrain Property Expo exhibition will bring important local and regional organizations together to give them a platform to present their initiatives, products, and services and network with major figures in the GCC real estate sector. The premier real estate and property exhibition aims to bring together builders, designers, service providers, government agencies, and business organizations to network, look for business possibilities, and promote Bahrain’s thriving real estate market. The Kingdom offers a great entry point to regional investment and the essential infrastructure for proptech and real estate development thanks to its advantageous location in the center of the Gulf through the Cityscape Bahrain Property Expo platform.`,
+      },
+      {
+        heading: 'Investment Opportunities',
+        description: `
+        An overview of the proptech industry in the GCC, government efforts and a deep dive into the start-up environment will be covered at the two-day proptech summit that will take place at Show World Bahrain in conjunction with the three-day exhibition. Additionally, it will examine venture capitalists and other investment strategies.
+
+Cityscape Bahrain Property Expo is backed by key players such as the Real Estate Regulatory Authority (RERA), Edamah (Platinum Sponsor), Diyar Al Muharraq (Gold Sponsor), Durrat Al Bahrain, Kooheji Developers, and more.`,
+      },
+      {
+        heading: 'Real Estate Professionals from Around the World',
+        description: `Chris Speller, Vice President at Informa Markets, said about Cityscape Bahrain Property Expo, “We are very excited to be debuting Cityscape in Bahrain. As one of the region’s key strategic real estate players, we see incredible value in hosting the event to connect the kingdom’s top developers, investors, and government entities to seek opportunities, collaborations, and growth prospects. We are keen to host this event in Bahrain as the booming real estate sector shows incredible growth potential, and the government demonstrates its commitment to provide the infrastructure for growth opportunities.”
+
+Commenting on the occasion, Eng. Ahmed Ali Al Ammadi, Chief Executive Officer of Diyar Al Muharraq, commented about Cityscape Bahrain Property Expo and said: “Diyar Al Muharraq is keen to participate in all real estate events held across the Kingdom of Bahrain as it forms an ideal opportunity to connect with local, regional, and global investors. We are pleased to emerge as the golden sponsor for the first-ever Cityscape to be held in Bahrain, which is the largest and most influential real estate event in the region. Through our participation in the exhibition, we look forward to showcasing our diverse portfolio of real estate projects alongside our fellow peers in the industry. We also aspire to meet a variety of individuals and investment entities and liaise with potential customers at our exhibition stand.”`,
+      },
+      {
+        subHeading: 'A Peek into Bahrain’s Real Estate Market',
+        description: `Due to a 46% increase in transaction value from 2020 to 2021, Bahrain’s real estate market is expected to expand, and efforts like Cityscape Bahrain Property Expo is a great addition. The Economic Recovery Plan, which the government issued to spur economic recovery in the national economy, is one of the major factors influencing the expansion of the real estate sector. According to the plan’s five pillars, more than $30 billion would be invested in industries like infrastructure, industry, housing, tourism, and healthcare.
+
+The Real Estate Regulatory Authority (RERA), one of the main forces behind the event, was created to transform the real estate industry and boost investment in prop-tech projects like Cityscape Bahrain Property Expo provides a good platform. To deploy its cutting-edge digital post-box system, OneBox, and enable the secure exchange of official documentation and messages between RERA and SLRB, RERA struck a deal with the Survey and Land Registration Bureau (SLRB) and Beyond Connect, a Batelco subsidiary.`,
+      },
+      {
+        subHeading: 'Final Thoughts',
+        description: `The Kingdom of Bahrain is taking innovative measures to streamline transactions and procedures within the real estate sector in anticipation of real estate growth and the corresponding increase in foreign direct investment into the nation. Initiatives like Cityscape Bahrain Property Expo are part of the process. One of the projects is BENAYAT, a system for building permit approvals that enable users to request conceptual to final master planning approvals via an online portal.
+
+`,
+      },
+    ],
+  },
+
+  {
+    id: 16,
+
+    image: '/ISB-expo-web-banner-2_.webp',
+    slug: '/pakistan-property-expo-2022',
+    title: 'Giga Group Is Participating in Pakistan Property Show 2022 Islamabad',
+    introduction: `The 2nd Pakistan International Property Exhibition and Convention will take place from December 23 to December 25, 2022, at the Pak-China Friendship Center in Islamabad.`,
+    sections: [
+      {
+        heading: 'Details of the Event',
+        description: `According to the information, several builders, developers, and various business groups associated with the relevant construction industry from throughout the nation are expected to participate in the three-day Pakistan Property expo 2022. The Pakistan Association of Exhibition Industry convened a conference to consult with all parties involved in this matter. The meeting unanimously decided to hold the Pakistan Property Expo 2022 at the Pakistan-China Friendship Center from December 23 to 25, taking into consideration the political climate of the nation.`,
+      },
+      {
+        heading: 'Importance',
+        description: `Originally scheduled for November 18–20, the 2nd Pakistan Property Expo 2022 and Convention was moved due to a number of factors. According to the sources, a sizable number of commercial enterprises engaged in bank projects and the tourism industry, including their illustrious builders and developers, would also be on display at the event. Additionally, the expo aims to support Pakistan’s economy by providing chances to attract funding from both domestic and international sources.`,
+      },
+      {
+        heading: 'Why You Should Join?',
+        description: `
+        Some of the benefits to join Pakistan Property Expo 2022 are listed below:
+
+The Pakistani real estate market is where you’ll find the best investment suggestions.
+You’ll learn about various Pakistani real estate investment opportunities.
+You’ll gain knowledge of Pakistan’s real estate market.
+You’ll gain knowledge of the most recent trends and changes in the Pakistani real estate industry.
+Consequently, you’ll have the chance to interact and network with top consultants, property developers, and other business people in Pakistan.`,
+      },
+      {
+        subHeading: 'Opportunities For Overseas Pakistanis',
+        description: `Are you a Pakistani living abroad seeking a profitable investment opportunity? The Pakistan International Property Expo 2022 is the only option! So, take advantage of this opportunity to invest in Pakistan’s rising real estate market while it’s still young. You can rely on Property Naama Consultants to assist you in finding the ideal property for your requirements. Pakistan property Expo is an opportunity for every person who is linked with the business of real estate or who is interested to invest in it. If you are an investor and want a reliable developers to invest in their project then you cannot get a better chance then this. Get your calendar marked for this amazing property expo that would be held in Islamabad. Many renowned developers including Giga Group would participate in this iconic event. So, don’t lose this chance of getting yourself aware of the most stunning residential and commercial projects being developed across the nation.`,
+      },
+    ],
+  },
+
+  {
+    id: 17,
+
+    image: '/Dubai-expo-web-banner-223_.webp',
+    slug: '/cityscape-dubai-property-expo-2022',
+    title: 'Giga Group Is Participating in Cityscape Dubai Property Expo 2022',
+    introduction: `
+    Property expos are held all over the world. But Dubai’s Cityscape Expo stands well above others. After all, it’s the largest property-finding event at Dubai World Trade Center. What’s more, it offers an excellent pick of local and international villas and apartments. Here you can also get information about international real estate, expert advice, and more information about your financing options.
+
+So, whether you’re tired of renting, want to invest, or just looking for your next abode, Cityscape makes for a worthwhile experience. For 2022, the Cityscape expo is being held from 21 to 23 November. Here’s what to expect from it.`,
+    sections: [
+      {
+        heading: '5 Things to Expect from Dubai Cityscape 2022',
+      },
+      {
+        subHeading: '70+ Local and International Retailers',
+        description: `The UAE’s leading property-finding event hosts over seventy local and international retailers. This is the first time so many retailers are joining the expo. From the middle east to North America and South Asia to Australia, expect the presence of all the world’s renowned retailers. So, you can get details and more information about any project you want from any corner of the world.
+
+Whether you want information about Bali’s most exclusive clifftop villas or Canada’s unique aqua centers, all information is available under one roof. You can talk to the representatives of each region’s teams to get more information about the projects you are interested in. This makes Cityscape Expo Dubai a must-visit experience for all property investors.`,
+      },
+      {
+        subHeading: 'Understand The Logistics Of Buying a Home',
+        description: `
+        It doesn’t matter which part of the world you live in. Buying a home is always a huge undertaking. Each region has its own set of laws and regulations. Moreover, each market is also different – some are buyer’s markets, while others are sellers’ markets. And not just other factors like the economy, governance, law, order, etc., influence your decision to buy a home.
+
+So, Cityscape Dubai 2022 makes it easy for you to understand the logistics of buying a home. You can get all the information about purchasing a home in a particular location in the world. The expert teams present at the expo center are always head over heels for helping customers make the right decision.`,
+      },
+      {
+        subHeading: 'Access To New Developments',
+        description: `The best time to invest in most developments is when it’s still in the infancy stage. Such developments offer the highest ROI and often make for a great long-term investment. To give you an example, do you know Nila presented Mirah Investment as currently offering very high-earning investment properties in Bali? Likewise, Giga Group of Pakistan is bringing award-winning Dubai projects like Goldcrest Views to the capital Islamabad.
+
+These new developments are ready for investment and offer some of the highest returns around the globe. So, when you attend international property expos like the Dubai Cityscape 2022, you come into direct contact with what’s going on in the rest of the world and get to know about the latest developments. This gives you an opportunity to invest at their earliest stage and get maximum ROI.`,
+      },
+      {
+        subHeading: `Discover Areas You Hadn't Thought About`,
+        description: `Contrary to popular belief, real estate isn’t just limited to residential and commercial properties. There are several other options. Attending the exhibition can become your gateway to discovering all the lesser-known areas that may have great potential to become your new home.
+
+Therefore, whether you are looking to rent a villa in Bali, get a luxury apartment in Islamabad, or lease commercial office space in the busiest business district of Dubai, you’re likely to discover your favorite spot. With all the major world developers under a single roof, you can conveniently find a suitable option.`,
+      },
+      {
+        subHeading: 'Final Thoughts',
+        description: `Events like Cityscape Dubai 2022 are a gateway into the real estate landscape of the world. They offer an excellent mix of local villas, apartments, international real estate, expert advice, and financing options according to your needs. You can buy homes, meet international real estate brokers, get to know the teams behind award-winning real estate development companies, and find citizenship opportunities that would have been hard to find otherwise. `,
+      },
+    ],
+  },
+
+  {
+    id: 18,
+
+    image: '/2-bedroom-apartment.webp',
+    slug: '/2-bedroom-apartment',
+    title: '10 Things To Consider Before Buying Two Bedroom Apartment',
+    introduction: `
+    People who live in cities today frequently have to decide between renting and buying an apartment. Most urban inhabitants realize after the first few months of hardship that they could be investing in their own apartments rather than paying rent each month. But how can you be certain that this is the best decision for you or that the apartment you are choosing to invest in is the appropriate one? Below is a guideline to consider while purchasing a 2-bedroom apartment.
+
+The below points would guide you in the process:`,
+
+    sections: [
+      {
+        heading: 'Location',
+        description: `Considering the location should be your top priority before searching for the ideal 2-bedroom apartment. Before making a decision, you should spend some time in the selected neighborhood of your choice, taking into account considerations like proximity, total cost, and other aspects.`,
+      },
+      {
+        heading: 'Investigating The Market',
+        description: `Before you can comprehend the value that links price and an apartment, you must first study all the varied possibilities that are accessible in the city to understand the true value of a 2-bedroom apartment.`,
+      },
+      {
+        heading: 'Value For Money Factor',
+        description: `You must be vigilant enough to consult a few independent valuers and real estate professionals before making a decision. This is much more crucial if you have pre-booked the apartment in advance. Before making an investment today, you should be informed of the project’s future genuine value.`,
+      },
+      {
+        heading: 'Checking Proximity',
+        description: `After narrowing down your choices, the location of the 2-bedroom apartment in relation to your workplace, educational institutions, parks, hospitals, and other public amenities should be your primary concern.`,
+      },
+      {
+        subHeading: `Activities of The Local`,
+        description: `Make sure you thoroughly research the surroundings or the background before deciding on a specific locality. If you have kids, it would be really helpful to rent an apartment close to a school, but it could also mean living in a neighborhood with plenty of traffic and noise. Thus, location and context need to be taken into account.`,
+      },
+      {
+        heading: `Security`,
+        description: `The building’s security system is yet another crucial factor to take into account. Are there CCTV cameras there? Two or more guards engaged for the evening? Your mental health while residing in your house may be significantly impacted by these elements.`,
+      },
+      {
+        heading: `Balcony`,
+        description: `In the urban world, balconies often signify a mini escape from the rigidity of your routine. Consider how important a balcony is to you on a personal level and then pick an apartment that goes accordingly.`,
+      },
+      {
+        heading: `Parking Area`,
+        description: `Vehicle Parking will undoubtedly rank among your top priorities if you own a car. When you return from a long day at work, having a 2-bedroom apartment with enough parking places will save you a lot of time and worry.`,
+      },
+      {
+        heading: `Age of Building`,
+        description: `The building’s age must be taken into account before buying your 2-bedroom apartment because it might significantly affect its strength and durability. Make sure the price being offered to you is in line with the building’s age.`,
+      },
+      {
+        heading: `Road Connectivity`,
+        description: `
+Another prime factor to keep in mind is connectivity by road. Are there roads? If so, how wide are they? And so on. This concern should also consider pedestrian paths as well if it is important to you.
+
+We sincerely hope that these pointers have given you a better understanding of the world of 2-bedroom apartment search and homemaking. A hasty search for a home is really imprudent, so you should give the search sufficient time and effort in addition to having the investment amount prepared.`,
+      },
+    ],
+  },
+  {
+    id: 19,
+    image: '/One-bedroom-apartment.webp',
+    slug: '/one-bedroom-apartment',
+    title: '10 Things To Consider Before Buying One Bedroom Apartment',
+    introduction: `
+  There are many things to consider when trying to find an apartment that suits your needs. The ideal apartment for modern-day living is a one-bedroom apartment. Such an apartment is perfect for a small family. Here are 10 things to consider before buying a one-bedroom apartment:`,
+    sections: [
+      {
+        heading: 'Upfront Costs',
+        description:
+          'Typically, the only financial concern is not rent one should have when moving into an apartment. The best way you would be able to manage your everyday living cost would be to get your favorite one-bedroom apartment by buying it at an upfront cost. Most developers offer discount packages on upfront purchases.',
+      },
+      {
+        heading: 'Lease Term',
+        description:
+          'When buying an apartment on lease, you must consider the leasing term, the length, and the amount of the lease. Different developers offer different lease lengths, and the best offers are available for apartments on shorter lease term lengths.',
+      },
+      {
+        heading: 'A Co-Signer',
+        description:
+          'Most projects offer apartments with a requirement of a co-signer while leasing. Therefore, you must discuss it in advance with the apartment’s leasing staff.',
+      },
+      {
+        heading: 'Location',
+        description:
+          'The foremost requirement of living is the location of your house. Before buying a one-bedroom apartment, you must check where it is located. The location must be ideal for comfortable living.',
+      },
+      {
+        heading: 'Amenities',
+        description:
+          'Modern-day residential projects cover world-class amenities. Before choosing your apartment, you must check the list of amenities you’ll be getting.',
+      },
+      {
+        heading: 'Pet Policy',
+        description:
+          'Before settling in with your favorite pet, check if there is any pet policy by the developers. Pet policies only affect people with pets.',
+      },
+      {
+        heading: 'Fire Alarms',
+        description:
+          'Apartment living must be secured with fire alarms. There have been incidents in the past where apartments caught fire, and fire alarms could have prevented loss of lives and property.',
+      },
+      {
+        heading: 'Things You Need',
+        description:
+          'Some of the things you might be needing in your new one-bedroom apartment are sufficient kitchen space, wide washrooms, a balcony, and a clean environment.',
+      },
+      {
+        heading: 'Things You Don’t Need',
+        description:
+          'There are some things that are considered extra while choosing a one-bedroom apartment. For instance, if you have your furniture, there is no need to buy a furnished apartment, appliances, and other related stuff.',
+      },
+      {
+        heading: 'Utilities',
+        description:
+          'Before buying a one-bedroom apartment, ask the seller whether you’ll be getting the utilities. Sometimes it’s included in the rent or lease amount, while in some cases, you have to pay separately.',
+      },
+    ],
+  },
+  {
+    id: 20,
+    image: '/Penthouse-in-Islamabad.webp',
+    slug: '/penthouse-in-islamabad',
+    title: 'Perks of living in a Penthouse in Islamabad',
+    introduction: `
+    Penthouse living is one of the most sophisticated and luxurious living experiences. Imagine you are living at the top – touching the skies with scenic views 24/7 in front of your eyes. Moreover, such a living experience was a dream for people living in Pakistan, especially for those in Islamabad. But, that dream is becoming true with time after some exceptional developers decided to initiate different high-rise projects. Such high risers are part of future living.
+
+Furthermore, considering the massive rise in population there is a dire need for improvised living with modern amenities.
+
+Penthouse living is part of a luxury lifestyle adopted by celebrities around the world. Giga Group emerged as the only lifeline for all those people who wanted a standard lifestyle in Islamabad. Any high-rise project with a penthouse in Islamabad under the flag of Giga Group – a trustworthy developer is a worthwhile opportunity for those who want a soothing residential space.
+
+Giga Group has been working on several projects containing penthouses and is continuously working to provide world-class living spaces. So, those who are in search of a stunning penthouse in Islamabad can find the best in projects of Giga Group.`,
+    sections: [
+      {
+        heading: 'Penthouses in Goldcrest Views',
+        description: `
+        Goldcrest Views is the flagship and award-winning project of Giga Group with world-class amenities. If you are looking for an international standard penthouse in Islamabad, this project is something that can fulfill your need. The range of penthouses in Goldcrest Views includes 3-bed, 4-bed, 4-bed duplex, and a 5-bed duplex penthouse. The 5-bed duplex penthouse comes with a luxury swimming pool.  
+
+So, if you are a penthouse lover there can not be a better opportunity other than Goldcrest Views.
+
+Salient Features: 
+
+Highest Residential Towers of Islamabad
+Eye-catching Views of Margalla Hills from the Top
+Special elevators to safeguard the privacy
+Spacious and Luxurious`,
+      },
+      {
+        heading: 'Penthouses in Goldcrest Highlife',
+        description: `
+        Giga Group is offering the gift in the form of Goldcrest Highlife to the people of Pakistan to provide the same lifestyle now in DHA Phase II, Islamabad, at very affordable prices with a 5-year easy installment plan. The project includes excellent features and exceptional lifestyle choices that are previously unheard of in Pakistan. This project contains one of the most luxurious penthouses and therefore a great investment opportunity for anyone who wants a penthouse in Islamabad.
+
+Salient Features: 
+
+Islamabad’s Second Tallest Residential Towers
+Mesmerizing views of Margalla Hills and Surroundings from the top
+Exclusive and Private Access to the Top
+Affordable Penthouses in Islamabad`,
+      },
+      {
+        heading: 'Penthouses in Defense Residency Tower',
+        description: `With the massive success of Giga Group with the best location and the most secure environment, Defense Residency has been the finest project with modern amenities. Soon after its announcement, the project was sold out completely, just the penthouses are left. Those who are seeking a presentable penthouse in Islamabad must contact the team of the Group to get more details.
+
+A penthouse is the most luxurious living spot in modern-day living. Everyone is trying to grab a place in community living and high risers such as those provided by the Giga Group are no less than a blessing for such people. Therefore, it would be a great opportunity for you if you are seeking a penthouse in Islamabad to invest in the projects of Giga Group. Many other developers are advertising similar projects, but no one has an accommodative installment plan and a legacy of award-winning high risers. In addition to that, the work of Giga Group has not only been acknowledged by Giga Group but also at the international level. So, don’t wait to get your dream penthouse in Islamabad with Giga Group and spend the rest of your life talking to the skies.
+
+Salient Features: 
+
+Ready to Move-In Penthouses in Islamabad
+A delivered luxury residential tower
+Exceptional views of the Twin Cities from the top
+Safe & Secure environment`,
+      },
+    ],
+  },
+  {
+    id: 21,
+    image: '/Central-Palace-Residence-scaled.webp',
+    slug: '/investment-opportunity-in-islamabad',
+    title: 'What Makes Central Palace Residence Ideal Investment Opportunity In Islamabad?',
+    introduction: `Giga Group has built several successful residential developments across the world. Many of them are heralded as the epitomes of luxury. Central Palace Residence aims to continue that trend. It’s an under-construction, residential development, right in the heart of Downtown Giga DHA 2 Islamabad. Central Palace Residence provides luxury residences at a prime location with state-of-the-art amenities.
+
+It is planned to be a part of Goldcrest Commercial and a mix-use development where commercial shops, outdoor restaurants, retail outlets, indoor sports, and more are in one place. Currently, Pakistan lacks such modern residential projects that are needed for the time, and the world has adopted them. Almost all celebrities and famous personalities have adopted this community mode of living as it helps them maintain a good lifestyle without any hassle. Such residential projects are the future of modern and secure living.
+
+Following are some reasons that make Central Palace Residence an Ideal Investment opportunity In Islamabad:`,
+
+    sections: [
+      {
+        heading: 'A Central Location In Heart of the Downtown Giga',
+        description: `Before investing in residential or commercial spaces, the first thing that comes to mind is the location. You make a deal when you make it on a property with a successful location. Central Palace Residence is in the heart of Downtown Giga with all the amenities you need, making it a win-win investment for everyone.`,
+      },
+      {
+        heading: `Continues The Legacy of the Giga Group`,
+        description: `The thing that makes Central Palace a special project is that it is being developed by award-winning and trusted developers, The Giga Group. Giga Group aims to transform landscapes and construct modern design infrastructure that can make Pakistan stand out in the world. Central Palace Residence is among those ideas that can prove to be massive support for the people in Pakistan who require modern living with world-class amenities at reasonable rates.`,
+      },
+      {
+        heading: `Offers Remarkable Facilities and Amenities`,
+        description: `
+Located in a “World of Tomorrow” in Pakistan, the Palace Residences will surely live up to its expectations for an extraordinary lifestyle. Any investment in the project can prove to be life-changing for people as it’s the life of the future. Every modern amenity will be accessible in the project under one roof. In addition to the commercial spaces, the awaited residential project will have spectacular entertainment and health care facilities that anyone may require.`,
+      },
+      {
+        heading: `A Luxury lifestyle at Reasonable Rates`,
+        description: `The facilities at Central Palace Residence reflect that it may come with an equally heavy investment price range, but guess what! The project under the flag of Giga Group is being developed with a vision: to provide the people of Pakistan with world-class residential and commercial spaces but with a controlled price range.
+
+Such offers make Rawalpindi and Islamabad’s most awaited and profitable projects. The Giga Group has already delivered life-changing residential and commercial projects in the area, such as Giga Mall, Defense Residency, Lignum Tower, and many more. Central Palace Residence is just a stylish addition to the already existing legacy of the Giga Group.`,
+      },
+    ],
+  },
+  {
+    id: 22,
+    image: '/vacation-home-in-Pakistan.webp',
+    slug: '/vacation-homes-in-pakistan',
+    title: 'What to consider when buying a vacation home in Pakistan?',
+    introduction: `
+  Vacation homes are handy. They save you from the exorbitant costs of hotels & lounging and put an end to awkward stays at your relative’s places. Especially if you are an overseas Pakistani, you must travel to Pakistan every once in a while. In such a situation, investing in a vacation home becomes all the more worthwhile, not just for convenience but also from an investment perspective.
+  
+  This article will discuss everything you need to know about purchasing a vacation home in Pakistan. Hopefully, this information will help you make the right decision. Like every other investment, pouring your money into a vacation spot is also a big decision.
+  
+  Below are the main things to consider when buying a Vacation Home:`,
+    sections: [
+      {
+        heading: 'Location',
+        description:
+          'In real estate, location is everything. A prime location will be easily accessible throughout the year. If you are an overseas Pakistani who frequently lands in Islamabad, then the areas around Murree are a perfect location. It’s a quick drive from Islamabad, but traveling up north to your vacation home may not be as convenient if you land in Karachi. Moreover, you must consider the views you want to witness from your vacation home. Do you want a house in the mountains overlooking a snowy mountain? Do you need a beach house? Or do you want a hilly retreat nearby a noisy river? Pakistan offers exceptional geographical diversity, so there are plenty of options for you to choose from.',
+      },
+      {
+        heading: 'Return on Investment',
+        description:
+          'A vacation home isn’t just a vacation home. You can convert it into a rental property and get passive income. Many investors purchase a vacation home because they want to diversify their portfolio and get extra rental income from vacationers. However, you shouldn’t just assume that people will be lining up to live in your vacation home. You need a proper assessment of the market and your competition. In case there are several cheap motels around your locality, then the chances are that your property will fall to the ground. Besides, you also need proper marketing to get suitable tenants. Most importantly, you need to partner up with some local tour guides to keep your property on their radar.',
+      },
+      {
+        heading: 'Frequency of Visits',
+        description:
+          'How often do you visit this area, and for how long? If you visit this area only once or twice a year, there’s no need to make a large investment for such occasional visits. In such a scenario, you can easily rent a place nearby or stay at a hotel for far less than what it would take for you to maintain your property. However, if you live in Pakistan and want a vacation home in the north, then it makes perfect sense. You can buy a home in Murree or Swat and head there every summer to get some much-needed respite from the hot weather.',
+      },
+      {
+        heading: 'Maintenance Cost',
+        description:
+          'When people purchase a vacation home, they often overlook this small detail – who will take care of their property throughout the year? Most holiday homes are located in far-flung areas that are prone to natural disasters. There are landslides, snowstorms, windstorms, heavy rains, and other natural calamities that can damage your property. Besides the regular utility bills, homes require upkeep and maintenance. This means the maintenance cost of these areas increases. Moreover, other intruders like thieves and burglars may realize the house is empty, which means you may also have to invest in high-tech CCTV cameras.',
+      },
+      {
+        heading: 'Budget',
+        description:
+          'Finally, the most important consideration is your investment budget. It includes the down payment for the property and multiple installments until possession. Not just that, you should also include the regular maintenance cost in your budget. Vacation homes mostly remain vacant for most of the year, and as soon as the summer season begins, you will need some cash to fix it up for the new tenants. Moreover, if you want to hire someone from the nearby area to take care of the property, you will have to pay them extra for the services. Therefore, include this cost in your budget as well.',
+      },
+      {
+        heading: 'Final Thoughts',
+        description:
+          "Overseas Pakistanis travel to Pakistan every once in a while, whether it’s to meet with their family, on a business trip, or just to enjoy the charm of the north. If you are one and planning on visiting Pakistan, consider buying a vacation home. Giga Group recently launched their groundbreaking vacation project titled 'Goldcrest Vacation Homes.' These luxury apartments are an excellent investment opportunity for overseas Pakistanis because of their close-to-Islamabad location, convenience, and resale value. For more details about vacation homes, visit the project page.",
+      },
+    ],
+  },
+  {
+    id: 23,
+    image: '/Buy-property-in-Islamabad-scaled.webp',
+    slug: '/property-in-islamabad',
+    title: 'Popular Areas to Buy Property in Islamabad',
+    introduction: `
+  Nestled under the foothills of Margallas, the capital city of Islamabad is one of the best places to live in the country. From its upscale developments to mesmerizing beauty and luxury amenities, this city is ideal for anyone who wants to enjoy a quiet yet quality life.
+  
+  So, are you wondering what are some of the most popular areas to purchase property in Islamabad? Well, no need to worry anymore. We have your back. In this article, we will be discussing the top 5 most popular places to purchase property in Islamabad.`,
+    sections: [
+      {
+        heading: 'DHA Islamabad',
+        description:
+          'Because of its superior development standards, exceptional infrastructure, safe environment, and modern amenities, buying property in DHA 2 Islamabad is the top priority for many investors. In particular, the Downtown Giga area tops the list for many investors. This area of DHA 2 is an excellent example of top-notch urban planning and details. Away from the hustle and bustle of the main city, it lies on the main GT road and connects to all the major areas of the twin cities. Downtown Giga is home to Giga Group’s world-renowned residential projects like Giga Mall, D-Mall, Goldcrest Views, Goldcrest Highlife, Giga Mall Extension, Connecting Nature, Pardesea, Pardescity, and more. Goldcrest Views has particularly been the talk of the town because it promises to bring a luxury Dubai resort lifestyle to Pakistan. The construction work is in full swing, and the project, like all other projects of Giga Group, is expected to complete within its timeline.',
+      },
+      {
+        heading: 'Bahria Town Islamabad',
+        description:
+          'Bahria Town is synonymous with luxury and prestige. The town has an immaculate overall design, world-class amenities, and an aesthetically pleasing community. Like the other successful projects of Bahria Town Karachi and Bahria Town Lahore, Bahria Town Islamabad offers a lucrative investment opportunity, provided you can afford the high cost. The community offers stunning architecture, a safe environment for families, recreation and commercial areas, and an overall top-tier lifestyle. Living in Bahria comes with its own set of perks. For instance, every block in every phase of Bahria Town has its own central Jamia mosque. Besides, each area has its own proper grid station that ensures a 24/7 power supply. This is a big deal considering other areas of the city get 5-8 hours of daily load-shedding. That’s not all. There are also excellent schools, hospitals, parks, playgrounds, fitness centers, shopping malls, community centers, green areas, and restaurants in every locality. This makes Bahria Town a distinctive investment option in Islamabad.',
+      },
+      {
+        heading: 'Gulberg Islamabad',
+        description:
+          'Gulberg Greens is another mega real estate project. It was launched in 2005 after the success of IBECHS phases 1 & 2 or Pakistan Town. Gulberg has the distinction of being the largest housing society in Zone IV of Islamabad. It’s almost an entire city within a city. Nearly 80% of its entire ultramodern society features green spaces. Thus, Gulberg is one of the most picturesque residential areas in Islamabad. Approved by the CDA, Gulberg has been divided into two schemes – Gulberg Residencia and Gulberg Greens. A 22-feet wide Gulberg Expressway connects the two sections. Residential features modern apartments, penthouses, duplexes, etc., for sale in Islamabad, and it is among the top residential neighborhoods in the city. Gulberg Greens is home to some of the biggest commercial projects and is the top locality for farmhouses in Islamabad.',
+      },
+      {
+        heading: 'CDA Sector B 17 Islamabad',
+        description:
+          'The CDA Sector B 17 is also known as Multi Gardens. Its location is in Zone II of the Capital Territory. It serves as the focal point for cities like Taxila, Hassanabdal, and Wah Cantt. The fantastic location of CDA Sector B17 Islamabad is the main reason it ranks high on the list of the most sought-after locations for investors in Islamabad. Moreover, it is the largest sector in Islamabad, with an area of 12,000 Kanal approximately. As of writing this article, the CDA Sector B 17 has two phases and 7 blocks in total. Among the properties on sale in this sector of Islamabad, it has various houses ranging from 5 to 20 marlas. Other properties include residential units, commercial areas, and residential villas. Investors can easily invest in these options on suitable installment plans.',
+      },
+    ],
+  },
+
+  {
+    id: 24,
+    image: '/Goldcrest-apartments-for-senior-citizens.webp',
+    slug: '/goldcrest-views-apartments-for-senior-citizens',
+    title: 'Goldcrest Views Offers Apartments Tailored for Senior Citizens',
+    introduction: `
+  As time goes by, many seniors find it difficult to maintain their lifestyle – even with pensions and savings. This is because inflation keeps the prices on an upwards trajectory, while their income doesn’t increase to keep up. One possible solution to this problem is living in apartments specifically designed for their needs. While this isn’t an ideal solution for some people, there are plenty of benefits to spending your golden years in such apartments for senior citizens. Here’s why such an option should be a consideration for senior citizens.
+  `,
+    sections: [
+      {
+        heading: 'Very Affordable Living',
+        description: `
+      Obviously, the first and foremost benefit of moving into an apartment is affordable living. Such a move offers a significant reduction in your monthly expenses creating financial freedom in the long run. The rent of apartments for senior citizens is very reasonable. Besides, smaller apartments mean there will be fewer expenses on monthly utilities. A low cost of living helps seniors save every rupee they can and spend only on the most important matters.
+      `,
+      },
+      {
+        heading: 'Company as well as Privacy',
+        description: `
+      Sometimes moving into a smaller space means losing one’s independence. But a good residential project gives enough privacy with company nearby. One example is Giga Group’s latest project Goldcrest Views. It has sitting areas, lounges, mosques, community centers, and other places to socialize within easy reach. So seniors can have the privacy they crave, while simultaneously living in proximity to others. This is leaps and bounds better than living in a big house isolated from everyone of their own age.
+      `,
+      },
+      {
+        heading: 'Amenities',
+        description: `
+      As mentioned above, apartment complexes have certain amenities available to the residents which are either unheard of in big societies or located so far off that not everyone can have easy access. Some of these amenities include picnic areas, community centers, sitting spots, and fitness gyms. These amenities may vary from one residential complex to another but most of them offer ways to keep seniors busy. Staying busy helps with mental and physical well-being.
+      `,
+      },
+      {
+        heading: 'Maintenance',
+        description: `
+      Maintenance is a chore for senior citizens. Easy home maintenance is one of the most appealing aspects of apartment living. Such seniors don’t have to deal with shoveling the driveway, mowing the lawn, or bothering with floor maintenance. These are some of the maintenance jobs that become too much of a hassle on a regular basis. Paying someone else to do them adds to the monthly bill. Therefore, a smart way is to include these regular tasks in the monthly rent to bring some much-needed peace of mind.
+      `,
+      },
+      {
+        heading: 'Security',
+        description: `
+      Security is another benefit of such apartments for senior citizens. Seniors, in particular, aren’t always vigilant with main and back doors. Apartment complexes have only one (or two at most) entrances which are highly guarded by the company that manages the complex. Therefore, it is extra secure. Moreover, every nook and cranny is always under the vigilant eyes of CCTV cameras. There are fewer chances of theft, snatching, and other such occurrences.
+      `,
+      },
+      {
+        heading: 'Conclusion',
+        description: `
+      Seniors are sometimes dependent on others. Living in apartment complexes like Goldcrest Views is a great option for them because it provides several of these benefits that are otherwise inaccessible in ordinary housing societies. Projects like Goldcrest Views offer several community benefits including podium seating areas, clubs, libraries, and more to keep seniors engaged with like-minded individuals. That’s why such apartments are the best option for seniors.
+      `,
+      },
+    ],
+  },
+  {
+    id: 25,
+    image: '/facilities-of-goldcrest-views-Islamabad.webp',
+    slug: '/facilities-of-goldcrest-views-apartments',
+    title: '10 Fantastic Facilities of Goldcrest Views Apartments',
+    introduction: `
+  Pakistan’s residential landscape is changing. Residential complexes are mushrooming up in major cities of the country. While every project claims to be the best, not all of them come close to one project that’s truly a highlight. Giga Group has distinguished itself from the rest by ideating, developing, and delivering mega structures. From low-rise residential (such as Defence Residency) to high-rise residential (Lignum Tower) and sprawling commercial hubs (like Giga Mall), Giga Group prides itself on delivering it all.
+
+  The latest venture Goldcrest Views is another feather in the cap. It promises a Dubai lifestyle in the heart of the Capital. The view is a residential complex consisting of not one or two but multiple distinguishable 40-story high-rise towers. Because it’s inspired by a Dubai lifestyle, It’s a beautiful amalgamation of features and conveniences that take the lifestyle to a new high. The project aims to cater to the residential needs of medium and high-income salaried and business classes. Today, we’re taking a look at 10 fantastic facilities that make Goldcrest Views truly a highlight among other residential projects. So, let’s begin.
+  `,
+    sections: [
+      {
+        heading: 'Power Backup',
+        description: `
+      An uninterrupted power supply is essential for a peaceful life today. Each apartment in Goldcrest Views will have a power backup facility 24×7. That means you will never face power outages, voltage fluctuations, or load shedding. It is pertinent to mention here that Giga Group recently inaugurated a brand new grid station in Downtown Giga to cater to the growing needs of the community.
+      `,
+      },
+      {
+        heading: 'Parking',
+        description: `
+      Parking is a major problem in our cities. Especially in residential complexes, there’s not enough space to accommodate all the vehicles. Goldcrest Views will offer smart card-enabled spacious car parking so that even your visitors feel at ease. It will have multi-story parking lots that will be enough to cater to the needs of the residents.
+      `,
+      },
+      {
+        heading: 'Security System',
+        description: `
+      Security is a major concern for families. But, it won’t be a problem in Goldcrest Views. Like other Giga Group projects, Goldcrest Views will have a 24×7 CCTV surveillance system covering all the buildings’ major and minor entry points. Receptions will also be guarded to ensure maximum security.
+      `,
+      },
+      {
+        heading: 'Senior Citizens',
+        description: `
+      Everyone has a senior member of the family. To aid senior citizens, Goldcrest Views will provide structural aids, ramps, safety features, and exclusive areas that help them with routine life. Besides, the community of Goldcrest Views will have podium-level facilities that will help senior citizens lead a normal social life.
+      `,
+      },
+      {
+        heading: 'Water Supply',
+        description: `
+      Water is the basis of life and an important facility to consider for any residential area. Our water supply will run 24×7, and every apartment will be charged according to its use.
+      `,
+      },
+      {
+        heading: 'Private Gyms and Spas',
+        description: `
+      There will also be fitness clubs to help you maintain a healthy lifestyle. The club will offer a segregated gym, yoga, and other facilities to keep the residents fit and healthy for everyday life.
+      `,
+      },
+      {
+        heading: 'Eco-friendly Design',
+        description: `
+      Goldcrest Views has a very eco-friendly design. The eco-friendly buildings will make the most use of sunlight, save energy, and fulfill your basic natural resources requirements.
+      `,
+      },
+      {
+        heading: 'Proximity Areas',
+        description: `
+      Goldcrest Views is located at the prime location of DHA Phase 2 Islamabad. All the major hospitals and educational facilities are located nearby. That’s not all; Islamabad’s largest shopping mall and a commercial hub Giga Mall is just walking distance away. So, all the facilities for living a peaceful and happy life will be within the reach of the residents.
+      `,
+      },
+      {
+        heading: 'Sports & Recreation',
+        description: `
+      No doubt, life is dull and boring without sports and recreation. Goldcrest Views promises indoor as well as outdoor games for rejuvenating your soul. It will also have a rooftop infinity pool where you can swim and enjoy the views simultaneously.
+      `,
+      },
+      {
+        heading: 'On-site Maintenance',
+        description: `
+      For a smooth, carefree, and peaceful life, Goldcrest Views will offer on-site maintenance. Residents will have the facility to dial the maintenance staff during work hours and get instant support. No need to run errands and search for a professional.
+      `,
+      },
+    ],
+  },
+  {
+    id: 26,
+    image: '/luxury-amenities.webp',
+    slug: '/goldcrest-views-ultra-luxury-amenities',
+    title: '5 Goldcrest Views Amenities That Make Ultra-Luxury Possible',
+    introduction: `
+  Not having to mow the lawn every once in a while is pretty great. But of course, the most attractive benefit of apartment living is the amenities. These are the extra features; you would otherwise have to pay a premium for easy access. No, we’re not talking about the laundry rooms or the parking space. We’re talking about the things that you look forward to after returning to your apartment every evening.
+
+  These include a beautiful view of the city, a rooftop swimming pool, common sitting areas, gym & fitness facilities, and a 24-hour concierge. These things go above and beyond the mere basics to make your life that much better. However, not all buildings are developed equally. Some take extra care to bring these very necessities into their everyday lifestyle. Such as the latest residential project of Giga Group, Goldcrest Views.
+
+  Giga Group has launched Goldcrest Views. A project that aims to bring Dubai’s Ultra-Luxury and modern Lifestyle to Pakistan. It’s a 7 Tower residential project that offers Dubai-style apartments right in the heart of the twin cities. Interested people can get 1, 2, 3 & 4-bedroom apartments in either of the seven residential towers. Besides, studio apartments, and penthouses are also available. Each will have its own set of exclusive as well as shared facilities to meet its needs. Below are the five Goldcrest Views amenities that make ultra-luxury possible.
+  `,
+    sections: [
+      {
+        heading: 'Mesmerizing Views',
+        description: `
+      The project is located in the heart of the twin cities, and every building has a multi-story structure. So residents can witness mesmerizing views of the cities as well as the Margalla hills from the rooftop. Imagine witnessing the snow-covered mountains of the Margalla Hills in the winter or the lush green landscape of DHA Phase 2 and Islamabad every morning. Yeah! It’s that great.
+      `,
+      },
+      {
+        heading: 'Rooftop Swimming Pool',
+        description: `
+      Whether you are stopping by just for some relaxation, want to socialize with like-minded individuals, keep an everyday routine or just enjoy the rooftop views, a swimming pool – and especially a rooftop one – is a luxury everyone enjoys, yet only a few offers. Thankfully, Goldcrest Views offers a well-maintained rooftop pool for the residents, which will be handled by trained staff. PS: as an added bonus, residents can also access the steam rooms and saunas.
+      `,
+      },
+      {
+        heading: 'Common Area For Hangouts',
+        description: `
+      Isn’t it nice to have a common area where you can host guests, read your favorite book, or catch up with the neighbors for the latest gossip making the rounds in your part of the town? Here at Goldcrest Views, residents will be able to enjoy beautifully designed and decorated lobbies to just catch up with everyone and everything in life.
+      `,
+      },
+      {
+        heading: 'Exclusive Gym & Fitness Facilities',
+        description: `
+      Staying in top form is easier when everything you need is just an elevator ride away. Goldcrest Views offers its residents access to state-of-the-art fitness centers with gym facilities, yoga studios, and personal trainers to ensure that everyone can maintain a healthy lifestyle in the comfort of their home. These facilities are perfect for both casual fitness enthusiasts and those with a more serious commitment to health.
+      `,
+      },
+      {
+        heading: '24-Hour Concierge Services',
+        description: `
+      When you live in a truly luxurious space, it's all about convenience. Goldcrest Views takes it to the next level with its 24-hour concierge services. Whether you need assistance with booking reservations, ordering groceries, or organizing an event, the concierge is available at any time to make your life easier.
+      `,
+      },
+    ],
+  },
+  {
+    id: 27,
+    image: '/Property-projects.webp',
+    slug: '/projects-of-giga-group',
+    title: '5 Profitable Property Projects of Giga Group',
+    introduction: `
+    Giga group has a tradition of delivering excellence. It’s following this tradition since 1956 by providing multiple reliable investment opportunities and upgrading the lives of people in Pakistan. The legacy of Giga Group spreads across the world. They’re introducing many new property projects both residential and commercial. Their aim is to provide a luxurious lifestyle to the people of Pakistan and contribute to the national economy.
+
+The aim is to pass it on to the next generations. Giga Group commits itself to delivering the best lifestyle to its compatriots. Their new projects are the epitome of modern construction and development. The group preserves its “first-in-Pakistan” trend with multiple unique projects unprecedented in the history of Pakistan. These include Giga Mall Extention, Giga Business Complex, Goldcrest Views, Goldcrest Bay Sands, Central Palace Residence, Giga West and World Trade Center.
+
+Below are the details of the 5 profitable property projects of Giga Group.`,
+    sections: [
+      {
+        heading: 'Giga Extension',
+        description: `
+    After the success of Giga Mall, the Giga Group is bringing the tallest shopping destination of the twin cities, Giga Mall Extension. The skyscraper will have around 30 floors filled with entertainment facilities. The extension project has space for commercial shops, food outlets, and luxury hotel apartments first time in Pakistan. Giga Mall’s success is proof that this project has the potential to bring fortunes to investors. You have all the options for a safe and secure investment in the Giga Mall extension.
+      `,
+      },
+      {
+        heading: 'Goldcrest Views Islamabad',
+        description: `Goldcrest Views Islamabad is the most awaited project of Pakistan owing to its unique building design and luxury amenities that are built on the model of Dubai’s Iconic Goldcrest Views I & II. The purpose of this project is to give the people of twin cities an international standard of living. These residential projects are an outlook of future residences and they are also a need for national progress. Goldcrest Views Islamabad has two 40-storey buildings that include all the luxuries under one roof. It is the best investment opportunity due to its ideal location and high-class living standard.`,
+      },
+      {
+        heading: 'Giga West',
+        description: `
+    Utilizing state-of-the-art technology and modern architecture Giga West is under construction to provide the best shopping experience to the people of the twin cities. Giga West is a megaproject planned to be filled with all the modern luxuries and comforts for consumers. It is planned to have Pakistan’s first Indoor water park. The location is ideal for investors as it is located at the crossroads of the twin cities. Giga West is Giga Group’s other pearl in the list of its property projects.
+      `,
+      },
+      {
+        heading: 'Giga Business Complex',
+      },
+      {
+        heading: 'Central Palace Residence',
+      },
+      {
+        heading: 'Goldcrest Bay Sands',
+      },
+    ],
+  },
 ];
