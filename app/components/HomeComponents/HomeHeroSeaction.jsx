@@ -1,7 +1,6 @@
-"use client";
-import React from "react";
-import HeroWrapper from "../Hero/HeroWrapper";
-import HeroInputForm from "../Hero/HeroInputForm";
+import React from 'react';
+import HeroWrapper from '../Hero/HeroWrapper';
+import HeroInputForm from '../Hero/HeroInputForm';
 
 const HomeHeroSection = () => {
   return (

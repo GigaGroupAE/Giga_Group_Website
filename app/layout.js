@@ -6,7 +6,6 @@ import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import ChatwootWidget from './components/ChatwootWidget';
 
-
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -26,14 +25,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="4x8HziLCIVvUw2fBAoX4DA"
+          async
+        ></script>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <head>
-          <script
-            src="https://analytics.ahrefs.com/analytics.js"
-            data-key="4x8HziLCIVvUw2fBAoX4DA"
-            async
-          ></script>
-        </head>
         <Navbar />
         <ChatwootWidget />
         <Analytics />
