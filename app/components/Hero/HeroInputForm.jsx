@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ButtonPrimary from '../ButtonPrimary';
 import { toast, ToastContainer } from 'react-toastify';
