@@ -10,7 +10,7 @@ export default function ChatwootWidget() {
     script.defer = true;
     script.onload = () => {
       window.chatwootSDK.run({
-        websiteToken: 'ubz75hFeABKsBZihAZhHsGsi',
+      websiteToken: 'iyrdZ9yqLQyvKsfaTfzKwL54',
         baseUrl: 'https://app.chatwoot.com',
       });
     };
